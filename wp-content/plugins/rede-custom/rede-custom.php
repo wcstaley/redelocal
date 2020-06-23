@@ -32,8 +32,12 @@ function publix_plugin_enqueue() {
     wp_enqueue_style( 'entry-styles', plugin_dir_url( __FILE__ ) . 'entry-styling.css' );
     wp_enqueue_style( 'form-styles', plugin_dir_url( __FILE__ ) . 'form-styling.css' );
     wp_enqueue_script( 'approval-form', plugin_dir_url( __FILE__ ) . 'approval-form.js', array('jquery'), '1.0.0', false );
+	
+	wp_enqueue_style('datatables-style', '//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css');
+	wp_enqueue_script('datatables', '//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js', array('jquery'));
+	
 }
-add_action( 'wp_enqueue_scripts', 'publix_plugin_enqueue' );
+add_action( 'wp_enqueue_scripts', 'publix_plugin_enqueue', 22 );
 
 //function to display entry data
 function publix_display_gf_entry_data( $gf_entry_id ) {
@@ -845,7 +849,25 @@ add_shortcode( 'um_user', 'um_user_shortcode' );
 add_shortcode('publix_show_dashboard','publix_show_dashboard');
 function publix_show_dashboard() {
 	
-	$output = '<div class="publix-dashboard">';
+	ob_start();
+	
+	?>
+	<script>
+		(function($){
+			$(document).ready( function () {
+				$('#dashboard-datatable').DataTable({
+					paging: false,
+					searching: false
+				});
+			} );
+		})(jQuery);
+	</script>
+	<?php
+	
+	$output = ob_get_clean();
+	
+	
+	$output .= '<table id="dashboard-datatable" class="publix-dashboard" width="100%">';
 	
 	//search for all entries (admin) or only entries made by the user (user/vendor)
 	$current_user = wp_get_current_user();
@@ -869,16 +891,16 @@ function publix_show_dashboard() {
 		//echo $current_user->ID;
 		//echo rgar($entry,2395);
 	
-		$output .= '<div class="row header-row">';
+		$output .= '<thead><tr class="row header-row">';
 		
-			$output .= '<div class="col entry-id"><img src="' . plugin_dir_url( __FILE__ ) . 'img/order.png">ID</div>';
-			$output .= '<div class="col status"><img src="' . plugin_dir_url( __FILE__ ) . 'img/status.png">Status</div>';
-			$output .= '<div class="col timeframe"><img src="' . plugin_dir_url( __FILE__ ) . 'img/timeframe.png">Submission Timeframe</div>';
-			$output .= '<div class="col run-dates"><img src="' . plugin_dir_url( __FILE__ ) . 'img/marketdate.png">Run Dates</div>';
-			$output .= '<div class="col popular-holidays"><img src="' . plugin_dir_url( __FILE__ ) . 'img/timeframe.png">Popular Holidays</div>';
-			$output .= '<div class="col buyer-name"><img src="' . plugin_dir_url( __FILE__ ) . 'img/retailer.png">Buyer</div>';
+			$output .= '<th class=" entry-id" style="width: 15%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/order.png"><br>ID</th>';
+			$output .= '<th class=" status" style="width: 15%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/status.png"><br>Status</th>';
+			$output .= '<th class=" timeframe" style="width: 30%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/timeframe.png"><br>Submission Timeframe</th>';
+			$output .= '<th class=" run-dates" style="width: 20%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/marketdate.png"><br>Run Dates</th>';
+			$output .= '<th class=" popular-holidays" style="width: 20%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/timeframe.png"><br>Brand</th>';
+			// $output .= '<td class=" buyer-name"><img src="' . plugin_dir_url( __FILE__ ) . 'img/retailer.png">Buyer</td>';
 			
-		$output .= '</div>';
+		$output .= '</tr></thead><tbody>';
 		
 			
 				foreach ($entries as $entry) {
@@ -891,6 +913,7 @@ function publix_show_dashboard() {
 					
 					/*timeframe*/
 					$selected =  rgar($entry,2397);
+					$brand =  rgar($entry,2401);
 					//echo 'selected: ' . $selected . '</br>';
 					
 					if( have_rows('coop_cal_entry', 'option') ):
@@ -944,19 +967,19 @@ function publix_show_dashboard() {
 					
 					//echo $timeframe;		
 					
-					$output .= '<div class="row entry-row">';
-						$output .= '<div class="col entry-id"><a href="'.$entry_link.'/?entry='.$entry_id.'">'.$entry_id.'</a></div>';
-						$output .= '<div class="col status">'.$status.'</div>';
-						$output .= '<div class="col timeframe">'.$timeframe.'</div>';
-						$output .= '<div class="col run-dates">'.$run_dates.'</div>';
-						$output .= '<div class="col popular-holidays">'.$popular_holidays.'</div>';
-						$output .= '<div class="col buyer-name">'.$buyer_name.'</div>';
+					$output .= '<tr class="row entry-row">';
+						$output .= '<td class=" entry-id" style="width: 15%;"><a href="'.$entry_link.'/?entry='.$entry_id.'">'.$entry_id.'</a></td>';
+						$output .= '<td class=" status" style="width: 15%;">'.$status.'</td>';
+						$output .= '<td class=" timeframe" style="width: 30%;">'.$timeframe.'</td>';
+						$output .= '<td class=" run-dates" style="width: 20%;">'.$run_dates.'</td>';
+						$output .= '<td class=" popular-holidays" style="width: 20%;">'.$brand.'</td>';
+						// $output .= '<td class=" buyer-name">'.$buyer_name.'</td>';
 						
-					$output .= '</div>';
+					$output .= '</tr>';
 			
 					}
 	
-	$output .= '</div>';
+	$output .= '</tbody></table>';
 	return $output;
 }
 

@@ -53,3 +53,29 @@
 .cycle-display .selected-theme.everyday {
 
 }
+
+#dashboard-datatable td,
+#dashboard-datatable th {
+	text-align: center !important;
+}
+
+#dashboard-datatable th {
+	border: 0px;
+}
+
+#dashboard-datatable, 
+#dashboard-datatable tbody, 
+#dashboard-datatable thead {
+	width: 100%;
+}
+
+#dashboard-datatable { 
+	position: relative;
+	display: table;
+	margin: 10px auto;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+	text-align: center;
+}

@@ -350,10 +350,12 @@ endif;
 function update_theme_options_field( $field ) {
 	$themeOptions = get_field("theme_pages", 'options');
 	$choices = array();
-	foreach($themeOptions as $themeOption){
-		$choices[$themeOption['key']] = $themeOption['value'];
+	if($themeOptions){
+		foreach($themeOptions as $themeOption){
+			$choices[$themeOption['key']] = $themeOption['value'];
+		}
+	    $field['choices'] = $choices;
 	}
-    $field['choices'] = $choices;
     return $field;
 }
 
