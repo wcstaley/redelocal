@@ -1,0 +1,38 @@
+.page-template-order-confirm {
+	h2 {
+		color: $brand-red;
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: 22px;
+	}
+
+	h5 {
+		margin: 0;
+		font-size: 20px;
+		color: $brand-red;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+}
+#legal-scroll {
+	height: 600px;
+	overflow-y: scroll;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+
+@media only screen and (max-height: 700px) {
+	#legal-scroll {
+		height: 400px;
+		overflow-y: scroll;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-height: 500px) {
+	#legal-scroll {
+		height: 200px;
+		overflow-y: scroll;
+		margin-bottom: 20px;
+	}
+}

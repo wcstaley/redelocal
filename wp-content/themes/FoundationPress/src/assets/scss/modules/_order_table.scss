@@ -1,0 +1,44 @@
+.order-data {
+	background: $brand-more-light-gray;
+	padding: 25px;
+
+	h4 {
+		color: $brand-red;
+		font-size: 22px;
+		text-transform: uppercase;
+		font-weight: 500;
+		margin: 0 0 10px 0;
+	}
+
+	table {
+
+		border-top: 2px $brand-very-light-gray solid;
+
+		tbody {
+		    border: none;
+			background: transparent;
+
+			tr {
+				background: transparent;
+				border-bottom: 1px $brand-very-light-gray solid;
+
+				td {
+					font-size: 14px;
+					color: $brand-dark-gray;
+				}
+
+				&.total-costs {
+					border-top: 2px $brand-red solid;
+					border-bottom: none;
+					td {
+    					font-size: 16px;
+    					font-weight: 500;
+    					color: $brand-red;
+    					text-transform: uppercase;
+    				}
+
+				}
+			}
+		}
+	}
+}

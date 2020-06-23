@@ -1,0 +1,136 @@
+.full-width {
+  margin-top: 0 auto;
+  padding: 0;
+  width: 100%;
+  
+  img {
+    width: 100%;
+  }
+}
+
+.entry-content{
+  color: $brand-dark-gray;
+}
+
+.main-container {
+  @include xy-grid-container;
+}
+
+.main-grid {
+  @include xy-grid();
+  margin-top: 1rem;
+
+  @include breakpoint(medium) {
+    margin-top: 3rem;
+  }
+
+  &.sidebar-left {
+    // Place the sidebar below main content on small screens ...
+    @include breakpoint(small) {
+      .main-content { order: 1; }
+      .sidebar { order: 2; }
+    }
+
+    // ... and to the left on medium-up screens, when using the sidebar-left template
+    @include breakpoint(medium) {
+      .main-content { order: 2; }
+      .sidebar { order: 1; }
+    }
+  }
+
+  // Full width template
+  .main-content-full-width {
+    width: 100%;
+    @include breakpoint(medium) {
+      @include xy-cell(12);
+    }
+  }
+
+  // Default template
+  .main-content {
+    @include breakpoint(small) {
+      @include xy-cell(12);
+    }
+
+    @include breakpoint(medium) {
+      @include xy-cell(8);
+    }
+  }
+
+  article {
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0 auto 50px;
+  }
+
+  @include breakpoint(medium) {
+    article {
+      padding: 50px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+      width: 83.33333333%;
+      margin: 0 auto 50px;
+    }
+  }
+
+  .sidebar {
+    @include breakpoint(small) {
+      @include xy-cell(12);
+    }
+
+    @include breakpoint(medium) {
+      @include xy-cell(4);
+      margin-top: 1rem;
+    }
+
+  }
+}
+
+body {
+  
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    text-shadow: rgba(0,0,0,.15) 0 0 1px;
+    color: #37474f;
+  }
+
+	h1, .h1 {
+		font-size: 24px;
+    font-weight: 400;
+		margin: 0;
+		padding-bottom: 30px;
+	}
+
+  .entry-title {
+    text-transform: uppercase;
+  }
+
+  .progress {
+    display:  none;
+  }
+
+  a {
+      color: $brand-red;
+
+      &:hover {
+        color: $brand-dark-gray;
+      }
+  }
+}
+
+.orbit-container {
+    min-height: 340px;
+}
+
+.orbit-controls {
+
+  .orbit-previous,
+  .orbit-next {
+    background: $brand-red;
+
+    &:hover {
+      background: $brand-dark-gray;
+    }
+    // position: absolute;
+    // bottom: 0;
+  }
+}

@@ -1,0 +1,38 @@
+.sites-button {
+  background: #419639;
+  font-size: 1.25rem;
+  font-weight: bold;
+  box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;
+  border-radius: 3px;
+  border: none;
+}
+
+html .button {
+	border-radius: 0;
+	-webkit-appearance: none;
+	text-transform: uppercase;
+	font-weight: 500;
+
+	&.success,
+	&.gform_button {
+		background: $brand-red;
+		color: #fff;
+
+		&:hover,
+		&:focus {
+		    background-color: $brand-light-gray;
+		    color: #0a0a0a;
+		}
+	}
+
+	&.secondary {
+		background: $brand-lighter-gray;
+		color: $brand-red;
+
+		&:hover,
+		&:focus {
+		    background-color: $brand-light-gray;
+		    color: #0a0a0a;
+		}
+	}
+}

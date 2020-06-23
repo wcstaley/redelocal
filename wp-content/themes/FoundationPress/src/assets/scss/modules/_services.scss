@@ -1,0 +1,288 @@
+.service-container {
+	width: 100%;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.08);
+    margin-bottom: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+}	
+
+.service {
+
+
+	.service-image {
+		height: 181px;
+		width: 286px;
+		margin: 0 auto;
+	}
+
+	.service-content {
+
+		h2 {
+			color: $brand-red;
+			margin-left: 20px;
+			padding-top: 20px;
+			font-size: 24px;
+    		font-weight: 400;
+    		position: relative;
+    		text-transform: uppercase;
+
+    		&::before {
+	    		content: "";
+			    color: #fff;
+			    position: absolute;
+			    top: 52px;
+			    width: 25px;
+			    border-bottom: 1px $brand-light-gray solid;
+			}
+		}
+
+		p {
+			margin-left: 20px;
+		}
+	}
+	.service-button {
+
+		padding-bottom: 10px;
+
+		a {
+			display: block;
+			padding: 0.85em 1em 0.85em 3em;
+			position: relative;
+
+			&.started::before {
+				content: "";
+				width: 30px;
+				height: 30px;
+				background: url('../images/icon-buy.png') no-repeat;
+				background-size: contain;
+				position: absolute;
+			    top: 5px;
+    			left: 10px;
+			}
+
+			&.samples::before  {
+				content: "";
+				width: 30px;
+				height: 30px;
+				background: url('../images/icon-view.png') no-repeat;
+				background-size: contain;
+				position: absolute;
+			    top: 5px;
+    			left: 10px;
+			}
+
+		}
+	}
+}
+
+@include breakpoint(medium) {
+	.service-container {
+		height: 300px;
+		width: 100%;
+	    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.08);
+	    margin-bottom: 20px;
+	    border-radius: 15px;
+	}	
+	.service {
+		height: 300px;
+		width: 100%;
+		position: relative;
+
+		.service-image {
+			height: 181px;
+			width: 286px;
+			position: absolute;
+			left: 0;
+		}
+
+		.service-content {
+			margin-left: 300px;
+
+			h2 {
+				color: $brand-red;
+				margin-left: 20px;
+				padding-top: 20px;
+				font-size: 20px;
+	    		font-weight: 500;
+			}
+
+			p {
+				margin-left: 20px;
+				margin-right: 10px;
+			}
+		}
+		.service-button {
+			// width: 286px;
+			height: 60px;
+			position: absolute;
+		    top: 185px;
+    		left: 3px;
+    		padding-bottom: 0;
+
+		    a {
+		    	font-size: .8rem;
+		    	display: inline-block;
+
+		    	&.started::before {
+					width: 25px;
+					height: 25px;
+				}
+
+				&.samples::before  {
+					width: 25px;
+					height: 25px;
+				}
+		    }
+		}
+	}
+}
+
+@include breakpoint(large) {
+	.service-container {
+		height: 181px;
+	}
+	.service {
+		height: 181px;
+		width: 100%;
+		position: relative;
+
+		.service-image {
+			position: absolute;
+			left: 0;
+			display: inline-block;
+			height: 181px;
+			width: 286px;
+
+			img {
+				max-width: 100%;
+				height: 181px;
+			}
+		}
+		.service-content {
+			margin-left: 300px;
+	    	margin-right: 200px;
+
+		}
+
+		.service-button {
+			position: absolute;
+			right: 20px;
+			left: auto;
+			top: 40px;
+			display: inline-block;
+			height: 181px;
+			// width: 286px;
+
+			a {
+				font-size: .9rem;
+				display: block;
+				margin-left: 0 auto;
+				padding: 0.85em 1em 0.85em 3em;
+				position: relative;
+
+				&.started::before {
+					content: "";
+					width: 30px;
+					height: 30px;
+					background: url('../images/icon-buy.png');
+					position: absolute;
+				    top: 5px;
+	    			left: 10px;
+				}
+
+				&.samples::before  {
+					content: "";
+					width: 30px;
+					height: 30px;
+					background: url('../images/icon-view.png');
+					position: absolute;
+				    top: 5px;
+	    			left: 10px;
+				}
+
+			}
+		}
+	}
+}
+
+.page {
+	.service-coming {
+		border-radius: 15px;
+		background: $brand-red;
+		color: #fff;
+		text-align: center;
+		padding: 20px 5%;
+		margin-bottom: 20px;
+
+		a {
+			color: #fff;
+			text-decoration: underline;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+
+		@include breakpoint(medium) {
+			padding: 20px 25%;
+		}
+
+		@include breakpoint(large) {
+			padding: 20px 35%;
+		}
+
+
+		h4 {
+			color: #fff;
+			font-weight: 500;
+			position: relative;
+
+			&::after {
+				content: "";
+			    color: #fff;
+			    position: absolute;
+			    top: 27px;
+			    left: 47%;
+			    width: 7%;
+			    border-bottom: 1px #fff solid;
+
+			    @include breakpoint(medium) {
+					top: 37px;
+			    }
+			}
+		}
+	}
+}
+.page-template-service-college-media {
+	.callout.alert {
+		margin-bottom: 0;
+		color: white;
+    	background-color: #5FAEE1;
+
+    	p {
+    		font-size: 18px;
+    		text-align: center;
+    		margin: 0;
+
+    		a,
+    		a:hover,
+    		a:visited,
+    		a:focus,
+    		a:active {
+    			color: white;
+    			text-decoration: underline;
+    		}
+    	}
+
+    	.close-button span {
+    		color: white;
+    	}
+	}
+}
+
+.page-template-services {
+
+	.reveal.reveal {
+		max-width: 530px;
+	}
+}

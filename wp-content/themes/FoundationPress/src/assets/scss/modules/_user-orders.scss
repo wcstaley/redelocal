@@ -1,0 +1,11 @@
+.page-template-user-orders {
+    header {
+        position: relative;
+
+        .csv-download {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+}

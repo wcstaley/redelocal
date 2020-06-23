@@ -1,0 +1,362 @@
+.page-template-dashboard {
+    background: #f9f9f9;
+    
+    .top-row {
+        // background: #fff;
+    }
+
+    .tactics-row {
+        // background: #fff;
+    }
+
+    .campaings-row {
+        // background: #fff;
+    }
+
+    .quick-start {
+        padding: 20px;
+        background: #fff;
+        // margin: 0 5px 5px 0;
+
+        form {
+            position: relative;
+
+            .result-overlay {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: #fff;
+                z-index: 9999;
+
+                .scroll-container {
+                    overflow: hidden;
+                    overflow-y: scroll;
+                }
+
+                .quick-start-result {
+                    clear: both;
+
+                    .service-image {
+                        float: left;
+                        border-radius: 50%;
+                        position: relative;
+                        width: 40px;
+                        overflow: hidden;
+                        height: 40px;
+
+                        img {
+                            position: absolute;
+                            height: 100%;
+                            max-width: none;
+                        }
+                    }
+
+                    .service-content {
+                        float: left;
+                        padding: 0px 15px 20px;
+                        width: 80%;
+
+                        .button {
+                            font-size: 11px;
+                            padding: 0.7em .9em;
+                            margin-bottom: 10px;
+                        }
+
+                        h3 {
+                            display: block;
+                            width: 100%;
+                        }
+                        p {
+                            display: block;
+                            width: 100%;
+                            margin: 0;
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                .close-overlay {
+                    text-align: center;
+                    display: block;
+                    width: 100%;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+    .my-account-wrap {
+        padding: 40px 0 0 0;
+
+        @include breakpoint(large) {
+            padding: 0 0 0 40px;
+        }
+        // background: #fff;
+        // margin-top: 40px;
+        // margin-bottom: 40px;
+    }
+
+    .my-account {
+        padding: 20px;
+        background: #fff;
+        height: 100%;
+
+        ul {
+            margin: 0;
+        }
+
+        li {
+            
+            list-style-type: none;
+            border-bottom: 1px $brand-gray solid;
+            padding: 8px 0;
+        }
+    }
+
+    .dash-tactics {
+        padding: 20px;
+        background: #fff;
+        margin-top: 40px;
+
+        .slick-slider {
+            margin-bottom: 20px;
+
+            .slick-prev {
+                position: absolute;
+                    bottom: -23px;
+                left: 4px;
+                color: $brand-red;
+            }
+
+            .slick-next {
+                position: absolute;
+                    bottom: -23px;
+                right: 4px;
+                color: $brand-red;
+            }
+        }
+    }
+
+    .dash-services {
+        background: #fff;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        
+        .dash-service {
+
+            width:  percentage(1/3);
+            @include breakpoint(medium) {
+                width:  percentage(1/8);
+            }
+            float: left;
+
+            .service-image {
+                border-radius: 50%;
+                width: 78px;
+                overflow: hidden;
+                height: 78px;
+                position: relative;
+                margin: 0 auto;
+
+                img {
+                    position: absolute;
+                    height: 100%;
+                    max-width: inherit;
+                }
+                
+            }
+            .service-content {
+                h2 {
+                    font-size: 14px;
+                    height: 35px;
+                    text-align: center;
+                    margin: 15px auto;
+                }
+                p {
+                    display: none;
+                }
+            }
+            .service-button {
+                .button {
+                    display: block;
+                    width: 90%;
+                    font-size: 12px;
+                    margin: 10px auto;
+                }
+            }
+        }
+    }
+
+    .dash-campaigns {
+        padding: 0;
+        background: #fff;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .tabs {
+        background-color: #f1f1f1;
+        border: none;
+
+        .tabs-title {
+            background-color: #f1f1f1;
+            
+            &.is-active a {
+                background-color: #fff;
+                color: $brand-red;
+            }
+            
+            a {
+                text-transform: uppercase;
+                color: $brand-gray;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .tabs-content {
+
+        border: none;
+        
+        table { 
+
+            font-size: .9rem;
+
+            thead {
+                background: #fff;
+                border: none;
+                border-bottom: 2px $brand-red solid;
+            }
+
+            tbody {
+                background: #fff;
+                border: none;
+                color: $brand-dark-gray;
+            }
+
+            tr th {
+
+                text-align: center;
+
+                &.sort-order {
+
+                    &::before {
+                        margin: 0 auto;
+                        content: "";
+                        display: block;
+                        height:60px;
+                        width:60px;
+                        background: transparent url(../images/Dashboard/icons/order.png);
+                    }
+                }
+
+                &.sort-name {
+
+                    &::before {
+                        margin: 0 auto;
+                        content: "";
+                        display: block;
+                        height:60px;
+                        width:60px;
+                        background: transparent url(../images/Dashboard/icons/name.png);
+                    }
+                }
+
+                &.sort-type {
+
+                    &::before {
+                        margin: 0 auto;
+                        content: "";
+                        display: block;
+                        height:60px;
+                        width:60px;
+                        background: transparent url(../images/Dashboard/icons/type.png);
+                    }
+                }
+
+                &.sort-brand {
+
+                    &::before {
+                        margin: 0 auto;
+                        content: "";
+                        display: block;
+                        height:60px;
+                        width:60px;
+                    }
+                }
+
+                &.sort-status {
+
+                    &::before {
+                        margin: 0 auto;
+                        content: "";
+                        display: block;
+                        height:60px;
+                        width:60px;
+                        background: transparent url(../images/Dashboard/icons/status.png);
+                    }
+                }
+
+                &.sort-marketdate {
+
+                    &::before {
+                        margin: 0 auto;
+                        content: "";
+                        display: block;
+                        height:60px;
+                        width:60px;
+                        background: transparent url(../images/Dashboard/icons/marketdate.png);
+                    }
+                }
+
+                &.sort-retailer {
+
+                    &::before {
+                        margin: 0 auto;
+                        content: "";
+                        display: block;
+                        height:60px;
+                        width:60px;
+                    }
+                }
+
+                &.sort-invoice {
+
+                    &::before {
+                        margin: 0 auto;
+                        content: "";
+                        display: block;
+                        height:60px;
+                        width:60px;
+                        background: transparent url(../images/Dashboard/icons/invoice.png);
+                    }
+                }
+
+                &.sort-retailer {
+
+                    &::before {
+                        margin: 0 auto;
+                        content: "";
+                        display: block;
+                        height:60px;
+                        width:60px;
+                        background: transparent url(../images/Dashboard/icons/retailer.png);
+                    }
+                }
+
+                &.sort-brand {
+
+                    &::before {
+                        margin: 0 auto;
+                        content: "";
+                        display: block;
+                        height:60px;
+                        width:60px;
+                        background: transparent url(../images/Dashboard/icons/brand.png);
+                    }
+                }
+            }
+        }
+    }
+}

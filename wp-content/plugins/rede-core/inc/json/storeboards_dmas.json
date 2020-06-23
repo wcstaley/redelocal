@@ -1,0 +1,502 @@
+[
+  {
+    "rank": "1",
+    "dma": "New York, NY",
+    "cvs": "583",
+    "rite aid": "428",
+    "walgreensdr": "374",
+    "kmart": "38",
+    "navarro": "",
+    "total": "1,359"
+  },
+  {
+    "rank": "2",
+    "dma": "Los Angeles, CA",
+    "cvs": "402",
+    "rite aid": "245",
+    "walgreensdr": "206",
+    "kmart": "29",
+    "navarro": "",
+    "total": "882"
+  },
+  {
+    "rank": "3",
+    "dma": "Chicago, IL",
+    "cvs": "203",
+    "rite aid": "",
+    "walgreensdr": "448",
+    "kmart": "12",
+    "navarro": "",
+    "total": "663"
+  },
+  {
+    "rank": "4",
+    "dma": "Philadelphia, PA",
+    "cvs": "307",
+    "rite aid": "342",
+    "walgreensdr": "152",
+    "kmart": "30",
+    "navarro": "",
+    "total": "831"
+  },
+  {
+    "rank": "5",
+    "dma": "Dallas, TX",
+    "cvs": "226",
+    "rite aid": "",
+    "walgreensdr": "175",
+    "kmart": "",
+    "navarro": "",
+    "total": "401"
+  },
+  {
+    "rank": "6",
+    "dma": "San Francisco, CA",
+    "cvs": "165",
+    "rite aid": "60",
+    "walgreensdr": "168",
+    "kmart": "8",
+    "navarro": "",
+    "total": "401"
+  },
+  {
+    "rank": "7",
+    "dma": "Boston, MA",
+    "cvs": "319",
+    "rite aid": "150",
+    "walgreensdr": "145",
+    "kmart": "12",
+    "navarro": "",
+    "total": "626"
+  },
+  {
+    "rank": "8",
+    "dma": "Washington, DC",
+    "cvs": "288",
+    "rite aid": "95",
+    "walgreensdr": "64",
+    "kmart": "14",
+    "navarro": "",
+    "total": "461"
+  },
+  {
+    "rank": "9",
+    "dma": "Atalanta, GA",
+    "cvs": "210",
+    "rite aid": "118",
+    "walgreensdr": "130",
+    "kmart": "7",
+    "navarro": "",
+    "total": "465"
+  },
+  {
+    "rank": "10",
+    "dma": "Houston, TX",
+    "cvs": "183",
+    "rite aid": "",
+    "walgreensdr": "219",
+    "kmart": "",
+    "navarro": "",
+    "total": "402"
+  },
+  {
+    "rank": "11",
+    "dma": "Phoenix, AZ",
+    "cvs": "125",
+    "rite aid": "",
+    "walgreensdr": "180",
+    "kmart": "8",
+    "navarro": "",
+    "total": "313"
+  },
+  {
+    "rank": "12",
+    "dma": "Detroit, MI",
+    "cvs": "224",
+    "rite aid": "121",
+    "walgreensdr": "103",
+    "kmart": "19",
+    "navarro": "",
+    "total": "467"
+  },
+  {
+    "rank": "13",
+    "dma": "Tampa/St.Pete, FL",
+    "cvs": "165",
+    "rite aid": "",
+    "walgreensdr": "186",
+    "kmart": "11",
+    "navarro": "",
+    "total": "362"
+  },
+  {
+    "rank": "14",
+    "dma": "Seattle, WA",
+    "cvs": "12",
+    "rite aid": "101",
+    "walgreensdr": "93",
+    "kmart": "8",
+    "navarro": "",
+    "total": "214"
+  },
+  {
+    "rank": "15",
+    "dma": "Minn./St.Paul, MN",
+    "cvs": "58",
+    "rite aid": "",
+    "walgreensdr": "128",
+    "kmart": "2",
+    "navarro": "",
+    "total": "188"
+  },
+  {
+    "rank": "16",
+    "dma": "Miami/Ft.L, FL",
+    "cvs": "166",
+    "rite aid": "",
+    "walgreensdr": "178",
+    "kmart": "11",
+    "navarro": "31",
+    "total": "355"
+  },
+  {
+    "rank": "17",
+    "dma": "Denver, CO",
+    "cvs": "1",
+    "rite aid": "15",
+    "walgreensdr": "111",
+    "kmart": "9",
+    "navarro": "",
+    "total": "136"
+  },
+  {
+    "rank": "18",
+    "dma": "Orlando, FL",
+    "cvs": "137",
+    "rite aid": "",
+    "walgreensdr": "181",
+    "kmart": "5",
+    "navarro": "",
+    "total": "323"
+  },
+  {
+    "rank": "19",
+    "dma": "Cleveland, OH",
+    "cvs": "114",
+    "rite aid": "92",
+    "walgreensdr": "81",
+    "kmart": "11",
+    "navarro": "",
+    "total": "298"
+  },
+  {
+    "rank": "20",
+    "dma": "Sacramento, CA",
+    "cvs": "82",
+    "rite aid": "70",
+    "walgreensdr": "70",
+    "kmart": "9",
+    "navarro": "",
+    "total": "231"
+  },
+  {
+    "rank": "21",
+    "dma": "St. Louis, MO",
+    "cvs": "51",
+    "rite aid": "",
+    "walgreensdr": "132",
+    "kmart": "6",
+    "navarro": "",
+    "total": "189"
+  },
+  {
+    "rank": "22",
+    "dma": "Pittsburgh, PA",
+    "cvs": "59",
+    "rite aid": "142",
+    "walgreensdr": "35",
+    "kmart": "18",
+    "navarro": "",
+    "total": "254"
+  },
+  {
+    "rank": "23",
+    "dma": "Portland, OR",
+    "cvs": "",
+    "rite aid": "53",
+    "walgreensdr": "69",
+    "kmart": "5",
+    "navarro": "",
+    "total": "127"
+  },
+  {
+    "rank": "24",
+    "dma": "Charlotte, NC",
+    "cvs": "116",
+    "rite aid": "76",
+    "walgreensdr": "73",
+    "kmart": "6",
+    "navarro": "",
+    "total": "271"
+  },
+  {
+    "rank": "25",
+    "dma": "Raleigh, NC",
+    "cvs": "82",
+    "rite aid": "70",
+    "walgreensdr": "86",
+    "kmart": "5",
+    "navarro": "",
+    "total": "243"
+  },
+  {
+    "rank": "26",
+    "dma": "Baltimore, MD",
+    "cvs": "66",
+    "rite aid": "92",
+    "walgreensdr": "52",
+    "kmart": "7",
+    "navarro": "",
+    "total": "217"
+  },
+  {
+    "rank": "27",
+    "dma": "Indianapolis, IN",
+    "cvs": "153",
+    "rite aid": "1",
+    "walgreensdr": "68",
+    "kmart": "9",
+    "navarro": "",
+    "total": "231"
+  },
+  {
+    "rank": "28",
+    "dma": "San Diego, CA",
+    "cvs": "82",
+    "rite aid": "37",
+    "walgreensdr": "28",
+    "kmart": "3",
+    "navarro": "",
+    "total": "150"
+  },
+  {
+    "rank": "29",
+    "dma": "Nashville, TN",
+    "cvs": "47",
+    "rite aid": "43",
+    "walgreensdr": "88",
+    "kmart": "8",
+    "navarro": "",
+    "total": "186"
+  },
+  {
+    "rank": "30",
+    "dma": "Hartford/New Hav., CT",
+    "cvs": "110",
+    "rite aid": "60",
+    "walgreensdr": "61",
+    "kmart": "5",
+    "navarro": "",
+    "total": "236"
+  },
+  {
+    "rank": "31",
+    "dma": "Kansas City, MO",
+    "cvs": "78",
+    "rite aid": "",
+    "walgreensdr": "59",
+    "kmart": "6",
+    "navarro": "",
+    "total": "143"
+  },
+  {
+    "rank": "32",
+    "dma": "Columbus, OH",
+    "cvs": "82",
+    "rite aid": "11",
+    "walgreensdr": "37",
+    "kmart": "6",
+    "navarro": "",
+    "total": "136"
+  },
+  {
+    "rank": "33",
+    "dma": "San Antonio, TX",
+    "cvs": "60",
+    "rite aid": "",
+    "walgreensdr": "65",
+    "kmart": "",
+    "navarro": "",
+    "total": "125"
+  },
+  {
+    "rank": "34",
+    "dma": "Salt Lake City, UT",
+    "cvs": "13",
+    "rite aid": "20",
+    "walgreensdr": "48",
+    "kmart": "7",
+    "navarro": "",
+    "total": "88"
+  },
+  {
+    "rank": "35",
+    "dma": "Milwaukee, WI",
+    "cvs": "27",
+    "rite aid": "",
+    "walgreensdr": "108",
+    "kmart": "6",
+    "navarro": "",
+    "total": "141"
+  },
+  {
+    "rank": "36",
+    "dma": "Cincinatti, OH",
+    "cvs": "68",
+    "rite aid": "4",
+    "walgreensdr": "68",
+    "kmart": "3",
+    "navarro": "",
+    "total": "143"
+  },
+  {
+    "rank": "37",
+    "dma": "Greensville, SC",
+    "cvs": "88",
+    "rite aid": "45",
+    "walgreensdr": "43",
+    "kmart": "9",
+    "navarro": "",
+    "total": "185"
+  },
+  {
+    "rank": "38",
+    "dma": "West Palm Beach, FL",
+    "cvs": "81",
+    "rite aid": "",
+    "walgreensdr": "88",
+    "kmart": "5",
+    "navarro": "",
+    "total": "174"
+  },
+  {
+    "rank": "39",
+    "dma": "Austin, TX",
+    "cvs": "50",
+    "rite aid": "",
+    "walgreensdr": "62",
+    "kmart": "",
+    "navarro": "",
+    "total": "112"
+  },
+  {
+    "rank": "40",
+    "dma": "Grand Rapids, MI",
+    "cvs": "11",
+    "rite aid": "38",
+    "walgreensdr": "56",
+    "kmart": "5",
+    "navarro": "",
+    "total": "110"
+  },
+  {
+    "rank": "41",
+    "dma": "Las Vegas, NV",
+    "cvs": "62",
+    "rite aid": "",
+    "walgreensdr": "60",
+    "kmart": "8",
+    "navarro": "",
+    "total": "130"
+  },
+  {
+    "rank": "42",
+    "dma": "Norfolk, VA",
+    "cvs": "40",
+    "rite aid": "76",
+    "walgreensdr": "47",
+    "kmart": "8",
+    "navarro": "",
+    "total": "171"
+  },
+  {
+    "rank": "43",
+    "dma": "Birmingham, AL",
+    "cvs": "74",
+    "rite aid": "28",
+    "walgreensdr": "40",
+    "kmart": "3",
+    "navarro": "",
+    "total": "145"
+  },
+  {
+    "rank": "44",
+    "dma": "Oklahoma City, OK",
+    "cvs": "38",
+    "rite aid": "",
+    "walgreensdr": "48",
+    "kmart": "3",
+    "navarro": "",
+    "total": "89"
+  },
+  {
+    "rank": "45",
+    "dma": "Harrisburg, PA",
+    "cvs": "62",
+    "rite aid": "55",
+    "walgreensdr": "4",
+    "kmart": "12",
+    "navarro": "",
+    "total": "133"
+  },
+  {
+    "rank": "46",
+    "dma": "Greensboro, NC",
+    "cvs": "59",
+    "rite aid": "41",
+    "walgreensdr": "39",
+    "kmart": "3",
+    "navarro": "",
+    "total": "142"
+  },
+  {
+    "rank": "47",
+    "dma": "Albuquerque, NM",
+    "cvs": "17",
+    "rite aid": "1",
+    "walgreensdr": "62",
+    "kmart": "8",
+    "navarro": "",
+    "total": "88"
+  },
+  {
+    "rank": "48",
+    "dma": "Jacksonville, FL",
+    "cvs": "56",
+    "rite aid": "5",
+    "walgreensdr": "61",
+    "kmart": "3",
+    "navarro": "",
+    "total": "125"
+  },
+  {
+    "rank": "49",
+    "dma": "Louisville, KY",
+    "cvs": "34",
+    "rite aid": "37",
+    "walgreensdr": "54",
+    "kmart": "1",
+    "navarro": "",
+    "total": "126"
+  },
+  {
+    "rank": "50",
+    "dma": "Memphis, TN",
+    "cvs": "18",
+    "rite aid": "12",
+    "walgreensdr": "76",
+    "kmart": "",
+    "navarro": "",
+    "total": "106"
+  }
+]

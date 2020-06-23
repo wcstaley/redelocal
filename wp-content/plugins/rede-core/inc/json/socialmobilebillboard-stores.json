@@ -1,0 +1,2653 @@
+{
+    "Mass Market": {
+        "Walmart": [{
+                "name": "Walmart",
+                "num": 0,
+                "val": 1001,
+                "id": 0
+            },
+            {
+                "name": "Walmart",
+                "num": 392,
+                "val": "1001-1",
+                "id": 55343
+            },
+            {
+                "name": "Walmart Express",
+                "num": 5,
+                "val": "1001-2",
+                "id": 55735
+            },
+            {
+                "name": "Walmart Neigborhood",
+                "num": 704,
+                "val": "1001-3",
+                "id": 55740
+            },
+            {
+                "name": "Walmart Supercenters",
+                "num": 3551,
+                "val": "1001-4",
+                "id": 56444
+            }
+        ]
+    },
+    "Specialty": {
+        "Dollar General": [{
+                "name": "Dollar General",
+                "num": 0,
+                "val": 1002,
+                "id": 0
+            },
+            {
+                "name": "Dollar General",
+                "num": 1072,
+                "val": "1002-1",
+                "id": 59995
+            }
+        ],
+        "Variety Store Company": [{
+                "name": "Variety Store Company",
+                "num": 0,
+                "val": 1003,
+                "id": 0
+            },
+            {
+                "name": "Family Dollar",
+                "num": 8118,
+                "val": "1003-1",
+                "id": 74495
+            }
+        ]
+    },
+    "Grocery": {
+        "Ahold USA": [{
+                "name": "Ahold USA",
+                "num": 0,
+                "val": 1004,
+                "id": 0
+            },
+            {
+                "name": "Giant-Landover",
+                "num": 169,
+                "val": "1004-1",
+                "id": 0
+            },
+            {
+                "name": "Martins Food Market",
+                "num": 200,
+                "val": "1004-2",
+                "id": 971
+            },
+            {
+                "name": "Stop & Shop",
+                "num": 420,
+                "val": "1004-3",
+                "id": 7
+            }
+        ],
+        "Albertsons LLC/HQ": [{
+                "name": "Albertsons LLC/HQ",
+                "num": 0,
+                "val": 1005,
+                "id": 0
+            },
+            {
+                "name": "Acme Market",
+                "num": 177,
+                "val": "1005-1",
+                "id": 194
+            },
+            {
+                "name": "Albertsons",
+                "num": 432,
+                "val": "1005-2",
+                "id": 2077
+            },
+            {
+                "name": "Carr's Market",
+                "num": 12,
+                "val": "1005-3",
+                "id": 0
+            },
+            {
+                "name": "Haggen Foods",
+                "num": 13,
+                "val": "1005-4",
+                "id": 3509
+            },
+            {
+                "name": "Jewel Osco",
+                "num": 187,
+                "val": "1005-5",
+                "id": 1684
+            },
+            {
+                "name": "Lucky",
+                "num": 2,
+                "val": "1005-6",
+                "id": 26570
+            },
+            {
+                "name": "Randalls Food Market",
+                "num": 42,
+                "val": "1005-7",
+                "id": 2522
+            },
+            {
+                "name": "Safeway",
+                "num": 896,
+                "val": "1005-8",
+                "id": 34505
+            },
+            {
+                "name": "Shaws Supermarket",
+                "num": 129,
+                "val": "1005-9",
+                "id": 20
+            },
+            {
+                "name": "Star Market",
+                "num": 23,
+                "val": "1005-10",
+                "id": 56
+            },
+            {
+                "name": "Tom Thumb",
+                "num": 64,
+                "val": "1005-11",
+                "id": 16922
+            },
+            {
+                "name": "United Supermarket",
+                "num": 55,
+                "val": "1005-12",
+                "id": 2413
+            },
+            {
+                "name": "Vons Market",
+                "num": 231,
+                "val": "1005-13",
+                "id": 2830
+            }
+        ],
+        "Bashas Market": [{
+                "name": "Bashas Market",
+                "num": 0,
+                "val": 1006,
+                "id": 0
+            },
+            {
+                "name": "Bashas Market",
+                "num": 38,
+                "val": "1006-1",
+                "id": 2780
+            }
+        ],
+        "Bel Air Market": [{
+                "name": "Bel Air Market",
+                "num": 0,
+                "val": 1007,
+                "id": 0
+            },
+            {
+                "name": "Bel Air Market",
+                "num": 20,
+                "val": "1007-1",
+                "id": 3368
+            }
+        ],
+        "Best Yet Market": [{
+                "name": "Best Yet Market",
+                "num": 0,
+                "val": 1008,
+                "id": 0
+            },
+            {
+                "name": "Best Yet Market",
+                "num": 26,
+                "val": "1008-1",
+                "id": 167
+            }
+        ],
+        "BI-LO": [{
+                "name": "BI-LO",
+                "num": 0,
+                "val": 1009,
+                "id": 0
+            },
+            {
+                "name": "BI-LO",
+                "num": 150,
+                "val": "1009-1",
+                "id": 1093
+            },
+            {
+                "name": "Super BI-LO",
+                "num": 4,
+                "val": "1009-2",
+                "id": 4732
+            }
+        ],
+        "Big Kmart": [{
+                "name": "Big Kmart",
+                "num": 0,
+                "val": 1010,
+                "id": 0
+            },
+            {
+                "name": "Big Kmart",
+                "num": 241,
+                "val": "1010-1",
+                "id": 5589
+            }
+        ],
+        "Big Y Supermarket": [{
+                "name": "Big Y Supermarket",
+                "num": 0,
+                "val": 1011,
+                "id": 0
+            },
+            {
+                "name": "Big Y Supermarket",
+                "num": 70,
+                "val": "1011-1",
+                "id": 2
+            }
+        ],
+        "Bravo Supermarket": [{
+                "name": "Bravo Supermarket",
+                "num": 0,
+                "val": 1012,
+                "id": 0
+            },
+            {
+                "name": "Bravo Supermarket",
+                "num": 37,
+                "val": "1012-1",
+                "id": 441
+            }
+        ],
+        "Brookshire Brothers": [{
+                "name": "Brookshire Brothers",
+                "num": 0,
+                "val": 1013,
+                "id": 0
+            },
+            {
+                "name": "Brookshire Brothers",
+                "num": 65,
+                "val": "1013-1",
+                "id": 2345
+            },
+            {
+                "name": "Brookshire Food Store",
+                "num": 100,
+                "val": "1013-2",
+                "id": 2355
+            }
+        ],
+        "Bueche Food World": [{
+                "name": "Bueche Food World",
+                "num": 0,
+                "val": 1014,
+                "id": 0
+            },
+            {
+                "name": "Bueche Food World",
+                "num": 2,
+                "val": "1014-1",
+                "id": 8186
+            }
+        ],
+        "Buehlers Fresh Foods": [{
+                "name": "Buehlers Fresh Foods",
+                "num": 0,
+                "val": 1015,
+                "id": 0
+            },
+            {
+                "name": "Buehlers Fresh Foods",
+                "num": 13,
+                "val": "1015-1",
+                "id": 1615
+            },
+            {
+                "name": "Buehlers IGA",
+                "num": 4,
+                "val": "1015-2",
+                "id": 6534
+            }
+        ],
+        "Buschs Fresh Food Market": [{
+                "name": "Buschs Fresh Food Market",
+                "num": 0,
+                "val": 1016,
+                "id": 0
+            },
+            {
+                "name": "Buschs Fresh Food Market",
+                "num": 16,
+                "val": "1016-1",
+                "id": 1740
+            }
+        ],
+        "Butera Market": [{
+                "name": "Butera Market",
+                "num": 0,
+                "val": 1017,
+                "id": 0
+            },
+            {
+                "name": "Butera Market",
+                "num": 10,
+                "val": "1017-1",
+                "id": 2166
+            }
+        ],
+        "C Town Supermarket": [{
+                "name": "C Town Supermarket",
+                "num": 0,
+                "val": 1018,
+                "id": 0
+            },
+            {
+                "name": "C Town Supermarket",
+                "num": 48,
+                "val": "1018-1",
+                "id": 257
+            }
+        ],
+        "Cardenas Market": [{
+                "name": "Cardenas Market",
+                "num": 0,
+                "val": 1019,
+                "id": 0
+            },
+            {
+                "name": "Cardenas Market",
+                "num": 27,
+                "val": "1019-1",
+                "id": 2828
+            }
+        ],
+        "Carlie Cs IGA": [{
+                "name": "Carlie Cs IGA",
+                "num": 0,
+                "val": 1020,
+                "id": 0
+            },
+            {
+                "name": "Carlie Cs IGA",
+                "num": 21,
+                "val": "1020-1",
+                "id": 1062
+            }
+        ],
+        "Cash Saver": [{
+                "name": "Cash Saver",
+                "num": 0,
+                "val": 1021,
+                "id": 0
+            },
+            {
+                "name": "Cash Saver",
+                "num": 28,
+                "val": "1021-1",
+                "id": 1443
+            }
+        ],
+        "Coborns Super Market": [{
+                "name": "Coborns Super Market",
+                "num": 0,
+                "val": 1022,
+                "id": 0
+            },
+            {
+                "name": "Coborns Super Market",
+                "num": 25,
+                "val": "1022-1",
+                "id": 2015
+            }
+        ],
+        "Cub Foods": [{
+                "name": "Cub Foods",
+                "num": 0,
+                "val": 1023,
+                "id": 0
+            },
+            {
+                "name": "Cub Foods",
+                "num": 79,
+                "val": "1023-1",
+                "id": 2019
+            }
+        ],
+        "Daves Supermarket": [{
+                "name": "Daves Supermarket",
+                "num": 0,
+                "val": 1024,
+                "id": 0
+            },
+            {
+                "name": "Daves Supermarket",
+                "num": 13,
+                "val": "1024-1",
+                "id": 1599
+            }
+        ],
+        "Davids Supermarket": [{
+                "name": "Davids Supermarket",
+                "num": 0,
+                "val": 1025,
+                "id": 0
+            },
+            {
+                "name": "Davids Supermarket",
+                "num": 7,
+                "val": "1025-1",
+                "id": 4727
+            }
+        ],
+        "Dierbergs Market": [{
+                "name": "Dierbergs Market",
+                "num": 0,
+                "val": 1026,
+                "id": 0
+            },
+            {
+                "name": "Dierbergs Market",
+                "num": 25,
+                "val": "1026-1",
+                "id": 2228
+            }
+        ],
+        "Dillon Food Store": [{
+                "name": "Dillon Food Store",
+                "num": 0,
+                "val": 1027,
+                "id": 0
+            },
+            {
+                "name": "Dillon Food Store",
+                "num": 44,
+                "val": "1027-1",
+                "id": 2277
+            },
+            {
+                "name": "Dillons Marketplace",
+                "num": 5,
+                "val": "1027-2",
+                "id": 9066
+            }
+        ],
+        "Fairway": [{
+                "name": "Fairway",
+                "num": 0,
+                "val": 1028,
+                "id": 0
+            },
+            {
+                "name": "Fairway",
+                "num": 13,
+                "val": "1028-1",
+                "id": 486
+            }
+        ],
+        "Family Fare Supermarket": [{
+                "name": "Family Fare Supermarket",
+                "num": 0,
+                "val": 1029,
+                "id": 0
+            },
+            {
+                "name": "Family Fare Supermarket",
+                "num": 72,
+                "val": "1029-1",
+                "id": 1807
+            }
+        ],
+        "Fareway Store": [{
+                "name": "Fareway Store",
+                "num": 0,
+                "val": 1030,
+                "id": 0
+            },
+            {
+                "name": "Fareway Store",
+                "num": 87,
+                "val": "1030-1",
+                "id": 1885
+            }
+        ],
+        "Farm Fresh Supermarket": [{
+                "name": "Farm Fresh Supermarket",
+                "num": 0,
+                "val": 1031,
+                "id": 0
+            },
+            {
+                "name": "Farm Fresh Supermarket",
+                "num": 38,
+                "val": "1031-1",
+                "id": 978
+            }
+        ],
+        "Festival Foods": [{
+                "name": "Festival Foods",
+                "num": 0,
+                "val": 1032,
+                "id": 0
+            },
+            {
+                "name": "Festival Foods",
+                "num": 10,
+                "val": "1032-1",
+                "id": 1983
+            },
+            {
+                "name": "Festival Foods Market",
+                "num": 7,
+                "val": "1032-2",
+                "id": 2018
+            },
+            {
+                "name": "Festival Foods Supermarket",
+                "num": 22,
+                "val": "1032-3",
+                "id": 1972
+            }
+        ],
+        "Fiesta Foods": [{
+                "name": "Fiesta Foods",
+                "num": 0,
+                "val": 1033,
+                "id": 0
+            },
+            {
+                "name": "Fiesta Foods",
+                "num": 2,
+                "val": "1033-1",
+                "id": 2635
+            },
+            {
+                "name": "Fiesta Mart",
+                "num": 60,
+                "val": "1033-2",
+                "id": 2424
+            }
+        ],
+        "Fine Fare Supermarket": [{
+                "name": "Fine Fare Supermarket",
+                "num": 0,
+                "val": 1034,
+                "id": 0
+            },
+            {
+                "name": "Fine Fare Supermarket",
+                "num": 0,
+                "val": 1035,
+                "id": 0
+            }
+        ],
+        "Food 4 Less": [{
+                "name": "Food 4 Less",
+                "num": 0,
+                "val": 1036,
+                "id": 0
+            },
+            {
+                "name": "Food 4 Less",
+                "num": 125,
+                "val": "1036-1",
+                "id": 2843
+            }
+        ],
+        "Food Bazaar": [{
+                "name": "Food Bazaar",
+                "num": 0,
+                "val": 1037,
+                "id": 0
+            },
+            {
+                "name": "Food Bazaar",
+                "num": 21,
+                "val": "1037-1",
+                "id": 235
+            }
+        ],
+        "Food City": [{
+                "name": "Food City",
+                "num": 0,
+                "val": 1038,
+                "id": 0
+            },
+            {
+                "name": "Food City",
+                "num": 141,
+                "val": "1038-1",
+                "id": 993
+            }
+        ],
+        "Food Depot": [{
+                "name": "Food Depot",
+                "num": 0,
+                "val": 1039,
+                "id": 0
+            },
+            {
+                "name": "Food Depot",
+                "num": 34,
+                "val": "1039-1",
+                "id": 1149
+            }
+        ],
+        "Food Giant": [{
+                "name": "Food Giant",
+                "num": 0,
+                "val": 1040,
+                "id": 0
+            },
+            {
+                "name": "Food Giant Market",
+                "num": 4,
+                "val": "1040-1",
+                "id": 2395
+            },
+            {
+                "name": "Food Giant Store",
+                "num": 3,
+                "val": "1040-2",
+                "id": 5596
+            },
+            {
+                "name": "Food Giant Supermarket",
+                "num": 22,
+                "val": "1040-3",
+                "id": 1495
+            }
+        ],
+        "Food King Cost Plus Food": [{
+                "name": "Food King Cost Plus Food",
+                "num": 0,
+                "val": 1041,
+                "id": 0
+            },
+            {
+                "name": "Food King Cost Plus Food",
+                "num": 16,
+                "val": "1041-1",
+                "id": 2503
+            }
+        ],
+        "Food Lion Store": [{
+                "name": "Food Lion Store",
+                "num": 0,
+                "val": 1042,
+                "id": 0
+            },
+            {
+                "name": "Food Lion Store",
+                "num": 967,
+                "val": "1042-1",
+                "id": 895
+            }
+        ],
+        "Foods Co": [{
+                "name": "Foods Co",
+                "num": 0,
+                "val": 1043,
+                "id": 0
+            },
+            {
+                "name": "Foods Co",
+                "num": 20,
+                "val": "1043-1",
+                "id": 3217
+            }
+        ],
+        "Foodtown": [{
+                "name": "Foodtown",
+                "num": 0,
+                "val": 1044,
+                "id": 0
+            },
+            {
+                "name": "Foodtown",
+                "num": 44,
+                "val": "1044-1",
+                "id": 201
+            }
+        ],
+        "Fred Meyer Store": [{
+                "name": "Fred Meyer Store",
+                "num": 0,
+                "val": 1045,
+                "id": 0
+            },
+            {
+                "name": "Fred Meyer Store",
+                "num": 104,
+                "val": "1045-1",
+                "id": 3382
+            },
+            {
+                "name": "Fred Meyer Marketplace",
+                "num": 7,
+                "val": "1045-2",
+                "id": 3406
+            }
+        ],
+        "Fresco y Mas": [{
+                "name": "Fresco y Mas",
+                "num": 0,
+                "val": 1046,
+                "id": 0
+            },
+            {
+                "name": "Fresco y Mas",
+                "num": 23,
+                "val": "1046-1",
+                "id": 1267
+            }
+        ],
+        "Fresh Foods": [{
+                "name": "Fresh Foods",
+                "num": 0,
+                "val": 1047,
+                "id": 0
+            },
+            {
+                "name": "Fresh Foods",
+                "num": 6,
+                "val": "1047-1",
+                "id": 1067
+            }
+        ],
+        "Fresh Market": [{
+                "name": "Fresh Market",
+                "num": 0,
+                "val": 1048,
+                "id": 0
+            },
+            {
+                "name": "Fresh Market",
+                "num": 15,
+                "val": "1048-1",
+                "id": 2756
+            }
+        ],
+        "Frys Food Store": [{
+                "name": "Frys Food Store",
+                "num": 0,
+                "val": 1049,
+                "id": 0
+            },
+            {
+                "name": "Frys Food Store",
+                "num": 87,
+                "val": "1049-1",
+                "id": 2773
+            },
+            {
+                "name": "Frys Marketplace",
+                "num": 26,
+                "val": "1049-2",
+                "id": 2786
+            },
+            {
+                "name": "Frys Signature Store",
+                "num": 2,
+                "val": "1049-3",
+                "id": 14126
+            },
+            {
+                "name": "Frys Mercado",
+                "num": 1,
+                "val": "1049-4",
+                "id": 2778
+            }
+        ],
+        "Giant Eagle Market": [{
+                "name": "Giant Eagle Market",
+                "num": 0,
+                "val": 1050,
+                "id": 0
+            },
+            {
+                "name": "Giant Eagle Market",
+                "num": 200,
+                "val": "1050-1",
+                "id": 667
+            },
+            {
+                "name": "Giant Eagle Market District",
+                "num": 14,
+                "val": "1050-2",
+                "id": 4580
+            }
+        ],
+        "Giant Food Store": [{
+                "name": "Giant Food Store",
+                "num": 0,
+                "val": 1051,
+                "id": 0
+            },
+            {
+                "name": "Giant Food Store",
+                "num": 296,
+                "val": "1051-1",
+                "id": 741
+            },
+            {
+                "name": "Super Giant",
+                "num": 15,
+                "val": "1051-2",
+                "id": 890
+            }
+        ],
+        "Grade A ShopRite": [{
+                "name": "Grade A ShopRite",
+                "num": 0,
+                "val": 1052,
+                "id": 0
+            },
+            {
+                "name": "Grade A ShopRite",
+                "num": 10,
+                "val": "1052-1",
+                "id": 177
+            }
+        ],
+        "Gristedes Supermarket": [{
+                "name": "Gristedes Supermarket",
+                "num": 0,
+                "val": 1053,
+                "id": 0
+            },
+            {
+                "name": "Gristedes Supermarket",
+                "num": 22,
+                "val": "1053-1",
+                "id": 340
+            }
+        ],
+        "H E B": [{
+                "name": "H E B",
+                "num": 0,
+                "val": 1054,
+                "id": 0
+            },
+            {
+                "name": "H E B",
+                "num": 253,
+                "val": "1054-1",
+                "id": 2495
+            },
+            {
+                "name": "H E B Central Market",
+                "num": 3,
+                "val": "1054-2",
+                "id": 2583
+            },
+            {
+                "name": "H E B Plus",
+                "num": 39,
+                "val": "1054-3",
+                "id": 4814
+            }
+        ],
+        "Hannaford": [{
+                "name": "Hannaford",
+                "num": 0,
+                "val": 1055,
+                "id": 0
+            },
+            {
+                "name": "Hannaford",
+                "num": 163,
+                "val": "1055-1",
+                "id": 19
+            }
+        ],
+        "Harmons": [{
+                "name": "Harmons",
+                "num": 0,
+                "val": 1056,
+                "id": 0
+            },
+            {
+                "name": "Harmons",
+                "num": 16,
+                "val": "1056-1",
+                "id": 2759
+            }
+        ],
+        "Harps Food Store": [{
+                "name": "Harps Food Store",
+                "num": 0,
+                "val": 1057,
+                "id": 0
+            },
+            {
+                "name": "Harps Food Store",
+                "num": 31,
+                "val": "1057-1",
+                "id": 2399
+            },
+            {
+                "name": "Harps Marketplace",
+                "num": 3,
+                "val": "1057-2",
+                "id": 7119
+            }
+        ],
+        "Harris Teeter": [{
+                "name": "Harris Teeter",
+                "num": 0,
+                "val": 1058,
+                "id": 0
+            },
+            {
+                "name": "Harris Teeter",
+                "num": 244,
+                "val": "1058-1",
+                "id": 959
+            }
+        ],
+        "Harveys Supermarket": [{
+                "name": "Harveys Supermarket",
+                "num": 0,
+                "val": 1059,
+                "id": 0
+            },
+            {
+                "name": "Harveys Supermarket",
+                "num": 60,
+                "val": "1059-1",
+                "id": 1060
+            }
+        ],
+        "Heinens Supermarket": [{
+                "name": "Heinens Supermarket",
+                "num": 0,
+                "val": 1060,
+                "id": 0
+            },
+            {
+                "name": "Heinens Supermarket",
+                "num": 23,
+                "val": "1060-1",
+                "id": 1595
+            }
+        ],
+        "Homeland Stores": [{
+                "name": "Homeland Stores",
+                "num": 0,
+                "val": 1061,
+                "id": 0
+            },
+            {
+                "name": "Homeland Stores",
+                "num": 20,
+                "val": "1061-1",
+                "id": 2405
+            }
+        ],
+        "Hy Vee Drugstores": [{
+                "name": "Hy Vee Drugstores",
+                "num": 0,
+                "val": 1062,
+                "id": 0
+            },
+            {
+                "name": "Hy Vee Drugstores",
+                "num": 18,
+                "val": "1062-1",
+                "id": 1933
+            },
+            {
+                "name": "Hy Vee Food Store",
+                "num": 214,
+                "val": "1062-2",
+                "id": 1886
+            },
+            {
+                "name": "Hy Vee Mainstreet",
+                "num": 3,
+                "val": "1062-3",
+                "id": 1887
+            }
+        ],
+        "Ingles Supermarket": [{
+                "name": "Ingles Supermarket",
+                "num": 0,
+                "val": 1063,
+                "id": 0
+            },
+            {
+                "name": "Ingles Supermarket",
+                "num": 185,
+                "val": "1063-1",
+                "id": 1046
+            }
+        ],
+        "Jewel Food Store": [{
+                "name": "Jewel Food Store",
+                "num": 0,
+                "val": 1064,
+                "id": 0
+            },
+            {
+                "name": "Jewel Food Store",
+                "num": 5,
+                "val": "1064-1",
+                "id": 2123
+            },
+            {
+                "name": "Jewel Osco",
+                "num": 181,
+                "val": "1064-2",
+                "id": 1684
+            }
+        ],
+        "Jons Marketplace": [{
+                "name": "Jons Marketplace",
+                "num": 0,
+                "val": 1065,
+                "id": 0
+            },
+            {
+                "name": "Jons Marketplace",
+                "num": 13,
+                "val": "1065-1",
+                "id": 2848
+            }
+        ],
+        "Jumbo Foods": [{
+                "name": "Jumbo Foods",
+                "num": 0,
+                "val": 1066,
+                "id": 0
+            },
+            {
+                "name": "Jumbo Foods",
+                "num": 2,
+                "val": "1066-1",
+                "id": 2415
+            }
+        ],
+        "Key Food": [{
+                "name": "Key Food",
+                "num": 0,
+                "val": 1067,
+                "id": 0
+            },
+            {
+                "name": "Key Food",
+                "num": 88,
+                "val": "1067-1",
+                "id": 186
+            },
+            {
+                "name": "Key Food Marketplace",
+                "num": 11,
+                "val": "1067-2",
+                "id": 378
+            },
+            {
+                "name": "Key Fresh & Natural",
+                "num": 2,
+                "val": "1067-3",
+                "id": 241
+            }
+        ],
+        "King Kullen Grocery": [{
+                "name": "King Kullen Grocery",
+                "num": 0,
+                "val": 1068,
+                "id": 0
+            },
+            {
+                "name": "King Kullen Grocery",
+                "num": 32,
+                "val": "1068-1",
+                "id": 445
+            }
+        ],
+        "King Soopers Marketplace": [{
+                "name": "King Soopers Marketplace",
+                "num": 0,
+                "val": 1069,
+                "id": 0
+            },
+            {
+                "name": "King Soopers Marketplace",
+                "num": 10,
+                "val": "1069-1",
+                "id": 2671
+            },
+            {
+                "name": "King Soopers Store",
+                "num": 103,
+                "val": "1069-2",
+                "id": 2672
+            }
+        ],
+        "Kings Super Market": [{
+                "name": "Kings Super Market",
+                "num": 0,
+                "val": 1070,
+                "id": 0
+            },
+            {
+                "name": "Kings Super Market",
+                "num": 24,
+                "val": "1070-1",
+                "id": 200
+            }
+        ],
+        "Kroger": [{
+                "name": "Kroger",
+                "num": 0,
+                "val": 1071,
+                "id": 0
+            },
+            {
+                "name": "Kroger Fresh Fare",
+                "num": 14,
+                "val": "1071-1",
+                "id": 1167
+            },
+            {
+                "name": "Kroger Marketplace",
+                "num": 112,
+                "val": "1071-2",
+                "id": 1210
+            },
+            {
+                "name": "Kroger Sav On Store",
+                "num": 30,
+                "val": "1071-3",
+                "id": 1564
+            },
+            {
+                "name": "Kroger Signature Store",
+                "num": 40,
+                "val": "1071-4",
+                "id": 2505
+            },
+            {
+                "name": "Kroger Store",
+                "num": 1041,
+                "val": "1071-5",
+                "id": 973
+            }
+        ],
+        "Lowes": [{
+                "name": "Lowes",
+                "num": 0,
+                "val": 1072,
+                "id": 0
+            },
+            {
+                "name": "Lowes",
+                "num": 52,
+                "val": "1072-1",
+                "id": 2567
+            },
+            {
+                "name": "Lowes Big 8",
+                "num": 7,
+                "val": "1072-2",
+                "id": 2665
+            },
+            {
+                "name": "Lowes Food Store",
+                "num": 75,
+                "val": "1072-3",
+                "id": 1022
+            },
+            {
+                "name": "Lowes Shop N Save Market",
+                "num": 3,
+                "val": "1072-4",
+                "id": 3892
+            }
+        ],
+        "Lucky Store": [{
+                "name": "Lucky Store",
+                "num": 0,
+                "val": 1073,
+                "id": 0
+            },
+            {
+                "name": "Lucky Store",
+                "num": 67,
+                "val": "1073-1",
+                "id": 3216
+            }
+        ],
+        "Lunds & Byerlys": [{
+                "name": "Lunds & Byerlys",
+                "num": 0,
+                "val": 1074,
+                "id": 0
+            },
+            {
+                "name": "Lunds & Byerlys",
+                "num": 24,
+                "val": "1074-1",
+                "id": 2020
+            }
+        ],
+        "Marcs": [{
+                "name": "Marcs",
+                "num": 0,
+                "val": 1075,
+                "id": 0
+            },
+            {
+                "name": "Marcs",
+                "num": 57,
+                "val": "1075-1",
+                "id": 1604
+            }
+        ],
+        "Marianos Fresh Market": [{
+                "name": "Marianos Fresh Market",
+                "num": 0,
+                "val": 1076,
+                "id": 0
+            },
+            {
+                "name": "Marianos Fresh Market",
+                "num": 42,
+                "val": "1076-1",
+                "id": 2118
+            }
+        ],
+        "Market Basket": [{
+                "name": "Market Basket",
+                "num": 0,
+                "val": 1077,
+                "id": 0
+            },
+            {
+                "name": "Market Basket",
+                "num": 105,
+                "val": "1077-1",
+                "id": 18
+            }
+        ],
+        "Meijer Supermarket": [{
+                "name": "Meijer Supermarket",
+                "num": 0,
+                "val": 1078,
+                "id": 0
+            },
+            {
+                "name": "Meijer Supermarket",
+                "num": 235,
+                "val": "1078-1",
+                "id": 1749
+            }
+        ],
+        "Nob Hill Foods": [{
+                "name": "Nob Hill Foods",
+                "num": 0,
+                "val": 1079,
+                "id": 0
+            },
+            {
+                "name": "Nob Hill Foods",
+                "num": 19,
+                "val": "1079-1",
+                "id": 3311
+            }
+        ],
+        "North Shore Farms": [{
+                "name": "North Shore Farms",
+                "num": 0,
+                "val": 1080,
+                "id": 0
+            },
+            {
+                "name": "North Shore Farms",
+                "num": 2,
+                "val": "1080-1",
+                "id": 543
+            }
+        ],
+        "Northgate Gonzalez Market": [{
+                "name": "Northgate Gonzalez Market",
+                "num": 0,
+                "val": 1081,
+                "id": 0
+            },
+            {
+                "name": "Northgate Gonzalez Market",
+                "num": 38,
+                "val": "1081-1",
+                "id": 2860
+            }
+        ],
+        "Pavilions": [{
+                "name": "Pavilions",
+                "num": 0,
+                "val": 1082,
+                "id": 0
+            },
+            {
+                "name": "Pavilions",
+                "num": 25,
+                "val": "1082-1",
+                "id": 2864
+            }
+        ],
+        "Pick N Save Store": [{
+                "name": "Pick N Save Store",
+                "num": 0,
+                "val": 1083,
+                "id": 0
+            },
+            {
+                "name": "Pick N Save Store",
+                "num": 100,
+                "val": "1083-1",
+                "id": 1945
+            }
+        ],
+        "Piggly Wiggly": [{
+                "name": "Piggly Wiggly",
+                "num": 0,
+                "val": 1084,
+                "id": 0
+            },
+            {
+                "name": "Piggly Wiggly",
+                "num": 137,
+                "val": "1084-1",
+                "id": 1005
+            },
+            {
+                "name": "Piggly Wiggly Market",
+                "num": 77,
+                "val": "1084-2",
+                "id": 1038
+            },
+            {
+                "name": "Piggly Wiggly Store",
+                "num": 15,
+                "val": "1084-3",
+                "id": 1066
+            }
+        ],
+        "Presidente Supermarket": [{
+                "name": "Presidente Supermarket",
+                "num": 0,
+                "val": 1085,
+                "id": 0
+            },
+            {
+                "name": "Presidente Supermarket",
+                "num": 23,
+                "val": "1085-1",
+                "id": 1270
+            }
+        ],
+        "Price Chopper": [{
+                "name": "Price Chopper",
+                "num": 0,
+                "val": 1086,
+                "id": 0
+            },
+            {
+                "name": "Price Chopper",
+                "num": 54,
+                "val": "1086-1",
+                "id": 1899
+            },
+            {
+                "name": "Price Chopper Supermarket",
+                "num": 106,
+                "val": "1086-2",
+                "id": 17
+            }
+        ],
+        "Publix": [{
+                "name": "Publix",
+                "num": 0,
+                "val": 1087,
+                "id": 0
+            },
+            {
+                "name": "Publix GreenWise Market",
+                "num": 3,
+                "val": "1087-1",
+                "id": 1327
+            },
+            {
+                "name": "Publix Sabor",
+                "num": 6,
+                "val": "1087-2",
+                "id": 1298
+            },
+            {
+                "name": "Publix Super Market",
+                "num": 1156,
+                "val": "1087-3",
+                "id": 1166
+            }
+        ],
+        "Quality Food Center": [{
+                "name": "Quality Food Center",
+                "num": 0,
+                "val": 1088,
+                "id": 0
+            },
+            {
+                "name": "Quality Food Center",
+                "num": 64,
+                "val": "1088-1",
+                "id": 3399
+            }
+        ],
+        "Raleys Supermarket": [{
+                "name": "Raleys Supermarket",
+                "num": 0,
+                "val": 1089,
+                "id": 0
+            },
+            {
+                "name": "Raleys Supermarket",
+                "num": 69,
+                "val": "1089-1",
+                "id": 2832
+            }
+        ],
+        "Ralphs Fresh Fare": [{
+                "name": "Ralphs Fresh Fare",
+                "num": 0,
+                "val": 1090,
+                "id": 0
+            },
+            {
+                "name": "Ralphs Fresh Fare",
+                "num": 52,
+                "val": "1090-1",
+                "id": 2851
+            },
+            {
+                "name": "Ralphs Grocery",
+                "num": 129,
+                "val": "1090-2",
+                "id": 2847
+            },
+            {
+                "name": "Ralphs Marketplace",
+                "num": 12,
+                "val": "1090-3",
+                "id": 2868
+            }
+        ],
+        "Reasors": [{
+                "name": "Reasors",
+                "num": 0,
+                "val": 1091,
+                "id": 0
+            },
+            {
+                "name": "Reasors",
+                "num": 16,
+                "val": "1091-1",
+                "id": 3635
+            }
+        ],
+        "Redners Warehouse Market": [{
+                "name": "Redners Warehouse Market",
+                "num": 0,
+                "val": 1092,
+                "id": 0
+            },
+            {
+                "name": "Redners Warehouse Market",
+                "num": 44,
+                "val": "1092-1",
+                "id": 745
+            }
+        ],
+        "Remke Market": [{
+                "name": "Remke Market",
+                "num": 0,
+                "val": 1093,
+                "id": 0
+            },
+            {
+                "name": "Remke Market",
+                "num": 10,
+                "val": "1093-1",
+                "id": 1546
+            }
+        ],
+        "Ridleys Family Markets": [{
+                "name": "Ridleys Family Markets",
+                "num": 0,
+                "val": 1094,
+                "id": 0
+            },
+            {
+                "name": "Ridleys Family Markets",
+                "num": 6,
+                "val": "1094-1",
+                "id": 2767
+            },
+            {
+                "name": "Ridleys Food & Drug",
+                "num": 12,
+                "val": "1094-2",
+                "id": 2726
+            }
+        ],
+        "Roche Bros Supermarket": [{
+                "name": "Roche Bros Supermarket",
+                "num": 0,
+                "val": 1095,
+                "id": 0
+            },
+            {
+                "name": "Roche Bros Supermarket",
+                "num": 15,
+                "val": "1095-1",
+                "id": 30
+            }
+        ],
+        "Rosauers Food & Drug": [{
+                "name": "Rosauers Food & Drug",
+                "num": 0,
+                "val": 1096,
+                "id": 0
+            },
+            {
+                "name": "Rosauers Food & Drug",
+                "num": 14,
+                "val": "1096-1",
+                "id": 2095
+            }
+        ],
+        "Rouses Supermarket": [{
+                "name": "Rouses Supermarket",
+                "num": 0,
+                "val": 1097,
+                "id": 0
+            },
+            {
+                "name": "Rouses Supermarket",
+                "num": 51,
+                "val": "1097-1",
+                "id": 2322
+            }
+        ],
+        "Saker ShopRite": [{
+                "name": "Saker ShopRite",
+                "num": 0,
+                "val": 1098,
+                "id": 0
+            },
+            {
+                "name": "Saker ShopRite",
+                "num": 27,
+                "val": "1098-1",
+                "id": 271
+            }
+        ],
+        "Save Mart": [{
+                "name": "Save Mart",
+                "num": 0,
+                "val": 1099,
+                "id": 0
+            },
+            {
+                "name": "Save Mart",
+                "num": 80,
+                "val": "1099-1",
+                "id": 2835
+            }
+        ],
+        "Schnuck Market": [{
+                "name": "Schnuck Market",
+                "num": 0,
+                "val": 1100,
+                "id": 0
+            },
+            {
+                "name": "Schnuck Market",
+                "num": 95,
+                "val": "1100-1",
+                "id": 1730
+            }
+        ],
+        "Sedanos Supermarket": [{
+                "name": "Sedanos Supermarket",
+                "num": 0,
+                "val": 1101,
+                "id": 0
+            },
+            {
+                "name": "Sedanos Supermarket",
+                "num": 32,
+                "val": "1101-1",
+                "id": 1266
+            }
+        ],
+        "Shop N Save": [{
+                "name": "Shop N Save",
+                "num": 0,
+                "val": 1102,
+                "id": 0
+            },
+            {
+                "name": "Shop N Save",
+                "num": 93,
+                "val": "1102-1",
+                "id": 671
+            }
+        ],
+        "Shoppers Food Warehouse": [{
+                "name": "Shoppers Food Warehouse",
+                "num": 0,
+                "val": 1103,
+                "id": 0
+            },
+            {
+                "name": "Shoppers Food Warehouse",
+                "num": 51,
+                "val": "1103-1",
+                "id": 867
+            }
+        ],
+        "ShopRite": [{
+                "name": "ShopRite",
+                "num": 0,
+                "val": 1104,
+                "id": 0
+            },
+            {
+                "name": "ShopRite",
+                "num": 208,
+                "val": "1104-1",
+                "id": 161
+            }
+        ],
+        "Smart & Final": [{
+                "name": "Smart & Final",
+                "num": 0,
+                "val": 1105,
+                "id": 0
+            },
+            {
+                "name": "Smart & Final",
+                "num": 78,
+                "val": "1105-1",
+                "id": 2798
+            },
+            {
+                "name": "Smart & Final Extra",
+                "num": 154,
+                "val": "1105-2",
+                "id": 2857
+            }
+        ],
+        "Smiths Marketplace": [{
+                "name": "Smiths Marketplace",
+                "num": 0,
+                "val": 1106,
+                "id": 0
+            },
+            {
+                "name": "Smiths Marketplace",
+                "num": 122,
+                "val": "1106-1",
+                "id": 8057
+            }
+        ],
+        "Stater Bros Mkt": [{
+                "name": "Stater Bros Mkt",
+                "num": 0,
+                "val": 1107,
+                "id": 0
+            },
+            {
+                "name": "Stater Bros Mkt",
+                "num": 163,
+                "val": "1107-1",
+                "id": 2889
+            }
+        ],
+        "Stop & Shop": [{
+                "name": "Stop & Shop",
+                "num": 0,
+                "val": 1108,
+                "id": 0
+            },
+            {
+                "name": "Stop & Shop",
+                "num": 103,
+                "val": "1108-1",
+                "id": 7
+            }
+        ],
+        "Strack & Van Til Market": [{
+                "name": "Strack & Van Til Market",
+                "num": 0,
+                "val": 1109,
+                "id": 0
+            },
+            {
+                "name": "Strack & Van Til Market",
+                "num": 18,
+                "val": "1109-1",
+                "id": 1685
+            }
+        ],
+        "Super 1 Foods": [{
+                "name": "Super 1 Foods",
+                "num": 0,
+                "val": 1110,
+                "id": 0
+            },
+            {
+                "name": "Super 1 Foods",
+                "num": 59,
+                "val": "1110-1",
+                "id": 2098
+            }
+        ],
+        "Super Foodtown": [{
+                "name": "Super Foodtown",
+                "num": 0,
+                "val": 1111,
+                "id": 0
+            },
+            {
+                "name": "Super Foodtown",
+                "num": 8,
+                "val": "1111-1",
+                "id": 211
+            }
+        ],
+        "Super Fresh": [{
+                "name": "Super Fresh",
+                "num": 0,
+                "val": 1112,
+                "id": 0
+            },
+            {
+                "name": "Super Fresh",
+                "num": 5,
+                "val": "1112-1",
+                "id": 207
+            }
+        ],
+        "Super One Foods": [{
+                "name": "Super One Foods",
+                "num": 0,
+                "val": 1113,
+                "id": 0
+            },
+            {
+                "name": "Super One Foods",
+                "num": 17,
+                "val": "1113-1",
+                "id": 1881
+            }
+        ],
+        "Super Supermarket": [{
+                "name": "Super Supermarket",
+                "num": 0,
+                "val": 1114,
+                "id": 0
+            },
+            {
+                "name": "Super Supermarket",
+                "num": 2,
+                "val": "1114-1",
+                "id": 256
+            }
+        ],
+        "Superior Grocers": [{
+                "name": "Superior Grocers",
+                "num": 0,
+                "val": 1115,
+                "id": 0
+            },
+            {
+                "name": "Superior Grocers",
+                "num": 44,
+                "val": "1115-1",
+                "id": 2841
+            }
+        ],
+        "Toms Food Center": [{
+                "name": "Toms Food Center",
+                "num": 0,
+                "val": 1116,
+                "id": 0
+            },
+            {
+                "name": "Toms Food Center",
+                "num": 2,
+                "val": "1116-1",
+                "id": 1822
+            },
+            {
+                "name": "Toms Food Market",
+                "num": 5,
+                "val": "1116-2",
+                "id": 1868
+            }
+        ],
+        "Tonys Finer Foods": [{
+                "name": "Tonys Finer Foods",
+                "num": 0,
+                "val": 1117,
+                "id": 0
+            },
+            {
+                "name": "Tonys Finer Foods",
+                "num": 15,
+                "val": "1117-1",
+                "id": 2152
+            }
+        ],
+        "Top Valu Market": [{
+                "name": "Top Valu Market",
+                "num": 0,
+                "val": 1118,
+                "id": 0
+            },
+            {
+                "name": "Top Valu Market",
+                "num": 4,
+                "val": "1118-1",
+                "id": 2849
+            }
+        ],
+        "Tops Friendly Markets": [{
+                "name": "Tops Friendly Markets",
+                "num": 0,
+                "val": 1119,
+                "id": 0
+            },
+            {
+                "name": "Tops Friendly Markets",
+                "num": 142,
+                "val": "1119-1",
+                "id": 595
+            }
+        ],
+        "Treasure Island Food Store": [{
+                "name": "Treasure Island Food Store",
+                "num": 0,
+                "val": 1120,
+                "id": 0
+            },
+            {
+                "name": "Treasure Island Food Store",
+                "num": 6,
+                "val": "1120-1",
+                "id": 2174
+            }
+        ],
+        "United Supermarket": [{
+                "name": "United Supermarket",
+                "num": 0,
+                "val": 1121,
+                "id": 0
+            },
+            {
+                "name": "United Supermarket",
+                "num": 4,
+                "val": "1121-1",
+                "id": 2413
+            }
+        ],
+        "Vallarta Supermarket": [{
+                "name": "Vallarta Supermarket",
+                "num": 0,
+                "val": 1122,
+                "id": 0
+            },
+            {
+                "name": "Vallarta Supermarket",
+                "num": 47,
+                "val": "1122-1",
+                "id": 2850
+            }
+        ],
+        "Wegmans Food Market": [{
+                "name": "Wegmans Food Market",
+                "num": 0,
+                "val": 1123,
+                "id": 0
+            },
+            {
+                "name": "Wegmans Food Market",
+                "num": 92,
+                "val": "1123-1",
+                "id": 74
+            }
+        ],
+        "Weis Market": [{
+                "name": "Weis Market",
+                "num": 0,
+                "val": 1124,
+                "id": 0
+            },
+            {
+                "name": "Weis Market",
+                "num": 201,
+                "val": "1124-1",
+                "id": 278
+            }
+        ],
+        "Western Beef Supermarket": [{
+                "name": "Western Beef Supermarket",
+                "num": 0,
+                "val": 1125,
+                "id": 0
+            },
+            {
+                "name": "Western Beef Supermarket",
+                "num": 22,
+                "val": "1125-1",
+                "id": 408
+            }
+        ],
+        "Western Supermarket": [{
+                "name": "Western Supermarket",
+                "num": 0,
+                "val": 1126,
+                "id": 0
+            },
+            {
+                "name": "Western Supermarket",
+                "num": 3,
+                "val": "1126-1",
+                "id": 1398
+            }
+        ],
+        "Winco Foods": [{
+                "name": "Winco Foods",
+                "num": 0,
+                "val": 1127,
+                "id": 0
+            },
+            {
+                "name": "Winco Foods",
+                "num": 115,
+                "val": "1127-1",
+                "id": 3737
+            }
+        ],
+        "Winn Dixie": [{
+                "name": "Winn Dixie",
+                "num": 0,
+                "val": 1128,
+                "id": 0
+            },
+            {
+                "name": "Winn Dixie",
+                "num": 437,
+                "val": "1128-1",
+                "id": 1214
+            }
+        ],
+        "Woodmans Food Market": [{
+                "name": "Woodmans Food Market",
+                "num": 0,
+                "val": 1129,
+                "id": 0
+            },
+            {
+                "name": "Woodmans Food Market",
+                "num": 16,
+                "val": "1129-1",
+                "id": 1978
+            }
+        ],
+        "Yokes Fresh Market": [{
+                "name": "Yokes Fresh Market",
+                "num": 0,
+                "val": 1130,
+                "id": 0
+            },
+            {
+                "name": "Yokes Fresh Market",
+                "num": 17,
+                "val": "1130-1",
+                "id": 3538
+            }
+        ],
+        "Whole Foods Market": [{
+                "name": "Whole Foods Market",
+                "num": 0,
+                "val": 1131,
+                "id": 0
+            },
+            {
+                "name": "Whole Foods Market",
+                "num": 454,
+                "val": "1131-1",
+                "id": 54877
+            },
+            {
+                "name": "Whole Foods Trading",
+                "num": 1,
+                "val": "1131-2",
+                "id": 55331
+            },
+            {
+                "name": "Whole Foods Wine Store",
+                "num": 9,
+                "val": "1131-3",
+                "id": 55334
+            },
+            {
+                "name": "Whole Foods Wine & Spirits",
+                "num": 2,
+                "val": "1131-4",
+                "id": 55332
+            }
+        ]
+    },
+    "Convience": {
+        "7 Eleven": [{
+                "name": "7 Eleven",
+                "num": 0,
+                "val": 1132,
+                "id": 0
+            },
+            {
+                "name": "7 Eleven",
+                "num": 7748,
+                "val": "1132-1",
+                "id": 16170
+            }
+        ],
+        "A Plus": [{
+                "name": "A Plus",
+                "num": 0,
+                "val": 1133,
+                "id": 0
+            },
+            {
+                "name": "A Plus",
+                "num": 195,
+                "val": "1133-1",
+                "id": 34083
+            }
+        ],
+        "Ampm": [{
+                "name": "Ampm",
+                "num": 0,
+                "val": 1134,
+                "id": 0
+            },
+            {
+                "name": "Ampm",
+                "num": 563,
+                "val": "1134-1",
+                "id": 17990
+            }
+        ],
+        "BP": [{
+                "name": "BP",
+                "num": 0,
+                "val": 1135,
+                "id": 0
+            },
+            {
+                "name": "BP",
+                "num": 735,
+                "val": "1135-1",
+                "id": 16985
+            }
+        ],
+        "Chevron": [{
+                "name": "Chevron",
+                "num": 0,
+                "val": 1136,
+                "id": 0
+            },
+            {
+                "name": "Chevron",
+                "num": 946,
+                "val": "1136-1",
+                "id": 16841
+            }
+        ],
+        "Circle K": [{
+                "name": "Circle K",
+                "num": 0,
+                "val": 1137,
+                "id": 0
+            },
+            {
+                "name": "Circle K",
+                "num": 1380,
+                "val": "1137-1",
+                "id": 16753
+            }
+        ],
+        "Citgo": [{
+                "name": "Citgo",
+                "num": 0,
+                "val": 1138,
+                "id": 0
+            },
+            {
+                "name": "Citgo",
+                "num": 269,
+                "val": "1138-1",
+                "id": 16946
+            }
+        ],
+        "Diamond Shamrock Corner Store": [{
+                "name": "Diamond Shamrock Corner Store",
+                "num": 0,
+                "val": 1139,
+                "id": 0
+            },
+            {
+                "name": "Diamond Shamrock Corner Store",
+                "num": 93,
+                "val": "1139-1",
+                "id": 17705
+            }
+        ],
+        "Exxon": [{
+                "name": "Exxon",
+                "num": 0,
+                "val": 1140,
+                "id": 0
+            },
+            {
+                "name": "Exxon",
+                "num": 258,
+                "val": "1140-1",
+                "id": 16961
+            }
+        ],
+        "Holiday": [{
+                "name": "Holiday",
+                "num": 0,
+                "val": 1141,
+                "id": 0
+            },
+            {
+                "name": "Holiday",
+                "num": 108,
+                "val": "1141-1",
+                "id": 20250
+            }
+        ],
+        "Kum & Go": [{
+                "name": "Kum & Go",
+                "num": 0,
+                "val": 1142,
+                "id": 0
+            },
+            {
+                "name": "Kum & Go",
+                "num": 148,
+                "val": "1142-1",
+                "id": 17334
+            }
+        ],
+        "Kwik Trip": [{
+                "name": "Kwik Trip",
+                "num": 0,
+                "val": 1143,
+                "id": 0
+            },
+            {
+                "name": "Kwik Trip",
+                "num": 93,
+                "val": "1143-1",
+                "id": 17419
+            }
+        ],
+        "Marathon": [{
+                "name": "Marathon",
+                "num": 0,
+                "val": 1144,
+                "id": 0
+            },
+            {
+                "name": "Marathon",
+                "num": 476,
+                "val": "1144-1",
+                "id": 16951
+            }
+        ],
+        "Mobil": [{
+                "name": "Mobil",
+                "num": 0,
+                "val": 1145,
+                "id": 0
+            },
+            {
+                "name": "Mobil",
+                "num": 418,
+                "val": "1145-1",
+                "id": 17205
+            }
+        ],
+        "Murphy": [{
+                "name": "Murphy",
+                "num": 0,
+                "val": 1146,
+                "id": 0
+            },
+            {
+                "name": "Murphy",
+                "num": 439,
+                "val": "1146-1",
+                "id": 33454
+            }
+        ],
+        "Phillips 66": [{
+                "name": "Phillips 66",
+                "num": 0,
+                "val": 1147,
+                "id": 0
+            },
+            {
+                "name": "Phillips 66",
+                "num": 88,
+                "val": "1147-1",
+                "id": 22892
+            }
+        ],
+        "Raceway": [{
+                "name": "Raceway",
+                "num": 0,
+                "val": 1148,
+                "id": 0
+            },
+            {
+                "name": "Raceway",
+                "num": 101,
+                "val": "1148-1",
+                "id": 17035
+            }
+        ],
+        "Shell": [{
+                "name": "Shell",
+                "num": 0,
+                "val": 1149,
+                "id": 0
+            },
+            {
+                "name": "Shell",
+                "num": 1040,
+                "val": "1149-1",
+                "id": 17413
+            }
+        ],
+        "Speedway": [{
+                "name": "Speedway",
+                "num": 0,
+                "val": 1150,
+                "id": 0
+            },
+            {
+                "name": "Speedway",
+                "num": 1591,
+                "val": "1150-1",
+                "id": 16741
+            }
+        ],
+        "Sunoco": [{
+                "name": "Sunoco",
+                "num": 0,
+                "val": 1151,
+                "id": 0
+            },
+            {
+                "name": "Sunoco",
+                "num": 269,
+                "val": "1151-1",
+                "id": 16942
+            }
+        ],
+        "Superamerica": [{
+                "name": "Superamerica",
+                "num": 0,
+                "val": 1152,
+                "id": 0
+            },
+            {
+                "name": "Superamerica",
+                "num": 173,
+                "val": "1152-1",
+                "id": 17430
+            }
+        ],
+        "Texaco": [{
+                "name": "Texaco",
+                "num": 0,
+                "val": 1153,
+                "id": 0
+            },
+            {
+                "name": "Texaco",
+                "num": 129,
+                "val": "1153-1",
+                "id": 16851
+            }
+        ],
+        "Turkey Hill Minit Market": [{
+                "name": "Turkey Hill Minit Market",
+                "num": 0,
+                "val": 1154,
+                "id": 0
+            },
+            {
+                "name": "Turkey Hill Minit Market",
+                "num": 191,
+                "val": "1154-1",
+                "id": 16436
+            }
+        ],
+        "Valero": [{
+                "name": "Valero",
+                "num": 0,
+                "val": 1155,
+                "id": 0
+            },
+            {
+                "name": "Valero",
+                "num": 426,
+                "val": "1155-1",
+                "id": 17114
+            }
+        ],
+        "Independent C-Store": [{
+                "name": "Independent C-Store",
+                "num": 0,
+                "val": 1156,
+                "id": 0
+            },
+            {
+                "name": "Independent C-Store",
+                "num": 16504,
+                "val": "1156-1",
+                "id": 0
+            }
+        ]
+    },
+    "NatSpec": {
+        "AJs Fine Foods": [{
+                "name": "AJs Fine Foods",
+                "num": 0,
+                "val": 1157,
+                "id": 0
+            },
+            {
+                "name": "AJs Fine Foods",
+                "num": 11,
+                "val": "1157-1",
+                "id": 52300
+            }
+        ],
+        "Better Health Market": [{
+                "name": "Better Health Market",
+                "num": 0,
+                "val": 1158,
+                "id": 0
+            },
+            {
+                "name": "Better Health Market",
+                "num": 12,
+                "val": "1158-1",
+                "id": 0
+            }
+        ],
+        "Earth Fare": [{
+                "name": "Earth Fare",
+                "num": 0,
+                "val": 1159,
+                "id": 0
+            },
+            {
+                "name": "Earth Fare",
+                "num": 39,
+                "val": "1159-1",
+                "id": 0
+            }
+        ],
+        "Earth Origins Market": [{
+                "name": "Earth Origins Market",
+                "num": 0,
+                "val": 1160,
+                "id": 0
+            },
+            {
+                "name": "Earth Origins Market",
+                "num": 9,
+                "val": "1160-1",
+                "id": 0
+            }
+        ],
+        "Fairway Market": [{
+                "name": "Fairway Market",
+                "num": 0,
+                "val": 1161,
+                "id": 0
+            },
+            {
+                "name": "Fairway Market",
+                "num": 15,
+                "val": "1161-1",
+                "id": 0
+            }
+        ],
+        "Fruitful Yield": [{
+                "name": "Fruitful Yield",
+                "num": 0,
+                "val": 1162,
+                "id": 0
+            },
+            {
+                "name": "Fruitful Yield",
+                "num": 13,
+                "val": "1162-1",
+                "id": 0
+            }
+        ],
+        "H E B Central Market": [{
+                "name": "H E B Central Market",
+                "num": 0,
+                "val": 1163,
+                "id": 0
+            },
+            {
+                "name": "H E B Central Market",
+                "num": 9,
+                "val": "1163-1",
+                "id": 2583
+            }
+        ],
+        "Luckys Market": [{
+                "name": "Luckys Market",
+                "num": 0,
+                "val": 1164,
+                "id": 0
+            },
+            {
+                "name": "Luckys Market",
+                "num": 16,
+                "val": "1164-1",
+                "id": 0
+            }
+        ],
+        "Lunardis Supermarket": [{
+                "name": "Lunardis Supermarket",
+                "num": 0,
+                "val": 1165,
+                "id": 0
+            },
+            {
+                "name": "Lunardis Supermarket",
+                "num": 8,
+                "val": "1165-1",
+                "id": 0
+            }
+        ],
+        "Market Of Choice": [{
+                "name": "Market Of Choice",
+                "num": 0,
+                "val": 1166,
+                "id": 0
+            },
+            {
+                "name": "Market Of Choice",
+                "num": 11,
+                "val": "1166-1",
+                "id": 3394
+            }
+        ],
+        "Mollie Stones Market": [{
+                "name": "Mollie Stones Market",
+                "num": 0,
+                "val": 1167,
+                "id": 0
+            },
+            {
+                "name": "Mollie Stones Market",
+                "num": 9,
+                "val": "1167-1",
+                "id": 0
+            }
+        ],
+        "MOMs Organic Market": [{
+                "name": "MOMs Organic Market",
+                "num": 0,
+                "val": 1168,
+                "id": 0
+            },
+            {
+                "name": "MOMs Organic Market",
+                "num": 17,
+                "val": "1168-1",
+                "id": 0
+            }
+        ],
+        "New Leaf Community Market": [{
+                "name": "New Leaf Community Market",
+                "num": 0,
+                "val": 1169,
+                "id": 0
+            },
+            {
+                "name": "New Leaf Community Market",
+                "num": 8,
+                "val": "1169-1",
+                "id": 0
+            }
+        ],
+        "New Seasons Market": [{
+                "name": "New Seasons Market",
+                "num": 0,
+                "val": 1170,
+                "id": 0
+            },
+            {
+                "name": "New Seasons Market",
+                "num": 21,
+                "val": "1170-1",
+                "id": 0
+            }
+        ],
+        "Nugget Market": [{
+                "name": "Nugget Market",
+                "num": 0,
+                "val": 1171,
+                "id": 0
+            },
+            {
+                "name": "Nugget Market",
+                "num": 12,
+                "val": "1171-1",
+                "id": 3359
+            }
+        ],
+        "Richards Whole Foods": [{
+                "name": "Richards Whole Foods",
+                "num": 0,
+                "val": 1172,
+                "id": 0
+            },
+            {
+                "name": "Richards Whole Foods",
+                "num": 11,
+                "val": "1172-1",
+                "id": 0
+            }
+        ],
+        "Rosauers Food & Drug": [{
+                "name": "Rosauers Food & Drug",
+                "num": 0,
+                "val": 1173,
+                "id": 0
+            },
+            {
+                "name": "Rosauers Food & Drug",
+                "num": 8,
+                "val": "1173-1",
+                "id": 2095
+            }
+        ],
+        "Super 1 Foods": [{
+                "name": "Super 1 Foods",
+                "num": 0,
+                "val": 1174,
+                "id": 0
+            },
+            {
+                "name": "Super 1 Foods",
+                "num": 10,
+                "val": "1174-1",
+                "id": 2098
+            }
+        ],
+        "Yes Organic Market": [{
+                "name": "Yes Organic Market",
+                "num": 0,
+                "val": 1175,
+                "id": 0
+            },
+            {
+                "name": "Yes Organic Market",
+                "num": 7,
+                "val": "1175-1",
+                "id": 0
+            }
+        ],
+        "Yokes Fresh Market": [{
+                "name": "Yokes Fresh Market",
+                "num": 0,
+                "val": 1176,
+                "id": 0
+            },
+            {
+                "name": "Yokes Fresh Market",
+                "num": 12,
+                "val": "1176-1",
+                "id": 4000
+            }
+        ]
+    }
+}

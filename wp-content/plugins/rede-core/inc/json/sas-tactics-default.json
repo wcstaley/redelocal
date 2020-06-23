@@ -1,0 +1,265 @@
+[{
+        "tactic": "Shelf Blade 4” x 6”",
+        "min": "1",
+        "max": "999",
+        "price": "8"
+    },
+    {
+        "tactic": "Shelf Blade 4” x 6”",
+        "min": "1000",
+        "max": "2499",
+        "price": "4.15"
+    },
+    {
+        "tactic": "Shelf Blade 4” x 6”",
+        "min": "2500",
+        "max": "4999",
+        "price": "3.60"
+    },
+    {
+        "tactic": "Shelf Blade 4” x 6”",
+        "min": "5000",
+        "max": "9999",
+        "price": "2.65"
+    },
+    {
+        "tactic": "Shelf Blade 4” x 6”",
+        "min": "10000",
+        "max": "14999",
+        "price": "2.20"
+    },
+    {
+        "tactic": "Shelf Blade 4” x 6”",
+        "min": "15000",
+        "max": "20000",
+        "price": "1.95"
+    },
+    {
+        "tactic": "Shelf Blade 4” x 12”",
+        "min": "1",
+        "max": "999",
+        "price": "8"
+    },
+    {
+        "tactic": "Shelf Blade 4” x 12”",
+        "min": "1000",
+        "max": "2499",
+        "price": "4.15"
+    },
+    {
+        "tactic": "Shelf Blade 4” x 12”",
+        "min": "2500",
+        "max": "4999",
+        "price": "3.6"
+    },
+    {
+        "tactic": "Shelf Blade 4” x 12”",
+        "min": "5000",
+        "max": "9999",
+        "price": "2.65"
+    },
+    {
+        "tactic": "Shelf Blade 4” x 12”",
+        "min": "10000",
+        "max": "14999",
+        "price": "2.2"
+    },
+    {
+        "tactic": "Shelf Blade 4” x 12”",
+        "min": "15000",
+        "max": "20000",
+        "price": "1.95"
+    },
+    {
+        "tactic": "Dangler 3” x 5”",
+        "min": "1",
+        "max": "999",
+        "price": "5"
+    },
+    {
+        "tactic": "Dangler 3” x 5”",
+        "min": "1000",
+        "max": "2499",
+        "price": "2.45"
+    },
+    {
+        "tactic": "Dangler 3” x 5”",
+        "min": "2500",
+        "max": "4999",
+        "price": "1.25"
+    },
+    {
+        "tactic": "Dangler 3” x 5”",
+        "min": "5000",
+        "max": "9999",
+        "price": ".95"
+    },
+    {
+        "tactic": "Dangler 3” x 5”",
+        "min": "10000",
+        "max": "14999",
+        "price": ".80"
+    },
+    {
+        "tactic": "Dangler 3” x 5”",
+        "min": "15000",
+        "max": "20000",
+        "price": ".60"
+    },
+    {
+        "tactic": "Sticker",
+        "min": "40000",
+        "max": "49999",
+        "price": ".13"
+    },
+    {
+        "tactic": "Sticker",
+        "min": "50000",
+        "max": "69999",
+        "price": ".12"
+    },
+    {
+        "tactic": "Sticker",
+        "min": "70000",
+        "max": "99999",
+        "price": ".09"
+    },
+    {
+        "tactic": "Sticker",
+        "min": "100000",
+        "max": "149999",
+        "price": ".08"
+    },
+    {
+        "tactic": "Sticker",
+        "min": "150000",
+        "max": "199999",
+        "price": ".07"
+    },
+    {
+        "tactic": "Sticker",
+        "min": "200000",
+        "max": "249999",
+        "price": ".06"
+    },
+    {
+        "tactic": "Sticker",
+        "min": "250000",
+        "max": "299999",
+        "price": ".05"
+    },
+    {
+        "tactic": "Sticker",
+        "min": "300000",
+        "max": "399999",
+        "price": ".04"
+    },
+    {
+        "tactic": "Sticker",
+        "min": "400000",
+        "max": "100000000",
+        "price": ".04"
+    },
+    {
+        "tactic": "Necker",
+        "min": "40000",
+        "max": "49999",
+        "price": ".27"
+    },
+    {
+        "tactic": "Necker",
+        "min": "50000",
+        "max": "69999",
+        "price": ".26"
+    },
+    {
+        "tactic": "Necker",
+        "min": "70000",
+        "max": "99999",
+        "price": ".18"
+    },
+    {
+        "tactic": "Necker",
+        "min": "100000",
+        "max": "14999",
+        "price": ".16"
+    },
+    {
+        "tactic": "Necker",
+        "min": "150000",
+        "max": "199999",
+        "price": ".14"
+    },
+    {
+        "tactic": "Necker",
+        "min": "200000",
+        "max": "249999",
+        "price": ".12"
+    },
+    {
+        "tactic": "Necker",
+        "min": "250000",
+        "max": "299999",
+        "price": ".11"
+    },
+    {
+        "tactic": "Necker",
+        "min": "300000",
+        "max": "399999",
+        "price": ".10"
+    },
+    {
+        "tactic": "Necker",
+        "min": "400000",
+        "max": "499999",
+        "price": ".10"
+    },
+    {
+        "tactic": "Hang Tag",
+        "min": "40000",
+        "max": "49999",
+        "price": ".24"
+    },
+    {
+        "tactic": "Hang Tag",
+        "min": "50000",
+        "max": "69999",
+        "price": ".23"
+    },
+    {
+        "tactic": "Hang Tag",
+        "min": "70000",
+        "max": "99999",
+        "price": ".17"
+    },
+    {
+        "tactic": "Hang Tag",
+        "min": "100000",
+        "max": "149999",
+        "price": ".15"
+    },
+    {
+        "tactic": "Hang Tag",
+        "min": "150000",
+        "max": "199999",
+        "price": ".13"
+    },
+    {
+        "tactic": "Hang Tag",
+        "min": "200000",
+        "max": "299999",
+        "price": ".10"
+    },
+    {
+        "tactic": "Hang Tag",
+        "min": "300000",
+        "max": "399999",
+        "price": ".09"
+    },
+    {
+        "tactic": "Hang Tag",
+        "min": "400000",
+        "max": "499999",
+        "price": ".08"
+    }
+]

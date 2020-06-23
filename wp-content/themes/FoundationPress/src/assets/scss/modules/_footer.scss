@@ -1,0 +1,32 @@
+.footer-container {
+  background: #419639;
+  color: $white;
+
+  .footer-bottom {
+    margin: 20px 60px;
+    font-size: 14px;
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    @include breakpoint(small) {
+      .text-right {
+        margin-top: 20px;
+        text-align: center;
+      }
+      .footer-links {
+        text-align: center;
+      }
+    }
+    @include breakpoint(medium) {
+      .text-right {
+        margin-top: 0;
+        text-align: right;
+      }
+      .footer-links {
+        text-align: left;
+      }
+    }
+  }
+}

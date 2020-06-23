@@ -1,0 +1,68 @@
+.page-template-order-invoice {
+
+	header {
+		position: relative;
+
+		.pdf-download {
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+	}
+
+
+	.detail-container {
+		.columns {
+			padding-left: 2px;
+		}
+	}
+
+	ul {
+		margin:0;
+		
+		li {
+			list-style: none;
+
+			&.list-header {
+				background: $brand-red;
+				color: #fff;
+				text-transform: uppercase;
+				padding: 2px 5px;
+				font-weight: 500;
+			}
+		}
+	}
+
+	table {
+
+		width: auto;
+		@include breakpoint(small) {
+			
+			width: 100%;
+		}
+		margin-top: 20px;
+
+		th {
+			    color: $brand-dark-gray;
+		}
+
+		tr {
+
+			&.sub-total-group,
+			&.invoice-item,
+			&.total-group {
+				td {
+					text-align: right;
+
+					&:first-child {
+						text-align: left;
+					}
+
+					&.text-center {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}

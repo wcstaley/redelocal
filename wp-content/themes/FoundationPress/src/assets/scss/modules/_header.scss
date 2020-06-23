@@ -1,0 +1,47 @@
+.site-header {
+	background: #fff;
+}
+
+.front-hero {
+	position: relative;
+
+	#head_text {
+		h5{
+			color: #fff;
+			font-weight: 500;
+		}
+
+		color: #fff;
+		position: absolute;
+		left: 40%;
+		top: 0;
+		width: 50%;
+		font-size: 12px;
+		display: none;
+
+		p {
+			line-height: 1.2;
+		}
+
+		@include breakpoint(medium) {
+			display: block;
+		}
+
+		@include breakpoint(750) {
+			top: 10%;
+		}
+
+		@include breakpoint(850) {
+			top: 15%;
+			p {
+				line-height: 1.4;
+			}
+		}
+
+		@include breakpoint(large) {
+			top: 20%;
+			font-size: 14px;
+		}
+
+	}
+}

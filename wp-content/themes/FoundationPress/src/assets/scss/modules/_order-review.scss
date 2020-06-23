@@ -1,0 +1,44 @@
+.page-template-message-center {
+	.order-overview {
+		position: relative;
+
+		.columns.large-12 {
+			margin-bottom: 15px;
+			
+			p:first-child {
+				font-weight: 500;
+			}
+			p {
+				margin-bottom: 0;
+			}
+		}
+
+		.order-edit-link {
+			position: absolute;
+			top: 9px;
+    		left: 185px;
+    		color: #555;
+    		font-size: .7rem;
+
+    		a {
+    			margin-right: 10px;
+    			font-size: 1rem;
+
+    			&:hover {
+    				text-decoration: underline;
+    			}
+    		}
+		}
+	}
+
+	.modal-dialog {
+		.modal-header {
+			.modal-title {
+				font-size: 18px;
+				font-weight: 500;
+				color: #fff;
+				padding: 10px;
+			}
+		}
+	}
+}

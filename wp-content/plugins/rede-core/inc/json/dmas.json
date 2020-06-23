@@ -1,0 +1,6356 @@
+{  
+   "CVS":[  
+      {  
+         "name":"Abilene-Sweetwater, TX (7)",
+         "count":7,
+         "val":"CVS - Abilene-Sweetwater, TX",
+         "location":"Abilene-Sweetwater, TX"
+      },
+      {  
+         "name":"Albany, GA (10)",
+         "count":10,
+         "val":"CVS - Albany, GA",
+         "location":"Albany, GA"
+      },
+      {  
+         "name":"Albany-Schenectady-Troy, NY (58)",
+         "count":58,
+         "val":"CVS - Albany-Schenectady-Troy, NY",
+         "location":"Albany-Schenectady-Troy, NY"
+      },
+      {  
+         "name":"Albuquerque-Santa Fe, NM (17)",
+         "count":17,
+         "val":"CVS - Albuquerque-Santa Fe, NM",
+         "location":"Albuquerque-Santa Fe, NM"
+      },
+      {  
+         "name":"Alexandria, LA (5)",
+         "count":5,
+         "val":"CVS - Alexandria, LA",
+         "location":"Alexandria, LA"
+      },
+      {  
+         "name":"Amarillo, TX (8)",
+         "count":8,
+         "val":"CVS - Amarillo, TX",
+         "location":"Amarillo, TX"
+      },
+      {  
+         "name":"Atlanta, GA (210)",
+         "count":210,
+         "val":"CVS - Atlanta, GA",
+         "location":"Atlanta, GA"
+      },
+      {  
+         "name":"Augusta, GA (23)",
+         "count":23,
+         "val":"CVS - Augusta, GA",
+         "location":"Augusta, GA"
+      },
+      {  
+         "name":"Austin, TX (50)",
+         "count":50,
+         "val":"CVS - Austin, TX",
+         "location":"Austin, TX"
+      },
+      {  
+         "name":"Bakersfield, CA (10)",
+         "count":10,
+         "val":"CVS - Bakersfield, CA",
+         "location":"Bakersfield, CA"
+      },
+      {  
+         "name":"Baltimore, MD (68)",
+         "count":68,
+         "val":"CVS - Baltimore, MD",
+         "location":"Baltimore, MD"
+      },
+      {  
+         "name":"Baton Rouge, LA (24)",
+         "count":24,
+         "val":"CVS - Baton Rouge, LA",
+         "location":"Baton Rouge, LA"
+      },
+      {  
+         "name":"Beaumont-Port Arthur, TX (11)",
+         "count":11,
+         "val":"CVS - Beaumont-Port Arthur, TX",
+         "location":"Beaumont-Port Arthur, TX"
+      },
+      {  
+         "name":"Billings, MT (6)",
+         "count":6,
+         "val":"CVS - Billings, MT",
+         "location":"Billings, MT"
+      },
+      {  
+         "name":"Biloxi-Gulfport, MS (7)",
+         "count":7,
+         "val":"CVS - Biloxi-Gulfport, MS",
+         "location":"Biloxi-Gulfport, MS"
+      },
+      {  
+         "name":"Binghamton, NY (18)",
+         "count":18,
+         "val":"CVS - Binghamton, NY",
+         "location":"Binghamton, NY"
+      },
+      {  
+         "name":"Birmingham (Anniston and Tuscaloosa), AL (74)",
+         "count":74,
+         "val":"CVS - Birmingham (Anniston and Tuscaloosa), AL",
+         "location":"Birmingham (Anniston and Tuscaloosa), AL"
+      },
+      {  
+         "name":"Bluefield-Beckley-Oak Hill, WV (14)",
+         "count":14,
+         "val":"CVS - Bluefield-Beckley-Oak Hill, WV",
+         "location":"Bluefield-Beckley-Oak Hill, WV"
+      },
+      {  
+         "name":"Boston, MA (Manchester, NH) (321)",
+         "count":321,
+         "val":"CVS - Boston, MA (Manchester, NH)",
+         "location":"Boston, MA (Manchester, NH)"
+      },
+      {  
+         "name":"Bowling Green, KY (3)",
+         "count":3,
+         "val":"CVS - Bowling Green, KY",
+         "location":"Bowling Green, KY"
+      },
+      {  
+         "name":"Bristol-Kingsport-Johnson City (25)",
+         "count":25,
+         "val":"CVS - Bristol-Kingsport-Johnson City",
+         "location":"Bristol-Kingsport-Johnson City"
+      },
+      {  
+         "name":"Buffalo, NY (25)",
+         "count":25,
+         "val":"CVS - Buffalo, NY",
+         "location":"Buffalo, NY"
+      },
+      {  
+         "name":"Burlington, VT Plattsburgh, NY (13)",
+         "count":13,
+         "val":"CVS - Burlington, VT Plattsburgh, NY",
+         "location":"Burlington, VT Plattsburgh, NY"
+      },
+      {  
+         "name":"Butte-Bozeman, MT (3)",
+         "count":3,
+         "val":"CVS - Butte-Bozeman, MT",
+         "location":"Butte-Bozeman, MT"
+      },
+      {  
+         "name":"Cedar Rapids-Waterloo-Iowa City-Dubuque, IA (9)",
+         "count":9,
+         "val":"CVS - Cedar Rapids-Waterloo-Iowa City-Dubuque, IA",
+         "location":"Cedar Rapids-Waterloo-Iowa City-Dubuque, IA"
+      },
+      {  
+         "name":"Champaign-Springfield Decatur, IL (31)",
+         "count":31,
+         "val":"CVS - Champaign-Springfield Decatur, IL",
+         "location":"Champaign-Springfield Decatur, IL"
+      },
+      {  
+         "name":"Charleston, SC (41)",
+         "count":41,
+         "val":"CVS - Charleston, SC",
+         "location":"Charleston, SC"
+      },
+      {  
+         "name":"Charleston-Huntington, WV (27)",
+         "count":27,
+         "val":"CVS - Charleston-Huntington, WV",
+         "location":"Charleston-Huntington, WV"
+      },
+      {  
+         "name":"Charlotte, NC (116)",
+         "count":116,
+         "val":"CVS - Charlotte, NC",
+         "location":"Charlotte, NC"
+      },
+      {  
+         "name":"Charlottesville, VA (8)",
+         "count":8,
+         "val":"CVS - Charlottesville, VA",
+         "location":"Charlottesville, VA"
+      },
+      {  
+         "name":"Chattanooga, TN (29)",
+         "count":29,
+         "val":"CVS - Chattanooga, TN",
+         "location":"Chattanooga, TN"
+      },
+      {  
+         "name":"Chicago, IL (203)",
+         "count":203,
+         "val":"CVS - Chicago, IL",
+         "location":"Chicago, IL"
+      },
+      {  
+         "name":"Chico-Redding, CA (12)",
+         "count":12,
+         "val":"CVS - Chico-Redding, CA",
+         "location":"Chico-Redding, CA"
+      },
+      {  
+         "name":"Cincinnati, OH (68)",
+         "count":68,
+         "val":"CVS - Cincinnati, OH",
+         "location":"Cincinnati, OH"
+      },
+      {  
+         "name":"Clarksburg-Weston, WV (7)",
+         "count":7,
+         "val":"CVS - Clarksburg-Weston, WV",
+         "location":"Clarksburg-Weston, WV"
+      },
+      {  
+         "name":"Cleveland-Akron (Canton), OH (115)",
+         "count":115,
+         "val":"CVS - Cleveland-Akron (Canton), OH",
+         "location":"Cleveland-Akron (Canton), OH"
+      },
+      {  
+         "name":"Colorado Springs-Pueblo, CO (1)",
+         "count":1,
+         "val":"CVS - Colorado Springs-Pueblo, CO",
+         "location":"Colorado Springs-Pueblo, CO"
+      },
+      {  
+         "name":"Columbia, SC (37)",
+         "count":37,
+         "val":"CVS - Columbia, SC",
+         "location":"Columbia, SC"
+      },
+      {  
+         "name":"Columbus, GA (18)",
+         "count":18,
+         "val":"CVS - Columbus, GA",
+         "location":"Columbus, GA"
+      },
+      {  
+         "name":"Columbus, OH (83)",
+         "count":83,
+         "val":"CVS - Columbus, OH",
+         "location":"Columbus, OH"
+      },
+      {  
+         "name":"Columbus-Tupelo-West Point, MS (4)",
+         "count":4,
+         "val":"CVS - Columbus-Tupelo-West Point, MS",
+         "location":"Columbus-Tupelo-West Point, MS"
+      },
+      {  
+         "name":"Corpus Christi, TX (17)",
+         "count":17,
+         "val":"CVS - Corpus Christi, TX",
+         "location":"Corpus Christi, TX"
+      },
+      {  
+         "name":"Dallas-Ft. Worth, TX (230)",
+         "count":230,
+         "val":"CVS - Dallas-Ft. Worth, TX",
+         "location":"Dallas-Ft. Worth, TX"
+      },
+      {  
+         "name":"Davenport, IA Rock Island Moline, IL (8)",
+         "count":8,
+         "val":"CVS - Davenport, IA Rock Island Moline, IL",
+         "location":"Davenport, IA Rock Island Moline, IL"
+      },
+      {  
+         "name":"Dayton, OH (36)",
+         "count":36,
+         "val":"CVS - Dayton, OH",
+         "location":"Dayton, OH"
+      },
+      {  
+         "name":"Denver, CO (4)",
+         "count":4,
+         "val":"CVS - Denver, CO",
+         "location":"Denver, CO"
+      },
+      {  
+         "name":"Des Moines-Ames, IA (7)",
+         "count":7,
+         "val":"CVS - Des Moines-Ames, IA",
+         "location":"Des Moines-Ames, IA"
+      },
+      {  
+         "name":"Detroit, MI (224)",
+         "count":224,
+         "val":"CVS - Detroit, MI",
+         "location":"Detroit, MI"
+      },
+      {  
+         "name":"Dothan, AL (6)",
+         "count":6,
+         "val":"CVS - Dothan, AL",
+         "location":"Dothan, AL"
+      },
+      {  
+         "name":"Duluth-Superior, MN (3)",
+         "count":3,
+         "val":"CVS - Duluth-Superior, MN",
+         "location":"Duluth-Superior, MN"
+      },
+      {  
+         "name":"El Paso (Las Cruces), TX (11)",
+         "count":11,
+         "val":"CVS - El Paso (Las Cruces), TX",
+         "location":"El Paso (Las Cruces), TX"
+      },
+      {  
+         "name":"Elmira (Corning), NY (5)",
+         "count":5,
+         "val":"CVS - Elmira (Corning), NY",
+         "location":"Elmira (Corning), NY"
+      },
+      {  
+         "name":"Erie, PA (12)",
+         "count":12,
+         "val":"CVS - Erie, PA",
+         "location":"Erie, PA"
+      },
+      {  
+         "name":"Eureka, CA (5)",
+         "count":5,
+         "val":"CVS - Eureka, CA",
+         "location":"Eureka, CA"
+      },
+      {  
+         "name":"Evansville, IN (27)",
+         "count":27,
+         "val":"CVS - Evansville, IN",
+         "location":"Evansville, IN"
+      },
+      {  
+         "name":"Fargo-Valley City, ND (6)",
+         "count":6,
+         "val":"CVS - Fargo-Valley City, ND",
+         "location":"Fargo-Valley City, ND"
+      },
+      {  
+         "name":"Flint-Saginaw-Bay City, MI (5)",
+         "count":5,
+         "val":"CVS - Flint-Saginaw-Bay City, MI",
+         "location":"Flint-Saginaw-Bay City, MI"
+      },
+      {  
+         "name":"Fresno-Visalia, CA (42)",
+         "count":42,
+         "val":"CVS - Fresno-Visalia, CA",
+         "location":"Fresno-Visalia, CA"
+      },
+      {  
+         "name":"Ft. Myers-Naples, FL (50)",
+         "count":50,
+         "val":"CVS - Ft. Myers-Naples, FL",
+         "location":"Ft. Myers-Naples, FL"
+      },
+      {  
+         "name":"Ft. Smith Fay-Spmgdl-Rgrs, AR (5)",
+         "count":5,
+         "val":"CVS - Ft. Smith Fay-Spmgdl-Rgrs, AR",
+         "location":"Ft. Smith Fay-Spmgdl-Rgrs, AR"
+      },
+      {  
+         "name":"Ft. Wayne, IN (29)",
+         "count":29,
+         "val":"CVS - Ft. Wayne, IN",
+         "location":"Ft. Wayne, IN"
+      },
+      {  
+         "name":"Gainesville, FL (17)",
+         "count":17,
+         "val":"CVS - Gainesville, FL",
+         "location":"Gainesville, FL"
+      },
+      {  
+         "name":"Grand Rapids-Kalamazoo-Battle Creek, MI (11)",
+         "count":11,
+         "val":"CVS - Grand Rapids-Kalamazoo-Battle Creek, MI",
+         "location":"Grand Rapids-Kalamazoo-Battle Creek, MI"
+      },
+      {  
+         "name":"Great Falls, MT (1)",
+         "count":1,
+         "val":"CVS - Great Falls, MT",
+         "location":"Great Falls, MT"
+      },
+      {  
+         "name":"Green Bay-Appleton, WI (12)",
+         "count":12,
+         "val":"CVS - Green Bay-Appleton, WI",
+         "location":"Green Bay-Appleton, WI"
+      },
+      {  
+         "name":"Greensboro-High Point-Winston-Salem, NC (60)",
+         "count":60,
+         "val":"CVS - Greensboro-High Point-Winston-Salem, NC",
+         "location":"Greensboro-High Point-Winston-Salem, NC"
+      },
+      {  
+         "name":"Greenville-New Bern-Washington, NC (18)",
+         "count":18,
+         "val":"CVS - Greenville-New Bern-Washington, NC",
+         "location":"Greenville-New Bern-Washington, NC"
+      },
+      {  
+         "name":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC (88)",
+         "count":88,
+         "val":"CVS - Greenville-Spartanburg, SC Asheville, NC Anderson, SC",
+         "location":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC"
+      },
+      {  
+         "name":"Greenwood-Greenville, MS (3)",
+         "count":3,
+         "val":"CVS - Greenwood-Greenville, MS",
+         "location":"Greenwood-Greenville, MS"
+      },
+      {  
+         "name":"Harlingen-Wslco-Brnsvl-McA, TX (23)",
+         "count":23,
+         "val":"CVS - Harlingen-Wslco-Brnsvl-McA, TX",
+         "location":"Harlingen-Wslco-Brnsvl-McA, TX"
+      },
+      {  
+         "name":"Harrisburg-Lancaster-Lebanon-York, PA (63)",
+         "count":63,
+         "val":"CVS - Harrisburg-Lancaster-Lebanon-York, PA",
+         "location":"Harrisburg-Lancaster-Lebanon-York, PA"
+      },
+      {  
+         "name":"Harrisonburg, VA (7)",
+         "count":7,
+         "val":"CVS - Harrisonburg, VA",
+         "location":"Harrisonburg, VA"
+      },
+      {  
+         "name":"Hartford And New Haven, CT (110)",
+         "count":110,
+         "val":"CVS - Hartford And New Haven, CT",
+         "location":"Hartford And New Haven, CT"
+      },
+      {  
+         "name":"Hattiesburg-Laurel, MS (4)",
+         "count":4,
+         "val":"CVS - Hattiesburg-Laurel, MS",
+         "location":"Hattiesburg-Laurel, MS"
+      },
+      {  
+         "name":"Helena, MT (3)",
+         "count":3,
+         "val":"CVS - Helena, MT",
+         "location":"Helena, MT"
+      },
+      {  
+         "name":"Houston, TX (187)",
+         "count":187,
+         "val":"CVS - Houston, TX",
+         "location":"Houston, TX"
+      },
+      {  
+         "name":"Huntsville-Decatur (Florence), AL (25)",
+         "count":25,
+         "val":"CVS - Huntsville-Decatur (Florence), AL",
+         "location":"Huntsville-Decatur (Florence), AL"
+      },
+      {  
+         "name":"Indianapolis, IN (154)",
+         "count":154,
+         "val":"CVS - Indianapolis, IN",
+         "location":"Indianapolis, IN"
+      },
+      {  
+         "name":"Jackson, MS (22)",
+         "count":22,
+         "val":"CVS - Jackson, MS",
+         "location":"Jackson, MS"
+      },
+      {  
+         "name":"Jackson, TN (2)",
+         "count":2,
+         "val":"CVS - Jackson, TN",
+         "location":"Jackson, TN"
+      },
+      {  
+         "name":"Jacksonville, FL (56)",
+         "count":56,
+         "val":"CVS - Jacksonville, FL",
+         "location":"Jacksonville, FL"
+      },
+      {  
+         "name":"Johnstown-Altoona, PA (13)",
+         "count":13,
+         "val":"CVS - Johnstown-Altoona, PA",
+         "location":"Johnstown-Altoona, PA"
+      },
+      {  
+         "name":"Jonesboro, AR (2)",
+         "count":2,
+         "val":"CVS - Jonesboro, AR",
+         "location":"Jonesboro, AR"
+      },
+      {  
+         "name":"Joplin-Pittsburg (1)",
+         "count":1,
+         "val":"CVS - Joplin-Pittsburg",
+         "location":"Joplin-Pittsburg"
+      },
+      {  
+         "name":"Kansas City, MO (77)",
+         "count":77,
+         "val":"CVS - Kansas City, MO",
+         "location":"Kansas City, MO"
+      },
+      {  
+         "name":"Knoxville, TN (34)",
+         "count":34,
+         "val":"CVS - Knoxville, TN",
+         "location":"Knoxville, TN"
+      },
+      {  
+         "name":"Lafayette, IN (7)",
+         "count":7,
+         "val":"CVS - Lafayette, IN",
+         "location":"Lafayette, IN"
+      },
+      {  
+         "name":"Lafayette, LA (19)",
+         "count":19,
+         "val":"CVS - Lafayette, LA",
+         "location":"Lafayette, LA"
+      },
+      {  
+         "name":"Lake Charles, LA (4)",
+         "count":4,
+         "val":"CVS - Lake Charles, LA",
+         "location":"Lake Charles, LA"
+      },
+      {  
+         "name":"Lansing, MI (6)",
+         "count":6,
+         "val":"CVS - Lansing, MI",
+         "location":"Lansing, MI"
+      },
+      {  
+         "name":"Laredo, TX (2)",
+         "count":2,
+         "val":"CVS - Laredo, TX",
+         "location":"Laredo, TX"
+      },
+      {  
+         "name":"Las Vegas, NV (63)",
+         "count":63,
+         "val":"CVS - Las Vegas, NV",
+         "location":"Las Vegas, NV"
+      },
+      {  
+         "name":"Lexington, KY (20)",
+         "count":20,
+         "val":"CVS - Lexington, KY",
+         "location":"Lexington, KY"
+      },
+      {  
+         "name":"Lima, OH (2)",
+         "count":2,
+         "val":"CVS - Lima, OH",
+         "location":"Lima, OH"
+      },
+      {  
+         "name":"Lincoln-Hastings-Kearney, NE (9)",
+         "count":9,
+         "val":"CVS - Lincoln-Hastings-Kearney, NE",
+         "location":"Lincoln-Hastings-Kearney, NE"
+      },
+      {  
+         "name":"Little Rock-Pine Bluff, AR (7)",
+         "count":7,
+         "val":"CVS - Little Rock-Pine Bluff, AR",
+         "location":"Little Rock-Pine Bluff, AR"
+      },
+      {  
+         "name":"Los Angeles, CA (407)",
+         "count":407,
+         "val":"CVS - Los Angeles, CA",
+         "location":"Los Angeles, CA"
+      },
+      {  
+         "name":"Louisville, KY (34)",
+         "count":34,
+         "val":"CVS - Louisville, KY",
+         "location":"Louisville, KY"
+      },
+      {  
+         "name":"Lubbock, TX (13)",
+         "count":13,
+         "val":"CVS - Lubbock, TX",
+         "location":"Lubbock, TX"
+      },
+      {  
+         "name":"Macon, GA (26)",
+         "count":26,
+         "val":"CVS - Macon, GA",
+         "location":"Macon, GA"
+      },
+      {  
+         "name":"Madison, WI (8)",
+         "count":8,
+         "val":"CVS - Madison, WI",
+         "location":"Madison, WI"
+      },
+      {  
+         "name":"Mankato, MN (2)",
+         "count":2,
+         "val":"CVS - Mankato, MN",
+         "location":"Mankato, MN"
+      },
+      {  
+         "name":"Memphis, TN (18)",
+         "count":18,
+         "val":"CVS - Memphis, TN",
+         "location":"Memphis, TN"
+      },
+      {  
+         "name":"Meridian, MS (2)",
+         "count":2,
+         "val":"CVS - Meridian, MS",
+         "location":"Meridian, MS"
+      },
+      {  
+         "name":"Miami-Ft. Lauderdale, FL (168)",
+         "count":168,
+         "val":"CVS - Miami-Ft. Lauderdale, FL",
+         "location":"Miami-Ft. Lauderdale, FL"
+      },
+      {  
+         "name":"Milwaukee, WI (27)",
+         "count":27,
+         "val":"CVS - Milwaukee, WI",
+         "location":"Milwaukee, WI"
+      },
+      {  
+         "name":"Minneapolis-St. Paul, MN (57)",
+         "count":57,
+         "val":"CVS - Minneapolis-St. Paul, MN",
+         "location":"Minneapolis-St. Paul, MN"
+      },
+      {  
+         "name":"Minot-Bismarck-Dickinson (Williston), ND (3)",
+         "count":3,
+         "val":"CVS - Minot-Bismarck-Dickinson (Williston), ND",
+         "location":"Minot-Bismarck-Dickinson (Williston), ND"
+      },
+      {  
+         "name":"Missoula, MT (1)",
+         "count":1,
+         "val":"CVS - Missoula, MT",
+         "location":"Missoula, MT"
+      },
+      {  
+         "name":"Mobile, AL Pensacola (Ft. Walton Beach), FL (51)",
+         "count":51,
+         "val":"CVS - Mobile, AL Pensacola (Ft. Walton Beach), FL",
+         "location":"Mobile, AL Pensacola (Ft. Walton Beach), FL"
+      },
+      {  
+         "name":"Monroe-El Dorado, LA (4)",
+         "count":4,
+         "val":"CVS - Monroe-El Dorado, LA",
+         "location":"Monroe-El Dorado, LA"
+      },
+      {  
+         "name":"Monterey-Salinas, CA (20)",
+         "count":20,
+         "val":"CVS - Monterey-Salinas, CA",
+         "location":"Monterey-Salinas, CA"
+      },
+      {  
+         "name":"Montgomery-Selma, AL (23)",
+         "count":23,
+         "val":"CVS - Montgomery-Selma, AL",
+         "location":"Montgomery-Selma, AL"
+      },
+      {  
+         "name":"Myrtle Beach-Florence, SC (28)",
+         "count":28,
+         "val":"CVS - Myrtle Beach-Florence, SC",
+         "location":"Myrtle Beach-Florence, SC"
+      },
+      {  
+         "name":"Nashville, TN (46)",
+         "count":46,
+         "val":"CVS - Nashville, TN",
+         "location":"Nashville, TN"
+      },
+      {  
+         "name":"New Orleans, LA (54)",
+         "count":54,
+         "val":"CVS - New Orleans, LA",
+         "location":"New Orleans, LA"
+      },
+      {  
+         "name":"New York, NY (585)",
+         "count":585,
+         "val":"CVS - New York, NY",
+         "location":"New York, NY"
+      },
+      {  
+         "name":"Norfolk-Portsmouth-Newport News, VA (42)",
+         "count":42,
+         "val":"CVS - Norfolk-Portsmouth-Newport News, VA",
+         "location":"Norfolk-Portsmouth-Newport News, VA"
+      },
+      {  
+         "name":"Odessa-Midland, TX (7)",
+         "count":7,
+         "val":"CVS - Odessa-Midland, TX",
+         "location":"Odessa-Midland, TX"
+      },
+      {  
+         "name":"Oklahoma City, OK (37)",
+         "count":37,
+         "val":"CVS - Oklahoma City, OK",
+         "location":"Oklahoma City, OK"
+      },
+      {  
+         "name":"Omaha, NE (10)",
+         "count":10,
+         "val":"CVS - Omaha, NE",
+         "location":"Omaha, NE"
+      },
+      {  
+         "name":"Orlando-Daytona Beach-Melbourne, FL (137)",
+         "count":137,
+         "val":"CVS - Orlando-Daytona Beach-Melbourne, FL",
+         "location":"Orlando-Daytona Beach-Melbourne, FL"
+      },
+      {  
+         "name":"Paducah, KY Cape Girardeau, MO Harrisburg, IL (19)",
+         "count":19,
+         "val":"CVS - Paducah, KY Cape Girardeau, MO Harrisburg, IL",
+         "location":"Paducah, KY Cape Girardeau, MO Harrisburg, IL"
+      },
+      {  
+         "name":"Palm Springs, CA (27)",
+         "count":27,
+         "val":"CVS - Palm Springs, CA",
+         "location":"Palm Springs, CA"
+      },
+      {  
+         "name":"Panama City, FL (15)",
+         "count":15,
+         "val":"CVS - Panama City, FL",
+         "location":"Panama City, FL"
+      },
+      {  
+         "name":"Parkersburg, WV (6)",
+         "count":6,
+         "val":"CVS - Parkersburg, WV",
+         "location":"Parkersburg, WV"
+      },
+      {  
+         "name":"Peoria-Bloomington, IL (20)",
+         "count":20,
+         "val":"CVS - Peoria-Bloomington, IL",
+         "location":"Peoria-Bloomington, IL"
+      },
+      {  
+         "name":"Philadelphia, PA (307)",
+         "count":307,
+         "val":"CVS - Philadelphia, PA",
+         "location":"Philadelphia, PA"
+      },
+      {  
+         "name":"Phoenix (Prescott), AZ (126)",
+         "count":126,
+         "val":"CVS - Phoenix (Prescott), AZ",
+         "location":"Phoenix (Prescott), AZ"
+      },
+      {  
+         "name":"Pittsburgh, PA (59)",
+         "count":59,
+         "val":"CVS - Pittsburgh, PA",
+         "location":"Pittsburgh, PA"
+      },
+      {  
+         "name":"Portland-Auburn, ME (23)",
+         "count":23,
+         "val":"CVS - Portland-Auburn, ME",
+         "location":"Portland-Auburn, ME"
+      },
+      {  
+         "name":"Providence, RI New Bedford, MA (87)",
+         "count":87,
+         "val":"CVS - Providence, RI New Bedford, MA",
+         "location":"Providence, RI New Bedford, MA"
+      },
+      {  
+         "name":"Quincy, IL Hannibal, MO Keokuk, IA (3)",
+         "count":3,
+         "val":"CVS - Quincy, IL Hannibal, MO Keokuk, IA",
+         "location":"Quincy, IL Hannibal, MO Keokuk, IA"
+      },
+      {  
+         "name":"Raleigh-Durham (Fayetteville), NC (82)",
+         "count":82,
+         "val":"CVS - Raleigh-Durham (Fayetteville), NC",
+         "location":"Raleigh-Durham (Fayetteville), NC"
+      },
+      {  
+         "name":"Reno, NV (23)",
+         "count":23,
+         "val":"CVS - Reno, NV",
+         "location":"Reno, NV"
+      },
+      {  
+         "name":"Richmond-Petersburg, VA (55)",
+         "count":55,
+         "val":"CVS - Richmond-Petersburg, VA",
+         "location":"Richmond-Petersburg, VA"
+      },
+      {  
+         "name":"Roanoke-Lynchburg, VA (53)",
+         "count":53,
+         "val":"CVS - Roanoke-Lynchburg, VA",
+         "location":"Roanoke-Lynchburg, VA"
+      },
+      {  
+         "name":"Rochester, NY (23)",
+         "count":23,
+         "val":"CVS - Rochester, NY",
+         "location":"Rochester, NY"
+      },
+      {  
+         "name":"Rockford, IL (10)",
+         "count":10,
+         "val":"CVS - Rockford, IL",
+         "location":"Rockford, IL"
+      },
+      {  
+         "name":"Sacramnto-Stktn-Modesto, CA (82)",
+         "count":82,
+         "val":"CVS - Sacramnto-Stktn-Modesto, CA",
+         "location":"Sacramnto-Stktn-Modesto, CA"
+      },
+      {  
+         "name":"Salisbury, MD (10)",
+         "count":10,
+         "val":"CVS - Salisbury, MD",
+         "location":"Salisbury, MD"
+      },
+      {  
+         "name":"Salt Lake City, UT (13)",
+         "count":13,
+         "val":"CVS - Salt Lake City, UT",
+         "location":"Salt Lake City, UT"
+      },
+      {  
+         "name":"San Angelo, TX (2)",
+         "count":2,
+         "val":"CVS - San Angelo, TX",
+         "location":"San Angelo, TX"
+      },
+      {  
+         "name":"San Antonio, TX (61)",
+         "count":61,
+         "val":"CVS - San Antonio, TX",
+         "location":"San Antonio, TX"
+      },
+      {  
+         "name":"San Diego, CA (83)",
+         "count":83,
+         "val":"CVS - San Diego, CA",
+         "location":"San Diego, CA"
+      },
+      {  
+         "name":"San Francisco-Oak-San Jos, CA (168)",
+         "count":168,
+         "val":"CVS - San Francisco-Oak-San Jos, CA",
+         "location":"San Francisco-Oak-San Jos, CA"
+      },
+      {  
+         "name":"Santa Barbara-Santa Maria-San Luis Obispo, CA (24)",
+         "count":24,
+         "val":"CVS - Santa Barbara-Santa Maria-San Luis Obispo, CA",
+         "location":"Santa Barbara-Santa Maria-San Luis Obispo, CA"
+      },
+      {  
+         "name":"Savannah, GA (29)",
+         "count":29,
+         "val":"CVS - Savannah, GA",
+         "location":"Savannah, GA"
+      },
+      {  
+         "name":"Seattle-Tacoma, WA (12)",
+         "count":12,
+         "val":"CVS - Seattle-Tacoma, WA",
+         "location":"Seattle-Tacoma, WA"
+      },
+      {  
+         "name":"Sherman, TX Ada, OK (4)",
+         "count":4,
+         "val":"CVS - Sherman, TX Ada, OK",
+         "location":"Sherman, TX Ada, OK"
+      },
+      {  
+         "name":"Shreveport, LA (20)",
+         "count":20,
+         "val":"CVS - Shreveport, LA",
+         "location":"Shreveport, LA"
+      },
+      {  
+         "name":"Sioux City, IA (1)",
+         "count":1,
+         "val":"CVS - Sioux City, IA",
+         "location":"Sioux City, IA"
+      },
+      {  
+         "name":"South Bend-Elkhart, IN (33)",
+         "count":33,
+         "val":"CVS - South Bend-Elkhart, IN",
+         "location":"South Bend-Elkhart, IN"
+      },
+      {  
+         "name":"Springfield, MO (9)",
+         "count":9,
+         "val":"CVS - Springfield, MO",
+         "location":"Springfield, MO"
+      },
+      {  
+         "name":"Springfield-Holyoke, MA (34)",
+         "count":34,
+         "val":"CVS - Springfield-Holyoke, MA",
+         "location":"Springfield-Holyoke, MA"
+      },
+      {  
+         "name":"St. Joseph, MO (3)",
+         "count":3,
+         "val":"CVS - St. Joseph, MO",
+         "location":"St. Joseph, MO"
+      },
+      {  
+         "name":"St. Louis, MO (51)",
+         "count":51,
+         "val":"CVS - St. Louis, MO",
+         "location":"St. Louis, MO"
+      },
+      {  
+         "name":"Syracuse, NY (7)",
+         "count":7,
+         "val":"CVS - Syracuse, NY",
+         "location":"Syracuse, NY"
+      },
+      {  
+         "name":"Tallahassee, FLThomasville, GA (23)",
+         "count":23,
+         "val":"CVS - Tallahassee, FLThomasville, GA",
+         "location":"Tallahassee, FLThomasville, GA"
+      },
+      {  
+         "name":"Tampa-St. Petersburg (Sarasota), FL (163)",
+         "count":163,
+         "val":"CVS - Tampa-St. Petersburg (Sarasota), FL",
+         "location":"Tampa-St. Petersburg (Sarasota), FL"
+      },
+      {  
+         "name":"Terre Haute, IN (17)",
+         "count":17,
+         "val":"CVS - Terre Haute, IN",
+         "location":"Terre Haute, IN"
+      },
+      {  
+         "name":"Toledo, OH (11)",
+         "count":11,
+         "val":"CVS - Toledo, OH",
+         "location":"Toledo, OH"
+      },
+      {  
+         "name":"Topeka, KS (3)",
+         "count":3,
+         "val":"CVS - Topeka, KS",
+         "location":"Topeka, KS"
+      },
+      {  
+         "name":"Traverse City-Cadillac, MI (1)",
+         "count":1,
+         "val":"CVS - Traverse City-Cadillac, MI",
+         "location":"Traverse City-Cadillac, MI"
+      },
+      {  
+         "name":"Tucson (Sierra Vista), AZ (24)",
+         "count":24,
+         "val":"CVS - Tucson (Sierra Vista), AZ",
+         "location":"Tucson (Sierra Vista), AZ"
+      },
+      {  
+         "name":"Tulsa, OK (20)",
+         "count":20,
+         "val":"CVS - Tulsa, OK",
+         "location":"Tulsa, OK"
+      },
+      {  
+         "name":"Tyler-Longview (Lufkin And Nacogdoches), TX (15)",
+         "count":15,
+         "val":"CVS - Tyler-Longview (Lufkin And Nacogdoches), TX",
+         "location":"Tyler-Longview (Lufkin And Nacogdoches), TX"
+      },
+      {  
+         "name":"Utica, NY (3)",
+         "count":3,
+         "val":"CVS - Utica, NY",
+         "location":"Utica, NY"
+      },
+      {  
+         "name":"Victoria, TX (1)",
+         "count":1,
+         "val":"CVS - Victoria, TX",
+         "location":"Victoria, TX"
+      },
+      {  
+         "name":"WacoTemple-Bryan, TX (15)",
+         "count":15,
+         "val":"CVS - WacoTemple-Bryan, TX",
+         "location":"WacoTemple-Bryan, TX"
+      },
+      {  
+         "name":"Washington, DC (Hagerstown, MD) (288)",
+         "count":288,
+         "val":"CVS - Washington, DC (Hagerstown, MD)",
+         "location":"Washington, DC (Hagerstown, MD)"
+      },
+      {  
+         "name":"Wausau-Rhinelander, WI (2)",
+         "count":2,
+         "val":"CVS - Wausau-Rhinelander, WI",
+         "location":"Wausau-Rhinelander, WI"
+      },
+      {  
+         "name":"West Palm Beach-Ft. Pierce, FL (80)",
+         "count":80,
+         "val":"CVS - West Palm Beach-Ft. Pierce, FL",
+         "location":"West Palm Beach-Ft. Pierce, FL"
+      },
+      {  
+         "name":"Wheeling, WV Steubenville, OH (5)",
+         "count":5,
+         "val":"CVS - Wheeling, WV Steubenville, OH",
+         "location":"Wheeling, WV Steubenville, OH"
+      },
+      {  
+         "name":"Wichita Falls, TX Lawton, OK (6)",
+         "count":6,
+         "val":"CVS - Wichita Falls, TX Lawton, OK",
+         "location":"Wichita Falls, TX Lawton, OK"
+      },
+      {  
+         "name":"Wichita-Hutchinson Plus, KS (7)",
+         "count":7,
+         "val":"CVS - Wichita-Hutchinson Plus, KS",
+         "location":"Wichita-Hutchinson Plus, KS"
+      },
+      {  
+         "name":"Wilkes Barre-Scranton, PA (60)",
+         "count":60,
+         "val":"CVS - Wilkes Barre-Scranton, PA",
+         "location":"Wilkes Barre-Scranton, PA"
+      },
+      {  
+         "name":"Wilmington, NC (22)",
+         "count":22,
+         "val":"CVS - Wilmington, NC",
+         "location":"Wilmington, NC"
+      },
+      {  
+         "name":"Youngstown, OH (9)",
+         "count":9,
+         "val":"CVS - Youngstown, OH",
+         "location":"Youngstown, OH"
+      },
+      {  
+         "name":"Yuma, AZ El Centro, CA (4)",
+         "count":4,
+         "val":"CVS - Yuma, AZ El Centro, CA",
+         "location":"Yuma, AZ El Centro, CA"
+      },
+      {  
+         "name":"Zanesville, OH (2)",
+         "count":2,
+         "val":"Dollar General - Zanesville, OH",
+         "location":"Zanesville, OH"
+      }
+   ],
+   "Dollar General":[
+      {  
+         "name":"Abilene-Sweetwater, TX (10)",
+         "count":10,
+         "val":"Dollar General - Abilene-Sweetwater, TX",
+         "location":"Abilene-Sweetwater, TX"
+      },
+      {  
+         "name":"Albany, GA (32)",
+         "count":32,
+         "val":"Dollar General - Albany, GA",
+         "location":"Albany, GA"
+      },
+      {  
+         "name":"Albany-Schenectady-Troy, NY (3)",
+         "count":3,
+         "val":"Dollar General - Albany-Schenectady-Troy, NY",
+         "location":"Albany-Schenectady-Troy, NY"
+      },
+      {  
+         "name":"Albuquerque-Santa Fe, NM (42)",
+         "count":42,
+         "val":"Dollar General - Albuquerque-Santa Fe, NM",
+         "location":"Albuquerque-Santa Fe, NM"
+      },
+      {  
+         "name":"Alexandria, LA (26)",
+         "count":26,
+         "val":"Dollar General - Alexandria, LA",
+         "location":"Alexandria, LA"
+      },
+      {  
+         "name":"Amarillo, TX (15)",
+         "count":15,
+         "val":"Dollar General - Amarillo, TX",
+         "location":"Amarillo, TX"
+      },
+      {  
+         "name":"Anniston, AL (3)",
+         "count":3,
+         "val":"Dollar General - Anniston, AL",
+         "location":"Anniston, AL"
+      },
+      {  
+         "name":"Atlanta, GA (145)",
+         "count":145,
+         "val":"Dollar General - Atlanta, GA",
+         "location":"Atlanta, GA"
+      },
+      {  
+         "name":"Augusta, GA (39)",
+         "count":39,
+         "val":"Dollar General - Augusta, GA",
+         "location":"Augusta, GA"
+      },
+      {  
+         "name":"Austin, TX (22)",
+         "count":22,
+         "val":"Dollar General - Austin, TX",
+         "location":"Austin, TX"
+      },
+      {  
+         "name":"Bakersfield, CA (15)",
+         "count":15,
+         "val":"Dollar General - Bakersfield, CA",
+         "location":"Bakersfield, CA"
+      },
+      {  
+         "name":"Baltimore, MD (30)",
+         "count":30,
+         "val":"Dollar General - Baltimore, MD",
+         "location":"Baltimore, MD"
+      },
+      {  
+         "name":"Baton Rouge, LA (66)",
+         "count":66,
+         "val":"Dollar General - Baton Rouge, LA",
+         "location":"Baton Rouge, LA"
+      },
+      {  
+         "name":"Beaumont-Port Arthur, TX (16)",
+         "count":16,
+         "val":"Dollar General - Beaumont-Port Arthur, TX",
+         "location":"Beaumont-Port Arthur, TX"
+      },
+      {  
+         "name":"Biloxi-Gulfport, MS (35)",
+         "count":35,
+         "val":"Dollar General - Biloxi-Gulfport, MS",
+         "location":"Biloxi-Gulfport, MS"
+      },
+      {  
+         "name":"Binghamton, NY (7)",
+         "count":7,
+         "val":"Dollar General - Binghamton, NY",
+         "location":"Binghamton, NY"
+      },
+      {  
+         "name":"Birmingham (Anniston and Tuscaloosa), AL (58)",
+         "count":58,
+         "val":"Dollar General - Birmingham (Anniston and Tuscaloosa), AL",
+         "location":"Birmingham (Anniston and Tuscaloosa), AL"
+      },
+      {  
+         "name":"Bluefield-Beckley-Oak Hill, WV (13)",
+         "count":13,
+         "val":"Dollar General - Bluefield-Beckley-Oak Hill, WV",
+         "location":"Bluefield-Beckley-Oak Hill, WV"
+      },
+      {  
+         "name":"Boston, MA (Manchester, NH) (5)",
+         "count":5,
+         "val":"Dollar General - Boston, MA (Manchester, NH)",
+         "location":"Boston, MA (Manchester, NH)"
+      },
+      {  
+         "name":"Bowling Green, KY (6)",
+         "count":6,
+         "val":"Dollar General - Bowling Green, KY",
+         "location":"Bowling Green, KY"
+      },
+      {  
+         "name":"Bristol-Kingsport-Johnson City (26)",
+         "count":26,
+         "val":"Dollar General - Bristol-Kingsport-Johnson City",
+         "location":"Bristol-Kingsport-Johnson City"
+      },
+      {  
+         "name":"Buffalo, NY (23)",
+         "count":23,
+         "val":"Dollar General - Buffalo, NY",
+         "location":"Buffalo, NY"
+      },
+      {  
+         "name":"Burlington, VT Plattsburgh, NY (2)",
+         "count":2,
+         "val":"Dollar General - Burlington, VT Plattsburgh, NY",
+         "location":"Burlington, VT Plattsburgh, NY"
+      },
+      {  
+         "name":"Cedar Rapids-Waterloo-Iowa City-Dubuque, IA (5)",
+         "count":5,
+         "val":"Dollar General - Cedar Rapids-Waterloo-Iowa City-Dubuque, IA",
+         "location":"Cedar Rapids-Waterloo-Iowa City-Dubuque, IA"
+      },
+      {  
+         "name":"Champaign-Springfield Decatur, IL (13)",
+         "count":13,
+         "val":"Dollar General - Champaign-Springfield Decatur, IL",
+         "location":"Champaign-Springfield Decatur, IL"
+      },
+      {  
+         "name":"Charleston, SC (34)",
+         "count":34,
+         "val":"Dollar General - Charleston, SC",
+         "location":"Charleston, SC"
+      },
+      {  
+         "name":"Charleston-Huntington, WV (34)",
+         "count":34,
+         "val":"Dollar General - Charleston-Huntington, WV",
+         "location":"Charleston-Huntington, WV"
+      },
+      {  
+         "name":"Charlotte, NC (95)",
+         "count":95,
+         "val":"Dollar General - Charlotte, NC",
+         "location":"Charlotte, NC"
+      },
+      {  
+         "name":"Charlottesville, VA (1)",
+         "count":1,
+         "val":"Dollar General - Charlottesville, VA",
+         "location":"Charlottesville, VA"
+      },
+      {  
+         "name":"Chattanooga, TN (36)",
+         "count":36,
+         "val":"Dollar General - Chattanooga, TN",
+         "location":"Chattanooga, TN"
+      },
+      {  
+         "name":"Cheyenne-Scottsbluff, WY (1)",
+         "count":1,
+         "val":"Dollar General - Cheyenne-Scottsbluff, WY",
+         "location":"Cheyenne-Scottsbluff, WY"
+      },
+      {  
+         "name":"Chicago, IL (53)",
+         "count":53,
+         "val":"Dollar General - Chicago, IL",
+         "location":"Chicago, IL"
+      },
+      {  
+         "name":"Chico-Redding, CA (22)",
+         "count":22,
+         "val":"Dollar General - Chico-Redding, CA",
+         "location":"Chico-Redding, CA"
+      },
+      {  
+         "name":"Cincinnati, OH (25)",
+         "count":25,
+         "val":"Dollar General - Cincinnati, OH",
+         "location":"Cincinnati, OH"
+      },
+      {  
+         "name":"Clarksburg-Weston, WV (7)",
+         "count":7,
+         "val":"Dollar General - Clarksburg-Weston, WV",
+         "location":"Clarksburg-Weston, WV"
+      },
+      {  
+         "name":"Cleveland-Akron (Canton), OH (56)",
+         "count":56,
+         "val":"Dollar General - Cleveland-Akron (Canton), OH",
+         "location":"Cleveland-Akron (Canton), OH"
+      },
+      {  
+         "name":"Colorado Springs-Pueblo, CO (8)",
+         "count":8,
+         "val":"Dollar General - Colorado Springs-Pueblo, CO",
+         "location":"Colorado Springs-Pueblo, CO"
+      },
+      {  
+         "name":"Columbia, SC (64)",
+         "count":64,
+         "val":"Dollar General - Columbia, SC",
+         "location":"Columbia, SC"
+      },
+      {  
+         "name":"Columbia-Jefferson City, MO (4)",
+         "count":4,
+         "val":"Dollar General - Columbia-Jefferson City, MO",
+         "location":"Columbia-Jefferson City, MO"
+      },
+      {  
+         "name":"Columbus, GA (36)",
+         "count":36,
+         "val":"Dollar General - Columbus, GA",
+         "location":"Columbus, GA"
+      },
+      {  
+         "name":"Columbus, OH (49)",
+         "count":49,
+         "val":"Dollar General - Columbus, OH",
+         "location":"Columbus, OH"
+      },
+      {  
+         "name":"Columbus-Tupelo-West Point, MS (23)",
+         "count":23,
+         "val":"Dollar General - Columbus-Tupelo-West Point, MS",
+         "location":"Columbus-Tupelo-West Point, MS"
+      },
+      {  
+         "name":"Corpus Christi, TX (13)",
+         "count":13,
+         "val":"Dollar General - Corpus Christi, TX",
+         "location":"Corpus Christi, TX"
+      },
+      {  
+         "name":"Dallas-Ft. Worth, TX (145)",
+         "count":145,
+         "val":"Dollar General - Dallas-Ft. Worth, TX",
+         "location":"Dallas-Ft. Worth, TX"
+      },
+      {  
+         "name":"Davenport, IA Rock Island Moline, IL (7)",
+         "count":7,
+         "val":"Dollar General - Davenport, IA Rock Island Moline, IL",
+         "location":"Davenport, IA Rock Island Moline, IL"
+      },
+      {  
+         "name":"Dayton, OH (21)",
+         "count":21,
+         "val":"Dollar General - Dayton, OH",
+         "location":"Dayton, OH"
+      },
+      {  
+         "name":"Denver, CO (9)",
+         "count":9,
+         "val":"Dollar General - Denver, CO",
+         "location":"Denver, CO"
+      },
+      {  
+         "name":"Des Moines-Ames, IA (8)",
+         "count":8,
+         "val":"Dollar General - Des Moines-Ames, IA",
+         "location":"Des Moines-Ames, IA"
+      },
+      {  
+         "name":"Detroit, MI (54)",
+         "count":54,
+         "val":"Dollar General - Detroit, MI",
+         "location":"Detroit, MI"
+      },
+      {  
+         "name":"Dothan, AL (17)",
+         "count":17,
+         "val":"Dollar General - Dothan, AL",
+         "location":"Dothan, AL"
+      },
+      {  
+         "name":"El Paso (Las Cruces), TX (29)",
+         "count":29,
+         "val":"Dollar General - El Paso (Las Cruces), TX",
+         "location":"El Paso (Las Cruces), TX"
+      },
+      {  
+         "name":"Elmira (Corning), NY (1)",
+         "count":1,
+         "val":"Dollar General - Elmira (Corning), NY",
+         "location":"Elmira (Corning), NY"
+      },
+      {  
+         "name":"Erie, PA (9)",
+         "count":9,
+         "val":"Dollar General - Erie, PA",
+         "location":"Erie, PA"
+      },
+      {  
+         "name":"Eugene, OR (12)",
+         "count":12,
+         "val":"Dollar General - Eugene, OR",
+         "location":"Eugene, OR"
+      },
+      {  
+         "name":"Eureka, CA (3)",
+         "count":3,
+         "val":"Dollar General - Eureka, CA",
+         "location":"Eureka, CA"
+      },
+      {  
+         "name":"Evansville, IN (16)",
+         "count":16,
+         "val":"Dollar General - Evansville, IN",
+         "location":"Evansville, IN"
+      },
+      {  
+         "name":"Flint-Saginaw-Bay City, MI (11)",
+         "count":11,
+         "val":"Dollar General - Flint-Saginaw-Bay City, MI",
+         "location":"Flint-Saginaw-Bay City, MI"
+      },
+      {  
+         "name":"Fresno-Visalia, CA (42)",
+         "count":42,
+         "val":"Dollar General - Fresno-Visalia, CA",
+         "location":"Fresno-Visalia, CA"
+      },
+      {  
+         "name":"Ft. Myers-Naples, FL (6)",
+         "count":6,
+         "val":"Dollar General - Ft. Myers-Naples, FL",
+         "location":"Ft. Myers-Naples, FL"
+      },
+      {  
+         "name":"Ft. Smith Fay-Spmgdl-Rgrs, AR (17)",
+         "count":17,
+         "val":"Dollar General - Ft. Smith Fay-Spmgdl-Rgrs, AR",
+         "location":"Ft. Smith Fay-Spmgdl-Rgrs, AR"
+      },
+      {  
+         "name":"Ft. Wayne, IN (11)",
+         "count":11,
+         "val":"Dollar General - Ft. Wayne, IN",
+         "location":"Ft. Wayne, IN"
+      },
+      {  
+         "name":"Gainesville, FL (6)",
+         "count":6,
+         "val":"Dollar General - Gainesville, FL",
+         "location":"Gainesville, FL"
+      },
+      {  
+         "name":"Grand Junction-Montrose, CO (2)",
+         "count":2,
+         "val":"Dollar General - Grand Junction-Montrose, CO",
+         "location":"Grand Junction-Montrose, CO"
+      },
+      {  
+         "name":"Grand Rapids-Kalamazoo-Battle Creek, MI (18)",
+         "count":18,
+         "val":"Dollar General - Grand Rapids-Kalamazoo-Battle Creek, MI",
+         "location":"Grand Rapids-Kalamazoo-Battle Creek, MI"
+      },
+      {  
+         "name":"Green Bay-Appleton, WI (2)",
+         "count":2,
+         "val":"Dollar General - Green Bay-Appleton, WI",
+         "location":"Green Bay-Appleton, WI"
+      },
+      {  
+         "name":"Greensboro-High Point-Winston-Salem, NC (40)",
+         "count":40,
+         "val":"Dollar General - Greensboro-High Point-Winston-Salem, NC",
+         "location":"Greensboro-High Point-Winston-Salem, NC"
+      },
+      {  
+         "name":"Greenville-New Bern-Washington, NC (22)",
+         "count":22,
+         "val":"Dollar General - Greenville-New Bern-Washington, NC",
+         "location":"Greenville-New Bern-Washington, NC"
+      },
+      {  
+         "name":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC (99)",
+         "count":99,
+         "val":"Dollar General - Greenville-Spartanburg, SC Asheville, NC Anderson, SC",
+         "location":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC"
+      },
+      {  
+         "name":"Greenwood-Greenville, MS (23)",
+         "count":23,
+         "val":"Dollar General - Greenwood-Greenville, MS",
+         "location":"Greenwood-Greenville, MS"
+      },
+      {  
+         "name":"Harlingen-Wslco-Brnsvl-McA, TX (29)",
+         "count":29,
+         "val":"Dollar General - Harlingen-Wslco-Brnsvl-McA, TX",
+         "location":"Harlingen-Wslco-Brnsvl-McA, TX"
+      },
+      {  
+         "name":"Harrisburg-Lancaster-Lebanon-York, PA (7)",
+         "count":7,
+         "val":"Dollar General - Harrisburg-Lancaster-Lebanon-York, PA",
+         "location":"Harrisburg-Lancaster-Lebanon-York, PA"
+      },
+      {  
+         "name":"Harrisonburg, VA (3)",
+         "count":3,
+         "val":"Dollar General - Harrisonburg, VA",
+         "location":"Harrisonburg, VA"
+      },
+      {  
+         "name":"Hartford And New Haven, CT (12)",
+         "count":12,
+         "val":"Dollar General - Hartford And New Haven, CT",
+         "location":"Hartford And New Haven, CT"
+      },
+      {  
+         "name":"Hattiesburg-Laurel, MS (31)",
+         "count":31,
+         "val":"Dollar General - Hattiesburg-Laurel, MS",
+         "location":"Hattiesburg-Laurel, MS"
+      },
+      {  
+         "name":"Houston, TX (92)",
+         "count":92,
+         "val":"Dollar General - Houston, TX",
+         "location":"Houston, TX"
+      },
+      {  
+         "name":"Huntsville-Decatur (Florence), AL (31)",
+         "count":31,
+         "val":"Dollar General - Huntsville-Decatur (Florence), AL",
+         "location":"Huntsville-Decatur (Florence), AL"
+      },
+      {  
+         "name":"Indianapolis, IN (62)",
+         "count":62,
+         "val":"Dollar General - Indianapolis, IN",
+         "location":"Indianapolis, IN"
+      },
+      {  
+         "name":"Jackson, MS (78)",
+         "count":78,
+         "val":"Dollar General - Jackson, MS",
+         "location":"Jackson, MS"
+      },
+      {  
+         "name":"Jackson, TN (13)",
+         "count":13,
+         "val":"Dollar General - Jackson, TN",
+         "location":"Jackson, TN"
+      },
+      {  
+         "name":"Jacksonville, FL (50)",
+         "count":50,
+         "val":"Dollar General - Jacksonville, FL",
+         "location":"Jacksonville, FL"
+      },
+      {  
+         "name":"Johnstown-Altoona, PA (3)",
+         "count":3,
+         "val":"Dollar General - Johnstown-Altoona, PA",
+         "location":"Johnstown-Altoona, PA"
+      },
+      {  
+         "name":"Jonesboro, AR (3)",
+         "count":3,
+         "val":"Dollar General - Jonesboro, AR",
+         "location":"Jonesboro, AR"
+      },
+      {  
+         "name":"Joplin-Pittsburg (3)",
+         "count":3,
+         "val":"Dollar General - Joplin-Pittsburg",
+         "location":"Joplin-Pittsburg"
+      },
+      {  
+         "name":"Kansas City, MO (43)",
+         "count":43,
+         "val":"Dollar General - Kansas City, MO",
+         "location":"Kansas City, MO"
+      },
+      {  
+         "name":"Knoxville, TN (60)",
+         "count":60,
+         "val":"Dollar General - Knoxville, TN",
+         "location":"Knoxville, TN"
+      },
+      {  
+         "name":"Lafayette, IN (3)",
+         "count":3,
+         "val":"Dollar General - Lafayette, IN",
+         "location":"Lafayette, IN"
+      },
+      {  
+         "name":"Lafayette, LA (43)",
+         "count":43,
+         "val":"Dollar General - Lafayette, LA",
+         "location":"Lafayette, LA"
+      },
+      {  
+         "name":"Lake Charles, LA (18)",
+         "count":18,
+         "val":"Dollar General - Lake Charles, LA",
+         "location":"Lake Charles, LA"
+      },
+      {  
+         "name":"Lansing, MI (10)",
+         "count":10,
+         "val":"Dollar General - Lansing, MI",
+         "location":"Lansing, MI"
+      },
+      {  
+         "name":"Laredo, TX (5)",
+         "count":5,
+         "val":"Dollar General - Laredo, TX",
+         "location":"Laredo, TX"
+      },
+      {  
+         "name":"Las Vegas, NV (15)",
+         "count":15,
+         "val":"Dollar General - Las Vegas, NV",
+         "location":"Las Vegas, NV"
+      },
+      {  
+         "name":"Lexington, KY (44)",
+         "count":44,
+         "val":"Dollar General - Lexington, KY",
+         "location":"Lexington, KY"
+      },
+      {  
+         "name":"Lima, OH (5)",
+         "count":5,
+         "val":"Dollar General - Lima, OH",
+         "location":"Lima, OH"
+      },
+      {  
+         "name":"Lincoln-Hastings-Kearney, NE (4)",
+         "count":4,
+         "val":"Dollar General - Lincoln-Hastings-Kearney, NE",
+         "location":"Lincoln-Hastings-Kearney, NE"
+      },
+      {  
+         "name":"Little Rock-Pine Bluff, AR (52)",
+         "count":52,
+         "val":"Dollar General - Little Rock-Pine Bluff, AR",
+         "location":"Little Rock-Pine Bluff, AR"
+      },
+      {  
+         "name":"Los Angeles, CA (42)",
+         "count":42,
+         "val":"Dollar General - Los Angeles, CA",
+         "location":"Los Angeles, CA"
+      },
+      {  
+         "name":"Louisville, KY (48)",
+         "count":48,
+         "val":"Dollar General - Louisville, KY",
+         "location":"Louisville, KY"
+      },
+      {  
+         "name":"Lubbock, TX (16)",
+         "count":16,
+         "val":"Dollar General - Lubbock, TX",
+         "location":"Lubbock, TX"
+      },
+      {  
+         "name":"Macon, GA (37)",
+         "count":37,
+         "val":"Dollar General - Macon, GA",
+         "location":"Macon, GA"
+      },
+      {  
+         "name":"Medford-Klamath Falls, OR (13)",
+         "count":13,
+         "val":"Dollar General - Medford-Klamath Falls, OR",
+         "location":"Medford-Klamath Falls, OR"
+      },
+      {  
+         "name":"Memphis, TN (79)",
+         "count":79,
+         "val":"Dollar General - Memphis, TN",
+         "location":"Memphis, TN"
+      },
+      {  
+         "name":"Meridian, MS (6)",
+         "count":6,
+         "val":"Dollar General - Meridian, MS",
+         "location":"Meridian, MS"
+      },
+      {  
+         "name":"Miami-Ft. Lauderdale, FL (34)",
+         "count":34,
+         "val":"Dollar General - Miami-Ft. Lauderdale, FL",
+         "location":"Miami-Ft. Lauderdale, FL"
+      },
+      {  
+         "name":"Milwaukee, WI (12)",
+         "count":12,
+         "val":"Dollar General - Milwaukee, WI",
+         "location":"Milwaukee, WI"
+      },
+      {  
+         "name":"Minneapolis-St. Paul, MN (9)",
+         "count":9,
+         "val":"Dollar General - Minneapolis-St. Paul, MN",
+         "location":"Minneapolis-St. Paul, MN"
+      },
+      {  
+         "name":"Mobile, AL Pensacola (Ft. Walton Beach), FL (50)",
+         "count":50,
+         "val":"Dollar General - Mobile, AL Pensacola (Ft. Walton Beach), FL",
+         "location":"Mobile, AL Pensacola (Ft. Walton Beach), FL"
+      },
+      {  
+         "name":"Monroe-El Dorado, LA (25)",
+         "count":25,
+         "val":"Dollar General - Monroe-El Dorado, LA",
+         "location":"Monroe-El Dorado, LA"
+      },
+      {  
+         "name":"Monterey-Salinas, CA (1)",
+         "count":1,
+         "val":"Dollar General - Monterey-Salinas, CA",
+         "location":"Monterey-Salinas, CA"
+      },
+      {  
+         "name":"Montgomery-Selma, AL (32)",
+         "count":32,
+         "val":"Dollar General - Montgomery-Selma, AL",
+         "location":"Montgomery-Selma, AL"
+      },
+      {  
+         "name":"Myrtle Beach-Florence, SC (32)",
+         "count":32,
+         "val":"Dollar General - Myrtle Beach-Florence, SC",
+         "location":"Myrtle Beach-Florence, SC"
+      },
+      {  
+         "name":"Nashville, TN (86)",
+         "count":86,
+         "val":"Dollar General - Nashville, TN",
+         "location":"Nashville, TN"
+      },
+      {  
+         "name":"New Orleans, LA (94)",
+         "count":94,
+         "val":"Dollar General - New Orleans, LA",
+         "location":"New Orleans, LA"
+      },
+      {  
+         "name":"New York, NY (27)",
+         "count":27,
+         "val":"Dollar General - New York, NY",
+         "location":"New York, NY"
+      },
+      {  
+         "name":"Norfolk-Portsmouth-Newport News, VA (40)",
+         "count":40,
+         "val":"Dollar General - Norfolk-Portsmouth-Newport News, VA",
+         "location":"Norfolk-Portsmouth-Newport News, VA"
+      },
+      {  
+         "name":"Odessa-Midland, TX (25)",
+         "count":25,
+         "val":"Dollar General - Odessa-Midland, TX",
+         "location":"Odessa-Midland, TX"
+      },
+      {  
+         "name":"Oklahoma City, OK (53)",
+         "count":53,
+         "val":"Dollar General - Oklahoma City, OK",
+         "location":"Oklahoma City, OK"
+      },
+      {  
+         "name":"Omaha, NE (6)",
+         "count":6,
+         "val":"Dollar General - Omaha, NE",
+         "location":"Omaha, NE"
+      },
+      {  
+         "name":"Orlando-Daytona Beach-Melbourne, FL (46)",
+         "count":46,
+         "val":"Dollar General - Orlando-Daytona Beach-Melbourne, FL",
+         "location":"Orlando-Daytona Beach-Melbourne, FL"
+      },
+      {  
+         "name":"Ottumwa-Kirksville, IA (1)",
+         "count":1,
+         "val":"Dollar General - Ottumwa-Kirksville, IA",
+         "location":"Ottumwa-Kirksville, IA"
+      },
+      {  
+         "name":"Paducah, KY Cape Girardeau, MO Harrisburg, IL (24)",
+         "count":24,
+         "val":"Dollar General - Paducah, KY Cape Girardeau, MO Harrisburg, IL",
+         "location":"Paducah, KY Cape Girardeau, MO Harrisburg, IL"
+      },
+      {  
+         "name":"Palm Springs, CA (5)",
+         "count":5,
+         "val":"Dollar General - Palm Springs, CA",
+         "location":"Palm Springs, CA"
+      },
+      {  
+         "name":"Panama City, FL (8)",
+         "count":8,
+         "val":"Dollar General - Panama City, FL",
+         "location":"Panama City, FL"
+      },
+      {  
+         "name":"Parkersburg, WV (4)",
+         "count":4,
+         "val":"Dollar General - Parkersburg, WV",
+         "location":"Parkersburg, WV"
+      },
+      {  
+         "name":"Peoria-Bloomington, IL (4)",
+         "count":4,
+         "val":"Dollar General - Peoria-Bloomington, IL",
+         "location":"Peoria-Bloomington, IL"
+      },
+      {  
+         "name":"Philadelphia, PA (72)",
+         "count":72,
+         "val":"Dollar General - Philadelphia, PA",
+         "location":"Philadelphia, PA"
+      },
+      {  
+         "name":"Phoenix (Prescott), AZ (79)",
+         "count":79,
+         "val":"Dollar General - Phoenix (Prescott), AZ",
+         "location":"Phoenix (Prescott), AZ"
+      },
+      {  
+         "name":"Pittsburgh, PA (30)",
+         "count":30,
+         "val":"Dollar General - Pittsburgh, PA",
+         "location":"Pittsburgh, PA"
+      },
+      {  
+         "name":"Portland, OR (1)",
+         "count":1,
+         "val":"Dollar General - Portland, OR",
+         "location":"Portland, OR"
+      },
+      {  
+         "name":"Portland-Auburn, ME (2)",
+         "count":2,
+         "val":"Dollar General - Portland-Auburn, ME",
+         "location":"Portland-Auburn, ME"
+      },
+      {  
+         "name":"Presque Isle, ME (1)",
+         "count":1,
+         "val":"Dollar General - Presque Isle, ME",
+         "location":"Presque Isle, ME"
+      },
+      {  
+         "name":"Providence, RI New Bedford, MA (4)",
+         "count":4,
+         "val":"Dollar General - Providence, RI New Bedford, MA",
+         "location":"Providence, RI New Bedford, MA"
+      },
+      {  
+         "name":"Quincy, IL Hannibal, MO Keokuk, IA (1)",
+         "count":1,
+         "val":"Dollar General - Quincy, IL Hannibal, MO Keokuk, IA",
+         "location":"Quincy, IL Hannibal, MO Keokuk, IA"
+      },
+      {  
+         "name":"Raleigh-Durham (Fayetteville), NC (54)",
+         "count":54,
+         "val":"Dollar General - Raleigh-Durham (Fayetteville), NC",
+         "location":"Raleigh-Durham (Fayetteville), NC"
+      },
+      {  
+         "name":"Rapid City, SD (1)",
+         "count":1,
+         "val":"Dollar General - Rapid City, SD",
+         "location":"Rapid City, SD"
+      },
+      {  
+         "name":"Reno, NV (10)",
+         "count":10,
+         "val":"Dollar General - Reno, NV",
+         "location":"Reno, NV"
+      },
+      {  
+         "name":"Richmond-Petersburg, VA (23)",
+         "count":23,
+         "val":"Dollar General - Richmond-Petersburg, VA",
+         "location":"Richmond-Petersburg, VA"
+      },
+      {  
+         "name":"Roanoke-Lynchburg, VA (19)",
+         "count":19,
+         "val":"Dollar General - Roanoke-Lynchburg, VA",
+         "location":"Roanoke-Lynchburg, VA"
+      },
+      {  
+         "name":"Rochester, NY (7)",
+         "count":7,
+         "val":"Dollar General - Rochester, NY",
+         "location":"Rochester, NY"
+      },
+      {  
+         "name":"Rochester-Mason City-Austin, MN (1)",
+         "count":1,
+         "val":"Dollar General - Rochester-Mason City-Austin, MN",
+         "location":"Rochester-Mason City-Austin, MN"
+      },
+      {  
+         "name":"Rockford, IL (6)",
+         "count":6,
+         "val":"Dollar General - Rockford, IL",
+         "location":"Rockford, IL"
+      },
+      {  
+         "name":"Sacramnto-Stktn-Modesto, CA (48)",
+         "count":48,
+         "val":"Dollar General - Sacramnto-Stktn-Modesto, CA",
+         "location":"Sacramnto-Stktn-Modesto, CA"
+      },
+      {  
+         "name":"Salisbury, MD (6)",
+         "count":6,
+         "val":"Dollar General - Salisbury, MD",
+         "location":"Salisbury, MD"
+      },
+      {  
+         "name":"Salt Lake City, UT (7)",
+         "count":7,
+         "val":"Dollar General - Salt Lake City, UT",
+         "location":"Salt Lake City, UT"
+      },
+      {  
+         "name":"San Angelo, TX (5)",
+         "count":5,
+         "val":"Dollar General - San Angelo, TX",
+         "location":"San Angelo, TX"
+      },
+      {  
+         "name":"San Antonio, TX (51)",
+         "count":51,
+         "val":"Dollar General - San Antonio, TX",
+         "location":"San Antonio, TX"
+      },
+      {  
+         "name":"San Francisco-Oak-San Jos, CA (8)",
+         "count":8,
+         "val":"Dollar General - San Francisco-Oak-San Jos, CA",
+         "location":"San Francisco-Oak-San Jos, CA"
+      },
+      {  
+         "name":"Santa Barbara-Santa Maria-San Luis Obispo, CA (2)",
+         "count":2,
+         "val":"Dollar General - Santa Barbara-Santa Maria-San Luis Obispo, CA",
+         "location":"Santa Barbara-Santa Maria-San Luis Obispo, CA"
+      },
+      {  
+         "name":"Savannah, GA (37)",
+         "count":37,
+         "val":"Dollar General - Savannah, GA",
+         "location":"Savannah, GA"
+      },
+      {  
+         "name":"Sherman, TX Ada, OK (10)",
+         "count":10,
+         "val":"Dollar General - Sherman, TX Ada, OK",
+         "location":"Sherman, TX Ada, OK"
+      },
+      {  
+         "name":"Shreveport, LA (40)",
+         "count":40,
+         "val":"Dollar General - Shreveport, LA",
+         "location":"Shreveport, LA"
+      },
+      {  
+         "name":"Sioux City, IA (2)",
+         "count":2,
+         "val":"Dollar General - Sioux City, IA",
+         "location":"Sioux City, IA"
+      },
+      {  
+         "name":"Sioux Falls(Mitchell), SD (1)",
+         "count":1,
+         "val":"Dollar General - Sioux Falls(Mitchell), SD",
+         "location":"Sioux Falls(Mitchell), SD"
+      },
+      {  
+         "name":"South Bend-Elkhart, IN (13)",
+         "count":13,
+         "val":"Dollar General - South Bend-Elkhart, IN",
+         "location":"South Bend-Elkhart, IN"
+      },
+      {  
+         "name":"Springfield, MO (12)",
+         "count":12,
+         "val":"Dollar General - Springfield, MO",
+         "location":"Springfield, MO"
+      },
+      {  
+         "name":"Springfield-Holyoke, MA (3)",
+         "count":3,
+         "val":"Dollar General - Springfield-Holyoke, MA",
+         "location":"Springfield-Holyoke, MA"
+      },
+      {  
+         "name":"St. Joseph, MO (3)",
+         "count":3,
+         "val":"Dollar General - St. Joseph, MO",
+         "location":"St. Joseph, MO"
+      },
+      {  
+         "name":"St. Louis, MO (22)",
+         "count":22,
+         "val":"Dollar General - St. Louis, MO",
+         "location":"St. Louis, MO"
+      },
+      {  
+         "name":"Syracuse, NY (6)",
+         "count":6,
+         "val":"Dollar General - Syracuse, NY",
+         "location":"Syracuse, NY"
+      },
+      {  
+         "name":"Tallahassee, FLThomasville, GA (34)",
+         "count":34,
+         "val":"Dollar General - Tallahassee, FLThomasville, GA",
+         "location":"Tallahassee, FLThomasville, GA"
+      },
+      {  
+         "name":"Tampa-St. Petersburg (Sarasota), FL (59)",
+         "count":59,
+         "val":"Dollar General - Tampa-St. Petersburg (Sarasota), FL",
+         "location":"Tampa-St. Petersburg (Sarasota), FL"
+      },
+      {  
+         "name":"Terre Haute, IN (6)",
+         "count":6,
+         "val":"Dollar General - Terre Haute, IN",
+         "location":"Terre Haute, IN"
+      },
+      {  
+         "name":"Toledo, OH (13)",
+         "count":13,
+         "val":"Dollar General - Toledo, OH",
+         "location":"Toledo, OH"
+      },
+      {  
+         "name":"Topeka, KS (7)",
+         "count":7,
+         "val":"Dollar General - Topeka, KS",
+         "location":"Topeka, KS"
+      },
+      {  
+         "name":"Tucson (Sierra Vista), AZ (25)",
+         "count":25,
+         "val":"Dollar General - Tucson (Sierra Vista), AZ",
+         "location":"Tucson (Sierra Vista), AZ"
+      },
+      {  
+         "name":"Tulsa, OK (36)",
+         "count":36,
+         "val":"Dollar General - Tulsa, OK",
+         "location":"Tulsa, OK"
+      },
+      {  
+         "name":"Tyler-Longview (Lufkin And Nacogdoches), TX (27)",
+         "count":27,
+         "val":"Dollar General - Tyler-Longview (Lufkin And Nacogdoches), TX",
+         "location":"Tyler-Longview (Lufkin And Nacogdoches), TX"
+      },
+      {  
+         "name":"Utica, NY (2)",
+         "count":2,
+         "val":"Dollar General - Utica, NY",
+         "location":"Utica, NY"
+      },
+      {  
+         "name":"Victoria, TX (7)",
+         "count":7,
+         "val":"Dollar General - Victoria, TX",
+         "location":"Victoria, TX"
+      },
+      {  
+         "name":"WacoTemple-Bryan, TX (37)",
+         "count":37,
+         "val":"Dollar General - WacoTemple-Bryan, TX",
+         "location":"WacoTemple-Bryan, TX"
+      },
+      {  
+         "name":"Washington, DC (Hagerstown, MD) (27)",
+         "count":27,
+         "val":"Dollar General - Washington, DC (Hagerstown, MD)",
+         "location":"Washington, DC (Hagerstown, MD)"
+      },
+      {  
+         "name":"Watertown, NY (5)",
+         "count":5,
+         "val":"Dollar General - Watertown, NY",
+         "location":"Watertown, NY"
+      },
+      {  
+         "name":"West Palm Beach-Ft. Pierce, FL (14)",
+         "count":14,
+         "val":"Dollar General - West Palm Beach-Ft. Pierce, FL",
+         "location":"West Palm Beach-Ft. Pierce, FL"
+      },
+      {  
+         "name":"Wheeling, WV Steubenville, OH (5)",
+         "count":5,
+         "val":"Dollar General - Wheeling, WV Steubenville, OH",
+         "location":"Wheeling, WV Steubenville, OH"
+      },
+      {  
+         "name":"Wichita Falls, TX Lawton, OK (17)",
+         "count":17,
+         "val":"Dollar General - Wichita Falls, TX Lawton, OK",
+         "location":"Wichita Falls, TX Lawton, OK"
+      },
+      {  
+         "name":"Wichita-Hutchinson Plus, KS (28)",
+         "count":28,
+         "val":"Dollar General - Wichita-Hutchinson Plus, KS",
+         "location":"Wichita-Hutchinson Plus, KS"
+      },
+      {  
+         "name":"Wilkes Barre-Scranton, PA (12)",
+         "count":12,
+         "val":"Dollar General - Wilkes Barre-Scranton, PA",
+         "location":"Wilkes Barre-Scranton, PA"
+      },
+      {  
+         "name":"Wilmington, NC (13)",
+         "count":13,
+         "val":"Dollar General - Wilmington, NC",
+         "location":"Wilmington, NC"
+      },
+      {  
+         "name":"Youngstown, OH (13)",
+         "count":13,
+         "val":"Dollar General - Youngstown, OH",
+         "location":"Youngstown, OH"
+      },
+      {  
+         "name":"Yuma, AZ El Centro, CA (5)",
+         "count":5,
+         "val":"Dollar General - Yuma, AZ El Centro, CA",
+         "location":"Yuma, AZ El Centro, CA"
+      },
+      {  
+         "name":"Zanesville, OH (3)",
+         "count":3,
+         "val":"Duane Reade - Zanesville, OH",
+         "location":"Zanesville, OH"
+      }
+   ],
+   "Duane Reade":[  
+      {  
+         "name":"New York, NY (63)",
+         "count":63,
+         "val":"Kerr Drug - New York, NY",
+         "location":"New York, NY"
+      }
+   ],
+   "Kerr Drug":[  
+      {  
+         "name":"Atlanta, GA (1)",
+         "count":1,
+         "val":"Kerr Drug - Atlanta, GA",
+         "location":"Atlanta, GA"
+      },
+      {  
+         "name":"Charlotte, NC (10)",
+         "count":10,
+         "val":"Kerr Drug - Charlotte, NC",
+         "location":"Charlotte, NC"
+      },
+      {  
+         "name":"Chattanooga, TN (1)",
+         "count":1,
+         "val":"Kerr Drug - Chattanooga, TN",
+         "location":"Chattanooga, TN"
+      },
+      {  
+         "name":"Greensboro-High Point-Winston-Salem, NC (13)",
+         "count":13,
+         "val":"Kerr Drug - Greensboro-High Point-Winston-Salem, NC",
+         "location":"Greensboro-High Point-Winston-Salem, NC"
+      },
+      {  
+         "name":"Greenville-New Bern-Washington, NC (10)",
+         "count":10,
+         "val":"Kerr Drug - Greenville-New Bern-Washington, NC",
+         "location":"Greenville-New Bern-Washington, NC"
+      },
+      {  
+         "name":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC (6)",
+         "count":6,
+         "val":"Kerr Drug - Greenville-Spartanburg, SC Asheville, NC Anderson, SC",
+         "location":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC"
+      },
+      {  
+         "name":"Raleigh-Durham (Fayetteville), NC (29)",
+         "count":29,
+         "val":"Kerr Drug - Raleigh-Durham (Fayetteville), NC",
+         "location":"Raleigh-Durham (Fayetteville), NC"
+      },
+      {  
+         "name":"Wilmington, NC (6)",
+         "count":6,
+         "val":"Kmart - Wilmington, NC",
+         "location":"Wilmington, NC"
+      }
+   ],
+   "Kmart":[  
+      {  
+         "name":"Albany, GA (2)",
+         "count":2,
+         "val":"Kmart - Albany, GA",
+         "location":"Albany, GA"
+      },
+      {  
+         "name":"Albany-Schenectady-Troy, NY (4)",
+         "count":4,
+         "val":"Kmart - Albany-Schenectady-Troy, NY",
+         "location":"Albany-Schenectady-Troy, NY"
+      },
+      {  
+         "name":"Albuquerque-Santa Fe, NM (7)",
+         "count":7,
+         "val":"Kmart - Albuquerque-Santa Fe, NM",
+         "location":"Albuquerque-Santa Fe, NM"
+      },
+      {  
+         "name":"Atlanta, GA (7)",
+         "count":7,
+         "val":"Kmart - Atlanta, GA",
+         "location":"Atlanta, GA"
+      },
+      {  
+         "name":"Bakersfield, CA (3)",
+         "count":3,
+         "val":"Kmart - Bakersfield, CA",
+         "location":"Bakersfield, CA"
+      },
+      {  
+         "name":"Baltimore, MD (6)",
+         "count":6,
+         "val":"Kmart - Baltimore, MD",
+         "location":"Baltimore, MD"
+      },
+      {  
+         "name":"Bangor, ME (1)",
+         "count":1,
+         "val":"Kmart - Bangor, ME",
+         "location":"Bangor, ME"
+      },
+      {  
+         "name":"Baton Rouge, LA (1)",
+         "count":1,
+         "val":"Kmart - Baton Rouge, LA",
+         "location":"Baton Rouge, LA"
+      },
+      {  
+         "name":"Biloxi-Gulfport, MS (1)",
+         "count":1,
+         "val":"Kmart - Biloxi-Gulfport, MS",
+         "location":"Biloxi-Gulfport, MS"
+      },
+      {  
+         "name":"Binghamton, NY (1)",
+         "count":1,
+         "val":"Kmart - Binghamton, NY",
+         "location":"Binghamton, NY"
+      },
+      {  
+         "name":"Birmingham (Anniston and Tuscaloosa), AL (3)",
+         "count":3,
+         "val":"Kmart - Birmingham (Anniston and Tuscaloosa), AL",
+         "location":"Birmingham (Anniston and Tuscaloosa), AL"
+      },
+      {  
+         "name":"Bluefield-Beckley-Oak Hill, WV (3)",
+         "count":3,
+         "val":"Kmart - Bluefield-Beckley-Oak Hill, WV",
+         "location":"Bluefield-Beckley-Oak Hill, WV"
+      },
+      {  
+         "name":"Boise, ID (1)",
+         "count":1,
+         "val":"Kmart - Boise, ID",
+         "location":"Boise, ID"
+      },
+      {  
+         "name":"Boston, MA (Manchester, NH) (11)",
+         "count":11,
+         "val":"Kmart - Boston, MA (Manchester, NH)",
+         "location":"Boston, MA (Manchester, NH)"
+      },
+      {  
+         "name":"Bowling Green, KY (2)",
+         "count":2,
+         "val":"Kmart - Bowling Green, KY",
+         "location":"Bowling Green, KY"
+      },
+      {  
+         "name":"Bristol-Kingsport-Johnson City (4)",
+         "count":4,
+         "val":"Kmart - Bristol-Kingsport-Johnson City",
+         "location":"Bristol-Kingsport-Johnson City"
+      },
+      {  
+         "name":"Buffalo, NY (7)",
+         "count":7,
+         "val":"Kmart - Buffalo, NY",
+         "location":"Buffalo, NY"
+      },
+      {  
+         "name":"Burlington, VT Plattsburgh, NY (2)",
+         "count":2,
+         "val":"Kmart - Burlington, VT Plattsburgh, NY",
+         "location":"Burlington, VT Plattsburgh, NY"
+      },
+      {  
+         "name":"Casper-Riverton, WY (1)",
+         "count":1,
+         "val":"Kmart - Casper-Riverton, WY",
+         "location":"Casper-Riverton, WY"
+      },
+      {  
+         "name":"Cedar Rapids-Waterloo-Iowa City-Dubuque, IA (4)",
+         "count":4,
+         "val":"Kmart - Cedar Rapids-Waterloo-Iowa City-Dubuque, IA",
+         "location":"Cedar Rapids-Waterloo-Iowa City-Dubuque, IA"
+      },
+      {  
+         "name":"Champaign-Springfield Decatur, IL (3)",
+         "count":3,
+         "val":"Kmart - Champaign-Springfield Decatur, IL",
+         "location":"Champaign-Springfield Decatur, IL"
+      },
+      {  
+         "name":"Charleston, SC (2)",
+         "count":2,
+         "val":"Kmart - Charleston, SC",
+         "location":"Charleston, SC"
+      },
+      {  
+         "name":"Charleston-Huntington, WV (7)",
+         "count":7,
+         "val":"Kmart - Charleston-Huntington, WV",
+         "location":"Charleston-Huntington, WV"
+      },
+      {  
+         "name":"Charlotte, NC (4)",
+         "count":4,
+         "val":"Kmart - Charlotte, NC",
+         "location":"Charlotte, NC"
+      },
+      {  
+         "name":"Charlottesville, VA (1)",
+         "count":1,
+         "val":"Kmart - Charlottesville, VA",
+         "location":"Charlottesville, VA"
+      },
+      {  
+         "name":"Chattanooga, TN (3)",
+         "count":3,
+         "val":"Kmart - Chattanooga, TN",
+         "location":"Chattanooga, TN"
+      },
+      {  
+         "name":"Cheyenne-Scottsbluff, WY (1)",
+         "count":1,
+         "val":"Kmart - Cheyenne-Scottsbluff, WY",
+         "location":"Cheyenne-Scottsbluff, WY"
+      },
+      {  
+         "name":"Chicago, IL (12)",
+         "count":12,
+         "val":"Kmart - Chicago, IL",
+         "location":"Chicago, IL"
+      },
+      {  
+         "name":"Chico-Redding, CA (2)",
+         "count":2,
+         "val":"Kmart - Chico-Redding, CA",
+         "location":"Chico-Redding, CA"
+      },
+      {  
+         "name":"Cincinnati, OH (3)",
+         "count":3,
+         "val":"Kmart - Cincinnati, OH",
+         "location":"Cincinnati, OH"
+      },
+      {  
+         "name":"Clarksburg-Weston, WV (1)",
+         "count":1,
+         "val":"Kmart - Clarksburg-Weston, WV",
+         "location":"Clarksburg-Weston, WV"
+      },
+      {  
+         "name":"Cleveland-Akron (Canton), OH (11)",
+         "count":11,
+         "val":"Kmart - Cleveland-Akron (Canton), OH",
+         "location":"Cleveland-Akron (Canton), OH"
+      },
+      {  
+         "name":"Colorado Springs-Pueblo, CO (1)",
+         "count":1,
+         "val":"Kmart - Colorado Springs-Pueblo, CO",
+         "location":"Colorado Springs-Pueblo, CO"
+      },
+      {  
+         "name":"Columbia, SC (4)",
+         "count":4,
+         "val":"Kmart - Columbia, SC",
+         "location":"Columbia, SC"
+      },
+      {  
+         "name":"Columbia-Jefferson City, MO (1)",
+         "count":1,
+         "val":"Kmart - Columbia-Jefferson City, MO",
+         "location":"Columbia-Jefferson City, MO"
+      },
+      {  
+         "name":"Columbus, GA (3)",
+         "count":3,
+         "val":"Kmart - Columbus, GA",
+         "location":"Columbus, GA"
+      },
+      {  
+         "name":"Columbus, OH (6)",
+         "count":6,
+         "val":"Kmart - Columbus, OH",
+         "location":"Columbus, OH"
+      },
+      {  
+         "name":"Columbus-Tupelo-West Point, MS (1)",
+         "count":1,
+         "val":"Kmart - Columbus-Tupelo-West Point, MS",
+         "location":"Columbus-Tupelo-West Point, MS"
+      },
+      {  
+         "name":"Davenport, IA Rock Island Moline, IL (1)",
+         "count":1,
+         "val":"Kmart - Davenport, IA Rock Island Moline, IL",
+         "location":"Davenport, IA Rock Island Moline, IL"
+      },
+      {  
+         "name":"Dayton, OH (4)",
+         "count":4,
+         "val":"Kmart - Dayton, OH",
+         "location":"Dayton, OH"
+      },
+      {  
+         "name":"Denver, CO (9)",
+         "count":9,
+         "val":"Kmart - Denver, CO",
+         "location":"Denver, CO"
+      },
+      {  
+         "name":"Des Moines-Ames, IA (5)",
+         "count":5,
+         "val":"Kmart - Des Moines-Ames, IA",
+         "location":"Des Moines-Ames, IA"
+      },
+      {  
+         "name":"Detroit, MI (18)",
+         "count":18,
+         "val":"Kmart - Detroit, MI",
+         "location":"Detroit, MI"
+      },
+      {  
+         "name":"Dothan, AL (1)",
+         "count":1,
+         "val":"Kmart - Dothan, AL",
+         "location":"Dothan, AL"
+      },
+      {  
+         "name":"Duluth-Superior, MN (2)",
+         "count":2,
+         "val":"Kmart - Duluth-Superior, MN",
+         "location":"Duluth-Superior, MN"
+      },
+      {  
+         "name":"El Paso (Las Cruces), TX (6)",
+         "count":6,
+         "val":"Kmart - El Paso (Las Cruces), TX",
+         "location":"El Paso (Las Cruces), TX"
+      },
+      {  
+         "name":"Elmira (Corning), NY (2)",
+         "count":2,
+         "val":"Kmart - Elmira (Corning), NY",
+         "location":"Elmira (Corning), NY"
+      },
+      {  
+         "name":"Erie, PA (4)",
+         "count":4,
+         "val":"Kmart - Erie, PA",
+         "location":"Erie, PA"
+      },
+      {  
+         "name":"Eugene, OR (2)",
+         "count":2,
+         "val":"Kmart - Eugene, OR",
+         "location":"Eugene, OR"
+      },
+      {  
+         "name":"Eureka, CA (2)",
+         "count":2,
+         "val":"Kmart - Eureka, CA",
+         "location":"Eureka, CA"
+      },
+      {  
+         "name":"Evansville, IN (4)",
+         "count":4,
+         "val":"Kmart - Evansville, IN",
+         "location":"Evansville, IN"
+      },
+      {  
+         "name":"Fargo-Valley City, ND (4)",
+         "count":4,
+         "val":"Kmart - Fargo-Valley City, ND",
+         "location":"Fargo-Valley City, ND"
+      },
+      {  
+         "name":"Flint-Saginaw-Bay City, MI (6)",
+         "count":6,
+         "val":"Kmart - Flint-Saginaw-Bay City, MI",
+         "location":"Flint-Saginaw-Bay City, MI"
+      },
+      {  
+         "name":"Fresno-Visalia, CA (5)",
+         "count":5,
+         "val":"Kmart - Fresno-Visalia, CA",
+         "location":"Fresno-Visalia, CA"
+      },
+      {  
+         "name":"Ft. Myers-Naples, FL (3)",
+         "count":3,
+         "val":"Kmart - Ft. Myers-Naples, FL",
+         "location":"Ft. Myers-Naples, FL"
+      },
+      {  
+         "name":"Gainesville, FL (1)",
+         "count":1,
+         "val":"Kmart - Gainesville, FL",
+         "location":"Gainesville, FL"
+      },
+      {  
+         "name":"Glendive, MT (1)",
+         "count":1,
+         "val":"Kmart - Glendive, MT",
+         "location":"Glendive, MT"
+      },
+      {  
+         "name":"Grand Junction-Montrose, CO (1)",
+         "count":1,
+         "val":"Kmart - Grand Junction-Montrose, CO",
+         "location":"Grand Junction-Montrose, CO"
+      },
+      {  
+         "name":"Grand Rapids-Kalamazoo-Battle Creek, MI (4)",
+         "count":4,
+         "val":"Kmart - Grand Rapids-Kalamazoo-Battle Creek, MI",
+         "location":"Grand Rapids-Kalamazoo-Battle Creek, MI"
+      },
+      {  
+         "name":"Great Falls, MT (2)",
+         "count":2,
+         "val":"Kmart - Great Falls, MT",
+         "location":"Great Falls, MT"
+      },
+      {  
+         "name":"Green Bay-Appleton, WI (3)",
+         "count":3,
+         "val":"Kmart - Green Bay-Appleton, WI",
+         "location":"Green Bay-Appleton, WI"
+      },
+      {  
+         "name":"Greensboro-High Point-Winston-Salem, NC (3)",
+         "count":3,
+         "val":"Kmart - Greensboro-High Point-Winston-Salem, NC",
+         "location":"Greensboro-High Point-Winston-Salem, NC"
+      },
+      {  
+         "name":"Greenville-New Bern-Washington, NC (2)",
+         "count":2,
+         "val":"Kmart - Greenville-New Bern-Washington, NC",
+         "location":"Greenville-New Bern-Washington, NC"
+      },
+      {  
+         "name":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC (8)",
+         "count":8,
+         "val":"Kmart - Greenville-Spartanburg, SC Asheville, NC Anderson, SC",
+         "location":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC"
+      },
+      {  
+         "name":"Harlingen-Wslco-Brnsvl-McA, TX (2)",
+         "count":2,
+         "val":"Kmart - Harlingen-Wslco-Brnsvl-McA, TX",
+         "location":"Harlingen-Wslco-Brnsvl-McA, TX"
+      },
+      {  
+         "name":"Harrisburg-Lancaster-Lebanon-York, PA (10)",
+         "count":10,
+         "val":"Kmart - Harrisburg-Lancaster-Lebanon-York, PA",
+         "location":"Harrisburg-Lancaster-Lebanon-York, PA"
+      },
+      {  
+         "name":"Harrisonburg, VA (1)",
+         "count":1,
+         "val":"Kmart - Harrisonburg, VA",
+         "location":"Harrisonburg, VA"
+      },
+      {  
+         "name":"Hartford And New Haven, CT (5)",
+         "count":5,
+         "val":"Kmart - Hartford And New Haven, CT",
+         "location":"Hartford And New Haven, CT"
+      },
+      {  
+         "name":"Huntsville-Decatur (Florence), AL (3)",
+         "count":3,
+         "val":"Kmart - Huntsville-Decatur (Florence), AL",
+         "location":"Huntsville-Decatur (Florence), AL"
+      },
+      {  
+         "name":"Idaho Falls-Pocatello(Jcksn), ID (2)",
+         "count":2,
+         "val":"Kmart - Idaho Falls-Pocatello(Jcksn), ID",
+         "location":"Idaho Falls-Pocatello(Jcksn), ID"
+      },
+      {  
+         "name":"Indianapolis, IN (7)",
+         "count":7,
+         "val":"Kmart - Indianapolis, IN",
+         "location":"Indianapolis, IN"
+      },
+      {  
+         "name":"Jackson, TN (1)",
+         "count":1,
+         "val":"Kmart - Jackson, TN",
+         "location":"Jackson, TN"
+      },
+      {  
+         "name":"Jacksonville, FL (3)",
+         "count":3,
+         "val":"Kmart - Jacksonville, FL",
+         "location":"Jacksonville, FL"
+      },
+      {  
+         "name":"Johnstown-Altoona, PA (2)",
+         "count":2,
+         "val":"Kmart - Johnstown-Altoona, PA",
+         "location":"Johnstown-Altoona, PA"
+      },
+      {  
+         "name":"Kansas City, MO (6)",
+         "count":6,
+         "val":"Kmart - Kansas City, MO",
+         "location":"Kansas City, MO"
+      },
+      {  
+         "name":"Knoxville, TN (4)",
+         "count":4,
+         "val":"Kmart - Knoxville, TN",
+         "location":"Knoxville, TN"
+      },
+      {  
+         "name":"La Crosse-Eau Claire, WI (1)",
+         "count":1,
+         "val":"Kmart - La Crosse-Eau Claire, WI",
+         "location":"La Crosse-Eau Claire, WI"
+      },
+      {  
+         "name":"Lake Charles, LA (1)",
+         "count":1,
+         "val":"Kmart - Lake Charles, LA",
+         "location":"Lake Charles, LA"
+      },
+      {  
+         "name":"Lansing, MI (2)",
+         "count":2,
+         "val":"Kmart - Lansing, MI",
+         "location":"Lansing, MI"
+      },
+      {  
+         "name":"Laredo, TX (1)",
+         "count":1,
+         "val":"Kmart - Laredo, TX",
+         "location":"Laredo, TX"
+      },
+      {  
+         "name":"Las Vegas, NV (6)",
+         "count":6,
+         "val":"Kmart - Las Vegas, NV",
+         "location":"Las Vegas, NV"
+      },
+      {  
+         "name":"Lexington, KY (8)",
+         "count":8,
+         "val":"Kmart - Lexington, KY",
+         "location":"Lexington, KY"
+      },
+      {  
+         "name":"Lima, OH (1)",
+         "count":1,
+         "val":"Kmart - Lima, OH",
+         "location":"Lima, OH"
+      },
+      {  
+         "name":"Little Rock-Pine Bluff, AR (2)",
+         "count":2,
+         "val":"Kmart - Little Rock-Pine Bluff, AR",
+         "location":"Little Rock-Pine Bluff, AR"
+      },
+      {  
+         "name":"Los Angeles, CA (27)",
+         "count":27,
+         "val":"Kmart - Los Angeles, CA",
+         "location":"Los Angeles, CA"
+      },
+      {  
+         "name":"Louisville, KY (1)",
+         "count":1,
+         "val":"Kmart - Louisville, KY",
+         "location":"Louisville, KY"
+      },
+      {  
+         "name":"Macon, GA (1)",
+         "count":1,
+         "val":"Kmart - Macon, GA",
+         "location":"Macon, GA"
+      },
+      {  
+         "name":"Madison, WI (2)",
+         "count":2,
+         "val":"Kmart - Madison, WI",
+         "location":"Madison, WI"
+      },
+      {  
+         "name":"Marquette, MI (1)",
+         "count":1,
+         "val":"Kmart - Marquette, MI",
+         "location":"Marquette, MI"
+      },
+      {  
+         "name":"Miami-Ft. Lauderdale, FL (11)",
+         "count":11,
+         "val":"Kmart - Miami-Ft. Lauderdale, FL",
+         "location":"Miami-Ft. Lauderdale, FL"
+      },
+      {  
+         "name":"Milwaukee, WI (6)",
+         "count":6,
+         "val":"Kmart - Milwaukee, WI",
+         "location":"Milwaukee, WI"
+      },
+      {  
+         "name":"Minneapolis-St. Paul, MN (2)",
+         "count":2,
+         "val":"Kmart - Minneapolis-St. Paul, MN",
+         "location":"Minneapolis-St. Paul, MN"
+      },
+      {  
+         "name":"Minot-Bismarck-Dickinson (Williston), ND (2)",
+         "count":2,
+         "val":"Kmart - Minot-Bismarck-Dickinson (Williston), ND",
+         "location":"Minot-Bismarck-Dickinson (Williston), ND"
+      },
+      {  
+         "name":"Missoula, MT (2)",
+         "count":2,
+         "val":"Kmart - Missoula, MT",
+         "location":"Missoula, MT"
+      },
+      {  
+         "name":"Mobile, AL Pensacola (Ft. Walton Beach), FL (2)",
+         "count":2,
+         "val":"Kmart - Mobile, AL Pensacola (Ft. Walton Beach), FL",
+         "location":"Mobile, AL Pensacola (Ft. Walton Beach), FL"
+      },
+      {  
+         "name":"Monterey-Salinas, CA (4)",
+         "count":4,
+         "val":"Kmart - Monterey-Salinas, CA",
+         "location":"Monterey-Salinas, CA"
+      },
+      {  
+         "name":"Myrtle Beach-Florence, SC (2)",
+         "count":2,
+         "val":"Kmart - Myrtle Beach-Florence, SC",
+         "location":"Myrtle Beach-Florence, SC"
+      },
+      {  
+         "name":"Nashville, TN (7)",
+         "count":7,
+         "val":"Kmart - Nashville, TN",
+         "location":"Nashville, TN"
+      },
+      {  
+         "name":"New Orleans, LA (3)",
+         "count":3,
+         "val":"Kmart - New Orleans, LA",
+         "location":"New Orleans, LA"
+      },
+      {  
+         "name":"New York, NY (38)",
+         "count":38,
+         "val":"Kmart - New York, NY",
+         "location":"New York, NY"
+      },
+      {  
+         "name":"Norfolk-Portsmouth-Newport News, VA (8)",
+         "count":8,
+         "val":"Kmart - Norfolk-Portsmouth-Newport News, VA",
+         "location":"Norfolk-Portsmouth-Newport News, VA"
+      },
+      {  
+         "name":"Oklahoma City, OK (2)",
+         "count":2,
+         "val":"Kmart - Oklahoma City, OK",
+         "location":"Oklahoma City, OK"
+      },
+      {  
+         "name":"Omaha, NE (2)",
+         "count":2,
+         "val":"Kmart - Omaha, NE",
+         "location":"Omaha, NE"
+      },
+      {  
+         "name":"Orlando-Daytona Beach-Melbourne, FL (2)",
+         "count":2,
+         "val":"Kmart - Orlando-Daytona Beach-Melbourne, FL",
+         "location":"Orlando-Daytona Beach-Melbourne, FL"
+      },
+      {  
+         "name":"Paducah, KY Cape Girardeau, MO Harrisburg, IL (2)",
+         "count":2,
+         "val":"Kmart - Paducah, KY Cape Girardeau, MO Harrisburg, IL",
+         "location":"Paducah, KY Cape Girardeau, MO Harrisburg, IL"
+      },
+      {  
+         "name":"Palm Springs, CA (1)",
+         "count":1,
+         "val":"Kmart - Palm Springs, CA",
+         "location":"Palm Springs, CA"
+      },
+      {  
+         "name":"Parkersburg, WV (3)",
+         "count":3,
+         "val":"Kmart - Parkersburg, WV",
+         "location":"Parkersburg, WV"
+      },
+      {  
+         "name":"Peoria-Bloomington, IL (1)",
+         "count":1,
+         "val":"Kmart - Peoria-Bloomington, IL",
+         "location":"Peoria-Bloomington, IL"
+      },
+      {  
+         "name":"Philadelphia, PA (29)",
+         "count":29,
+         "val":"Kmart - Philadelphia, PA",
+         "location":"Philadelphia, PA"
+      },
+      {  
+         "name":"Phoenix (Prescott), AZ (6)",
+         "count":6,
+         "val":"Kmart - Phoenix (Prescott), AZ",
+         "location":"Phoenix (Prescott), AZ"
+      },
+      {  
+         "name":"Pittsburgh, PA (16)",
+         "count":16,
+         "val":"Kmart - Pittsburgh, PA",
+         "location":"Pittsburgh, PA"
+      },
+      {  
+         "name":"Portland, OR (5)",
+         "count":5,
+         "val":"Kmart - Portland, OR",
+         "location":"Portland, OR"
+      },
+      {  
+         "name":"Portland-Auburn, ME (3)",
+         "count":3,
+         "val":"Kmart - Portland-Auburn, ME",
+         "location":"Portland-Auburn, ME"
+      },
+      {  
+         "name":"Presque Isle, ME (2)",
+         "count":2,
+         "val":"Kmart - Presque Isle, ME",
+         "location":"Presque Isle, ME"
+      },
+      {  
+         "name":"Providence, RI New Bedford, MA (3)",
+         "count":3,
+         "val":"Kmart - Providence, RI New Bedford, MA",
+         "location":"Providence, RI New Bedford, MA"
+      },
+      {  
+         "name":"Quincy, IL Hannibal, MO Keokuk, IA (1)",
+         "count":1,
+         "val":"Kmart - Quincy, IL Hannibal, MO Keokuk, IA",
+         "location":"Quincy, IL Hannibal, MO Keokuk, IA"
+      },
+      {  
+         "name":"Raleigh-Durham (Fayetteville), NC (4)",
+         "count":4,
+         "val":"Kmart - Raleigh-Durham (Fayetteville), NC",
+         "location":"Raleigh-Durham (Fayetteville), NC"
+      },
+      {  
+         "name":"Rapid City, SD (2)",
+         "count":2,
+         "val":"Kmart - Rapid City, SD",
+         "location":"Rapid City, SD"
+      },
+      {  
+         "name":"Reno, NV (2)",
+         "count":2,
+         "val":"Kmart - Reno, NV",
+         "location":"Reno, NV"
+      },
+      {  
+         "name":"Richmond-Petersburg, VA (2)",
+         "count":2,
+         "val":"Kmart - Richmond-Petersburg, VA",
+         "location":"Richmond-Petersburg, VA"
+      },
+      {  
+         "name":"Roanoke-Lynchburg, VA (6)",
+         "count":6,
+         "val":"Kmart - Roanoke-Lynchburg, VA",
+         "location":"Roanoke-Lynchburg, VA"
+      },
+      {  
+         "name":"Rochester, NY (3)",
+         "count":3,
+         "val":"Kmart - Rochester, NY",
+         "location":"Rochester, NY"
+      },
+      {  
+         "name":"Rochester-Mason City-Austin, MN (2)",
+         "count":2,
+         "val":"Kmart - Rochester-Mason City-Austin, MN",
+         "location":"Rochester-Mason City-Austin, MN"
+      },
+      {  
+         "name":"Rockford, IL (1)",
+         "count":1,
+         "val":"Kmart - Rockford, IL",
+         "location":"Rockford, IL"
+      },
+      {  
+         "name":"Sacramnto-Stktn-Modesto, CA (9)",
+         "count":9,
+         "val":"Kmart - Sacramnto-Stktn-Modesto, CA",
+         "location":"Sacramnto-Stktn-Modesto, CA"
+      },
+      {  
+         "name":"Salisbury, MD (1)",
+         "count":1,
+         "val":"Kmart - Salisbury, MD",
+         "location":"Salisbury, MD"
+      },
+      {  
+         "name":"Salt Lake City, UT (7)",
+         "count":7,
+         "val":"Kmart - Salt Lake City, UT",
+         "location":"Salt Lake City, UT"
+      },
+      {  
+         "name":"San Diego, CA (3)",
+         "count":3,
+         "val":"Kmart - San Diego, CA",
+         "location":"San Diego, CA"
+      },
+      {  
+         "name":"San Francisco-Oak-San Jos, CA (8)",
+         "count":8,
+         "val":"Kmart - San Francisco-Oak-San Jos, CA",
+         "location":"San Francisco-Oak-San Jos, CA"
+      },
+      {  
+         "name":"Santa Barbara-Santa Maria-San Luis Obispo, CA (3)",
+         "count":3,
+         "val":"Kmart - Santa Barbara-Santa Maria-San Luis Obispo, CA",
+         "location":"Santa Barbara-Santa Maria-San Luis Obispo, CA"
+      },
+      {  
+         "name":"Savannah, GA (2)",
+         "count":2,
+         "val":"Kmart - Savannah, GA",
+         "location":"Savannah, GA"
+      },
+      {  
+         "name":"Seattle-Tacoma, WA (7)",
+         "count":7,
+         "val":"Kmart - Seattle-Tacoma, WA",
+         "location":"Seattle-Tacoma, WA"
+      },
+      {  
+         "name":"Shreveport, LA (2)",
+         "count":2,
+         "val":"Kmart - Shreveport, LA",
+         "location":"Shreveport, LA"
+      },
+      {  
+         "name":"Sioux City, IA (2)",
+         "count":2,
+         "val":"Kmart - Sioux City, IA",
+         "location":"Sioux City, IA"
+      },
+      {  
+         "name":"Sioux Falls(Mitchell), SD (2)",
+         "count":2,
+         "val":"Kmart - Sioux Falls(Mitchell), SD",
+         "location":"Sioux Falls(Mitchell), SD"
+      },
+      {  
+         "name":"South Bend-Elkhart, IN (2)",
+         "count":2,
+         "val":"Kmart - South Bend-Elkhart, IN",
+         "location":"South Bend-Elkhart, IN"
+      },
+      {  
+         "name":"Spokane, WA (3)",
+         "count":3,
+         "val":"Kmart - Spokane, WA",
+         "location":"Spokane, WA"
+      },
+      {  
+         "name":"Springfield, MO (3)",
+         "count":3,
+         "val":"Kmart - Springfield, MO",
+         "location":"Springfield, MO"
+      },
+      {  
+         "name":"Springfield-Holyoke, MA (3)",
+         "count":3,
+         "val":"Kmart - Springfield-Holyoke, MA",
+         "location":"Springfield-Holyoke, MA"
+      },
+      {  
+         "name":"St. Joseph, MO (1)",
+         "count":1,
+         "val":"Kmart - St. Joseph, MO",
+         "location":"St. Joseph, MO"
+      },
+      {  
+         "name":"St. Louis, MO (6)",
+         "count":6,
+         "val":"Kmart - St. Louis, MO",
+         "location":"St. Louis, MO"
+      },
+      {  
+         "name":"Syracuse, NY (3)",
+         "count":3,
+         "val":"Kmart - Syracuse, NY",
+         "location":"Syracuse, NY"
+      },
+      {  
+         "name":"Tampa-St. Petersburg (Sarasota), FL (11)",
+         "count":11,
+         "val":"Kmart - Tampa-St. Petersburg (Sarasota), FL",
+         "location":"Tampa-St. Petersburg (Sarasota), FL"
+      },
+      {  
+         "name":"Toledo, OH (4)",
+         "count":4,
+         "val":"Kmart - Toledo, OH",
+         "location":"Toledo, OH"
+      },
+      {  
+         "name":"Topeka, KS (1)",
+         "count":1,
+         "val":"Kmart - Topeka, KS",
+         "location":"Topeka, KS"
+      },
+      {  
+         "name":"Traverse City-Cadillac, MI (5)",
+         "count":5,
+         "val":"Kmart - Traverse City-Cadillac, MI",
+         "location":"Traverse City-Cadillac, MI"
+      },
+      {  
+         "name":"Tucson (Sierra Vista), AZ (1)",
+         "count":1,
+         "val":"Kmart - Tucson (Sierra Vista), AZ",
+         "location":"Tucson (Sierra Vista), AZ"
+      },
+      {  
+         "name":"Tulsa, OK (3)",
+         "count":3,
+         "val":"Kmart - Tulsa, OK",
+         "location":"Tulsa, OK"
+      },
+      {  
+         "name":"Twin Falls, ID (1)",
+         "count":1,
+         "val":"Kmart - Twin Falls, ID",
+         "location":"Twin Falls, ID"
+      },
+      {  
+         "name":"Tyler-Longview (Lufkin And Nacogdoches), TX (1)",
+         "count":1,
+         "val":"Kmart - Tyler-Longview (Lufkin And Nacogdoches), TX",
+         "location":"Tyler-Longview (Lufkin And Nacogdoches), TX"
+      },
+      {  
+         "name":"Utica, NY (2)",
+         "count":2,
+         "val":"Kmart - Utica, NY",
+         "location":"Utica, NY"
+      },
+      {  
+         "name":"WacoTemple-Bryan, TX (1)",
+         "count":1,
+         "val":"Kmart - WacoTemple-Bryan, TX",
+         "location":"WacoTemple-Bryan, TX"
+      },
+      {  
+         "name":"Washington, DC (Hagerstown, MD) (14)",
+         "count":14,
+         "val":"Kmart - Washington, DC (Hagerstown, MD)",
+         "location":"Washington, DC (Hagerstown, MD)"
+      },
+      {  
+         "name":"Watertown, NY (1)",
+         "count":1,
+         "val":"Kmart - Watertown, NY",
+         "location":"Watertown, NY"
+      },
+      {  
+         "name":"Wausau-Rhinelander, WI (2)",
+         "count":2,
+         "val":"Kmart - Wausau-Rhinelander, WI",
+         "location":"Wausau-Rhinelander, WI"
+      },
+      {  
+         "name":"West Palm Beach-Ft. Pierce, FL (5)",
+         "count":5,
+         "val":"Kmart - West Palm Beach-Ft. Pierce, FL",
+         "location":"West Palm Beach-Ft. Pierce, FL"
+      },
+      {  
+         "name":"Wheeling, WV Steubenville, OH (2)",
+         "count":2,
+         "val":"Kmart - Wheeling, WV Steubenville, OH",
+         "location":"Wheeling, WV Steubenville, OH"
+      },
+      {  
+         "name":"Wichita-Hutchinson Plus, KS (2)",
+         "count":2,
+         "val":"Kmart - Wichita-Hutchinson Plus, KS",
+         "location":"Wichita-Hutchinson Plus, KS"
+      },
+      {  
+         "name":"Wilkes Barre-Scranton, PA (10)",
+         "count":10,
+         "val":"Kmart - Wilkes Barre-Scranton, PA",
+         "location":"Wilkes Barre-Scranton, PA"
+      },
+      {  
+         "name":"Wilmington, NC (1)",
+         "count":1,
+         "val":"Kmart - Wilmington, NC",
+         "location":"Wilmington, NC"
+      },
+      {  
+         "name":"Yakima-Pasco-Rchlnd-Knnwck, WA (1)",
+         "count":1,
+         "val":"Kmart - Yakima-Pasco-Rchlnd-Knnwck, WA",
+         "location":"Yakima-Pasco-Rchlnd-Knnwck, WA"
+      },
+      {  
+         "name":"Youngstown, OH (3)",
+         "count":3,
+         "val":"Kmart - Youngstown, OH",
+         "location":"Youngstown, OH"
+      },
+      {  
+         "name":"Zanesville, OH (1)",
+         "count":1,
+         "val":"Navarro - Zanesville, OH",
+         "location":"Zanesville, OH"
+      }
+   ],
+   "Navarro":[  
+      {  
+         "name":"Miami-Ft. Lauderdale, FL (31)",
+         "count":31,
+         "val":"RiteAid - Miami-Ft. Lauderdale, FL",
+         "location":"Miami-Ft. Lauderdale, FL"
+      }
+   ],
+   "RiteAid":[
+      {  
+         "name":"Albany, GA (10)",
+         "count":10,
+         "val":"RiteAid - Albany, GA",
+         "location":"Albany, GA"
+      },
+      {  
+         "name":"Albany-Schenectady-Troy, NY (67)",
+         "count":67,
+         "val":"RiteAid - Albany-Schenectady-Troy, NY",
+         "location":"Albany-Schenectady-Troy, NY"
+      },
+      {  
+         "name":"Alpena, MI (1)",
+         "count":1,
+         "val":"RiteAid - Alpena, MI",
+         "location":"Alpena, MI"
+      },
+      {  
+         "name":"Anniston, AL (3)",
+         "count":3,
+         "val":"RiteAid - Anniston, AL",
+         "location":"Anniston, AL"
+      },
+      {  
+         "name":"Atlanta, GA (70)",
+         "count":70,
+         "val":"RiteAid - Atlanta, GA",
+         "location":"Atlanta, GA"
+      },
+      {  
+         "name":"Augusta, GA (9)",
+         "count":9,
+         "val":"RiteAid - Augusta, GA",
+         "location":"Augusta, GA"
+      },
+      {  
+         "name":"Bakersfield, CA (18)",
+         "count":18,
+         "val":"RiteAid - Bakersfield, CA",
+         "location":"Bakersfield, CA"
+      },
+      {  
+         "name":"Baltimore, MD (83)",
+         "count":83,
+         "val":"RiteAid - Baltimore, MD",
+         "location":"Baltimore, MD"
+      },
+      {  
+         "name":"Bangor, ME (18)",
+         "count":18,
+         "val":"RiteAid - Bangor, ME",
+         "location":"Bangor, ME"
+      },
+      {  
+         "name":"Baton Rouge, LA (1)",
+         "count":1,
+         "val":"RiteAid - Baton Rouge, LA",
+         "location":"Baton Rouge, LA"
+      },
+      {  
+         "name":"Bend, OR (2)",
+         "count":2,
+         "val":"RiteAid - Bend, OR",
+         "location":"Bend, OR"
+      },
+      {  
+         "name":"Binghamton, NY (13)",
+         "count":13,
+         "val":"RiteAid - Binghamton, NY",
+         "location":"Binghamton, NY"
+      },
+      {  
+         "name":"Birmingham (Anniston and Tuscaloosa), AL (12)",
+         "count":12,
+         "val":"RiteAid - Birmingham (Anniston and Tuscaloosa), AL",
+         "location":"Birmingham (Anniston and Tuscaloosa), AL"
+      },
+      {  
+         "name":"Bluefield-Beckley-Oak Hill, WV (20)",
+         "count":20,
+         "val":"RiteAid - Bluefield-Beckley-Oak Hill, WV",
+         "location":"Bluefield-Beckley-Oak Hill, WV"
+      },
+      {  
+         "name":"Boise, ID (11)",
+         "count":11,
+         "val":"RiteAid - Boise, ID",
+         "location":"Boise, ID"
+      },
+      {  
+         "name":"Boston, MA (Manchester, NH) (130)",
+         "count":130,
+         "val":"RiteAid - Boston, MA (Manchester, NH)",
+         "location":"Boston, MA (Manchester, NH)"
+      },
+      {  
+         "name":"Bowling Green, KY (5)",
+         "count":5,
+         "val":"RiteAid - Bowling Green, KY",
+         "location":"Bowling Green, KY"
+      },
+      {  
+         "name":"Bristol-Kingsport-Johnson City (13)",
+         "count":13,
+         "val":"RiteAid - Bristol-Kingsport-Johnson City",
+         "location":"Bristol-Kingsport-Johnson City"
+      },
+      {  
+         "name":"Buffalo, NY (92)",
+         "count":92,
+         "val":"RiteAid - Buffalo, NY",
+         "location":"Buffalo, NY"
+      },
+      {  
+         "name":"Burlington, VT Plattsburgh, NY (42)",
+         "count":42,
+         "val":"RiteAid - Burlington, VT Plattsburgh, NY",
+         "location":"Burlington, VT Plattsburgh, NY"
+      },
+      {  
+         "name":"Charleston, SC (9)",
+         "count":9,
+         "val":"RiteAid - Charleston, SC",
+         "location":"Charleston, SC"
+      },
+      {  
+         "name":"Charleston-Huntington, WV (62)",
+         "count":62,
+         "val":"RiteAid - Charleston-Huntington, WV",
+         "location":"Charleston-Huntington, WV"
+      },
+      {  
+         "name":"Charlotte, NC (51)",
+         "count":51,
+         "val":"RiteAid - Charlotte, NC",
+         "location":"Charlotte, NC"
+      },
+      {  
+         "name":"Charlottesville, VA (2)",
+         "count":2,
+         "val":"RiteAid - Charlottesville, VA",
+         "location":"Charlottesville, VA"
+      },
+      {  
+         "name":"Chattanooga, TN (15)",
+         "count":15,
+         "val":"RiteAid - Chattanooga, TN",
+         "location":"Chattanooga, TN"
+      },
+      {  
+         "name":"Chico-Redding, CA (16)",
+         "count":16,
+         "val":"RiteAid - Chico-Redding, CA",
+         "location":"Chico-Redding, CA"
+      },
+      {  
+         "name":"Cincinnati, OH (4)",
+         "count":4,
+         "val":"RiteAid - Cincinnati, OH",
+         "location":"Cincinnati, OH"
+      },
+      {  
+         "name":"Clarksburg-Weston, WV (14)",
+         "count":14,
+         "val":"RiteAid - Clarksburg-Weston, WV",
+         "location":"Clarksburg-Weston, WV"
+      },
+      {  
+         "name":"Cleveland-Akron (Canton), OH (90)",
+         "count":90,
+         "val":"RiteAid - Cleveland-Akron (Canton), OH",
+         "location":"Cleveland-Akron (Canton), OH"
+      },
+      {  
+         "name":"Columbia, SC (11)",
+         "count":11,
+         "val":"RiteAid - Columbia, SC",
+         "location":"Columbia, SC"
+      },
+      {  
+         "name":"Columbus, GA (4)",
+         "count":4,
+         "val":"RiteAid - Columbus, GA",
+         "location":"Columbus, GA"
+      },
+      {  
+         "name":"Columbus, OH (11)",
+         "count":11,
+         "val":"RiteAid - Columbus, OH",
+         "location":"Columbus, OH"
+      },
+      {  
+         "name":"Dayton, OH (22)",
+         "count":22,
+         "val":"RiteAid - Dayton, OH",
+         "location":"Dayton, OH"
+      },
+      {  
+         "name":"Denver, CO (5)",
+         "count":5,
+         "val":"RiteAid - Denver, CO",
+         "location":"Denver, CO"
+      },
+      {  
+         "name":"Detroit, MI (119)",
+         "count":119,
+         "val":"RiteAid - Detroit, MI",
+         "location":"Detroit, MI"
+      },
+      {  
+         "name":"Dothan, AL (4)",
+         "count":4,
+         "val":"RiteAid - Dothan, AL",
+         "location":"Dothan, AL"
+      },
+      {  
+         "name":"Elmira (Corning), NY (10)",
+         "count":10,
+         "val":"RiteAid - Elmira (Corning), NY",
+         "location":"Elmira (Corning), NY"
+      },
+      {  
+         "name":"Erie, PA (15)",
+         "count":15,
+         "val":"RiteAid - Erie, PA",
+         "location":"Erie, PA"
+      },
+      {  
+         "name":"Eugene, OR (10)",
+         "count":10,
+         "val":"RiteAid - Eugene, OR",
+         "location":"Eugene, OR"
+      },
+      {  
+         "name":"Eureka, CA (4)",
+         "count":4,
+         "val":"RiteAid - Eureka, CA",
+         "location":"Eureka, CA"
+      },
+      {  
+         "name":"Evansville, IN (7)",
+         "count":7,
+         "val":"RiteAid - Evansville, IN",
+         "location":"Evansville, IN"
+      },
+      {  
+         "name":"Flint-Saginaw-Bay City, MI (56)",
+         "count":56,
+         "val":"RiteAid - Flint-Saginaw-Bay City, MI",
+         "location":"Flint-Saginaw-Bay City, MI"
+      },
+      {  
+         "name":"Fresno-Visalia, CA (38)",
+         "count":38,
+         "val":"RiteAid - Fresno-Visalia, CA",
+         "location":"Fresno-Visalia, CA"
+      },
+      {  
+         "name":"Ft. Wayne, IN (1)",
+         "count":1,
+         "val":"RiteAid - Ft. Wayne, IN",
+         "location":"Ft. Wayne, IN"
+      },
+      {  
+         "name":"Grand Junction-Montrose, CO (3)",
+         "count":3,
+         "val":"RiteAid - Grand Junction-Montrose, CO",
+         "location":"Grand Junction-Montrose, CO"
+      },
+      {  
+         "name":"Grand Rapids-Kalamazoo-Battle Creek, MI (37)",
+         "count":37,
+         "val":"RiteAid - Grand Rapids-Kalamazoo-Battle Creek, MI",
+         "location":"Grand Rapids-Kalamazoo-Battle Creek, MI"
+      },
+      {  
+         "name":"Greensboro-High Point-Winston-Salem, NC (28)",
+         "count":28,
+         "val":"RiteAid - Greensboro-High Point-Winston-Salem, NC",
+         "location":"Greensboro-High Point-Winston-Salem, NC"
+      },
+      {  
+         "name":"Greenville-New Bern-Washington, NC (7)",
+         "count":7,
+         "val":"RiteAid - Greenville-New Bern-Washington, NC",
+         "location":"Greenville-New Bern-Washington, NC"
+      },
+      {  
+         "name":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC (28)",
+         "count":28,
+         "val":"RiteAid - Greenville-Spartanburg, SC Asheville, NC Anderson, SC",
+         "location":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC"
+      },
+      {  
+         "name":"Harrisburg-Lancaster-Lebanon-York, PA (55)",
+         "count":55,
+         "val":"RiteAid - Harrisburg-Lancaster-Lebanon-York, PA",
+         "location":"Harrisburg-Lancaster-Lebanon-York, PA"
+      },
+      {  
+         "name":"Harrisonburg, VA (11)",
+         "count":11,
+         "val":"RiteAid - Harrisonburg, VA",
+         "location":"Harrisonburg, VA"
+      },
+      {  
+         "name":"Hartford And New Haven, CT (50)",
+         "count":50,
+         "val":"RiteAid - Hartford And New Haven, CT",
+         "location":"Hartford And New Haven, CT"
+      },
+      {  
+         "name":"Huntsville-Decatur (Florence), AL (9)",
+         "count":9,
+         "val":"RiteAid - Huntsville-Decatur (Florence), AL",
+         "location":"Huntsville-Decatur (Florence), AL"
+      },
+      {  
+         "name":"Jackson, MS (1)",
+         "count":1,
+         "val":"RiteAid - Jackson, MS",
+         "location":"Jackson, MS"
+      },
+      {  
+         "name":"Jacksonville, FL (5)",
+         "count":5,
+         "val":"RiteAid - Jacksonville, FL",
+         "location":"Jacksonville, FL"
+      },
+      {  
+         "name":"Johnstown-Altoona, PA (31)",
+         "count":31,
+         "val":"RiteAid - Johnstown-Altoona, PA",
+         "location":"Johnstown-Altoona, PA"
+      },
+      {  
+         "name":"Knoxville, TN (17)",
+         "count":17,
+         "val":"RiteAid - Knoxville, TN",
+         "location":"Knoxville, TN"
+      },
+      {  
+         "name":"Lafayette, LA (1)",
+         "count":1,
+         "val":"RiteAid - Lafayette, LA",
+         "location":"Lafayette, LA"
+      },
+      {  
+         "name":"Lansing, MI (22)",
+         "count":22,
+         "val":"RiteAid - Lansing, MI",
+         "location":"Lansing, MI"
+      },
+      {  
+         "name":"Lexington, KY (40)",
+         "count":40,
+         "val":"RiteAid - Lexington, KY",
+         "location":"Lexington, KY"
+      },
+      {  
+         "name":"Lima, OH (7)",
+         "count":7,
+         "val":"RiteAid - Lima, OH",
+         "location":"Lima, OH"
+      },
+      {  
+         "name":"Los Angeles, CA (239)",
+         "count":239,
+         "val":"RiteAid - Los Angeles, CA",
+         "location":"Los Angeles, CA"
+      },
+      {  
+         "name":"Louisville, KY (28)",
+         "count":28,
+         "val":"RiteAid - Louisville, KY",
+         "location":"Louisville, KY"
+      },
+      {  
+         "name":"Macon, GA (3)",
+         "count":3,
+         "val":"RiteAid - Macon, GA",
+         "location":"Macon, GA"
+      },
+      {  
+         "name":"Medford-Klamath Falls, OR (9)",
+         "count":9,
+         "val":"RiteAid - Medford-Klamath Falls, OR",
+         "location":"Medford-Klamath Falls, OR"
+      },
+      {  
+         "name":"Memphis, TN (2)",
+         "count":2,
+         "val":"RiteAid - Memphis, TN",
+         "location":"Memphis, TN"
+      },
+      {  
+         "name":"Mobile, AL Pensacola (Ft. Walton Beach), FL (16)",
+         "count":16,
+         "val":"RiteAid - Mobile, AL Pensacola (Ft. Walton Beach), FL",
+         "location":"Mobile, AL Pensacola (Ft. Walton Beach), FL"
+      },
+      {  
+         "name":"Monterey-Salinas, CA (11)",
+         "count":11,
+         "val":"RiteAid - Monterey-Salinas, CA",
+         "location":"Monterey-Salinas, CA"
+      },
+      {  
+         "name":"Montgomery-Selma, AL (8)",
+         "count":8,
+         "val":"RiteAid - Montgomery-Selma, AL",
+         "location":"Montgomery-Selma, AL"
+      },
+      {  
+         "name":"Myrtle Beach-Florence, SC (10)",
+         "count":10,
+         "val":"RiteAid - Myrtle Beach-Florence, SC",
+         "location":"Myrtle Beach-Florence, SC"
+      },
+      {  
+         "name":"Nashville, TN (21)",
+         "count":21,
+         "val":"RiteAid - Nashville, TN",
+         "location":"Nashville, TN"
+      },
+      {  
+         "name":"New Orleans, LA (2)",
+         "count":2,
+         "val":"RiteAid - New Orleans, LA",
+         "location":"New Orleans, LA"
+      },
+      {  
+         "name":"New York, NY (412)",
+         "count":412,
+         "val":"RiteAid - New York, NY",
+         "location":"New York, NY"
+      },
+      {  
+         "name":"Norfolk-Portsmouth-Newport News, VA (71)",
+         "count":71,
+         "val":"RiteAid - Norfolk-Portsmouth-Newport News, VA",
+         "location":"Norfolk-Portsmouth-Newport News, VA"
+      },
+      {  
+         "name":"Palm Springs, CA (21)",
+         "count":21,
+         "val":"RiteAid - Palm Springs, CA",
+         "location":"Palm Springs, CA"
+      },
+      {  
+         "name":"Parkersburg, WV (7)",
+         "count":7,
+         "val":"RiteAid - Parkersburg, WV",
+         "location":"Parkersburg, WV"
+      },
+      {  
+         "name":"Philadelphia, PA (334)",
+         "count":334,
+         "val":"RiteAid - Philadelphia, PA",
+         "location":"Philadelphia, PA"
+      },
+      {  
+         "name":"Pittsburgh, PA (139)",
+         "count":139,
+         "val":"RiteAid - Pittsburgh, PA",
+         "location":"Pittsburgh, PA"
+      },
+      {  
+         "name":"Portland, OR (53)",
+         "count":53,
+         "val":"RiteAid - Portland, OR",
+         "location":"Portland, OR"
+      },
+      {  
+         "name":"Portland-Auburn, ME (51)",
+         "count":51,
+         "val":"RiteAid - Portland-Auburn, ME",
+         "location":"Portland-Auburn, ME"
+      },
+      {  
+         "name":"Presque Isle, ME (6)",
+         "count":6,
+         "val":"RiteAid - Presque Isle, ME",
+         "location":"Presque Isle, ME"
+      },
+      {  
+         "name":"Providence, RI New Bedford, MA (58)",
+         "count":58,
+         "val":"RiteAid - Providence, RI New Bedford, MA",
+         "location":"Providence, RI New Bedford, MA"
+      },
+      {  
+         "name":"Raleigh-Durham (Fayetteville), NC (33)",
+         "count":33,
+         "val":"RiteAid - Raleigh-Durham (Fayetteville), NC",
+         "location":"Raleigh-Durham (Fayetteville), NC"
+      },
+      {  
+         "name":"Reno, NV (3)",
+         "count":3,
+         "val":"RiteAid - Reno, NV",
+         "location":"Reno, NV"
+      },
+      {  
+         "name":"Richmond-Petersburg, VA (33)",
+         "count":33,
+         "val":"RiteAid - Richmond-Petersburg, VA",
+         "location":"Richmond-Petersburg, VA"
+      },
+      {  
+         "name":"Roanoke-Lynchburg, VA (7)",
+         "count":7,
+         "val":"RiteAid - Roanoke-Lynchburg, VA",
+         "location":"Roanoke-Lynchburg, VA"
+      },
+      {  
+         "name":"Rochester, NY (39)",
+         "count":39,
+         "val":"RiteAid - Rochester, NY",
+         "location":"Rochester, NY"
+      },
+      {  
+         "name":"Sacramnto-Stktn-Modesto, CA (67)",
+         "count":67,
+         "val":"RiteAid - Sacramnto-Stktn-Modesto, CA",
+         "location":"Sacramnto-Stktn-Modesto, CA"
+      },
+      {  
+         "name":"Salisbury, MD (19)",
+         "count":19,
+         "val":"RiteAid - Salisbury, MD",
+         "location":"Salisbury, MD"
+      },
+      {  
+         "name":"Salt Lake City, UT (7)",
+         "count":7,
+         "val":"RiteAid - Salt Lake City, UT",
+         "location":"Salt Lake City, UT"
+      },
+      {  
+         "name":"San Diego, CA (33)",
+         "count":33,
+         "val":"RiteAid - San Diego, CA",
+         "location":"San Diego, CA"
+      },
+      {  
+         "name":"San Francisco-Oak-San Jos, CA (55)",
+         "count":55,
+         "val":"RiteAid - San Francisco-Oak-San Jos, CA",
+         "location":"San Francisco-Oak-San Jos, CA"
+      },
+      {  
+         "name":"Santa Barbara-Santa Maria-San Luis Obispo, CA (17)",
+         "count":17,
+         "val":"RiteAid - Santa Barbara-Santa Maria-San Luis Obispo, CA",
+         "location":"Santa Barbara-Santa Maria-San Luis Obispo, CA"
+      },
+      {  
+         "name":"Savannah, GA (13)",
+         "count":13,
+         "val":"RiteAid - Savannah, GA",
+         "location":"Savannah, GA"
+      },
+      {  
+         "name":"Seattle-Tacoma, WA (101)",
+         "count":101,
+         "val":"RiteAid - Seattle-Tacoma, WA",
+         "location":"Seattle-Tacoma, WA"
+      },
+      {  
+         "name":"South Bend-Elkhart, IN (8)",
+         "count":8,
+         "val":"RiteAid - South Bend-Elkhart, IN",
+         "location":"South Bend-Elkhart, IN"
+      },
+      {  
+         "name":"Spokane, WA (18)",
+         "count":18,
+         "val":"RiteAid - Spokane, WA",
+         "location":"Spokane, WA"
+      },
+      {  
+         "name":"Springfield-Holyoke, MA (13)",
+         "count":13,
+         "val":"RiteAid - Springfield-Holyoke, MA",
+         "location":"Springfield-Holyoke, MA"
+      },
+      {  
+         "name":"Syracuse, NY (46)",
+         "count":46,
+         "val":"RiteAid - Syracuse, NY",
+         "location":"Syracuse, NY"
+      },
+      {  
+         "name":"Tallahassee, FLThomasville, GA (6)",
+         "count":6,
+         "val":"RiteAid - Tallahassee, FLThomasville, GA",
+         "location":"Tallahassee, FLThomasville, GA"
+      },
+      {  
+         "name":"Toledo, OH (45)",
+         "count":45,
+         "val":"RiteAid - Toledo, OH",
+         "location":"Toledo, OH"
+      },
+      {  
+         "name":"Traverse City-Cadillac, MI (24)",
+         "count":24,
+         "val":"RiteAid - Traverse City-Cadillac, MI",
+         "location":"Traverse City-Cadillac, MI"
+      },
+      {  
+         "name":"Utica, NY (17)",
+         "count":17,
+         "val":"RiteAid - Utica, NY",
+         "location":"Utica, NY"
+      },
+      {  
+         "name":"Washington, DC (Hagerstown, MD) (88)",
+         "count":88,
+         "val":"RiteAid - Washington, DC (Hagerstown, MD)",
+         "location":"Washington, DC (Hagerstown, MD)"
+      },
+      {  
+         "name":"Watertown, NY (5)",
+         "count":5,
+         "val":"RiteAid - Watertown, NY",
+         "location":"Watertown, NY"
+      },
+      {  
+         "name":"Wheeling, WV Steubenville, OH (17)",
+         "count":17,
+         "val":"RiteAid - Wheeling, WV Steubenville, OH",
+         "location":"Wheeling, WV Steubenville, OH"
+      },
+      {  
+         "name":"Wilkes Barre-Scranton, PA (59)",
+         "count":59,
+         "val":"RiteAid - Wilkes Barre-Scranton, PA",
+         "location":"Wilkes Barre-Scranton, PA"
+      },
+      {  
+         "name":"Wilmington, NC (3)",
+         "count":3,
+         "val":"RiteAid - Wilmington, NC",
+         "location":"Wilmington, NC"
+      },
+      {  
+         "name":"Yakima-Pasco-Rchlnd-Knnwck, WA (16)",
+         "count":16,
+         "val":"RiteAid - Yakima-Pasco-Rchlnd-Knnwck, WA",
+         "location":"Yakima-Pasco-Rchlnd-Knnwck, WA"
+      },
+      {  
+         "name":"Youngstown, OH (31)",
+         "count":31,
+         "val":"RiteAid - Youngstown, OH",
+         "location":"Youngstown, OH"
+      },
+      {  
+         "name":"Yuma, AZ El Centro, CA (3)",
+         "count":3,
+         "val":"RiteAid - Yuma, AZ El Centro, CA",
+         "location":"Yuma, AZ El Centro, CA"
+      },
+      {  
+         "name":"Zanesville, OH (1)",
+         "count":1,
+         "val":"Walgreens - Zanesville, OH",
+         "location":"Zanesville, OH"
+      }
+   ],
+   "Walgreens":[  
+      {  
+         "name":"Abilene-Sweetwater, TX (5)",
+         "count":5,
+         "val":"Walgreens - Abilene-Sweetwater, TX",
+         "location":"Abilene-Sweetwater, TX"
+      },
+      {  
+         "name":"Albany, GA (8)",
+         "count":8,
+         "val":"Walgreens - Albany, GA",
+         "location":"Albany, GA"
+      },
+      {  
+         "name":"Albany-Schenectady-Troy, NY (12)",
+         "count":12,
+         "val":"Walgreens - Albany-Schenectady-Troy, NY",
+         "location":"Albany-Schenectady-Troy, NY"
+      },
+      {  
+         "name":"Albuquerque-Santa Fe, NM (62)",
+         "count":62,
+         "val":"Walgreens - Albuquerque-Santa Fe, NM",
+         "location":"Albuquerque-Santa Fe, NM"
+      },
+      {  
+         "name":"Alexandria, LA (7)",
+         "count":7,
+         "val":"Walgreens - Alexandria, LA",
+         "location":"Alexandria, LA"
+      },
+      {  
+         "name":"Alpena, MI (1)",
+         "count":1,
+         "val":"Walgreens - Alpena, MI",
+         "location":"Alpena, MI"
+      },
+      {  
+         "name":"Amarillo, TX (9)",
+         "count":9,
+         "val":"Walgreens - Amarillo, TX",
+         "location":"Amarillo, TX"
+      },
+      {  
+         "name":"Anniston, AL (1)",
+         "count":1,
+         "val":"Walgreens - Anniston, AL",
+         "location":"Anniston, AL"
+      },
+      {  
+         "name":"Atlanta, GA (130)",
+         "count":130,
+         "val":"Walgreens - Atlanta, GA",
+         "location":"Atlanta, GA"
+      },
+      {  
+         "name":"Augusta, GA (16)",
+         "count":16,
+         "val":"Walgreens - Augusta, GA",
+         "location":"Augusta, GA"
+      },
+      {  
+         "name":"Austin, TX (64)",
+         "count":64,
+         "val":"Walgreens - Austin, TX",
+         "location":"Austin, TX"
+      },
+      {  
+         "name":"Bakersfield, CA (10)",
+         "count":10,
+         "val":"Walgreens - Bakersfield, CA",
+         "location":"Bakersfield, CA"
+      },
+      {  
+         "name":"Baltimore, MD (52)",
+         "count":52,
+         "val":"Walgreens - Baltimore, MD",
+         "location":"Baltimore, MD"
+      },
+      {  
+         "name":"Bangor, ME (5)",
+         "count":5,
+         "val":"Walgreens - Bangor, ME",
+         "location":"Bangor, ME"
+      },
+      {  
+         "name":"Baton Rouge, LA (31)",
+         "count":31,
+         "val":"Walgreens - Baton Rouge, LA",
+         "location":"Baton Rouge, LA"
+      },
+      {  
+         "name":"Beaumont-Port Arthur, TX (14)",
+         "count":14,
+         "val":"Walgreens - Beaumont-Port Arthur, TX",
+         "location":"Beaumont-Port Arthur, TX"
+      },
+      {  
+         "name":"Bend, OR (3)",
+         "count":3,
+         "val":"Walgreens - Bend, OR",
+         "location":"Bend, OR"
+      },
+      {  
+         "name":"Billings, MT (4)",
+         "count":4,
+         "val":"Walgreens - Billings, MT",
+         "location":"Billings, MT"
+      },
+      {  
+         "name":"Biloxi-Gulfport, MS (9)",
+         "count":9,
+         "val":"Walgreens - Biloxi-Gulfport, MS",
+         "location":"Biloxi-Gulfport, MS"
+      },
+      {  
+         "name":"Binghamton, NY (2)",
+         "count":2,
+         "val":"Walgreens - Binghamton, NY",
+         "location":"Binghamton, NY"
+      },
+      {  
+         "name":"Birmingham (Anniston and Tuscaloosa), AL (41)",
+         "count":41,
+         "val":"Walgreens - Birmingham (Anniston and Tuscaloosa), AL",
+         "location":"Birmingham (Anniston and Tuscaloosa), AL"
+      },
+      {  
+         "name":"Bluefield-Beckley-Oak Hill, WV (3)",
+         "count":3,
+         "val":"Walgreens - Bluefield-Beckley-Oak Hill, WV",
+         "location":"Bluefield-Beckley-Oak Hill, WV"
+      },
+      {  
+         "name":"Boise, ID (23)",
+         "count":23,
+         "val":"Walgreens - Boise, ID",
+         "location":"Boise, ID"
+      },
+      {  
+         "name":"Boston, MA (Manchester, NH) (145)",
+         "count":145,
+         "val":"Walgreens - Boston, MA (Manchester, NH)",
+         "location":"Boston, MA (Manchester, NH)"
+      },
+      {  
+         "name":"Bowling Green, KY (3)",
+         "count":3,
+         "val":"Walgreens - Bowling Green, KY",
+         "location":"Bowling Green, KY"
+      },
+      {  
+         "name":"Bristol-Kingsport-Johnson City (24)",
+         "count":24,
+         "val":"Walgreens - Bristol-Kingsport-Johnson City",
+         "location":"Bristol-Kingsport-Johnson City"
+      },
+      {  
+         "name":"Buffalo, NY (32)",
+         "count":32,
+         "val":"Walgreens - Buffalo, NY",
+         "location":"Buffalo, NY"
+      },
+      {  
+         "name":"Burlington, VT Plattsburgh, NY (6)",
+         "count":6,
+         "val":"Walgreens - Burlington, VT Plattsburgh, NY",
+         "location":"Burlington, VT Plattsburgh, NY"
+      },
+      {  
+         "name":"Butte-Bozeman, MT (1)",
+         "count":1,
+         "val":"Walgreens - Butte-Bozeman, MT",
+         "location":"Butte-Bozeman, MT"
+      },
+      {  
+         "name":"Casper-Riverton, WY (3)",
+         "count":3,
+         "val":"Walgreens - Casper-Riverton, WY",
+         "location":"Casper-Riverton, WY"
+      },
+      {  
+         "name":"Cedar Rapids-Waterloo-Iowa City-Dubuque, IA (18)",
+         "count":18,
+         "val":"Walgreens - Cedar Rapids-Waterloo-Iowa City-Dubuque, IA",
+         "location":"Cedar Rapids-Waterloo-Iowa City-Dubuque, IA"
+      },
+      {  
+         "name":"Champaign-Springfield Decatur, IL (37)",
+         "count":37,
+         "val":"Walgreens - Champaign-Springfield Decatur, IL",
+         "location":"Champaign-Springfield Decatur, IL"
+      },
+      {  
+         "name":"Charleston, SC (21)",
+         "count":21,
+         "val":"Walgreens - Charleston, SC",
+         "location":"Charleston, SC"
+      },
+      {  
+         "name":"Charleston-Huntington, WV (7)",
+         "count":7,
+         "val":"Walgreens - Charleston-Huntington, WV",
+         "location":"Charleston-Huntington, WV"
+      },
+      {  
+         "name":"Charlotte, NC (74)",
+         "count":74,
+         "val":"Walgreens - Charlotte, NC",
+         "location":"Charlotte, NC"
+      },
+      {  
+         "name":"Charlottesville, VA (1)",
+         "count":1,
+         "val":"Walgreens - Charlottesville, VA",
+         "location":"Charlottesville, VA"
+      },
+      {  
+         "name":"Chattanooga, TN (27)",
+         "count":27,
+         "val":"Walgreens - Chattanooga, TN",
+         "location":"Chattanooga, TN"
+      },
+      {  
+         "name":"Cheyenne-Scottsbluff, WY (3)",
+         "count":3,
+         "val":"Walgreens - Cheyenne-Scottsbluff, WY",
+         "location":"Cheyenne-Scottsbluff, WY"
+      },
+      {  
+         "name":"Chicago, IL (449)",
+         "count":449,
+         "val":"Walgreens - Chicago, IL",
+         "location":"Chicago, IL"
+      },
+      {  
+         "name":"Chico-Redding, CA (10)",
+         "count":10,
+         "val":"Walgreens - Chico-Redding, CA",
+         "location":"Chico-Redding, CA"
+      },
+      {  
+         "name":"Cincinnati, OH (73)",
+         "count":73,
+         "val":"Walgreens - Cincinnati, OH",
+         "location":"Cincinnati, OH"
+      },
+      {  
+         "name":"Clarksburg-Weston, WV (3)",
+         "count":3,
+         "val":"Walgreens - Clarksburg-Weston, WV",
+         "location":"Clarksburg-Weston, WV"
+      },
+      {  
+         "name":"Cleveland-Akron (Canton), OH (84)",
+         "count":84,
+         "val":"Walgreens - Cleveland-Akron (Canton), OH",
+         "location":"Cleveland-Akron (Canton), OH"
+      },
+      {  
+         "name":"Colorado Springs-Pueblo, CO (32)",
+         "count":32,
+         "val":"Walgreens - Colorado Springs-Pueblo, CO",
+         "location":"Colorado Springs-Pueblo, CO"
+      },
+      {  
+         "name":"Columbia, SC (25)",
+         "count":25,
+         "val":"Walgreens - Columbia, SC",
+         "location":"Columbia, SC"
+      },
+      {  
+         "name":"Columbia-Jefferson City, MO (8)",
+         "count":8,
+         "val":"Walgreens - Columbia-Jefferson City, MO",
+         "location":"Columbia-Jefferson City, MO"
+      },
+      {  
+         "name":"Columbus, GA (11)",
+         "count":11,
+         "val":"Walgreens - Columbus, GA",
+         "location":"Columbus, GA"
+      },
+      {  
+         "name":"Columbus, OH (40)",
+         "count":40,
+         "val":"Walgreens - Columbus, OH",
+         "location":"Columbus, OH"
+      },
+      {  
+         "name":"Columbus-Tupelo-West Point, MS (6)",
+         "count":6,
+         "val":"Walgreens - Columbus-Tupelo-West Point, MS",
+         "location":"Columbus-Tupelo-West Point, MS"
+      },
+      {  
+         "name":"Corpus Christi, TX (14)",
+         "count":14,
+         "val":"Walgreens - Corpus Christi, TX",
+         "location":"Corpus Christi, TX"
+      },
+      {  
+         "name":"Dallas-Ft. Worth, TX (176)",
+         "count":176,
+         "val":"Walgreens - Dallas-Ft. Worth, TX",
+         "location":"Dallas-Ft. Worth, TX"
+      },
+      {  
+         "name":"Davenport, IA Rock Island Moline, IL (26)",
+         "count":26,
+         "val":"Walgreens - Davenport, IA Rock Island Moline, IL",
+         "location":"Davenport, IA Rock Island Moline, IL"
+      },
+      {  
+         "name":"Dayton, OH (27)",
+         "count":27,
+         "val":"Walgreens - Dayton, OH",
+         "location":"Dayton, OH"
+      },
+      {  
+         "name":"Denver, CO (114)",
+         "count":114,
+         "val":"Walgreens - Denver, CO",
+         "location":"Denver, CO"
+      },
+      {  
+         "name":"Des Moines-Ames, IA (25)",
+         "count":25,
+         "val":"Walgreens - Des Moines-Ames, IA",
+         "location":"Des Moines-Ames, IA"
+      },
+      {  
+         "name":"Detroit, MI (104)",
+         "count":104,
+         "val":"Walgreens - Detroit, MI",
+         "location":"Detroit, MI"
+      },
+      {  
+         "name":"Dothan, AL (4)",
+         "count":4,
+         "val":"Walgreens - Dothan, AL",
+         "location":"Dothan, AL"
+      },
+      {  
+         "name":"Duluth-Superior, MN (14)",
+         "count":14,
+         "val":"Walgreens - Duluth-Superior, MN",
+         "location":"Duluth-Superior, MN"
+      },
+      {  
+         "name":"El Paso (Las Cruces), TX (33)",
+         "count":33,
+         "val":"Walgreens - El Paso (Las Cruces), TX",
+         "location":"El Paso (Las Cruces), TX"
+      },
+      {  
+         "name":"Elmira (Corning), NY (4)",
+         "count":4,
+         "val":"Walgreens - Elmira (Corning), NY",
+         "location":"Elmira (Corning), NY"
+      },
+      {  
+         "name":"Erie, PA (3)",
+         "count":3,
+         "val":"Walgreens - Erie, PA",
+         "location":"Erie, PA"
+      },
+      {  
+         "name":"Eugene, OR (9)",
+         "count":9,
+         "val":"Walgreens - Eugene, OR",
+         "location":"Eugene, OR"
+      },
+      {  
+         "name":"Eureka, CA (4)",
+         "count":4,
+         "val":"Walgreens - Eureka, CA",
+         "location":"Eureka, CA"
+      },
+      {  
+         "name":"Evansville, IN (13)",
+         "count":13,
+         "val":"Walgreens - Evansville, IN",
+         "location":"Evansville, IN"
+      },
+      {  
+         "name":"Fargo-Valley City, ND (4)",
+         "count":4,
+         "val":"Walgreens - Fargo-Valley City, ND",
+         "location":"Fargo-Valley City, ND"
+      },
+      {  
+         "name":"Flint-Saginaw-Bay City, MI (24)",
+         "count":24,
+         "val":"Walgreens - Flint-Saginaw-Bay City, MI",
+         "location":"Flint-Saginaw-Bay City, MI"
+      },
+      {  
+         "name":"Fresno-Visalia, CA (40)",
+         "count":40,
+         "val":"Walgreens - Fresno-Visalia, CA",
+         "location":"Fresno-Visalia, CA"
+      },
+      {  
+         "name":"Ft. Myers-Naples, FL (53)",
+         "count":53,
+         "val":"Walgreens - Ft. Myers-Naples, FL",
+         "location":"Ft. Myers-Naples, FL"
+      },
+      {  
+         "name":"Ft. Smith Fay-Spmgdl-Rgrs, AR (21)",
+         "count":21,
+         "val":"Walgreens - Ft. Smith Fay-Spmgdl-Rgrs, AR",
+         "location":"Ft. Smith Fay-Spmgdl-Rgrs, AR"
+      },
+      {  
+         "name":"Ft. Wayne, IN (22)",
+         "count":22,
+         "val":"Walgreens - Ft. Wayne, IN",
+         "location":"Ft. Wayne, IN"
+      },
+      {  
+         "name":"Gainesville, FL (12)",
+         "count":12,
+         "val":"Walgreens - Gainesville, FL",
+         "location":"Gainesville, FL"
+      },
+      {  
+         "name":"Grand Junction-Montrose, CO (4)",
+         "count":4,
+         "val":"Walgreens - Grand Junction-Montrose, CO",
+         "location":"Grand Junction-Montrose, CO"
+      },
+      {  
+         "name":"Grand Rapids-Kalamazoo-Battle Creek, MI (57)",
+         "count":57,
+         "val":"Walgreens - Grand Rapids-Kalamazoo-Battle Creek, MI",
+         "location":"Grand Rapids-Kalamazoo-Battle Creek, MI"
+      },
+      {  
+         "name":"Great Falls, MT (2)",
+         "count":2,
+         "val":"Walgreens - Great Falls, MT",
+         "location":"Great Falls, MT"
+      },
+      {  
+         "name":"Green Bay-Appleton, WI (37)",
+         "count":37,
+         "val":"Walgreens - Green Bay-Appleton, WI",
+         "location":"Green Bay-Appleton, WI"
+      },
+      {  
+         "name":"Greensboro-High Point-Winston-Salem, NC (41)",
+         "count":41,
+         "val":"Walgreens - Greensboro-High Point-Winston-Salem, NC",
+         "location":"Greensboro-High Point-Winston-Salem, NC"
+      },
+      {  
+         "name":"Greenville-New Bern-Washington, NC (28)",
+         "count":28,
+         "val":"Walgreens - Greenville-New Bern-Washington, NC",
+         "location":"Greenville-New Bern-Washington, NC"
+      },
+      {  
+         "name":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC (44)",
+         "count":44,
+         "val":"Walgreens - Greenville-Spartanburg, SC Asheville, NC Anderson, SC",
+         "location":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC"
+      },
+      {  
+         "name":"Greenwood-Greenville, MS (4)",
+         "count":4,
+         "val":"Walgreens - Greenwood-Greenville, MS",
+         "location":"Greenwood-Greenville, MS"
+      },
+      {  
+         "name":"Harlingen-Wslco-Brnsvl-McA, TX (23)",
+         "count":23,
+         "val":"Walgreens - Harlingen-Wslco-Brnsvl-McA, TX",
+         "location":"Harlingen-Wslco-Brnsvl-McA, TX"
+      },
+      {  
+         "name":"Harrisburg-Lancaster-Lebanon-York, PA (4)",
+         "count":4,
+         "val":"Walgreens - Harrisburg-Lancaster-Lebanon-York, PA",
+         "location":"Harrisburg-Lancaster-Lebanon-York, PA"
+      },
+      {  
+         "name":"Hartford And New Haven, CT (62)",
+         "count":62,
+         "val":"Walgreens - Hartford And New Haven, CT",
+         "location":"Hartford And New Haven, CT"
+      },
+      {  
+         "name":"Hattiesburg-Laurel, MS (5)",
+         "count":5,
+         "val":"Walgreens - Hattiesburg-Laurel, MS",
+         "location":"Hattiesburg-Laurel, MS"
+      },
+      {  
+         "name":"Helena, MT (1)",
+         "count":1,
+         "val":"Walgreens - Helena, MT",
+         "location":"Helena, MT"
+      },
+      {  
+         "name":"Houston, TX (223)",
+         "count":223,
+         "val":"Walgreens - Houston, TX",
+         "location":"Houston, TX"
+      },
+      {  
+         "name":"Huntsville-Decatur (Florence), AL (21)",
+         "count":21,
+         "val":"Walgreens - Huntsville-Decatur (Florence), AL",
+         "location":"Huntsville-Decatur (Florence), AL"
+      },
+      {  
+         "name":"Idaho Falls-Pocatello(Jcksn), ID (8)",
+         "count":8,
+         "val":"Walgreens - Idaho Falls-Pocatello(Jcksn), ID",
+         "location":"Idaho Falls-Pocatello(Jcksn), ID"
+      },
+      {  
+         "name":"Indianapolis, IN (69)",
+         "count":69,
+         "val":"Walgreens - Indianapolis, IN",
+         "location":"Indianapolis, IN"
+      },
+      {  
+         "name":"Jackson, MS (27)",
+         "count":27,
+         "val":"Walgreens - Jackson, MS",
+         "location":"Jackson, MS"
+      },
+      {  
+         "name":"Jackson, TN (6)",
+         "count":6,
+         "val":"Walgreens - Jackson, TN",
+         "location":"Jackson, TN"
+      },
+      {  
+         "name":"Jacksonville, FL (63)",
+         "count":63,
+         "val":"Walgreens - Jacksonville, FL",
+         "location":"Jacksonville, FL"
+      },
+      {  
+         "name":"Johnstown-Altoona, PA (1)",
+         "count":1,
+         "val":"Walgreens - Johnstown-Altoona, PA",
+         "location":"Johnstown-Altoona, PA"
+      },
+      {  
+         "name":"Jonesboro, AR (4)",
+         "count":4,
+         "val":"Walgreens - Jonesboro, AR",
+         "location":"Jonesboro, AR"
+      },
+      {  
+         "name":"Joplin-Pittsburg (10)",
+         "count":10,
+         "val":"Walgreens - Joplin-Pittsburg",
+         "location":"Joplin-Pittsburg"
+      },
+      {  
+         "name":"Kansas City, MO (60)",
+         "count":60,
+         "val":"Walgreens - Kansas City, MO",
+         "location":"Kansas City, MO"
+      },
+      {  
+         "name":"Knoxville, TN (49)",
+         "count":49,
+         "val":"Walgreens - Knoxville, TN",
+         "location":"Knoxville, TN"
+      },
+      {  
+         "name":"La Crosse-Eau Claire, WI (11)",
+         "count":11,
+         "val":"Walgreens - La Crosse-Eau Claire, WI",
+         "location":"La Crosse-Eau Claire, WI"
+      },
+      {  
+         "name":"Lafayette, IN (4)",
+         "count":4,
+         "val":"Walgreens - Lafayette, IN",
+         "location":"Lafayette, IN"
+      },
+      {  
+         "name":"Lafayette, LA (18)",
+         "count":18,
+         "val":"Walgreens - Lafayette, LA",
+         "location":"Lafayette, LA"
+      },
+      {  
+         "name":"Lake Charles, LA (8)",
+         "count":8,
+         "val":"Walgreens - Lake Charles, LA",
+         "location":"Lake Charles, LA"
+      },
+      {  
+         "name":"Lansing, MI (11)",
+         "count":11,
+         "val":"Walgreens - Lansing, MI",
+         "location":"Lansing, MI"
+      },
+      {  
+         "name":"Laredo, TX (3)",
+         "count":3,
+         "val":"Walgreens - Laredo, TX",
+         "location":"Laredo, TX"
+      },
+      {  
+         "name":"Las Vegas, NV (63)",
+         "count":63,
+         "val":"Walgreens - Las Vegas, NV",
+         "location":"Las Vegas, NV"
+      },
+      {  
+         "name":"Lexington, KY (17)",
+         "count":17,
+         "val":"Walgreens - Lexington, KY",
+         "location":"Lexington, KY"
+      },
+      {  
+         "name":"Lima, OH (2)",
+         "count":2,
+         "val":"Walgreens - Lima, OH",
+         "location":"Lima, OH"
+      },
+      {  
+         "name":"Lincoln-Hastings-Kearney, NE (19)",
+         "count":19,
+         "val":"Walgreens - Lincoln-Hastings-Kearney, NE",
+         "location":"Lincoln-Hastings-Kearney, NE"
+      },
+      {  
+         "name":"Little Rock-Pine Bluff, AR (37)",
+         "count":37,
+         "val":"Walgreens - Little Rock-Pine Bluff, AR",
+         "location":"Little Rock-Pine Bluff, AR"
+      },
+      {  
+         "name":"Los Angeles, CA (206)",
+         "count":206,
+         "val":"Walgreens - Los Angeles, CA",
+         "location":"Los Angeles, CA"
+      },
+      {  
+         "name":"Louisville, KY (58)",
+         "count":58,
+         "val":"Walgreens - Louisville, KY",
+         "location":"Louisville, KY"
+      },
+      {  
+         "name":"Lubbock, TX (9)",
+         "count":9,
+         "val":"Walgreens - Lubbock, TX",
+         "location":"Lubbock, TX"
+      },
+      {  
+         "name":"Macon, GA (13)",
+         "count":13,
+         "val":"Walgreens - Macon, GA",
+         "location":"Macon, GA"
+      },
+      {  
+         "name":"Madison, WI (46)",
+         "count":46,
+         "val":"Walgreens - Madison, WI",
+         "location":"Madison, WI"
+      },
+      {  
+         "name":"Mankato, MN (5)",
+         "count":5,
+         "val":"Walgreens - Mankato, MN",
+         "location":"Mankato, MN"
+      },
+      {  
+         "name":"Marquette, MI (4)",
+         "count":4,
+         "val":"Walgreens - Marquette, MI",
+         "location":"Marquette, MI"
+      },
+      {  
+         "name":"Medford-Klamath Falls, OR (5)",
+         "count":5,
+         "val":"Walgreens - Medford-Klamath Falls, OR",
+         "location":"Medford-Klamath Falls, OR"
+      },
+      {  
+         "name":"Memphis, TN (77)",
+         "count":77,
+         "val":"Walgreens - Memphis, TN",
+         "location":"Memphis, TN"
+      },
+      {  
+         "name":"Meridian, MS (1)",
+         "count":1,
+         "val":"Walgreens - Meridian, MS",
+         "location":"Meridian, MS"
+      },
+      {  
+         "name":"Miami-Ft. Lauderdale, FL (178)",
+         "count":178,
+         "val":"Walgreens - Miami-Ft. Lauderdale, FL",
+         "location":"Miami-Ft. Lauderdale, FL"
+      },
+      {  
+         "name":"Milwaukee, WI (110)",
+         "count":110,
+         "val":"Walgreens - Milwaukee, WI",
+         "location":"Milwaukee, WI"
+      },
+      {  
+         "name":"Minneapolis-St. Paul, MN (128)",
+         "count":128,
+         "val":"Walgreens - Minneapolis-St. Paul, MN",
+         "location":"Minneapolis-St. Paul, MN"
+      },
+      {  
+         "name":"Missoula, MT (6)",
+         "count":6,
+         "val":"Walgreens - Missoula, MT",
+         "location":"Missoula, MT"
+      },
+      {  
+         "name":"Mobile, AL Pensacola (Ft. Walton Beach), FL (42)",
+         "count":42,
+         "val":"Walgreens - Mobile, AL Pensacola (Ft. Walton Beach), FL",
+         "location":"Mobile, AL Pensacola (Ft. Walton Beach), FL"
+      },
+      {  
+         "name":"Monroe-El Dorado, LA (8)",
+         "count":8,
+         "val":"Walgreens - Monroe-El Dorado, LA",
+         "location":"Monroe-El Dorado, LA"
+      },
+      {  
+         "name":"Monterey-Salinas, CA (9)",
+         "count":9,
+         "val":"Walgreens - Monterey-Salinas, CA",
+         "location":"Monterey-Salinas, CA"
+      },
+      {  
+         "name":"Montgomery-Selma, AL (11)",
+         "count":11,
+         "val":"Walgreens - Montgomery-Selma, AL",
+         "location":"Montgomery-Selma, AL"
+      },
+      {  
+         "name":"Myrtle Beach-Florence, SC (18)",
+         "count":18,
+         "val":"Walgreens - Myrtle Beach-Florence, SC",
+         "location":"Myrtle Beach-Florence, SC"
+      },
+      {  
+         "name":"Nashville, TN (91)",
+         "count":91,
+         "val":"Walgreens - Nashville, TN",
+         "location":"Nashville, TN"
+      },
+      {  
+         "name":"New Orleans, LA (71)",
+         "count":71,
+         "val":"Walgreens - New Orleans, LA",
+         "location":"New Orleans, LA"
+      },
+      {  
+         "name":"New York, NY (312)",
+         "count":312,
+         "val":"Walgreens - New York, NY",
+         "location":"New York, NY"
+      },
+      {  
+         "name":"Norfolk-Portsmouth-Newport News, VA (47)",
+         "count":47,
+         "val":"Walgreens - Norfolk-Portsmouth-Newport News, VA",
+         "location":"Norfolk-Portsmouth-Newport News, VA"
+      },
+      {  
+         "name":"North Platte, NE (1)",
+         "count":1,
+         "val":"Walgreens - North Platte, NE",
+         "location":"North Platte, NE"
+      },
+      {  
+         "name":"Odessa-Midland, TX (8)",
+         "count":8,
+         "val":"Walgreens - Odessa-Midland, TX",
+         "location":"Odessa-Midland, TX"
+      },
+      {  
+         "name":"Oklahoma City, OK (48)",
+         "count":48,
+         "val":"Walgreens - Oklahoma City, OK",
+         "location":"Oklahoma City, OK"
+      },
+      {  
+         "name":"Omaha, NE (36)",
+         "count":36,
+         "val":"Walgreens - Omaha, NE",
+         "location":"Omaha, NE"
+      },
+      {  
+         "name":"Orlando-Daytona Beach-Melbourne, FL (184)",
+         "count":184,
+         "val":"Walgreens - Orlando-Daytona Beach-Melbourne, FL",
+         "location":"Orlando-Daytona Beach-Melbourne, FL"
+      },
+      {  
+         "name":"Ottumwa-Kirksville, IA (2)",
+         "count":2,
+         "val":"Walgreens - Ottumwa-Kirksville, IA",
+         "location":"Ottumwa-Kirksville, IA"
+      },
+      {  
+         "name":"Paducah, KY Cape Girardeau, MO Harrisburg, IL (21)",
+         "count":21,
+         "val":"Walgreens - Paducah, KY Cape Girardeau, MO Harrisburg, IL",
+         "location":"Paducah, KY Cape Girardeau, MO Harrisburg, IL"
+      },
+      {  
+         "name":"Palm Springs, CA (26)",
+         "count":26,
+         "val":"Walgreens - Palm Springs, CA",
+         "location":"Palm Springs, CA"
+      },
+      {  
+         "name":"Panama City, FL (4)",
+         "count":4,
+         "val":"Walgreens - Panama City, FL",
+         "location":"Panama City, FL"
+      },
+      {  
+         "name":"Parkersburg, WV (1)",
+         "count":1,
+         "val":"Walgreens - Parkersburg, WV",
+         "location":"Parkersburg, WV"
+      },
+      {  
+         "name":"Peoria-Bloomington, IL (20)",
+         "count":20,
+         "val":"Walgreens - Peoria-Bloomington, IL",
+         "location":"Peoria-Bloomington, IL"
+      },
+      {  
+         "name":"Philadelphia, PA (154)",
+         "count":154,
+         "val":"Walgreens - Philadelphia, PA",
+         "location":"Philadelphia, PA"
+      },
+      {  
+         "name":"Phoenix (Prescott), AZ (182)",
+         "count":182,
+         "val":"Walgreens - Phoenix (Prescott), AZ",
+         "location":"Phoenix (Prescott), AZ"
+      },
+      {  
+         "name":"Pittsburgh, PA (35)",
+         "count":35,
+         "val":"Walgreens - Pittsburgh, PA",
+         "location":"Pittsburgh, PA"
+      },
+      {  
+         "name":"Portland, OR (69)",
+         "count":69,
+         "val":"Walgreens - Portland, OR",
+         "location":"Portland, OR"
+      },
+      {  
+         "name":"Portland-Auburn, ME (10)",
+         "count":10,
+         "val":"Walgreens - Portland-Auburn, ME",
+         "location":"Portland-Auburn, ME"
+      },
+      {  
+         "name":"Providence, RI New Bedford, MA (37)",
+         "count":37,
+         "val":"Walgreens - Providence, RI New Bedford, MA",
+         "location":"Providence, RI New Bedford, MA"
+      },
+      {  
+         "name":"Quincy, IL Hannibal, MO Keokuk, IA (5)",
+         "count":5,
+         "val":"Walgreens - Quincy, IL Hannibal, MO Keokuk, IA",
+         "location":"Quincy, IL Hannibal, MO Keokuk, IA"
+      },
+      {  
+         "name":"Raleigh-Durham (Fayetteville), NC (87)",
+         "count":87,
+         "val":"Walgreens - Raleigh-Durham (Fayetteville), NC",
+         "location":"Raleigh-Durham (Fayetteville), NC"
+      },
+      {  
+         "name":"Rapid City, SD (5)",
+         "count":5,
+         "val":"Walgreens - Rapid City, SD",
+         "location":"Rapid City, SD"
+      },
+      {  
+         "name":"Reno, NV (16)",
+         "count":16,
+         "val":"Walgreens - Reno, NV",
+         "location":"Reno, NV"
+      },
+      {  
+         "name":"Richmond-Petersburg, VA (30)",
+         "count":30,
+         "val":"Walgreens - Richmond-Petersburg, VA",
+         "location":"Richmond-Petersburg, VA"
+      },
+      {  
+         "name":"Roanoke-Lynchburg, VA (18)",
+         "count":18,
+         "val":"Walgreens - Roanoke-Lynchburg, VA",
+         "location":"Roanoke-Lynchburg, VA"
+      },
+      {  
+         "name":"Rochester, NY (14)",
+         "count":14,
+         "val":"Walgreens - Rochester, NY",
+         "location":"Rochester, NY"
+      },
+      {  
+         "name":"Rochester-Mason City-Austin, MN (5)",
+         "count":5,
+         "val":"Walgreens - Rochester-Mason City-Austin, MN",
+         "location":"Rochester-Mason City-Austin, MN"
+      },
+      {  
+         "name":"Rockford, IL (19)",
+         "count":19,
+         "val":"Walgreens - Rockford, IL",
+         "location":"Rockford, IL"
+      },
+      {  
+         "name":"Sacramnto-Stktn-Modesto, CA (71)",
+         "count":71,
+         "val":"Walgreens - Sacramnto-Stktn-Modesto, CA",
+         "location":"Sacramnto-Stktn-Modesto, CA"
+      },
+      {  
+         "name":"Salisbury, MD (16)",
+         "count":16,
+         "val":"Walgreens - Salisbury, MD",
+         "location":"Salisbury, MD"
+      },
+      {  
+         "name":"Salt Lake City, UT (48)",
+         "count":48,
+         "val":"Walgreens - Salt Lake City, UT",
+         "location":"Salt Lake City, UT"
+      },
+      {  
+         "name":"San Angelo, TX (3)",
+         "count":3,
+         "val":"Walgreens - San Angelo, TX",
+         "location":"San Angelo, TX"
+      },
+      {  
+         "name":"San Antonio, TX (65)",
+         "count":65,
+         "val":"Walgreens - San Antonio, TX",
+         "location":"San Antonio, TX"
+      },
+      {  
+         "name":"San Diego, CA (28)",
+         "count":28,
+         "val":"Walgreens - San Diego, CA",
+         "location":"San Diego, CA"
+      },
+      {  
+         "name":"San Francisco-Oak-San Jos, CA (169)",
+         "count":169,
+         "val":"Walgreens - San Francisco-Oak-San Jos, CA",
+         "location":"San Francisco-Oak-San Jos, CA"
+      },
+      {  
+         "name":"Santa Barbara-Santa Maria-San Luis Obispo, CA (5)",
+         "count":5,
+         "val":"Walgreens - Santa Barbara-Santa Maria-San Luis Obispo, CA",
+         "location":"Santa Barbara-Santa Maria-San Luis Obispo, CA"
+      },
+      {  
+         "name":"Savannah, GA (15)",
+         "count":15,
+         "val":"Walgreens - Savannah, GA",
+         "location":"Savannah, GA"
+      },
+      {  
+         "name":"Seattle-Tacoma, WA (94)",
+         "count":94,
+         "val":"Walgreens - Seattle-Tacoma, WA",
+         "location":"Seattle-Tacoma, WA"
+      },
+      {  
+         "name":"Sherman, TX Ada, OK (4)",
+         "count":4,
+         "val":"Walgreens - Sherman, TX Ada, OK",
+         "location":"Sherman, TX Ada, OK"
+      },
+      {  
+         "name":"Shreveport, LA (16)",
+         "count":16,
+         "val":"Walgreens - Shreveport, LA",
+         "location":"Shreveport, LA"
+      },
+      {  
+         "name":"Sioux City, IA (7)",
+         "count":7,
+         "val":"Walgreens - Sioux City, IA",
+         "location":"Sioux City, IA"
+      },
+      {  
+         "name":"Sioux Falls(Mitchell), SD (11)",
+         "count":11,
+         "val":"Walgreens - Sioux Falls(Mitchell), SD",
+         "location":"Sioux Falls(Mitchell), SD"
+      },
+      {  
+         "name":"South Bend-Elkhart, IN (25)",
+         "count":25,
+         "val":"Walgreens - South Bend-Elkhart, IN",
+         "location":"South Bend-Elkhart, IN"
+      },
+      {  
+         "name":"Spokane, WA (17)",
+         "count":17,
+         "val":"Walgreens - Spokane, WA",
+         "location":"Spokane, WA"
+      },
+      {  
+         "name":"Springfield, MO (24)",
+         "count":24,
+         "val":"Walgreens - Springfield, MO",
+         "location":"Springfield, MO"
+      },
+      {  
+         "name":"Springfield-Holyoke, MA (16)",
+         "count":16,
+         "val":"Walgreens - Springfield-Holyoke, MA",
+         "location":"Springfield-Holyoke, MA"
+      },
+      {  
+         "name":"St. Joseph, MO (3)",
+         "count":3,
+         "val":"Walgreens - St. Joseph, MO",
+         "location":"St. Joseph, MO"
+      },
+      {  
+         "name":"St. Louis, MO (136)",
+         "count":136,
+         "val":"Walgreens - St. Louis, MO",
+         "location":"St. Louis, MO"
+      },
+      {  
+         "name":"Syracuse, NY (8)",
+         "count":8,
+         "val":"Walgreens - Syracuse, NY",
+         "location":"Syracuse, NY"
+      },
+      {  
+         "name":"Tallahassee, FLThomasville, GA (18)",
+         "count":18,
+         "val":"Walgreens - Tallahassee, FLThomasville, GA",
+         "location":"Tallahassee, FLThomasville, GA"
+      },
+      {  
+         "name":"Tampa-St. Petersburg (Sarasota), FL (188)",
+         "count":188,
+         "val":"Walgreens - Tampa-St. Petersburg (Sarasota), FL",
+         "location":"Tampa-St. Petersburg (Sarasota), FL"
+      },
+      {  
+         "name":"Terre Haute, IN (5)",
+         "count":5,
+         "val":"Walgreens - Terre Haute, IN",
+         "location":"Terre Haute, IN"
+      },
+      {  
+         "name":"Toledo, OH (13)",
+         "count":13,
+         "val":"Walgreens - Toledo, OH",
+         "location":"Toledo, OH"
+      },
+      {  
+         "name":"Topeka, KS (12)",
+         "count":12,
+         "val":"Walgreens - Topeka, KS",
+         "location":"Topeka, KS"
+      },
+      {  
+         "name":"Traverse City-Cadillac, MI (16)",
+         "count":16,
+         "val":"Walgreens - Traverse City-Cadillac, MI",
+         "location":"Traverse City-Cadillac, MI"
+      },
+      {  
+         "name":"Tucson (Sierra Vista), AZ (50)",
+         "count":50,
+         "val":"Walgreens - Tucson (Sierra Vista), AZ",
+         "location":"Tucson (Sierra Vista), AZ"
+      },
+      {  
+         "name":"Tulsa, OK (53)",
+         "count":53,
+         "val":"Walgreens - Tulsa, OK",
+         "location":"Tulsa, OK"
+      },
+      {  
+         "name":"Twin Falls, ID (2)",
+         "count":2,
+         "val":"Walgreens - Twin Falls, ID",
+         "location":"Twin Falls, ID"
+      },
+      {  
+         "name":"Tyler-Longview (Lufkin And Nacogdoches), TX (10)",
+         "count":10,
+         "val":"Walgreens - Tyler-Longview (Lufkin And Nacogdoches), TX",
+         "location":"Tyler-Longview (Lufkin And Nacogdoches), TX"
+      },
+      {  
+         "name":"Utica, NY (5)",
+         "count":5,
+         "val":"Walgreens - Utica, NY",
+         "location":"Utica, NY"
+      },
+      {  
+         "name":"Victoria, TX (4)",
+         "count":4,
+         "val":"Walgreens - Victoria, TX",
+         "location":"Victoria, TX"
+      },
+      {  
+         "name":"WacoTemple-Bryan, TX (16)",
+         "count":16,
+         "val":"Walgreens - WacoTemple-Bryan, TX",
+         "location":"WacoTemple-Bryan, TX"
+      },
+      {  
+         "name":"Washington, DC (Hagerstown, MD) (64)",
+         "count":64,
+         "val":"Walgreens - Washington, DC (Hagerstown, MD)",
+         "location":"Washington, DC (Hagerstown, MD)"
+      },
+      {  
+         "name":"Watertown, NY (4)",
+         "count":4,
+         "val":"Walgreens - Watertown, NY",
+         "location":"Watertown, NY"
+      },
+      {  
+         "name":"Wausau-Rhinelander, WI (12)",
+         "count":12,
+         "val":"Walgreens - Wausau-Rhinelander, WI",
+         "location":"Wausau-Rhinelander, WI"
+      },
+      {  
+         "name":"West Palm Beach-Ft. Pierce, FL (87)",
+         "count":87,
+         "val":"Walgreens - West Palm Beach-Ft. Pierce, FL",
+         "location":"West Palm Beach-Ft. Pierce, FL"
+      },
+      {  
+         "name":"Wheeling, WV Steubenville, OH (1)",
+         "count":1,
+         "val":"Walgreens - Wheeling, WV Steubenville, OH",
+         "location":"Wheeling, WV Steubenville, OH"
+      },
+      {  
+         "name":"Wichita Falls, TX Lawton, OK (7)",
+         "count":7,
+         "val":"Walgreens - Wichita Falls, TX Lawton, OK",
+         "location":"Wichita Falls, TX Lawton, OK"
+      },
+      {  
+         "name":"Wichita-Hutchinson Plus, KS (27)",
+         "count":27,
+         "val":"Walgreens - Wichita-Hutchinson Plus, KS",
+         "location":"Wichita-Hutchinson Plus, KS"
+      },
+      {  
+         "name":"Wilkes Barre-Scranton, PA (7)",
+         "count":7,
+         "val":"Walgreens - Wilkes Barre-Scranton, PA",
+         "location":"Wilkes Barre-Scranton, PA"
+      },
+      {  
+         "name":"Wilmington, NC (21)",
+         "count":21,
+         "val":"Walgreens - Wilmington, NC",
+         "location":"Wilmington, NC"
+      },
+      {  
+         "name":"Yakima-Pasco-Rchlnd-Knnwck, WA (11)",
+         "count":11,
+         "val":"Walgreens - Yakima-Pasco-Rchlnd-Knnwck, WA",
+         "location":"Yakima-Pasco-Rchlnd-Knnwck, WA"
+      },
+      {  
+         "name":"Youngstown, OH (17)",
+         "count":17,
+         "val":"Walgreens - Youngstown, OH",
+         "location":"Youngstown, OH"
+      },
+      {  
+         "name":"Yuma, AZ El Centro, CA (4)",
+         "count":4,
+         "val":"Walgreens - Yuma, AZ El Centro, CA",
+         "location":"Yuma, AZ El Centro, CA"
+      },
+      {  
+         "name":"Zanesville, OH (2)",
+         "count":2,
+         "val":"Walmart - Zanesville, OH",
+         "location":"Zanesville, OH"
+      }
+   ],
+   "Walmart":[  
+      {  
+         "name":"Abilene-Sweetwater, TX (10)",
+         "count":10,
+         "val":"Walmart - Abilene-Sweetwater, TX",
+         "location":"Abilene-Sweetwater, TX"
+      },
+      {  
+         "name":"Albany, GA (11)",
+         "count":11,
+         "val":"Walmart - Albany, GA",
+         "location":"Albany, GA"
+      },
+      {  
+         "name":"Albany-Schenectady-Troy, NY (20)",
+         "count":20,
+         "val":"Walmart - Albany-Schenectady-Troy, NY",
+         "location":"Albany-Schenectady-Troy, NY"
+      },
+      {  
+         "name":"Albuquerque-Santa Fe, NM (40)",
+         "count":40,
+         "val":"Walmart - Albuquerque-Santa Fe, NM",
+         "location":"Albuquerque-Santa Fe, NM"
+      },
+      {  
+         "name":"Alexandria, LA (10)",
+         "count":10,
+         "val":"Walmart - Alexandria, LA",
+         "location":"Alexandria, LA"
+      },
+      {  
+         "name":"Alpena, MI (1)",
+         "count":1,
+         "val":"Walmart - Alpena, MI",
+         "location":"Alpena, MI"
+      },
+      {  
+         "name":"Amarillo, TX (16)",
+         "count":16,
+         "val":"Walmart - Amarillo, TX",
+         "location":"Amarillo, TX"
+      },
+      {  
+         "name":"Anniston, AL (1)",
+         "count":1,
+         "val":"Walmart - Anniston, AL",
+         "location":"Anniston, AL"
+      },
+      {  
+         "name":"Atlanta, GA (108)",
+         "count":108,
+         "val":"Walmart - Atlanta, GA",
+         "location":"Atlanta, GA"
+      },
+      {  
+         "name":"Augusta, GA (15)",
+         "count":15,
+         "val":"Walmart - Augusta, GA",
+         "location":"Augusta, GA"
+      },
+      {  
+         "name":"Austin, TX (25)",
+         "count":25,
+         "val":"Walmart - Austin, TX",
+         "location":"Austin, TX"
+      },
+      {  
+         "name":"Bakersfield, CA (8)",
+         "count":8,
+         "val":"Walmart - Bakersfield, CA",
+         "location":"Bakersfield, CA"
+      },
+      {  
+         "name":"Baltimore, MD (29)",
+         "count":29,
+         "val":"Walmart - Baltimore, MD",
+         "location":"Baltimore, MD"
+      },
+      {  
+         "name":"Bangor, ME (7)",
+         "count":7,
+         "val":"Walmart - Bangor, ME",
+         "location":"Bangor, ME"
+      },
+      {  
+         "name":"Baton Rouge, LA (27)",
+         "count":27,
+         "val":"Walmart - Baton Rouge, LA",
+         "location":"Baton Rouge, LA"
+      },
+      {  
+         "name":"Beaumont-Port Arthur, TX (10)",
+         "count":10,
+         "val":"Walmart - Beaumont-Port Arthur, TX",
+         "location":"Beaumont-Port Arthur, TX"
+      },
+      {  
+         "name":"Bend, OR (2)",
+         "count":2,
+         "val":"Walmart - Bend, OR",
+         "location":"Bend, OR"
+      },
+      {  
+         "name":"Billings, MT (5)",
+         "count":5,
+         "val":"Walmart - Billings, MT",
+         "location":"Billings, MT"
+      },
+      {  
+         "name":"Biloxi-Gulfport, MS (9)",
+         "count":9,
+         "val":"Walmart - Biloxi-Gulfport, MS",
+         "location":"Biloxi-Gulfport, MS"
+      },
+      {  
+         "name":"Binghamton, NY (3)",
+         "count":3,
+         "val":"Walmart - Binghamton, NY",
+         "location":"Binghamton, NY"
+      },
+      {  
+         "name":"Birmingham (Anniston and Tuscaloosa), AL (45)",
+         "count":45,
+         "val":"Walmart - Birmingham (Anniston and Tuscaloosa), AL",
+         "location":"Birmingham (Anniston and Tuscaloosa), AL"
+      },
+      {  
+         "name":"Bluefield-Beckley-Oak Hill, WV (7)",
+         "count":7,
+         "val":"Walmart - Bluefield-Beckley-Oak Hill, WV",
+         "location":"Bluefield-Beckley-Oak Hill, WV"
+      },
+      {  
+         "name":"Boise, ID (12)",
+         "count":12,
+         "val":"Walmart - Boise, ID",
+         "location":"Boise, ID"
+      },
+      {  
+         "name":"Boston, MA (Manchester, NH) (52)",
+         "count":52,
+         "val":"Walmart - Boston, MA (Manchester, NH)",
+         "location":"Boston, MA (Manchester, NH)"
+      },
+      {  
+         "name":"Bowling Green, KY (2)",
+         "count":2,
+         "val":"Walmart - Bowling Green, KY",
+         "location":"Bowling Green, KY"
+      },
+      {  
+         "name":"Bristol-Kingsport-Johnson City (4)",
+         "count":4,
+         "val":"Walmart - Bristol-Kingsport-Johnson City",
+         "location":"Bristol-Kingsport-Johnson City"
+      },
+      {  
+         "name":"bristol-Kingsport-Johnson City (1)",
+         "count":1,
+         "val":"Walmart - bristol-Kingsport-Johnson City",
+         "location":"bristol-Kingsport-Johnson City"
+      },
+      {  
+         "name":"Bristol-Kingsport-Johnson City (11)",
+         "count":11,
+         "val":"Walmart - Bristol-Kingsport-Johnson City",
+         "location":"Bristol-Kingsport-Johnson City"
+      },
+      {  
+         "name":"Buffalo, NY (16)",
+         "count":16,
+         "val":"Walmart - Buffalo, NY",
+         "location":"Buffalo, NY"
+      },
+      {  
+         "name":"Burlington, VT Plattsburgh, NY (12)",
+         "count":12,
+         "val":"Walmart - Burlington, VT Plattsburgh, NY",
+         "location":"Burlington, VT Plattsburgh, NY"
+      },
+      {  
+         "name":"Butte-Bozeman, MT (2)",
+         "count":2,
+         "val":"Walmart - Butte-Bozeman, MT",
+         "location":"Butte-Bozeman, MT"
+      },
+      {  
+         "name":"Casper-Riverton, WY (3)",
+         "count":3,
+         "val":"Walmart - Casper-Riverton, WY",
+         "location":"Casper-Riverton, WY"
+      },
+      {  
+         "name":"Cedar Rapids-Waterloo-Iowa City-Dubuque, IA (15)",
+         "count":15,
+         "val":"Walmart - Cedar Rapids-Waterloo-Iowa City-Dubuque, IA",
+         "location":"Cedar Rapids-Waterloo-Iowa City-Dubuque, IA"
+      },
+      {  
+         "name":"Champaign-Springfield Decatur, IL (23)",
+         "count":23,
+         "val":"Walmart - Champaign-Springfield Decatur, IL",
+         "location":"Champaign-Springfield Decatur, IL"
+      },
+      {  
+         "name":"Charleston, SC (18)",
+         "count":18,
+         "val":"Walmart - Charleston, SC",
+         "location":"Charleston, SC"
+      },
+      {  
+         "name":"Charleston-Huntington, WV (24)",
+         "count":24,
+         "val":"Walmart - Charleston-Huntington, WV",
+         "location":"Charleston-Huntington, WV"
+      },
+      {  
+         "name":"Charlotte, NC (59)",
+         "count":59,
+         "val":"Walmart - Charlotte, NC",
+         "location":"Charlotte, NC"
+      },
+      {  
+         "name":"Charlottesville, VA (3)",
+         "count":3,
+         "val":"Walmart - Charlottesville, VA",
+         "location":"Charlottesville, VA"
+      },
+      {  
+         "name":"Chattanooga, TN (20)",
+         "count":20,
+         "val":"Walmart - Chattanooga, TN",
+         "location":"Chattanooga, TN"
+      },
+      {  
+         "name":"Cheyenne-Scottsbluff, WY (3)",
+         "count":3,
+         "val":"Walmart - Cheyenne-Scottsbluff, WY",
+         "location":"Cheyenne-Scottsbluff, WY"
+      },
+      {  
+         "name":"Chicago, IL (86)",
+         "count":86,
+         "val":"Walmart - Chicago, IL",
+         "location":"Chicago, IL"
+      },
+      {  
+         "name":"Chico-Redding, CA (6)",
+         "count":6,
+         "val":"Walmart - Chico-Redding, CA",
+         "location":"Chico-Redding, CA"
+      },
+      {  
+         "name":"Cincinnati, OH (30)",
+         "count":30,
+         "val":"Walmart - Cincinnati, OH",
+         "location":"Cincinnati, OH"
+      },
+      {  
+         "name":"Clarksburg-Weston, WV (6)",
+         "count":6,
+         "val":"Walmart - Clarksburg-Weston, WV",
+         "location":"Clarksburg-Weston, WV"
+      },
+      {  
+         "name":"Cleveland-Akron (Canton), OH (39)",
+         "count":39,
+         "val":"Walmart - Cleveland-Akron (Canton), OH",
+         "location":"Cleveland-Akron (Canton), OH"
+      },
+      {  
+         "name":"Colorado Springs-Pueblo, CO (20)",
+         "count":20,
+         "val":"Walmart - Colorado Springs-Pueblo, CO",
+         "location":"Colorado Springs-Pueblo, CO"
+      },
+      {  
+         "name":"Columbia, SC (19)",
+         "count":19,
+         "val":"Walmart - Columbia, SC",
+         "location":"Columbia, SC"
+      },
+      {  
+         "name":"Columbia-Jefferson City, MO (11)",
+         "count":11,
+         "val":"Walmart - Columbia-Jefferson City, MO",
+         "location":"Columbia-Jefferson City, MO"
+      },
+      {  
+         "name":"Columbus, GA (8)",
+         "count":8,
+         "val":"Walmart - Columbus, GA",
+         "location":"Columbus, GA"
+      },
+      {  
+         "name":"Columbus, OH (31)",
+         "count":31,
+         "val":"Walmart - Columbus, OH",
+         "location":"Columbus, OH"
+      },
+      {  
+         "name":"Columbus-Tupelo-West Point, MS (12)",
+         "count":12,
+         "val":"Walmart - Columbus-Tupelo-West Point, MS",
+         "location":"Columbus-Tupelo-West Point, MS"
+      },
+      {  
+         "name":"Corpus Christi, TX (11)",
+         "count":11,
+         "val":"Walmart - Corpus Christi, TX",
+         "location":"Corpus Christi, TX"
+      },
+      {  
+         "name":"Dallas-Ft. Worth, TX (147)",
+         "count":147,
+         "val":"Walmart - Dallas-Ft. Worth, TX",
+         "location":"Dallas-Ft. Worth, TX"
+      },
+      {  
+         "name":"Davenport, IA Rock Island Moline, IL (15)",
+         "count":15,
+         "val":"Walmart - Davenport, IA Rock Island Moline, IL",
+         "location":"Davenport, IA Rock Island Moline, IL"
+      },
+      {  
+         "name":"Dayton, OH (19)",
+         "count":19,
+         "val":"Walmart - Dayton, OH",
+         "location":"Dayton, OH"
+      },
+      {  
+         "name":"Denver, CO (69)",
+         "count":69,
+         "val":"Walmart - Denver, CO",
+         "location":"Denver, CO"
+      },
+      {  
+         "name":"Des Moines-Ames, IA (19)",
+         "count":19,
+         "val":"Walmart - Des Moines-Ames, IA",
+         "location":"Des Moines-Ames, IA"
+      },
+      {  
+         "name":"Detroit, MI (30)",
+         "count":30,
+         "val":"Walmart - Detroit, MI",
+         "location":"Detroit, MI"
+      },
+      {  
+         "name":"Dothan, AL (5)",
+         "count":5,
+         "val":"Walmart - Dothan, AL",
+         "location":"Dothan, AL"
+      },
+      {  
+         "name":"Duluth-Superior, MN (12)",
+         "count":12,
+         "val":"Walmart - Duluth-Superior, MN",
+         "location":"Duluth-Superior, MN"
+      },
+      {  
+         "name":"El Paso (Las Cruces), TX (21)",
+         "count":21,
+         "val":"Walmart - El Paso (Las Cruces), TX",
+         "location":"El Paso (Las Cruces), TX"
+      },
+      {  
+         "name":"Elmira (Corning), NY (5)",
+         "count":5,
+         "val":"Walmart - Elmira (Corning), NY",
+         "location":"Elmira (Corning), NY"
+      },
+      {  
+         "name":"Erie, PA (9)",
+         "count":9,
+         "val":"Walmart - Erie, PA",
+         "location":"Erie, PA"
+      },
+      {  
+         "name":"Eugene, OR (8)",
+         "count":8,
+         "val":"Walmart - Eugene, OR",
+         "location":"Eugene, OR"
+      },
+      {  
+         "name":"Eureka, CA (2)",
+         "count":2,
+         "val":"Walmart - Eureka, CA",
+         "location":"Eureka, CA"
+      },
+      {  
+         "name":"Evansville, IN (17)",
+         "count":17,
+         "val":"Walmart - Evansville, IN",
+         "location":"Evansville, IN"
+      },
+      {  
+         "name":"Fargo-Valley City, ND (6)",
+         "count":6,
+         "val":"Walmart - Fargo-Valley City, ND",
+         "location":"Fargo-Valley City, ND"
+      },
+      {  
+         "name":"Flint-Saginaw-Bay City, MI (16)",
+         "count":16,
+         "val":"Walmart - Flint-Saginaw-Bay City, MI",
+         "location":"Flint-Saginaw-Bay City, MI"
+      },
+      {  
+         "name":"Fresno-Visalia, CA (23)",
+         "count":23,
+         "val":"Walmart - Fresno-Visalia, CA",
+         "location":"Fresno-Visalia, CA"
+      },
+      {  
+         "name":"Ft. Myers-Naples, FL (21)",
+         "count":21,
+         "val":"Walmart - Ft. Myers-Naples, FL",
+         "location":"Ft. Myers-Naples, FL"
+      },
+      {  
+         "name":"Ft. Smith Fay-Spmgdl-Rgrs, AR (42)",
+         "count":42,
+         "val":"Walmart - Ft. Smith Fay-Spmgdl-Rgrs, AR",
+         "location":"Ft. Smith Fay-Spmgdl-Rgrs, AR"
+      },
+      {  
+         "name":"Ft. Wayne, IN (15)",
+         "count":15,
+         "val":"Walmart - Ft. Wayne, IN",
+         "location":"Ft. Wayne, IN"
+      },
+      {  
+         "name":"Gainesville, FL (6)",
+         "count":6,
+         "val":"Walmart - Gainesville, FL",
+         "location":"Gainesville, FL"
+      },
+      {  
+         "name":"Grand Junction-Montrose, CO (3)",
+         "count":3,
+         "val":"Walmart - Grand Junction-Montrose, CO",
+         "location":"Grand Junction-Montrose, CO"
+      },
+      {  
+         "name":"Grand Rapids-Kalamazoo-Battle Creek, MI (23)",
+         "count":23,
+         "val":"Walmart - Grand Rapids-Kalamazoo-Battle Creek, MI",
+         "location":"Grand Rapids-Kalamazoo-Battle Creek, MI"
+      },
+      {  
+         "name":"Great Falls, MT (2)",
+         "count":2,
+         "val":"Walmart - Great Falls, MT",
+         "location":"Great Falls, MT"
+      },
+      {  
+         "name":"Green Bay-Appleton, WI (15)",
+         "count":15,
+         "val":"Walmart - Green Bay-Appleton, WI",
+         "location":"Green Bay-Appleton, WI"
+      },
+      {  
+         "name":"Greensboro-High Point-Winston-Salem, NC (36)",
+         "count":36,
+         "val":"Walmart - Greensboro-High Point-Winston-Salem, NC",
+         "location":"Greensboro-High Point-Winston-Salem, NC"
+      },
+      {  
+         "name":"Greenville-New Bern-Washington, NC (20)",
+         "count":20,
+         "val":"Walmart - Greenville-New Bern-Washington, NC",
+         "location":"Greenville-New Bern-Washington, NC"
+      },
+      {  
+         "name":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC (46)",
+         "count":46,
+         "val":"Walmart - Greenville-Spartanburg, SC Asheville, NC Anderson, SC",
+         "location":"Greenville-Spartanburg, SC Asheville, NC Anderson, SC"
+      },
+      {  
+         "name":"Greenwood-Greenville, MS (6)",
+         "count":6,
+         "val":"Walmart - Greenwood-Greenville, MS",
+         "location":"Greenwood-Greenville, MS"
+      },
+      {  
+         "name":"Harlingen-Wslco-Brnsvl-McA, TX (26)",
+         "count":26,
+         "val":"Walmart - Harlingen-Wslco-Brnsvl-McA, TX",
+         "location":"Harlingen-Wslco-Brnsvl-McA, TX"
+      },
+      {  
+         "name":"Harrisburg-Lancaster-Lebanon-York, PA (19)",
+         "count":19,
+         "val":"Walmart - Harrisburg-Lancaster-Lebanon-York, PA",
+         "location":"Harrisburg-Lancaster-Lebanon-York, PA"
+      },
+      {  
+         "name":"Harrisonburg, VA (5)",
+         "count":5,
+         "val":"Walmart - Harrisonburg, VA",
+         "location":"Harrisonburg, VA"
+      },
+      {  
+         "name":"Hartford And New Haven, CT (30)",
+         "count":30,
+         "val":"Walmart - Hartford And New Haven, CT",
+         "location":"Hartford And New Haven, CT"
+      },
+      {  
+         "name":"Hattiesburg-Laurel, MS (9)",
+         "count":9,
+         "val":"Walmart - Hattiesburg-Laurel, MS",
+         "location":"Hattiesburg-Laurel, MS"
+      },
+      {  
+         "name":"Helena, MT (1)",
+         "count":1,
+         "val":"Walmart - Helena, MT",
+         "location":"Helena, MT"
+      },
+      {  
+         "name":"Houston, TX (85)",
+         "count":85,
+         "val":"Walmart - Houston, TX",
+         "location":"Houston, TX"
+      },
+      {  
+         "name":"Huntsville-Decatur (Florence), AL (25)",
+         "count":25,
+         "val":"Walmart - Huntsville-Decatur (Florence), AL",
+         "location":"Huntsville-Decatur (Florence), AL"
+      },
+      {  
+         "name":"Idaho Falls-Pocatello(Jcksn), ID (5)",
+         "count":5,
+         "val":"Walmart - Idaho Falls-Pocatello(Jcksn), ID",
+         "location":"Idaho Falls-Pocatello(Jcksn), ID"
+      },
+      {  
+         "name":"Indianapolis, IN (48)",
+         "count":48,
+         "val":"Walmart - Indianapolis, IN",
+         "location":"Indianapolis, IN"
+      },
+      {  
+         "name":"Jackson, MS (21)",
+         "count":21,
+         "val":"Walmart - Jackson, MS",
+         "location":"Jackson, MS"
+      },
+      {  
+         "name":"Jackson, TN (7)",
+         "count":7,
+         "val":"Walmart - Jackson, TN",
+         "location":"Jackson, TN"
+      },
+      {  
+         "name":"Jacksonville, FL (31)",
+         "count":31,
+         "val":"Walmart - Jacksonville, FL",
+         "location":"Jacksonville, FL"
+      },
+      {  
+         "name":"Johnstown-Altoona, PA (12)",
+         "count":12,
+         "val":"Walmart - Johnstown-Altoona, PA",
+         "location":"Johnstown-Altoona, PA"
+      },
+      {  
+         "name":"Jonesboro, AR (9)",
+         "count":9,
+         "val":"Walmart - Jonesboro, AR",
+         "location":"Jonesboro, AR"
+      },
+      {  
+         "name":"Joplin-Pittsburg (16)",
+         "count":16,
+         "val":"Walmart - Joplin-Pittsburg",
+         "location":"Joplin-Pittsburg"
+      },
+      {  
+         "name":"Kansas City, MO (52)",
+         "count":52,
+         "val":"Walmart - Kansas City, MO",
+         "location":"Kansas City, MO"
+      },
+      {  
+         "name":"Knoxville, TN (32)",
+         "count":32,
+         "val":"Walmart - Knoxville, TN",
+         "location":"Knoxville, TN"
+      },
+      {  
+         "name":"La Crosse-Eau Claire, WI (10)",
+         "count":10,
+         "val":"Walmart - La Crosse-Eau Claire, WI",
+         "location":"La Crosse-Eau Claire, WI"
+      },
+      {  
+         "name":"Lafayette, IN (3)",
+         "count":3,
+         "val":"Walmart - Lafayette, IN",
+         "location":"Lafayette, IN"
+      },
+      {  
+         "name":"Lafayette, LA (14)",
+         "count":14,
+         "val":"Walmart - Lafayette, LA",
+         "location":"Lafayette, LA"
+      },
+      {  
+         "name":"Lake Charles, LA (5)",
+         "count":5,
+         "val":"Walmart - Lake Charles, LA",
+         "location":"Lake Charles, LA"
+      },
+      {  
+         "name":"Lansing, MI (7)",
+         "count":7,
+         "val":"Walmart - Lansing, MI",
+         "location":"Lansing, MI"
+      },
+      {  
+         "name":"Laredo, TX (4)",
+         "count":4,
+         "val":"Walmart - Laredo, TX",
+         "location":"Laredo, TX"
+      },
+      {  
+         "name":"Las Vegas, NV (29)",
+         "count":29,
+         "val":"Walmart - Las Vegas, NV",
+         "location":"Las Vegas, NV"
+      },
+      {  
+         "name":"Lexington, KY (27)",
+         "count":27,
+         "val":"Walmart - Lexington, KY",
+         "location":"Lexington, KY"
+      },
+      {  
+         "name":"Lima, OH (2)",
+         "count":2,
+         "val":"Walmart - Lima, OH",
+         "location":"Lima, OH"
+      },
+      {  
+         "name":"Lincoln-Hastings-Kearney, NE (16)",
+         "count":16,
+         "val":"Walmart - Lincoln-Hastings-Kearney, NE",
+         "location":"Lincoln-Hastings-Kearney, NE"
+      },
+      {  
+         "name":"Little Rock-Pine Bluff, AR (43)",
+         "count":43,
+         "val":"Walmart - Little Rock-Pine Bluff, AR",
+         "location":"Little Rock-Pine Bluff, AR"
+      },
+      {  
+         "name":"Los Angeles, CA (100)",
+         "count":100,
+         "val":"Walmart - Los Angeles, CA",
+         "location":"Los Angeles, CA"
+      },
+      {  
+         "name":"Louisville, KY (32)",
+         "count":32,
+         "val":"Walmart - Louisville, KY",
+         "location":"Louisville, KY"
+      },
+      {  
+         "name":"Lubbock, TX (8)",
+         "count":8,
+         "val":"Walmart - Lubbock, TX",
+         "location":"Lubbock, TX"
+      },
+      {  
+         "name":"Macon, GA (13)",
+         "count":13,
+         "val":"Walmart - Macon, GA",
+         "location":"Macon, GA"
+      },
+      {  
+         "name":"Madison, WI (16)",
+         "count":16,
+         "val":"Walmart - Madison, WI",
+         "location":"Madison, WI"
+      },
+      {  
+         "name":"Mankato, MN (4)",
+         "count":4,
+         "val":"Walmart - Mankato, MN",
+         "location":"Mankato, MN"
+      },
+      {  
+         "name":"Marquette, MI (4)",
+         "count":4,
+         "val":"Walmart - Marquette, MI",
+         "location":"Marquette, MI"
+      },
+      {  
+         "name":"Medford-Klamath Falls, OR (6)",
+         "count":6,
+         "val":"Walmart - Medford-Klamath Falls, OR",
+         "location":"Medford-Klamath Falls, OR"
+      },
+      {  
+         "name":"Memphis, TN (31)",
+         "count":31,
+         "val":"Walmart - Memphis, TN",
+         "location":"Memphis, TN"
+      },
+      {  
+         "name":"Meridian, MS (2)",
+         "count":2,
+         "val":"Walmart - Meridian, MS",
+         "location":"Meridian, MS"
+      },
+      {  
+         "name":"Miami-Ft. Lauderdale, FL (40)",
+         "count":40,
+         "val":"Walmart - Miami-Ft. Lauderdale, FL",
+         "location":"Miami-Ft. Lauderdale, FL"
+      },
+      {  
+         "name":"Milwaukee, WI (32)",
+         "count":32,
+         "val":"Walmart - Milwaukee, WI",
+         "location":"Milwaukee, WI"
+      },
+      {  
+         "name":"Minneapolis-St. Paul, MN (54)",
+         "count":54,
+         "val":"Walmart - Minneapolis-St. Paul, MN",
+         "location":"Minneapolis-St. Paul, MN"
+      },
+      {  
+         "name":"Missoula, MT (4)",
+         "count":4,
+         "val":"Walmart - Missoula, MT",
+         "location":"Missoula, MT"
+      },
+      {  
+         "name":"Mobile, AL Pensacola (Ft. Walton Beach), FL (37)",
+         "count":37,
+         "val":"Walmart - Mobile, AL Pensacola (Ft. Walton Beach), FL",
+         "location":"Mobile, AL Pensacola (Ft. Walton Beach), FL"
+      },
+      {  
+         "name":"Monroe-El Dorado, LA (20)",
+         "count":20,
+         "val":"Walmart - Monroe-El Dorado, LA",
+         "location":"Monroe-El Dorado, LA"
+      },
+      {  
+         "name":"Monterey-Salinas, CA (3)",
+         "count":3,
+         "val":"Walmart - Monterey-Salinas, CA",
+         "location":"Monterey-Salinas, CA"
+      },
+      {  
+         "name":"Montgomery-Selma, AL (13)",
+         "count":13,
+         "val":"Walmart - Montgomery-Selma, AL",
+         "location":"Montgomery-Selma, AL"
+      },
+      {  
+         "name":"Myrtle Beach-Florence, SC (14)",
+         "count":14,
+         "val":"Walmart - Myrtle Beach-Florence, SC",
+         "location":"Myrtle Beach-Florence, SC"
+      },
+      {  
+         "name":"Nashville, TN (57)",
+         "count":57,
+         "val":"Walmart - Nashville, TN",
+         "location":"Nashville, TN"
+      },
+      {  
+         "name":"New Orleans, LA (30)",
+         "count":30,
+         "val":"Walmart - New Orleans, LA",
+         "location":"New Orleans, LA"
+      },
+      {  
+         "name":"New York, NY (67)",
+         "count":67,
+         "val":"Walmart - New York, NY",
+         "location":"New York, NY"
+      },
+      {  
+         "name":"Norfolk-Portsmouth-Newport News, VA (35)",
+         "count":35,
+         "val":"Walmart - Norfolk-Portsmouth-Newport News, VA",
+         "location":"Norfolk-Portsmouth-Newport News, VA"
+      },
+      {  
+         "name":"North Platte, NE (1)",
+         "count":1,
+         "val":"Walmart - North Platte, NE",
+         "location":"North Platte, NE"
+      },
+      {  
+         "name":"Odessa-Midland, TX (7)",
+         "count":7,
+         "val":"Walmart - Odessa-Midland, TX",
+         "location":"Odessa-Midland, TX"
+      },
+      {  
+         "name":"Oklahoma City, OK (58)",
+         "count":58,
+         "val":"Walmart - Oklahoma City, OK",
+         "location":"Oklahoma City, OK"
+      },
+      {  
+         "name":"Omaha, NE (23)",
+         "count":23,
+         "val":"Walmart - Omaha, NE",
+         "location":"Omaha, NE"
+      },
+      {  
+         "name":"Orlando-Daytona Beach-Melbourne, FL (67)",
+         "count":67,
+         "val":"Walmart - Orlando-Daytona Beach-Melbourne, FL",
+         "location":"Orlando-Daytona Beach-Melbourne, FL"
+      },
+      {  
+         "name":"Ottumwa-Kirksville, IA (5)",
+         "count":5,
+         "val":"Walmart - Ottumwa-Kirksville, IA",
+         "location":"Ottumwa-Kirksville, IA"
+      },
+      {  
+         "name":"Paducah, KY Cape Girardeau, MO Harrisburg, IL (30)",
+         "count":30,
+         "val":"Walmart - Paducah, KY Cape Girardeau, MO Harrisburg, IL",
+         "location":"Paducah, KY Cape Girardeau, MO Harrisburg, IL"
+      },
+      {  
+         "name":"Palm Springs, CA (10)",
+         "count":10,
+         "val":"Walmart - Palm Springs, CA",
+         "location":"Palm Springs, CA"
+      },
+      {  
+         "name":"Panama City, FL (9)",
+         "count":9,
+         "val":"Walmart - Panama City, FL",
+         "location":"Panama City, FL"
+      },
+      {  
+         "name":"Parkersburg, WV (3)",
+         "count":3,
+         "val":"Walmart - Parkersburg, WV",
+         "location":"Parkersburg, WV"
+      },
+      {  
+         "name":"Peoria-Bloomington, IL (11)",
+         "count":11,
+         "val":"Walmart - Peoria-Bloomington, IL",
+         "location":"Peoria-Bloomington, IL"
+      },
+      {  
+         "name":"Philadelphia, PA (62)",
+         "count":62,
+         "val":"Walmart - Philadelphia, PA",
+         "location":"Philadelphia, PA"
+      },
+      {  
+         "name":"Phoenix (Prescott), AZ (82)",
+         "count":82,
+         "val":"Walmart - Phoenix (Prescott), AZ",
+         "location":"Phoenix (Prescott), AZ"
+      },
+      {  
+         "name":"Pittsburgh, PA (34)",
+         "count":34,
+         "val":"Walmart - Pittsburgh, PA",
+         "location":"Pittsburgh, PA"
+      },
+      {  
+         "name":"Portland, OR (35)",
+         "count":35,
+         "val":"Walmart - Portland, OR",
+         "location":"Portland, OR"
+      },
+      {  
+         "name":"Portland-Auburn, ME (15)",
+         "count":15,
+         "val":"Walmart - Portland-Auburn, ME",
+         "location":"Portland-Auburn, ME"
+      },
+      {  
+         "name":"Presque Isle, ME (2)",
+         "count":2,
+         "val":"Walmart - Presque Isle, ME",
+         "location":"Presque Isle, ME"
+      },
+      {  
+         "name":"Providence, RI New Bedford, MA (17)",
+         "count":17,
+         "val":"Walmart - Providence, RI New Bedford, MA",
+         "location":"Providence, RI New Bedford, MA"
+      },
+      {  
+         "name":"Quincy, IL Hannibal, MO Keokuk, IA (5)",
+         "count":5,
+         "val":"Walmart - Quincy, IL Hannibal, MO Keokuk, IA",
+         "location":"Quincy, IL Hannibal, MO Keokuk, IA"
+      },
+      {  
+         "name":"Raleigh-Durham (Fayetteville), NC (53)",
+         "count":53,
+         "val":"Walmart - Raleigh-Durham (Fayetteville), NC",
+         "location":"Raleigh-Durham (Fayetteville), NC"
+      },
+      {  
+         "name":"Rapid City, SD (4)",
+         "count":4,
+         "val":"Walmart - Rapid City, SD",
+         "location":"Rapid City, SD"
+      },
+      {  
+         "name":"Reno, NV (14)",
+         "count":14,
+         "val":"Walmart - Reno, NV",
+         "location":"Reno, NV"
+      },
+      {  
+         "name":"Richmond-Petersburg, VA (24)",
+         "count":24,
+         "val":"Walmart - Richmond-Petersburg, VA",
+         "location":"Richmond-Petersburg, VA"
+      },
+      {  
+         "name":"Roanoke-Lynchburg, VA (27)",
+         "count":27,
+         "val":"Walmart - Roanoke-Lynchburg, VA",
+         "location":"Roanoke-Lynchburg, VA"
+      },
+      {  
+         "name":"Rochester, NY (13)",
+         "count":13,
+         "val":"Walmart - Rochester, NY",
+         "location":"Rochester, NY"
+      },
+      {  
+         "name":"Rochester-Mason City-Austin, MN (5)",
+         "count":5,
+         "val":"Walmart - Rochester-Mason City-Austin, MN",
+         "location":"Rochester-Mason City-Austin, MN"
+      },
+      {  
+         "name":"Rockford, IL (8)",
+         "count":8,
+         "val":"Walmart - Rockford, IL",
+         "location":"Rockford, IL"
+      },
+      {  
+         "name":"Sacramnto-Stktn-Modesto, CA (53)",
+         "count":53,
+         "val":"Walmart - Sacramnto-Stktn-Modesto, CA",
+         "location":"Sacramnto-Stktn-Modesto, CA"
+      },
+      {  
+         "name":"Salisbury, MD (7)",
+         "count":7,
+         "val":"Walmart - Salisbury, MD",
+         "location":"Salisbury, MD"
+      },
+      {  
+         "name":"Salt Lake City, UT (54)",
+         "count":54,
+         "val":"Walmart - Salt Lake City, UT",
+         "location":"Salt Lake City, UT"
+      },
+      {  
+         "name":"San Angelo, TX (3)",
+         "count":3,
+         "val":"Walmart - San Angelo, TX",
+         "location":"San Angelo, TX"
+      },
+      {  
+         "name":"San Antonio, TX (49)",
+         "count":49,
+         "val":"Walmart - San Antonio, TX",
+         "location":"San Antonio, TX"
+      },
+      {  
+         "name":"San Diego, CA (25)",
+         "count":25,
+         "val":"Walmart - San Diego, CA",
+         "location":"San Diego, CA"
+      },
+      {  
+         "name":"San Francisco-Oak-San Jos, CA (32)",
+         "count":32,
+         "val":"Walmart - San Francisco-Oak-San Jos, CA",
+         "location":"San Francisco-Oak-San Jos, CA"
+      },
+      {  
+         "name":"Santa Barbara-Santa Maria-San Luis Obispo, CA (6)",
+         "count":6,
+         "val":"Walmart - Santa Barbara-Santa Maria-San Luis Obispo, CA",
+         "location":"Santa Barbara-Santa Maria-San Luis Obispo, CA"
+      },
+      {  
+         "name":"Savannah, GA (18)",
+         "count":18,
+         "val":"Walmart - Savannah, GA",
+         "location":"Savannah, GA"
+      },
+      {  
+         "name":"Seattle-Tacoma, WA (37)",
+         "count":37,
+         "val":"Walmart - Seattle-Tacoma, WA",
+         "location":"Seattle-Tacoma, WA"
+      },
+      {  
+         "name":"Sherman, TX Ada, OK (7)",
+         "count":7,
+         "val":"Walmart - Sherman, TX Ada, OK",
+         "location":"Sherman, TX Ada, OK"
+      },
+      {  
+         "name":"Shreveport, LA (28)",
+         "count":28,
+         "val":"Walmart - Shreveport, LA",
+         "location":"Shreveport, LA"
+      },
+      {  
+         "name":"Sioux City, IA (9)",
+         "count":9,
+         "val":"Walmart - Sioux City, IA",
+         "location":"Sioux City, IA"
+      },
+      {  
+         "name":"Sioux Falls(Mitchell), SD (12)",
+         "count":12,
+         "val":"Walmart - Sioux Falls(Mitchell), SD",
+         "location":"Sioux Falls(Mitchell), SD"
+      },
+      {  
+         "name":"South Bend-Elkhart, IN (12)",
+         "count":12,
+         "val":"Walmart - South Bend-Elkhart, IN",
+         "location":"South Bend-Elkhart, IN"
+      },
+      {  
+         "name":"Spokane, WA (18)",
+         "count":18,
+         "val":"Walmart - Spokane, WA",
+         "location":"Spokane, WA"
+      },
+      {  
+         "name":"Springfield, MO (40)",
+         "count":40,
+         "val":"Walmart - Springfield, MO",
+         "location":"Springfield, MO"
+      },
+      {  
+         "name":"Springfield-Holyoke, MA (5)",
+         "count":5,
+         "val":"Walmart - Springfield-Holyoke, MA",
+         "location":"Springfield-Holyoke, MA"
+      },
+      {  
+         "name":"St. Joseph, MO (2)",
+         "count":2,
+         "val":"Walmart - St. Joseph, MO",
+         "location":"St. Joseph, MO"
+      },
+      {  
+         "name":"St. Louis, MO (54)",
+         "count":54,
+         "val":"Walmart - St. Louis, MO",
+         "location":"St. Louis, MO"
+      },
+      {  
+         "name":"Syracuse, NY (12)",
+         "count":12,
+         "val":"Walmart - Syracuse, NY",
+         "location":"Syracuse, NY"
+      },
+      {  
+         "name":"Tallahassee, FLThomasville, GA (16)",
+         "count":16,
+         "val":"Walmart - Tallahassee, FLThomasville, GA",
+         "location":"Tallahassee, FLThomasville, GA"
+      },
+      {  
+         "name":"Tampa-St. Petersburg (Sarasota), FL (82)",
+         "count":82,
+         "val":"Walmart - Tampa-St. Petersburg (Sarasota), FL",
+         "location":"Tampa-St. Petersburg (Sarasota), FL"
+      },
+      {  
+         "name":"Terre Haute, IN (11)",
+         "count":11,
+         "val":"Walmart - Terre Haute, IN",
+         "location":"Terre Haute, IN"
+      },
+      {  
+         "name":"Toledo, OH (18)",
+         "count":18,
+         "val":"Walmart - Toledo, OH",
+         "location":"Toledo, OH"
+      },
+      {  
+         "name":"Topeka, KS (11)",
+         "count":11,
+         "val":"Walmart - Topeka, KS",
+         "location":"Topeka, KS"
+      },
+      {  
+         "name":"Traverse City-Cadillac, MI (8)",
+         "count":8,
+         "val":"Walmart - Traverse City-Cadillac, MI",
+         "location":"Traverse City-Cadillac, MI"
+      },
+      {  
+         "name":"Tucson (Sierra Vista), AZ (22)",
+         "count":22,
+         "val":"Walmart - Tucson (Sierra Vista), AZ",
+         "location":"Tucson (Sierra Vista), AZ"
+      },
+      {  
+         "name":"Tulsa, OK (44)",
+         "count":44,
+         "val":"Walmart - Tulsa, OK",
+         "location":"Tulsa, OK"
+      },
+      {  
+         "name":"Twin Falls, ID (2)",
+         "count":2,
+         "val":"Walmart - Twin Falls, ID",
+         "location":"Twin Falls, ID"
+      },
+      {  
+         "name":"Tyler-Longview (Lufkin And Nacogdoches), TX (17)",
+         "count":17,
+         "val":"Walmart - Tyler-Longview (Lufkin And Nacogdoches), TX",
+         "location":"Tyler-Longview (Lufkin And Nacogdoches), TX"
+      },
+      {  
+         "name":"Utica, NY (6)",
+         "count":6,
+         "val":"Walmart - Utica, NY",
+         "location":"Utica, NY"
+      },
+      {  
+         "name":"Victoria, TX (2)",
+         "count":2,
+         "val":"Walmart - Victoria, TX",
+         "location":"Victoria, TX"
+      },
+      {  
+         "name":"WacoTemple-Bryan, TX (21)",
+         "count":21,
+         "val":"Walmart - WacoTemple-Bryan, TX",
+         "location":"WacoTemple-Bryan, TX"
+      },
+      {  
+         "name":"Washington, DC (Hagerstown, MD) (52)",
+         "count":52,
+         "val":"Walmart - Washington, DC (Hagerstown, MD)",
+         "location":"Washington, DC (Hagerstown, MD)"
+      },
+      {  
+         "name":"Watertown, NY (5)",
+         "count":5,
+         "val":"Walmart - Watertown, NY",
+         "location":"Watertown, NY"
+      },
+      {  
+         "name":"Wausau-Rhinelander, WI (9)",
+         "count":9,
+         "val":"Walmart - Wausau-Rhinelander, WI",
+         "location":"Wausau-Rhinelander, WI"
+      },
+      {  
+         "name":"West Palm Beach-Ft. Pierce, FL (28)",
+         "count":28,
+         "val":"Walmart - West Palm Beach-Ft. Pierce, FL",
+         "location":"West Palm Beach-Ft. Pierce, FL"
+      },
+      {  
+         "name":"Wheeling, WV Steubenville, OH (7)",
+         "count":7,
+         "val":"Walmart - Wheeling, WV Steubenville, OH",
+         "location":"Wheeling, WV Steubenville, OH"
+      },
+      {  
+         "name":"Wichita Falls, TX Lawton, OK (10)",
+         "count":10,
+         "val":"Walmart - Wichita Falls, TX Lawton, OK",
+         "location":"Wichita Falls, TX Lawton, OK"
+      },
+      {  
+         "name":"Wichita-Hutchinson Plus, KS (32)",
+         "count":32,
+         "val":"Walmart - Wichita-Hutchinson Plus, KS",
+         "location":"Wichita-Hutchinson Plus, KS"
+      },
+      {  
+         "name":"Wilkes Barre-Scranton, PA (19)",
+         "count":19,
+         "val":"Walmart - Wilkes Barre-Scranton, PA",
+         "location":"Wilkes Barre-Scranton, PA"
+      },
+      {  
+         "name":"Wilmington, NC (14)",
+         "count":14,
+         "val":"Walmart - Wilmington, NC",
+         "location":"Wilmington, NC"
+      },
+      {  
+         "name":"Yakima-Pasco-Rchlnd-Knnwck, WA (9)",
+         "count":9,
+         "val":"Walmart - Yakima-Pasco-Rchlnd-Knnwck, WA",
+         "location":"Yakima-Pasco-Rchlnd-Knnwck, WA"
+      },
+      {  
+         "name":"Youngstown, OH (9)",
+         "count":9,
+         "val":"Walmart - Youngstown, OH",
+         "location":"Youngstown, OH"
+      },
+      {  
+         "name":"Yuma, AZ El Centro, CA (7)",
+         "count":7,
+         "val":"Walmart - Yuma, AZ El Centro, CA",
+         "location":"Yuma, AZ El Centro, CA"
+      },
+      {  
+         "name":"Zanesville, OH (3)",
+         "count":3,
+         "val":" - Zanesville, OH",
+         "location":"Zanesville, OH"
+      }
+   ]
+}

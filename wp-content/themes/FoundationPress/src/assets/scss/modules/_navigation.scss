@@ -1,0 +1,130 @@
+// Navigation breakpoints
+.mobile-menu,
+.site-title-bar {
+	@include hide-for(medium);
+}
+
+.desktop-menu,
+.site-navigation .top-bar-left {
+	@include show-for(medium);
+}
+
+.top-bar, .top-bar ul {
+	background: #fff;
+	color: $brand-gray;
+}
+
+.top-bar-title {
+	color: #37474f;
+	padding: 22px 20px;
+
+	img{
+		height: 37px;
+		margin-top: -10px;
+	}
+}
+
+.dropdown.menu .is-active > a {
+	color: $brand-dark-gray;
+	font-weight: 500;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 6px;
+    content: '';
+    border-bottom-width: 0;
+    border-top-style: solid;
+    border-color: $brand-dark-gray transparent transparent;
+    right: 5px;
+    left: auto;
+    margin-top: -3px;
+}
+
+.dropdown.menu > li.opens-left > .is-dropdown-submenu li a:hover {
+	color: $brand-dark-gray;
+}
+
+.title-bar {
+	height: 66px;
+	background: #fff;
+
+	.title-bar-left {
+
+		a {
+			height: 66px;
+			padding: 15px 0px;
+			display: inline-block;
+			color: #37474f;
+			font-weight: 500;
+			font-size: 18px;
+    		line-height: 22px;
+
+			img {
+				height: 37px;
+			}
+
+			span {
+			    position: relative;
+    			top: 5px;
+			}
+		}
+	}
+
+	.menu-icon {
+	   	position: absolute;
+	    top: 25px;
+    	right: 25px;
+	}
+}
+
+.mobile-menu.vertical {
+	text-align: center;
+	a {
+		color: $brand-gray;
+		border-radius: 3px;
+		margin-right: 0;
+
+		&:hover {
+			color: $brand-light-gray;
+			background: $brand-red;
+		}
+	}
+
+	.is-active > a {
+		color: #fff;
+		background: $brand-dark-gray;
+	}
+
+	.submenu {
+		margin-left: 0;
+	}
+	
+}
+
+.site-navigation.top-bar {
+
+	.top-bar-title {
+		a {
+			color: #37474f;
+			font-weight: 500;
+			font-size: 18px;
+    		line-height: 22px;
+    		color: $brand-gray;
+		}
+	}
+
+	li a {
+		font-size: 14px;
+		color: $brand-gray;
+	}
+}
+
+.site-header {
+	width: 100%;
+    border: none;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+}

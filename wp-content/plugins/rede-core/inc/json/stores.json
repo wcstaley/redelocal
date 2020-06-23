@@ -1,0 +1,830 @@
+{
+    "Book": {
+        "Barnes & Noble": [{
+                "name": "Barnes & Noble",
+                "num": 0,
+                "val": "902"
+            },
+            {
+                "name": "Barnes & Noble",
+                "num": "640",
+                "val": "902-1"
+            }
+        ]
+    },
+    "Drug": {
+        "CVS": [{
+                "name": "CVS",
+                "num": 0,
+                "val": "226"
+            },
+            {
+                "name": "CVS",
+                "num": "5444",
+                "val": "226-1"
+            }
+        ],
+        "Rite Aid": [{
+                "name": "Rite Aid",
+                "num": 0,
+                "val": "904"
+            },
+            {
+                "name": "Rite Aid",
+                "num": "2081",
+                "val": "904-1"
+            }
+        ],
+        "Walgreens": [{
+                "name": "Walgreens",
+                "num": 0,
+                "val": "267"
+            },
+            {
+                "name": "Walgreens",
+                "num": "5529",
+                "val": "267-1"
+            }
+        ]
+    },
+    "Grocery": {
+        "Ahold USA": [{
+                "name": "Ahold USA",
+                "num": 0,
+                "val": "216"
+            },
+            {
+                "name": "Ahold - Giant Food",
+                "num": "232",
+                "val": "216-1"
+            },
+            {
+                "name": "Ahold - Martins Food",
+                "num": "25",
+                "val": "216-2"
+            },
+            {
+                "name": "Ahold - Stop & Shop",
+                "num": "252",
+                "val": "216-3"
+            }
+        ],
+        "Albertson/Safeway": [{
+                "name": "Albertson/Safeway",
+                "num": 0,
+                "val": "909"
+            },
+            {
+                "name": "Haggens",
+                "num": "15",
+                "val": "909-1"
+            },
+            {
+                "name": "Pavilions",
+                "num": "26",
+                "val": "909-2"
+            },
+            {
+                "name": "Houston",
+                "num": "59",
+                "val": "909-3"
+            },
+            {
+                "name": "Intermountain",
+                "num": "86",
+                "val": "909-4"
+            },
+            {
+                "name": "United",
+                "num": "77",
+                "val": "909-5"
+            },
+            {
+                "name": "DFW",
+                "num": "105",
+                "val": "909-6"
+            },
+            {
+                "name": "Eastern",
+                "num": "125",
+                "val": "909-7"
+            },
+            {
+                "name": "Denver",
+                "num": "129",
+                "val": "909-8"
+            },
+            {
+                "name": "Portland",
+                "num": "148",
+                "val": "909-9"
+            },
+            {
+                "name": "Shaws",
+                "num": "154",
+                "val": "909-10"
+            },
+            {
+                "name": "Acme",
+                "num": "171",
+                "val": "909-11"
+            },
+            {
+                "name": "Jewel Osco",
+                "num": "183",
+                "val": "909-12"
+            },
+            {
+                "name": "Southwest",
+                "num": "197",
+                "val": "909-13"
+            },
+            {
+                "name": "Seattle",
+                "num": "221",
+                "val": "909-14"
+            },
+            {
+                "name": "Northern Cal",
+                "num": "282",
+                "val": "909-15"
+            },
+            {
+                "name": "Southern Cal",
+                "num": "323",
+                "val": "909-16"
+            }
+        ],
+        "Bartell": [{
+                "name": "Bartell",
+                "num": 0,
+                "val": "925"
+            },
+            {
+                "name": "Bartell",
+                "num": "67",
+                "val": "925-1"
+            }
+        ],
+        "Bashas Market": [{
+                "name": "Bashas Market",
+                "num": 0,
+                "val": "219"
+            },
+            {
+                "name": "Bashas Market",
+                "num": "87",
+                "val": "219-1"
+            }
+        ],
+        "BiMart": [{
+                "name": "BiMart",
+                "num": 0,
+                "val": "927"
+            },
+            {
+                "name": "BiMart",
+                "num": "69",
+                "val": "927-1"
+            }
+        ],
+        "Brookshire Brothers": [{
+                "name": "Brookshire Brothers",
+                "num": 0,
+                "val": "221"
+            },
+            {
+                "name": "Brookshire Brothers",
+                "num": "93",
+                "val": "221-1"
+            }
+        ],
+        "Brookshires": [{
+                "name": "Brookshires",
+                "num": 0,
+                "val": "222"
+            },
+            {
+                "name": "Brookshires",
+                "num": "151",
+                "val": "222-1"
+            }
+        ],
+        "Buehler": [{
+                "name": "Buehler",
+                "num": 0,
+                "val": "223"
+            },
+            {
+                "name": "Buehler",
+                "num": "11",
+                "val": "223-1"
+            }
+        ],
+        "C&K Markets": [{
+                "name": "C&K Markets",
+                "num": 0,
+                "val": "931"
+            },
+            {
+                "name": "C&K Markets",
+                "num": "33",
+                "val": "931-1"
+            }
+        ],
+        "C&S Whlse": [{
+                "name": "C&S Whlse",
+                "num": 0,
+                "val": "932"
+            },
+            {
+                "name": "C&S Whlse",
+                "num": "50",
+                "val": "932-1"
+            }
+        ],
+        "Cub Foods": [{
+                "name": "Cub Foods",
+                "num": 0,
+                "val": "225"
+            },
+            {
+                "name": "Cub Foods",
+                "num": "72",
+                "val": "225-1"
+            }
+        ],
+        "Delhaize America Inc": [{
+                "name": "Delhaize America Inc",
+                "num": 0,
+                "val": "227"
+            },
+            {
+                "name": "Food Lion",
+                "num": "920",
+                "val": "227-1"
+            },
+            {
+                "name": "Hannaford",
+                "num": "189",
+                "val": "227-2"
+            }
+        ],
+        "Fiesta Mart": [{
+                "name": "Fiesta Mart",
+                "num": 0,
+                "val": "230"
+            },
+            {
+                "name": "Fiesta Mart",
+                "num": "56",
+                "val": "230-1"
+            }
+        ],
+        "Foodland": [{
+                "name": "Foodland",
+                "num": 0,
+                "val": "937"
+            },
+            {
+                "name": "Foodland",
+                "num": "80",
+                "val": "937-1"
+            }
+        ],
+        "Gelsons": [{
+                "name": "Gelsons",
+                "num": 0,
+                "val": "938"
+            },
+            {
+                "name": "Gelsons",
+                "num": "26",
+                "val": "938-1"
+            }
+        ],
+        "Giant Eagle": [{
+                "name": "Giant Eagle",
+                "num": 0,
+                "val": "233"
+            },
+            {
+                "name": "Giant Eagle",
+                "num": "240",
+                "val": "233-1"
+            }
+        ],
+        "Golub Corp": [{
+                "name": "Golub Corp",
+                "num": 0,
+                "val": "234"
+            },
+            {
+                "name": "Price Chopper",
+                "num": "134",
+                "val": "234-1"
+            }
+        ],
+        "Harding Market": [{
+                "name": "Harding Market",
+                "num": 0,
+                "val": "941"
+            },
+            {
+                "name": "Harding Market",
+                "num": "15",
+                "val": "941-1"
+            }
+        ],
+        "H. E. Butt Grocery": [{
+                "name": "H. E. Butt Grocery",
+                "num": 0,
+                "val": "236"
+            },
+            {
+                "name": "HEB",
+                "num": "307",
+                "val": "236-1"
+            }
+        ],
+        "Houchens Industries": [{
+                "name": "Houchens Industries",
+                "num": 0,
+                "val": "239"
+            },
+            {
+                "name": "Houchens",
+                "num": "71",
+                "val": "239-1"
+            }
+        ],
+        "Ingles Markets": [{
+                "name": "Ingles Markets",
+                "num": 0,
+                "val": "241"
+            },
+            {
+                "name": "Ingles",
+                "num": "200",
+                "val": "241-1"
+            }
+        ],
+        "King Kullen Grocery": [{
+                "name": "King Kullen Grocery",
+                "num": 0,
+                "val": "243"
+            },
+            {
+                "name": "King Kullen Grocery",
+                "num": "32",
+                "val": "243-1"
+            }
+        ],
+        "Kroger": [{
+                "name": "Kroger",
+                "num": 0,
+                "val": "245"
+            },
+            {
+                "name": "Kroger - Atlanta",
+                "num": "183",
+                "val": "245-1"
+            },
+            {
+                "name": "Kroger - Central",
+                "num": "135",
+                "val": "245-2"
+            },
+            {
+                "name": "Kroger - Cincinnati",
+                "num": "109",
+                "val": "245-3"
+            },
+            {
+                "name": "Kroger - Columbus",
+                "num": "118",
+                "val": "245-4"
+            },
+            {
+                "name": "Kroger - Delta",
+                "num": "101",
+                "val": "245-5"
+            },
+            {
+                "name": "Kroger - Dillons",
+                "num": "79",
+                "val": "245-6"
+            },
+            {
+                "name": "Kroger - Food 4 Less",
+                "num": "129",
+                "val": "245-7"
+            },
+            {
+                "name": "Kroger - Fred Meyer",
+                "num": "123",
+                "val": "245-8"
+            },
+            {
+                "name": "Kroger - Frys",
+                "num": "122",
+                "val": "245-9"
+            },
+            {
+                "name": "Kroger - Harris Teeter",
+                "num": "233",
+                "val": "245-10"
+            },
+            {
+                "name": "Kroger - Jay C Foods",
+                "num": "22",
+                "val": "245-11"
+            },
+            {
+                "name": "Kroger - King Soopers",
+                "num": "151",
+                "val": "245-12"
+            },
+            {
+                "name": "Kroger - Louisville",
+                "num": "94",
+                "val": "245-13"
+            },
+            {
+                "name": "Kroger - Michigan",
+                "num": "122",
+                "val": "245-14"
+            },
+            {
+                "name": "Kroger - Mid-Atlantic",
+                "num": "108",
+                "val": "245-15"
+            },
+            {
+                "name": "Kroger - Nashville",
+                "num": "93",
+                "val": "245-16"
+            },
+            {
+                "name": "Kroger - QFC",
+                "num": "63",
+                "val": "245-17"
+            },
+            {
+                "name": "Kroger - Ralphs",
+                "num": "191",
+                "val": "245-18"
+            },
+            {
+                "name": "Kroger - Roundys/Marianos",
+                "num": "125",
+                "val": "245-19"
+            },
+            {
+                "name": "Kroger - Smiths",
+                "num": "142",
+                "val": "245-20"
+            },
+            {
+                "name": "Kroger - Southwest",
+                "num": "222",
+                "val": "245-21"
+            }
+        ],
+        "K-VA-T Food Stores": [{
+                "name": "K-VA-T Food Stores",
+                "num": 0,
+                "val": "246"
+            },
+            {
+                "name": "K-VA-T/Food City",
+                "num": "127",
+                "val": "246-1"
+            }
+        ],
+        "Lowes Companies": [{
+                "name": "Lowes Companies",
+                "num": 0,
+                "val": "247"
+            },
+            {
+                "name": "Lowes Food",
+                "num": "83",
+                "val": "247-1"
+            }
+        ],
+        "Marcs": [{
+                "name": "Marcs",
+                "num": 0,
+                "val": "969"
+            },
+            {
+                "name": "Marcs",
+                "num": "58",
+                "val": "969-1"
+            }
+        ],
+        "Market Basket": [{
+                "name": "Market Basket",
+                "num": 0,
+                "val": "970"
+            },
+            {
+                "name": "Market Basket",
+                "num": "32",
+                "val": "970-1"
+            }
+        ],
+        "Meijer Supermarkets": [{
+                "name": "Meijer Supermarkets",
+                "num": 0,
+                "val": "250"
+            },
+            {
+                "name": "Meijer",
+                "num": "240",
+                "val": "250-1"
+            }
+        ],
+        "Menards": [{
+                "name": "Menards",
+                "num": 0,
+                "val": "251"
+            },
+            {
+                "name": "Menards",
+                "num": "311",
+                "val": "251-1"
+            }
+        ],
+        "Niemann Foods": [{
+                "name": "Niemann Foods",
+                "num": 0,
+                "val": "973"
+            },
+            {
+                "name": "Niemann Foods",
+                "num": "33",
+                "val": "973-1"
+            }
+        ],
+        "Publix Supermarkets": [{
+                "name": "Publix Supermarkets",
+                "num": 0,
+                "val": "255"
+            },
+            {
+                "name": "Publix",
+                "num": "1198",
+                "val": "255-1"
+            }
+        ],
+        "Raleys": [{
+                "name": "Raleys",
+                "num": 0,
+                "val": "256"
+            },
+            {
+                "name": "Raleys",
+                "num": "128",
+                "val": "256-1"
+            }
+        ],
+        "Ridleys": [{
+                "name": "Ridleys",
+                "num": 0,
+                "val": "976"
+            },
+            {
+                "name": "Ridleys",
+                "num": "25",
+                "val": "976-1"
+            }
+        ],
+        "Save Mart": [{
+                "name": "Save Mart",
+                "num": 0,
+                "val": "259"
+            },
+            {
+                "name": "Save Mart",
+                "num": "208",
+                "val": "259-1"
+            }
+        ],
+        "Schnucks": [{
+                "name": "Schnucks",
+                "num": 0,
+                "val": "978"
+            },
+            {
+                "name": "Schnucks",
+                "num": "25",
+                "val": "978-1"
+            }
+        ],
+        "Shop N Save": [{
+                "name": "Shop N Save",
+                "num": 0,
+                "val": "979"
+            },
+            {
+                "name": "Shop N Save",
+                "num": "27",
+                "val": "979-1"
+            }
+        ],
+        "Shopko": [{
+                "name": "Shopko",
+                "num": 0,
+                "val": "260"
+            },
+            {
+                "name": "Shopko",
+                "num": "309",
+                "val": "260-1"
+            }
+        ],
+        "Smart & Final": [{
+                "name": "Smart & Final",
+                "num": 0,
+                "val": "261"
+            },
+            {
+                "name": "Smart & Final",
+                "num": "261",
+                "val": "261-1"
+            }
+        ],
+        "Southeastern Grocers LLC": [{
+                "name": "Southeastern Grocers LLC",
+                "num": 0,
+                "val": "262"
+            },
+            {
+                "name": "Bi-Lo",
+                "num": "124",
+                "val": "262-1"
+            },
+            {
+                "name": "Winn-Dixie",
+                "num": "401",
+                "val": "262-2"
+            },
+            {
+                "name": "Harveys",
+                "num": "50",
+                "val": "262-3"
+            }
+        ],
+        "Spartan/Nash Finch": [{
+                "name": "Spartan/Nash Finch",
+                "num": 0,
+                "val": "985"
+            },
+            {
+                "name": "Spartan Nash",
+                "num": "93",
+                "val": "985-1"
+            }
+        ],
+        "Stater Brothers": [{
+                "name": "Stater Brothers",
+                "num": 0,
+                "val": "264"
+            },
+            {
+                "name": "Stater Brothers",
+                "num": "172",
+                "val": "264-1"
+            }
+        ],
+        "Weis Market": [{
+                "name": "Weis Market",
+                "num": 0,
+                "val": "269"
+            },
+            {
+                "name": "Weis Market",
+                "num": "211",
+                "val": "269-1"
+            }
+        ],
+        "WinCo": [{
+                "name": "WinCo",
+                "num": 0,
+                "val": "270"
+            },
+            {
+                "name": "WinCo",
+                "num": "121",
+                "val": "270-1"
+            }
+        ]
+    },
+    "Mass Market": {
+        "BJ's Wholesale Club": [{
+                "name": "BJ's Wholesale Club",
+                "num": 0,
+                "val": "220"
+            },
+            {
+                "name": "BJ's Wholesale Club",
+                "num": "59",
+                "val": "220-1"
+            }
+        ],
+        "Costco": [{
+                "name": "Costco",
+                "num": 0,
+                "val": "990"
+            },
+            {
+                "name": "Costco",
+                "num": "390",
+                "val": "990-1"
+            }
+        ],
+        "K-Mart": [{
+                "name": "K-Mart",
+                "num": 0,
+                "val": "244"
+            },
+            {
+                "name": "K-Mart",
+                "num": "169",
+                "val": "244-1"
+            }
+        ],
+        "Target": [{
+                "name": "Target",
+                "num": 0,
+                "val": "265"
+            },
+            {
+                "name": "Target",
+                "num": "1572",
+                "val": "265-1"
+            }
+        ],
+        "Walmart": [{
+                "name": "Walmart",
+                "num": 0,
+                "val": "268"
+            },
+            {
+                "name": "Walmart",
+                "num": "3837",
+                "val": "268-1"
+            }
+        ]
+    },
+    "Military": {
+        "Military Bases AAFES & DeCA": [{
+                "name": "Military Bases AAFES & DeCA",
+                "num": 0,
+                "val": "253"
+            },
+            {
+                "name": "Military Bases AAFES & DeCA",
+                "num": "666",
+                "val": "253-1"
+            }
+        ]
+    },
+    "Specialty": {
+        "Home Depot": [{
+                "name": "Home Depot",
+                "num": 0,
+                "val": "238"
+            },
+            {
+                "name": "Home Depot",
+                "num": "1658",
+                "val": "238-1"
+            }
+        ],
+        "Lowes Home Improvement": [{
+                "name": "Lowes Home Improvement",
+                "num": 0,
+                "val": "248"
+            },
+            {
+                "name": "Lowes Home",
+                "num": "1736",
+                "val": "248-1"
+            }
+        ],
+        "Michaels": [{
+                "name": "Michaels",
+                "num": 0,
+                "val": "252"
+            },
+            {
+                "name": "Michaels",
+                "num": "1107",
+                "val": "252-1"
+            }
+        ]
+    }
+}

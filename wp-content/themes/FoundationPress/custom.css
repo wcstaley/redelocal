@@ -1,0 +1,161 @@
+.footer-container {
+	background: #419639;
+}
+.gform_wrapper .gsection {
+    border-top: solid 1px #eaeaea;
+    border-bottom: none !important;
+	padding: 12px !important;
+    background-color: #eaeaea;
+	margin-bottom: 0px;
+    margin-top: 30px !important;
+}
+#field_6_1, #field_6_6 {
+    margin: 0px !important;
+}
+#field_6_6 {
+    margin: 25px 0px 0px !important;
+}
+h3 {
+	font-size: 32px !important;
+	color: #464646 !important;
+	margin-bottom: 40px;
+}
+h2 {
+	color: #438938 !important;
+}
+.entry-content {
+	color: #000000 !important;
+}
+.ginput_container .ginput_container_text {
+    padding-top: 0px;
+}
+.gform_button {
+	background-color: #438938 !important;
+}
+.gfield_label {
+	color: #464646 !important;
+}
+
+/* Gravity forms repeater field styling */
+
+#field_6_2345 .gfield_repeater_item input {
+	width: 100%;
+}
+
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(1),
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(2),
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(3) {
+	width: 32%;
+	float: left;
+}
+
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(2) {
+	margin: 0 2%;
+}
+
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(4):before,
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(8):before {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(4),
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(5),
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(6),
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(7) {
+	width: 23%;
+	float: left;
+}
+
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(5),
+#field_6_2345 .gfield_repeater_item > .gfield_repeater_cell:nth-child(6) {
+	margin: 0 2%;
+}
+
+/* END Gravity forms repeater field styling */
+
+/* START Co-op calendar styling */
+
+#coop-calendar-wrapper .coop-calendar-entry {
+	width: 49%;
+	padding: 10px;
+	background: rgb(216, 228, 211);
+	cursor: pointer;
+	transition: 300ms;
+}
+
+#coop-calendar-wrapper .coop-calendar-entry:nth-child(odd) {
+	margin: 5px 1% 10px 0;
+	float: left;
+}
+
+#coop-calendar-wrapper .coop-calendar-entry:nth-child(even) {
+	margin: 5px 0 10px 1%;
+	float: right;
+}
+
+#coop-calendar-wrapper .coop-calendar-entry:nth-child(even):after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+#coop-calendar-wrapper .coop-calendar-entry span.dates {
+	color: rgba(75, 137, 67);
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: bold;
+}
+
+#coop-calendar-wrapper .coop-calendar-entry span.holidays {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: bold;
+	color: #000;
+}
+
+#coop-calendar-wrapper .coop-calendar-entry:hover span.dates,
+#coop-calendar-wrapper .coop-calendar-entry.active span.dates,
+#coop-calendar-wrapper .coop-calendar-entry:hover span.holidays,
+#coop-calendar-wrapper .coop-calendar-entry.active span.holidays {
+	transition: 300ms;
+	color: #FFF;
+}
+
+#coop-calendar-wrapper .coop-calendar-entry:hover, 
+#coop-calendar-wrapper .coop-calendar-entry.active {
+	transition: 300ms;
+	background: rgba(75, 137, 67);
+}
+
+
+/* END Co-op calendar styling */
+
+@media only screen and (min-width: 641px){
+	#field_6_1 {
+	    margin: 0px !important;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	#coop-calendar-wrapper .coop-calendar-entry:nth-child(odd) {
+		width: 100%;
+		margin: 5px 0 10px 0;
+		float: none;
+	}
+
+	#coop-calendar-wrapper .coop-calendar-entry:nth-child(even) {
+		width: 100%;
+		margin: 5px 0 10px 0;
+		float: none;
+	}
+	
+}

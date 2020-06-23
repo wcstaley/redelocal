@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Albertsons Companies",
+        "details": "(A & P, ABS, Acme Market, Albertsons, Carrs, Jewel-Osco, Lucky, Pak N Save, Pathmark Supermarket, Pavilions, Randalls, Safeway, Shaws, Star Markets, Super Fresh Food Market, SuperSavers, Tom Thumb, Vons)",
+        "count": "1,603",
+        "rate": "209.00",
+        "time": "6",
+        "type": "Solo Event"
+    },
+    {
+        "name": "The Kroger Co.",
+        "details": "(City Market Copps, Dillon, Dillons Marketplace, Food 4 Less, Foods Co, Fred Meyer, Fresh Eats Market, Fry's, Fry's Marketplace, Gerbes, King Soopers, King Soopers Marketplace, Kroger, Kroger Marketplace, Mariano's, Metro Market, Owen's, Pay Less, Pick 'n Save, Quality Food Center (QFC), Ralphs, Smith's, Smith's Marketplace)",
+        "count": "1,342",
+        "rate": "225.00",
+        "time": "6",
+        "type": "Solo Event"
+    },
+    {
+        "name": "CVS",
+        "details": "",
+        "count": "479",
+        "rate": "145.00",
+        "time": "6",
+        "type": ""
+    }
+]
