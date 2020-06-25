@@ -156,8 +156,5 @@ function get_theme_fields() {
 
 add_shortcode('theme_fields', 'get_theme_fields');
 
-
-
 ?>
 
-<!-- http://publixmarketin.wpengine.com/form-received/?entry=397 -->
