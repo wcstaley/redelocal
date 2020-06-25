@@ -74,13 +74,30 @@ class GF_Field_Coop_Calendar extends GF_Field {
 				height: 100%;
 				margin: 0;
 			}
+			.coop-calendar-entry.faded{
+				opacity:.7;
+			}
+			.due_date{
+				font-size:12px;
+				color:#444;
+				font-weight:400;
+				margin-left:20px;
+			}
+			.coop-calendar-entry.active .due_date, .coop-calendar-entry:hover .due_date{
+				color:#fff;
+				font-weight:700;
+			}
+			.coop-calendar-entry.faded:hover{
+				opacity:1;
+			}
+			
 		</style>
 		<script>
 			(function($){
 				$(document).ready(function(){
 					$('.coop-calendar-entry').click(function(){
-						$('.coop-calendar-entry').removeClass('active');
-						$(this).addClass('active');
+						$('.coop-calendar-entry').removeClass('active').addClass('faded');
+						$(this).addClass('active').removeClass('faded');
 						$('#<?php echo $field_id; ?>').val($(this).attr('data-inputval'));
 					})
 				})
@@ -206,6 +223,8 @@ class GF_Field_Coop_Calendar extends GF_Field {
 			
 			<span class="dates"><?php echo date("n/j/y", strtotime($calendar_entry['start_date'])); ?> &ndash; <?php echo date("n/j/y", strtotime($calendar_entry['end_date'])); ?></span>
 			<span class="holidays"><?php echo $calendar_entry['popular_holidays']; ?></span>
+			<span class="due_date">Due Date: <?php echo date("n/j/y", strtotime($calendar_entry['submission_end'])); ?></span>
+			
 			<?php if(is_array($calendar_entry['theme_pages']) && !empty($calendar_entry['theme_pages'])) : ?>
 				<?php foreach($calendar_entry['theme_pages'] as $theme) : ?>
 					<span class="theme-icon <?php echo $theme; ?>"></span>

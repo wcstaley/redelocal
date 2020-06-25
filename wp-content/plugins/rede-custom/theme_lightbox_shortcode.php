@@ -91,6 +91,9 @@ function get_theme_fields() {
 		body.no-scroll{
 			overflow:hidden;
 		}
+		.coop-calendar-entry .dates, .coop-calendar-entry .holidays{
+			font-size:12px !important;
+		}
 	}
 	</style>
 	<script>
