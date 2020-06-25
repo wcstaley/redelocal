@@ -1,0 +1,15 @@
+[25-Jun-2020 02:29:43 UTC] PHP Notice:  Undefined variable: buyer_name in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 1315
+[25-Jun-2020 02:29:43 UTC] PHP Notice:  Undefined variable: buyer_name in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 1315
+[25-Jun-2020 02:29:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/gravityforms/includes/fields/class-gf-field-repeater.php on line 458
+[25-Jun-2020 02:29:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/gravityforms/includes/fields/class-gf-field-repeater.php on line 458
+[25-Jun-2020 02:29:43 UTC] PHP Notice:  Undefined variable: buyer_name in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 1315
+[25-Jun-2020 02:29:43 UTC] PHP Notice:  Undefined variable: buyer_name in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 1315
+[25-Jun-2020 02:29:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/gravityforms/includes/fields/class-gf-field-repeater.php on line 458
+[25-Jun-2020 02:29:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/gravityforms/includes/fields/class-gf-field-repeater.php on line 458
+[25-Jun-2020 02:29:48 UTC] PHP Notice:  Undefined variable: buyer_name in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 1315
+[25-Jun-2020 02:29:48 UTC] PHP Notice:  Undefined variable: buyer_name in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 1315
+[25-Jun-2020 02:29:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/gravityforms/includes/fields/class-gf-field-repeater.php on line 458
+[25-Jun-2020 02:29:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/gravityforms/includes/fields/class-gf-field-repeater.php on line 458
+[25-Jun-2020 02:29:48 UTC] PHP Notice:  Trying to get property of non-object in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 1551
+[25-Jun-2020 02:29:58 UTC] PHP Notice:  Undefined variable: buyer_name in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 1315
+[25-Jun-2020 02:29:58 UTC] PHP Notice:  Undefined variable: buyer_name in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 1315

@@ -51,30 +51,34 @@ class GF_Field_Previous_Entries extends GF_Field {
 		$required_attribute = $this->isRequired ? 'aria-required="true"' : '';
 		$invalid_attribute  = $this->failed_validation ? 'aria-invalid="true"' : 'aria-invalid="false"';
 
+		if(is_admin()){
+			return "Choices will show current user's previous entries";
+		}
+
 		return sprintf( "<div class='ginput_container ginput_container_select'><select name='input_%d' id='%s' class='%s' $tabindex %s %s %s>%s</select></div>", $id, $field_id, $css_class, $disabled_text, $required_attribute, $invalid_attribute, $this->get_choices( $value ) );
 	}
 
 	public function get_choices( $value ) {
 		$choices     = '';
 		$placeholder = '';
-		
-		// $user_id = get_current_user_id();
-		// if(!$user_id){
-		// 	return $choices;
-		// }
-		//
-		// $search_criteria = array();
-		// $search_criteria['field_filters'][] = array('key' => 'created_by', 'value' => $user_id);
-		// $previous_entries = GFAPI::get_entries(6, $search_criteria);
-		//
-		// if($previous_entries){
-		// 	foreach($previous_entries as $previous){
-		// 		// echo "<pre>";
-		// 		// print_r($previous);
-		// 		// echo "</pre>";
-		// 	}
-		// }
 
+		$user_id = get_current_user_id();
+		if(!$user_id){
+			return $choices;
+		}
+
+		$search_criteria = array();
+		$search_criteria['field_filters'][] = array('key' => 'created_by', 'value' => $user_id);
+		$previous_entries = GFAPI::get_entries(6, $search_criteria);
+		
+		if($previous_entries){
+			foreach($previous_entries as $previous){
+				$run_date = $previous[2397];
+				if($run_date){
+					$choices .= sprintf( "<option value='%s'>%s</option>", $run_date, $run_date );
+				}
+			}
+		}
 		return $choices;
 	}
 

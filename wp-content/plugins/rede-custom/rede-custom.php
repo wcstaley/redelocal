@@ -10,7 +10,7 @@ Author URI:  https://anneschmidt.co
 
 require_once('rede-custom-fields.php');
 require_once('coop-gf_field.php');
-// require_once('previous-entries_gf_field.php');
+require_once('previous-entries_gf_field.php');
 require_once('cron.php');
 require_once('gravity-addons/calendar-addon.php');
 require_once('theme_lightbox_shortcode.php');
@@ -1312,7 +1312,7 @@ class GF_Field_Buyers_MultiSelect extends GF_Field {
 			    $first_name = $user_info->first_name;
 			    $last_name = $user_info->last_name;
 			    
-			    $buyer_name .= ($first_name . ' ' . $last_name);
+			    $buyer_name = ($first_name . ' ' . $last_name);
 			    
 			    $return2 .= '<li>' . $first_name . ' ' . $last_name . '</li>';
 			   
