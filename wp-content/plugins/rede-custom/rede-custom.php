@@ -157,6 +157,12 @@ function gf_entry_data_shortcode( $atts, $content ) {
 		return $content;
 	}
 	
+	
+	$user = wp_get_current_user();
+	if(!$user){
+		return $content;
+	}
+	
 	$form = GFAPI::get_form( $entry['form_id'] );
 	if(!$form){
 		return $content;
@@ -224,7 +230,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 	echo '<div class="order-overview-table '.strtolower($status).'">';
 	
 	
-	
+		$form_id = $form['id'];
 		foreach($form['fields'] as $field){
 			
 			//echo $field->type . ",";
@@ -265,12 +271,12 @@ function gf_entry_data_shortcode( $atts, $content ) {
 											<div class="product_name"><?php echo esc_html( $product['name'] ); ?></div>
 											<ul class="product_options">
 												<?php
-												$price = GFCommon::to_number( $product['price'], $lead['currency'] );
+												$price = GFCommon::to_number( $product['price'] );
 												if ( is_array( rgar( $product, 'options' ) ) ) {
 													$count = sizeof( $product['options'] );
 													$index = 1;
 													foreach ( $product['options'] as $option ) {
-														$price += GFCommon::to_number( $option['price'], $lead['currency'] );
+														$price += GFCommon::to_number( $option['price'] );
 														$class = $index == $count ? " class='lastitem'" : '';
 														$index ++;
 														?>
@@ -278,7 +284,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 														<?php
 													}
 												}
-												$quantity = GFCommon::to_number( $product['quantity'], $lead['currency'] );
+												$quantity = GFCommon::to_number( $product['quantity'] );
 
 												$subtotal = $quantity * $price;
 												$total += $subtotal;
@@ -286,8 +292,8 @@ function gf_entry_data_shortcode( $atts, $content ) {
 											</ul>
 										</td>
 										<td class="textcenter"><?php echo esc_html( $product['quantity'] ); ?></td>
-										<td><?php echo GFCommon::to_money( $price, $lead['currency'] ) ?></td>
-										<td><?php echo GFCommon::to_money( $subtotal, $lead['currency'] ) ?></td>
+										<td><?php echo GFCommon::to_money( $price ) ?></td>
+										<td><?php echo GFCommon::to_money( $subtotal ) ?></td>
 									</tr>
 									<?php
 								}
@@ -301,7 +307,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 									<tr>
 										<td colspan="2" rowspan="2" class="emptycell">&nbsp;</td>
 										<td class="textright shipping"><?php echo esc_html( $products['shipping']['name'] ); ?></td>
-										<td class="shipping_amount"><?php echo GFCommon::to_money( $products['shipping']['price'], $lead['currency'] ) ?>&nbsp;</td>
+										<td class="shipping_amount"><?php echo GFCommon::to_money( $products['shipping']['price'] ) ?>&nbsp;</td>
 									</tr>
 									<?php
 								}
@@ -315,7 +321,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 									}
 									?>
 									<td class="textright grandtotal"><?php esc_html_e( 'Total', 'gravityforms' ) ?></td>
-									<td class="grandtotal_amount"><?php echo GFCommon::to_money( $total, $lead['currency'] ) ?></td>
+									<td class="grandtotal_amount"><?php echo GFCommon::to_money( $total ) ?></td>
 								</tr>
 								</tfoot>
 							</table>
@@ -448,8 +454,10 @@ function gf_entry_data_shortcode( $atts, $content ) {
 								$selected = $sub_field;
 								
 								$user_info = get_userdata($selected);
-								$user_name = $user_info->user_firstname . " " . $user_info->user_lastname;
-								//print_r($user_info);
+								$user_name = "";
+								if($user_info){
+									$user_name = $user_info->user_firstname . " " . $user_info->user_lastname;
+								}
 								
 								if ($selected) {
 									echo'<li class="order-entry"><div class="order-value">'.$user_name.'</div></li>';
