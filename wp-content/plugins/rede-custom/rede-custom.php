@@ -904,9 +904,9 @@ function publix_show_dashboard() {
 		
 			$output .= '<th class=" entry-id" style="width: 15%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/order.png"><br>ID</th>';
 			$output .= '<th class=" status" style="width: 15%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/status.png"><br>Status</th>';
-			$output .= '<th class=" timeframe" style="width: 30%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/timeframe.png"><br>Submission Timeframe</th>';
+			// $output .= '<th class=" timeframe" style="width: 30%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/timeframe.png"><br>Submission Timeframe</th>';
 			$output .= '<th class=" run-dates" style="width: 20%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/marketdate.png"><br>Run Dates</th>';
-			$output .= '<th class=" popular-holidays" style="width: 20%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/timeframe.png"><br>Brand</th>';
+			$output .= '<th class=" brand" style="width: 20%;"><img src="' . plugin_dir_url( __FILE__ ) . 'img/brand.png"><br>Brand</th>';
 			// $output .= '<td class=" buyer-name"><img src="' . plugin_dir_url( __FILE__ ) . 'img/retailer.png">Buyer</td>';
 			
 		$output .= '</tr></thead><tbody>';
@@ -979,9 +979,9 @@ function publix_show_dashboard() {
 					$output .= '<tr class="row entry-row">';
 						$output .= '<td class=" entry-id" style="width: 15%;"><a href="'.$entry_link.'/?entry='.$entry_id.'">'.$entry_id.'</a></td>';
 						$output .= '<td class=" status" style="width: 15%;">'.$status.'</td>';
-						$output .= '<td class=" timeframe" style="width: 30%;">'.$timeframe.'</td>';
+						// $output .= '<td class=" timeframe" style="width: 30%;">'.$timeframe.'</td>';
 						$output .= '<td class=" run-dates" style="width: 20%;">'.$run_dates.'</td>';
-						$output .= '<td class=" popular-holidays" style="width: 20%;">'.$brand.'</td>';
+						$output .= '<td class=" brand" style="width: 20%;">'.$brand.'</td>';
 						// $output .= '<td class=" buyer-name">'.$buyer_name.'</td>';
 						
 					$output .= '</tr>';
