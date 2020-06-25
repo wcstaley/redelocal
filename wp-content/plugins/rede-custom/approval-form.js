@@ -59,7 +59,7 @@ jQuery(document).on('gform_post_render', function(event, form_id, current_page){
 			} else {
 				//console.log('we are on the review page');
 				jQuery("body").addClass('review_active');
-				jQuery("#gform_wrapper_6").prepend('<div class="please-review"><div>Please review your account selections and total budget. By submitting this you are liable for the costs of the program as identified here. Cancellation or modification of order will result in any costs incurred to date. By submitting this form, you agree to our <a style="text-decoration:underline;" href="http://publixmarketin.wpengine.com/order-submission-terms/" target="_blank">terms & conditions</a>.</div></div>');
+				jQuery("#gform_wrapper_6").prepend('<div class="please-review"><div>Please review your submission below. If everything is correct, please click Submit at the bottom of this page. By submitting this you are liable for the costs of the program as identified here. Cancellation or modification of order will result in any costs incurred to date. By submitting this form, you agree to our <a style="text-decoration:underline;" href="http://publixmarketin.wpengine.com/order-submission-terms/" target="_blank">terms & conditions</a>.</div></div>');
 			}
     });
     
