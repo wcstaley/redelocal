@@ -13,7 +13,6 @@ function get_theme_fields() {
 	<style>
 		.lightbox-trigger{
 			padding:10px;
-			float:left;
 			display:inline-block;
 			cursor:pointer;
 			width:auto;
@@ -34,7 +33,6 @@ function get_theme_fields() {
 			background-size:cover;
 			background-position:center;
 			background-repeat:no-repeat;
-			background-color:red;
 		}
 		#lightbox-overlay{
 			position:fixed;
@@ -94,6 +92,15 @@ function get_theme_fields() {
 		.coop-calendar-entry .dates, .coop-calendar-entry .holidays{
 			font-size:12px !important;
 		}
+		#coop-calendar-wrapper .coop-calendar-entry span.dates, #coop-calendar-wrapper .coop-calendar-entry span.holidays{
+			font-size:12px !important;
+		}
+		#coop-calendar-wrapper .coop-calendar-entry span.holidays{
+			margin-left:0 !important;
+		}
+		.lightbox-trigger-wrap{
+			margin-top:40px;
+		}
 	}
 	</style>
 	<script>
@@ -124,13 +131,15 @@ function get_theme_fields() {
 			})
 		})(jQuery);
 	</script>
-		<div id="lightbox-overlay">This is the overlay
+		<div style="clear:both;"></div>
+		<div id="lightbox-overlay">
 			<div id="lightbox-content">
 				<div id="lightbox-appender"></div>
 				<div class="button close-lightbox">Close</div>
 			</div>
 			
 		</div>
+	<div class="lightbox-trigger-wrap">
 	 <?php 
 	foreach($themeOptions as $themeOption){
 		$name =  $themeOption['value'];
@@ -143,7 +152,6 @@ function get_theme_fields() {
 	?>
 	
 	
-
 		<div class="lightbox-trigger" data-service-to-show="<?= $key; ?>" ><span class="theme-icon" style="background-image:url('<?php echo $icon[0]; ?>')"></span><p><?= $name; ?></p></div>
 		
 		<div class="light-box-content-wrap <?= $key; ?>">
@@ -153,8 +161,12 @@ function get_theme_fields() {
 			<p><?= $description; ?></p>
 			 
 		</div>
+		
 	 <?php }
 	 return ob_get_clean();
+	 ?>
+ </div>
+ <?php  
  }
 
 add_shortcode('theme_fields', 'get_theme_fields');

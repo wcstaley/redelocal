@@ -59,7 +59,7 @@ class GF_Field_Previous_Entries extends GF_Field {
 	}
 
 	public function get_choices( $value ) {
-		$choices     = '';
+		$choices     = '<option value="">None</option>';
 		$placeholder = '';
 
 		$user_id = get_current_user_id();

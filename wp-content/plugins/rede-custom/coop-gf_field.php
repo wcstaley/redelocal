@@ -81,7 +81,7 @@ class GF_Field_Coop_Calendar extends GF_Field {
 				font-size:12px;
 				color:#444;
 				font-weight:400;
-				margin-left:20px;
+				margin-left:5px;
 			}
 			.coop-calendar-entry.active .due_date, .coop-calendar-entry:hover .due_date{
 				color:#fff;
@@ -215,6 +215,11 @@ class GF_Field_Coop_Calendar extends GF_Field {
 				break;
 			}
 		}
+		$theme_images = array();
+		foreach(get_field('theme_pages', 'options') as $theme_page){
+			$image = wp_get_attachment_image_src($theme_page['image'], 'thumbnail');
+			$theme_images[$theme_page['key']] = $image[0];
+		}
 		
 		ob_start();
 		?>
@@ -224,10 +229,9 @@ class GF_Field_Coop_Calendar extends GF_Field {
 			<span class="dates"><?php echo date("n/j/y", strtotime($calendar_entry['start_date'])); ?> &ndash; <?php echo date("n/j/y", strtotime($calendar_entry['end_date'])); ?></span>
 			<span class="holidays"><?php echo $calendar_entry['popular_holidays']; ?></span>
 			<span class="due_date">Due Date: <?php echo date("n/j/y", strtotime($calendar_entry['submission_end'])); ?></span>
-			
 			<?php if(is_array($calendar_entry['theme_pages']) && !empty($calendar_entry['theme_pages'])) : ?>
 				<?php foreach($calendar_entry['theme_pages'] as $theme) : ?>
-					<span class="theme-icon <?php echo $theme; ?>"></span>
+					<span class="theme-icon" style="background-image:url('<?php echo $theme_images[$theme]; ?>')"></span>
 				<?php endforeach; ?>
 			<?php endif; ?>
 		</div>
