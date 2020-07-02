@@ -55,11 +55,11 @@ class GF_Field_Previous_Entries extends GF_Field {
 			return "Choices will show current user's previous entries";
 		}
 
-		return sprintf( "<div class='ginput_container ginput_container_select'><select name='input_%d' id='%s' class='%s' $tabindex %s %s %s>%s</select></div>", $id, $field_id, $css_class, $disabled_text, $required_attribute, $invalid_attribute, $this->get_choices( $value ) );
+		return sprintf( "<div class='ginput_container ginput_container_select'><select name='input_%d' id='%s' class='%s' $tabindex %s %s %s>%s</select></div>", $id, $field_id, $css_class, $disabled_text, $required_attribute, $invalid_attribute, $this->get_choices( $id, $value, $field_id, $form_id ) );
 	}
 
-	public function get_choices( $value ) {
-		$choices     = '<option value="">None</option>';
+	public function get_choices( $id, $value, $field_id, $form_id ) {
+		$choices     = '<option value="none">None</option>';
 		$placeholder = '';
 
 		$user_id = get_current_user_id();
@@ -75,10 +75,26 @@ class GF_Field_Previous_Entries extends GF_Field {
 			foreach($previous_entries as $previous){
 				$run_date = $previous[2397];
 				if($run_date){
-					$choices .= sprintf( "<option value='%s'>%s</option>", $run_date, $run_date );
+					$selected = '';
+					if(isset($_POST['input_'.$id])){
+						if($run_date == $_POST['input_'.$id]){
+							$selected = 'selected="selected"';
+						}
+					}
+					$choice_markup = sprintf( "<option value='%s' %s>%s</option>", $run_date, $selected, $run_date );
+					$choice = array('text'=>$run_date,'value'=>$run_date);
+					$value = $run_date;
+					
+					$choices .= gf_apply_filters( array(
+						'gform_field_choice_markup_pre_render',
+						$form_id,
+						$field_id
+					), $choice_markup, $choice, $field_id, $value );
+					
 				}
 			}
 		}
+		
 		return $choices;
 	}
 

@@ -216,9 +216,12 @@ class GF_Field_Coop_Calendar extends GF_Field {
 			}
 		}
 		$theme_images = array();
-		foreach(get_field('theme_pages', 'options') as $theme_page){
-			$image = wp_get_attachment_image_src($theme_page['image'], 'thumbnail');
-			$theme_images[$theme_page['key']] = $image[0];
+		$theme_pages = get_field('theme_pages', 'options');
+		if($theme_pages){
+			foreach(get_field('theme_pages', 'options') as $theme_page){
+				$image = wp_get_attachment_image_src($theme_page['image'], 'thumbnail');
+				$theme_images[$theme_page['key']] = $image[0];
+			}
 		}
 		
 		ob_start();

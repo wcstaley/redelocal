@@ -332,6 +332,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 						
 						/*** end product fields ***/
 				}
+				
 			} else if($field->type == 'publix_coop_calendar'){
 				$selected =  $entry[$field['id']];
 
@@ -669,7 +670,7 @@ function replace_order_link( $text, $form, $entry, $url_encode, $esc_html, $nl2b
     $custom_merge_tag = '{order_link}';
     
     //id for the approval form
-    $main_entry_page = 'http://publixmarketin.wpengine.com/entry-test/'; //this probably needs to be dynamically set via wp-admin at some point
+    $main_entry_page = get_site_url().'/entry-test/'; //this probably needs to be dynamically set via wp-admin at some point
  
     if ( strpos( $text, $custom_merge_tag ) === false ) {
         return $text;
@@ -917,7 +918,7 @@ function publix_show_dashboard() {
 					//echo '<hr>entry: ' . $entry_id . '<br/>';
 					
 					//we probably need to add this as an option somewhere but for now I just hardcoded it
-					$entry_link = 'http://publixmarketin.wpengine.com/entry-test/';
+					$entry_link = get_site_url().'/entry-test/';
 					$status = rgar($entry,2354);
 					
 					/*timeframe*/
@@ -1578,4 +1579,3 @@ function acf_populate_gf_forms_ids( $field ) {
 	return $field;
 }
 add_filter( 'acf/load_field/name=main_order_form', 'acf_populate_gf_forms_ids' );
-
