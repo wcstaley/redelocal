@@ -238,7 +238,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 			
 			if ($field->type == 'section') {
 				echo '<div class="section-header">'.$field->label.'</div>';
-				if ($field->label == 'Offers') {
+				if ($field->label == 'Offer Selection') {
 					/*** product fields ***/
 						$products = GFCommon::get_product_fields( $form, $entry);
 
