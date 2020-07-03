@@ -252,13 +252,11 @@ function gf_entry_data_shortcode( $atts, $content ) {
 								<colgroup>
 									<col class="entry-products-col1" />
 									<col class="entry-products-col2" />
-									<col class="entry-products-col3" />
-									<col class="entry-products-col4" />
 								</colgroup>
 								<thead>
 								<th scope="col"><?php echo gf_apply_filters( array( 'gform_product', $form_id ), __( 'Product', 'gravityforms' ), $form_id ); ?></th>
-								<th scope="col" class="textcenter"><?php echo esc_html( gf_apply_filters( array( 'gform_product_qty', $form_id ), __( 'Qty', 'gravityforms' ), $form_id ) ); ?></th>
-								<th scope="col"><?php echo esc_html( gf_apply_filters( array( 'gform_product_unitprice', $form_id ), __( 'Unit Price', 'gravityforms' ), $form_id ) ); ?></th>
+								<!-- <th scope="col" class="textcenter"><?php echo esc_html( gf_apply_filters( array( 'gform_product_qty', $form_id ), __( 'Qty', 'gravityforms' ), $form_id ) ); ?></th>
+								<th scope="col"><?php echo esc_html( gf_apply_filters( array( 'gform_product_unitprice', $form_id ), __( 'Unit Price', 'gravityforms' ), $form_id ) ); ?></th> -->
 								<th scope="col"><?php echo esc_html( gf_apply_filters( array( 'gform_product_price', $form_id ), __( 'Price', 'gravityforms' ), $form_id ) ); ?></th>
 								</thead>
 								<tbody>
@@ -269,7 +267,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 									?>
 									<tr>
 										<td>
-											<div class="product_name"><?php echo esc_html( $product['name'] ); ?></div>
+											<div class="product_name"><?php echo esc_html( $product['name'] ); ?> AND HOW!</div>
 											<ul class="product_options">
 												<?php
 												$price = GFCommon::to_number( $product['price'] );
@@ -292,8 +290,8 @@ function gf_entry_data_shortcode( $atts, $content ) {
 												?>
 											</ul>
 										</td>
-										<td class="textcenter"><?php echo esc_html( $product['quantity'] ); ?></td>
-										<td><?php echo GFCommon::to_money( $price ) ?></td>
+										<!-- <td class="textcenter"><?php echo esc_html( $product['quantity'] ); ?></td>
+										<td><?php echo GFCommon::to_money( $price ) ?></td> -->
 										<td><?php echo GFCommon::to_money( $subtotal ) ?></td>
 									</tr>
 									<?php
@@ -306,7 +304,6 @@ function gf_entry_data_shortcode( $atts, $content ) {
 								if ( ! empty( $products['shipping']['name'] ) ) {
 									?>
 									<tr>
-										<td colspan="2" rowspan="2" class="emptycell">&nbsp;</td>
 										<td class="textright shipping"><?php echo esc_html( $products['shipping']['name'] ); ?></td>
 										<td class="shipping_amount"><?php echo GFCommon::to_money( $products['shipping']['price'] ) ?>&nbsp;</td>
 									</tr>
@@ -314,13 +311,6 @@ function gf_entry_data_shortcode( $atts, $content ) {
 								}
 								?>
 								<tr>
-									<?php
-									if ( empty( $products['shipping']['name'] ) ) {
-										?>
-										<td colspan="2" class="emptycell">&nbsp;</td>
-										<?php
-									}
-									?>
 									<td class="textright grandtotal"><?php esc_html_e( 'Total', 'gravityforms' ) ?></td>
 									<td class="grandtotal_amount"><?php echo GFCommon::to_money( $total ) ?></td>
 								</tr>
@@ -1579,3 +1569,27 @@ function acf_populate_gf_forms_ids( $field ) {
 	return $field;
 }
 add_filter( 'acf/load_field/name=main_order_form', 'acf_populate_gf_forms_ids' );
+
+function remove_qty_price_from_product(){
+	// hacky js way to remove the table fields on the review page
+	?>
+	<script>
+		(function($){
+			$(document).ready(function(){
+				if($('.gform_review_page').length){
+					$('.gform_review_page table table table thead th').eq(1).remove();
+					$('.gform_review_page table table table thead th').eq(1).remove();
+					$('.gform_review_page table table table tfoot td').eq(0).remove();
+
+					$('.gform_review_page table table table tbody tr').each(function(){
+						$('td', this).eq(1).remove();
+						$('td', this).eq(1).remove();
+					})
+					
+				}
+			})
+		})(jQuery);
+	</script>
+	<?php
+}
+add_action('wp_head', 'remove_qty_price_from_product', 11);
