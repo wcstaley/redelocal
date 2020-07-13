@@ -14,7 +14,7 @@ require_once('previous-entries_gf_field.php');
 require_once('cron.php');
 require_once('gravity-addons/calendar-addon.php');
 require_once('theme_lightbox_shortcode.php');
-
+require_once('gravity-addons/offer-repeater.php');
 
 register_activation_hook(__FILE__, 'publix_custom_plugin_activation');
 function publix_custom_plugin_activation() {
