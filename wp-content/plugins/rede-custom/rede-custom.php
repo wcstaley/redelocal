@@ -64,7 +64,7 @@ function publix_display_gf_entry_data( $gf_entry_id ) {
 				$output .= '<div class="order-entry full-width bottom-margin repeater-entry" style="display: block;">';
 					$output .= '<div class="order-label full-width" style="font-weight: bold;float:left;margin-right:10px;clear:both;">' . $field->label . '</div>';
 					$subfield = $entry[$field['id']];
-		
+					
 					foreach($subfield as $subvalue){
 						$output .= '<div class="sub-field-entry">';
 						foreach($field->fields as $fieldfield){
@@ -738,20 +738,37 @@ function set_email_to_address( $notification, $form, $entry ) {
     //There is no concept of user notifications anymore, so we will need to target notifications based on other criteria,
     //such as name
     //fif ( $notification['name'] == 'Admin Notification' ) {
-	    $buyer_ids = rgar($entry,2395);
-	    $str_arr = explode (",", $buyer_ids);
-	    GFCommon::log_debug('str_array:' . $str_arr);
-	    foreach ($str_arr as $buyer_id) {
-	    	$user_info = get_userdata($buyer_id);
+		$buyer_field_id = 0;
+		$str_arr = array();
+		foreach($form['fields'] as $formfield){
+			if($formfield->type == 'repeater'){
+				$subfield = $entry[$formfield->id];
+				if($subfield && is_array($subfield)){
+					foreach($subfield as $subvalue){
+						foreach($formfield->fields as $fieldfield){
+							$buyer_ids = $subvalue[$fieldfield->id];
+						    GFCommon::log_debug('buyerIDS:' . $str_arr);
+						    $str_arr = explode (",", $buyer_ids);
+						}
+					}
+				}
+				
+			}
+		}
+		
+		if(!empty($str_arr)){
+		    foreach ($str_arr as $buyer_id) {
+		    	$user_info = get_userdata($buyer_id);
 
-			if($user_info){
-			    $buyer_email = $user_info->user_email;
-		        //get email address value
-		        $user_email = $buyer_email; //value for field id 1, change to your field id
+				if($user_info){
+				    $buyer_email = $user_info->user_email;
+			        //get email address value
+			        $user_email = $buyer_email; //value for field id 1, change to your field id
 	        
-		        //GFCommon::log_debug('buyer data is:' . rgar($entry,2357));
-				if ($user_email) {
-					$notification['to'] = $notification['to'] . "," . $user_email;
+			        //GFCommon::log_debug('buyer data is:' . rgar($entry,2357));
+					if ($user_email) {
+						$notification['to'] = $notification['to'] . "," . $user_email;
+					}
 				}
 			}
 		}
@@ -768,27 +785,30 @@ function change_sendgrid_email( $sendgrid_email, $email, $message_format, $notif
         //add a CC email address
         if ($entry['form_id'] == 6) {
 	        
-	        
-	        
-	        $buyer_id = rgar($entry,2357);
-	        GFCommon::log_debug('entry data is:' . print_r($entry, true));
-	        
-			$user_info = get_userdata($buyer_id);
-			
-			GFCommon::log_debug('user email is:' . $user_info->user_email);
-		
-		if($user_info){
-		    $buyer_email = $user_info->user_email;
-	        //get email address value
-	        $user_email = $buyer_email; 
-	        
-	        GFCommon::log_debug('buyer email is:' . $user_email);
+		    $offer_repeater = rgar($entry,3421);
 
-	        if ($user_email) {
-				$sendgrid_email['personalizations'][0]['cc'][0]['email'] = $user_email;
+			$buyers = array();
+	
+			if($offer_repeater && is_array($offer_repeater)){
+				foreach($offer_repeater as $rep){
+					$buyers[] = $rep['3425'];
+				}
 			}
+	        
+			if($buyers && !empty($buyers)){
+				foreach($buyers as $index => $buyer){
+					$user_info = get_userdata($buyer);
+					if($user_info){
+					    $buyer_email = $user_info->user_email;
+				        $user_email = $buyer_email; 
+				        if ($user_email) {
+							$sendgrid_email['personalizations'][0]['cc'][$index]['email'] = $user_email;
+						}
 			
-		}
+					}					
+				}
+			}
+	        
 		}
 		return $sendgrid_email;
 }
@@ -1000,7 +1020,7 @@ function add_review_page( $review_page, $form, $entry ) {
         // Populate the review page.
         //$review_page['content'] = '<div class="please-review"><div>Please review your submission. By submitting this form, you agree to our <a style="color:white !important; text-decoration:underline;" href="http://publixmarketin.wpengine.com/order-submission-terms/" target="_blank">terms & conditions</a>.</div></div>';
         //$review_page['content'] .= '<pre>' . print_r($_POST) . '</pre>';
-        $review_page['content'] .= GFCommon::replace_variables( '{all_fields}', $form, $entry );
+        $review_page['content'] .= GFCommon::replace_variables( '{all_fields}', $form, $entry, true );
     }
 	
  
