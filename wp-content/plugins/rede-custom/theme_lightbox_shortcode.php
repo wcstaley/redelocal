@@ -101,6 +101,156 @@ function get_theme_fields() {
 		.lightbox-trigger-wrap{
 			margin-top:40px;
 		}
+		
+		/****reater offer form styles**/
+		.gfield_repeater_container{
+			margin-top:40px !important;
+		}
+		.gfield_repeater_container legend{
+		    font-weight: 400;
+		    font-size: 1.25em;
+			color: #438938 !important;
+			background: #D9E9D4;
+			padding:0 10px 0;
+			text-transform:uppercase;
+		}
+		.gfield_repeater_container .gfield_repeater_items{
+			background-color:#F2FAEF;
+			padding:20px;
+		}
+		.hastext label{
+			display:none !important;
+		}
+		.gfield_repeater_cell label{
+			color:#464646 !important;
+			font-weight:700 !important;
+			font-family: 'Roboto', 'sans-serif' !important;
+		}
+		.gfield_repeater_cell .gfield_radio label{
+			font-weight: 300 !important;
+		    color: #0a0a0a !important;
+		}
+		.gfield_repeater_cell input, .gfield_repeater_cell select{
+			background-color:#F2FAEF !important;
+		}
+		.gfield_repeater_cell ::-webkit-input-placeholder { /* Edge */
+			font-weight: 400 !important;
+		    color: #0a0a0a !important;
+			font-style: italic;
+			font-size:12px;
+			font-family: 'Roboto', 'sans-serif' !important;
+		}
+
+		.gfield_repeater_cell :-ms-input-placeholder { /* Internet Explorer 10-11 */
+			font-weight: 400 !important;
+		    color: #0a0a0a !important;
+			font-style: italic;
+			font-size:12px;
+			font-family: 'Roboto', 'sans-serif' !important;
+		}
+
+		.gfield_repeater_cell ::placeholder {
+			font-weight: 400 !important;
+		    color: #0a0a0a !important;
+			font-style: italic;
+			font-size:12px;
+			font-family: 'Roboto', 'sans-serif' !important;
+		}
+		.gfield_repeater_cell select option { /* Edge */
+			font-weight: 400 !important;
+		    color: #0a0a0a !important;
+			font-style: italic;
+			font-size:12px;
+			font-family: 'Roboto', 'sans-serif' !important;
+		}
+		.hastext input, .gfield_repeater_cell.hasselect select{
+			padding:0 10px !important;
+			
+		}
+		.gfield_repeater_cell.hasselect select[multiple=multiple]{
+			height:65px !important;
+			overflow-y:scroll !important;
+			width:100%;
+		}
+		.offer-left{
+			float:left;
+			width:75%;
+		}
+		.offer-right{
+			float:left;
+			width:25%;
+		}
+		.gfield_repeater_cell.hastext{
+			display:inline-block;
+			margin-top: 5px;
+			width: 45%;
+			margin-right: 10px;
+			position:relative;
+			top:-20px;
+		}
+		.gfield_repeater_cell.hastext input{
+			width:100% !important;
+		}
+		.gfield_repeater_cell.hasselect label{
+			display:inline-block;
+			margin-right:5px;
+		}
+		.gfield_repeater_cell.hasselect .gfield_description{
+			display:inline !important;
+			font-size:10px;
+		}
+		.gfield_repeater_cell.hasradio label, .gfield_repeater_cell.hasradio .ginput_container_radio{
+			float:left;
+		}
+		.gfield_repeater_cell.hasradio .ginput_container_radio{
+			margin-top:0 !important;
+		}
+		.gfield_repeater_cell.hasradio .ginput_container_radio ul li{
+			display:inline-block;
+			margin-left:10px !important;
+		}
+		
+		.gfield_repeater_cell.hasradio .ginput_container_radio ul li input{
+			float:left;
+		}
+		.gfield_repeater_items .gfield_repeater_buttons{
+			padding-top:0;
+			/*position:absolute;
+			top:0;
+			right:40px;*/
+		}
+		.gfield_repeater_items .gfield_repeater_buttons button{
+			margin-top:5px;
+		}
+		.add_repeater_item::before {
+		  	content: "Add Offer";
+			position: absolute;
+		    font-size: 12px;
+		    margin-left: 12px;
+		    margin-top: 2px;
+			
+		}
+		.remove_repeater_item::before {
+		  	content: "Delete Offer";
+		    font-size: 12px;
+		    margin-left: 12px;
+		    margin-top: 2px;
+			position:absolute;
+		}
+		.gfield_repeater_buttons .add_repeater_item_plus, .gfield_repeater_buttons .remove_repeater_item_minus{
+			border:none !important;
+		}
+		.gfield_repeater_buttons button{
+			display:inline-block;
+			width:70px !important;
+			text-align:left;
+		}
+		.gfield_repeater_wrapper{
+			display:none;
+		}
+		.gfield_repeater_buttons{
+			display:none;
+		}
 	}
 	</style>
 	<script>
@@ -128,6 +278,52 @@ function get_theme_fields() {
 					$('.light-box-content-wrap').hide();
 					$('body').removeClass('no-scroll');
 				})
+				
+				//the following is code for the offering repeater
+				var offerInfoSplitter = "<div class='offfer-splitter-wrap cf'><div class='offer-left'></div><div class='offer-right'></div><div class='clearit' style='clear:both'></div></div>";
+				
+				$('.gfield_repeater_cell').each(function(){
+					if($(this).children('.ginput_container_text').length > 0){
+						$(this).addClass('hastext');
+					} else if($(this).children('.ginput_container_radio').length > 0){
+						$(this).addClass('hasradio');
+					} else if($(this).children('.ginput_container_multiselect').length > 0){
+						$(this).addClass('hasselect');
+					}
+					
+				})
+				$('.gfield_repeater_item').each(function(){
+					$(this).prepend(offerInfoSplitter);
+					$(this).children('.hasradio').appendTo('.offer-left');
+					$(this).children('.hastext').appendTo('.offer-left');
+					$(this).children('.hasselect').appendTo('.offer-right');
+				})
+				var clearDiv = "<div style='clear:both'></div>";
+				$('.hasradio').each(function(){
+					$(this).append(clearDiv);
+				})
+					
+				//CODE FOR SAVINGS PLACEMENT SELECTION PROCESS
+				$('input:radio[name="input_2380"]').change(
+				    function(){
+						$('.gfield_repeater_wrapper').show();
+						
+				        if (this.checked && this.value == 'Single Offer (select options)|0') {
+							$('.gfield_repeater_wrapper').attr('data-max_items', '1');
+							$('.gfield_repeater_buttons').hide();
+							
+				        } else if (this.checked && this.value == 'Quarter Page  <b>$22,000.00</b>|22000') {
+							$('.gfield_repeater_wrapper').attr('data-max_items', '3');
+							$('.gfield_repeater_buttons').show();
+				        } else if (this.checked && this.value == 'Half Page.  <b>$40,000.00</b>|40000') {
+							$('.gfield_repeater_wrapper').attr('data-max_items', '6');
+							$('.gfield_repeater_buttons').show();
+				        } else if (this.checked && this.value == 'Full Page  <b>$75,000.00</b>|75000') {
+							$('.gfield_repeater_wrapper').attr('data-max_items', '12');
+							$('.gfield_repeater_buttons').show();
+							
+				        }
+				    });
 			})
 		})(jQuery);
 	</script>
@@ -170,6 +366,3 @@ function get_theme_fields() {
  }
 
 add_shortcode('theme_fields', 'get_theme_fields');
-
-?>
-

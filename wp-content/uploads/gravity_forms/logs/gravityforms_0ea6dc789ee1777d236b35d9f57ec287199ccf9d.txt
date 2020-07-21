@@ -26936,3 +26936,137 @@ A new order has been submitted.<br />
 2020-07-16 17:34:28.605448 - DEBUG --> GFForms::cron(): Done. 
 2020-07-16 17:36:03.396899 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
 2020-07-16 17:40:43.154397 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:31:04.235372 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:36:29.405071 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:36:29.447232 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 2. 
+2020-07-21 13:36:29.453674 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_7052 
+2020-07-21 13:36:29.453797 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:36:29.454477 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_38 
+2020-07-21 13:36:29.454601 - DEBUG --> GF_Field_FileUpload::validate(): Validating file upload for  
+2020-07-21 13:36:29.454718 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:36:29.456113 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2020-07-21 13:36:29.456217 - DEBUG --> GFFormDisplay::process_form(): Uploading files... 
+2020-07-21 13:36:29.456340 - DEBUG --> GFFormDisplay::upload_files(): Upload path /Users/williamstaley/Sandbox/redelocal/wp-content/uploads/gravity_forms/6-91e314faea84b72de939372c52271e70 
+2020-07-21 13:36:29.457365 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: Invoice(2362 - fileupload). 
+2020-07-21 13:36:29.457552 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: File(38 - fileupload). 
+2020-07-21 13:36:29.690987 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:36:58.513717 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:36:58.579744 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 2. 
+2020-07-21 13:36:58.590045 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_7052 
+2020-07-21 13:36:58.590253 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:36:58.591631 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_38 
+2020-07-21 13:36:58.591877 - DEBUG --> GF_Field_FileUpload::validate(): Validating file upload for  
+2020-07-21 13:36:58.592092 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:36:58.594643 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2020-07-21 13:36:58.594832 - DEBUG --> GFFormDisplay::process_form(): Uploading files... 
+2020-07-21 13:36:58.595062 - DEBUG --> GFFormDisplay::upload_files(): Upload path /Users/williamstaley/Sandbox/redelocal/wp-content/uploads/gravity_forms/6-91e314faea84b72de939372c52271e70 
+2020-07-21 13:36:58.596904 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: Invoice(2362 - fileupload). 
+2020-07-21 13:36:58.597239 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: File(38 - fileupload). 
+2020-07-21 13:36:59.012418 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:38:39.623385 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:38:39.781430 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:38:50.130342 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:39:01.898041 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:39:01.957657 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 2. 
+2020-07-21 13:39:01.967071 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_7052 
+2020-07-21 13:39:01.967287 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:39:01.968489 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_38 
+2020-07-21 13:39:01.968667 - DEBUG --> GF_Field_FileUpload::validate(): Validating file upload for  
+2020-07-21 13:39:01.968832 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:39:01.970832 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? No. 
+2020-07-21 13:39:01.971024 - DEBUG --> GFFormDisplay::process_form(): Uploading files... 
+2020-07-21 13:39:01.971244 - DEBUG --> GFFormDisplay::upload_files(): Upload path /Users/williamstaley/Sandbox/redelocal/wp-content/uploads/gravity_forms/6-91e314faea84b72de939372c52271e70 
+2020-07-21 13:39:01.972806 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: Invoice(2362 - fileupload). 
+2020-07-21 13:39:01.973078 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: File(38 - fileupload). 
+2020-07-21 13:39:02.380198 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:39:08.810589 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:39:08.873430 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 2. 
+2020-07-21 13:39:08.882790 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_7052 
+2020-07-21 13:39:08.883003 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:39:08.884352 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_38 
+2020-07-21 13:39:08.884599 - DEBUG --> GF_Field_FileUpload::validate(): Validating file upload for  
+2020-07-21 13:39:08.884814 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:39:08.887233 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2020-07-21 13:39:08.887423 - DEBUG --> GFFormDisplay::process_form(): Uploading files... 
+2020-07-21 13:39:08.887629 - DEBUG --> GFFormDisplay::upload_files(): Upload path /Users/williamstaley/Sandbox/redelocal/wp-content/uploads/gravity_forms/6-91e314faea84b72de939372c52271e70 
+2020-07-21 13:39:08.889121 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: Invoice(2362 - fileupload). 
+2020-07-21 13:39:08.889451 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: File(38 - fileupload). 
+2020-07-21 13:39:09.251029 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:40:17.007636 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:40:17.070944 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 2. 
+2020-07-21 13:40:17.080564 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_7052 
+2020-07-21 13:40:17.080780 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:40:17.082017 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_38 
+2020-07-21 13:40:17.082241 - DEBUG --> GF_Field_FileUpload::validate(): Validating file upload for  
+2020-07-21 13:40:17.082463 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:40:17.085024 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2020-07-21 13:40:17.085213 - DEBUG --> GFFormDisplay::process_form(): Uploading files... 
+2020-07-21 13:40:17.085433 - DEBUG --> GFFormDisplay::upload_files(): Upload path /Users/williamstaley/Sandbox/redelocal/wp-content/uploads/gravity_forms/6-91e314faea84b72de939372c52271e70 
+2020-07-21 13:40:17.087323 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: Invoice(2362 - fileupload). 
+2020-07-21 13:40:17.087665 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: File(38 - fileupload). 
+2020-07-21 13:40:17.488686 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:40:52.336628 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:40:52.400496 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 2. 
+2020-07-21 13:40:52.405706 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_7052 
+2020-07-21 13:40:52.405808 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:40:52.406474 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_38 
+2020-07-21 13:40:52.406580 - DEBUG --> GF_Field_FileUpload::validate(): Validating file upload for  
+2020-07-21 13:40:52.406681 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:40:52.407891 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2020-07-21 13:40:52.407983 - DEBUG --> GFFormDisplay::process_form(): Uploading files... 
+2020-07-21 13:40:52.408091 - DEBUG --> GFFormDisplay::upload_files(): Upload path /Users/williamstaley/Sandbox/redelocal/wp-content/uploads/gravity_forms/6-91e314faea84b72de939372c52271e70 
+2020-07-21 13:40:52.409065 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: Invoice(2362 - fileupload). 
+2020-07-21 13:40:52.409226 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: File(38 - fileupload). 
+2020-07-21 13:40:52.646919 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:41:20.216543 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:41:40.033480 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:41:47.169089 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:42:03.160314 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:42:43.688900 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:42:43.752587 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 2. 
+2020-07-21 13:42:43.762650 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_7052 
+2020-07-21 13:42:43.762860 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:42:43.764219 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_38 
+2020-07-21 13:42:43.764472 - DEBUG --> GF_Field_FileUpload::validate(): Validating file upload for  
+2020-07-21 13:42:43.764687 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:42:43.767241 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2020-07-21 13:42:43.767432 - DEBUG --> GFFormDisplay::process_form(): Uploading files... 
+2020-07-21 13:42:43.767657 - DEBUG --> GFFormDisplay::upload_files(): Upload path /Users/williamstaley/Sandbox/redelocal/wp-content/uploads/gravity_forms/6-91e314faea84b72de939372c52271e70 
+2020-07-21 13:42:43.769520 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: Invoice(2362 - fileupload). 
+2020-07-21 13:42:43.769859 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: File(38 - fileupload). 
+2020-07-21 13:42:44.155980 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:43:01.722429 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:43:45.915178 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:44:58.571808 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`status` = 'active') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:45:02.115806 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`status` = 'active') ORDER BY `t1`.`id` DESC LIMIT 1 
+2020-07-21 13:45:06.516217 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`status` = 'active') ORDER BY `t1`.`id` DESC LIMIT 1 
+2020-07-21 13:45:25.474684 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`status` = 'active') ORDER BY `t1`.`id` DESC LIMIT 1 
+2020-07-21 13:45:55.221553 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (17) AND `t1`.`status` = 'active') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:47:51.245662 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:48:52.468388 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 13:48:52.504566 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 2. 
+2020-07-21 13:48:52.510677 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_7052 
+2020-07-21 13:48:52.510804 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:48:52.511485 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_38 
+2020-07-21 13:48:52.511610 - DEBUG --> GF_Field_FileUpload::validate(): Validating file upload for  
+2020-07-21 13:48:52.511728 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 13:48:52.513125 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2020-07-21 13:48:52.513228 - DEBUG --> GFFormDisplay::process_form(): Uploading files... 
+2020-07-21 13:48:52.513353 - DEBUG --> GFFormDisplay::upload_files(): Upload path /Users/williamstaley/Sandbox/redelocal/wp-content/uploads/gravity_forms/6-91e314faea84b72de939372c52271e70 
+2020-07-21 13:48:52.514415 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: Invoice(2362 - fileupload). 
+2020-07-21 13:48:52.514605 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: File(38 - fileupload). 
+2020-07-21 13:48:52.745110 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 
+2020-07-21 13:49:48.287739 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 14:05:49.066528 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#6) submission. 
+2020-07-21 14:05:49.116827 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 2. 
+2020-07-21 14:05:49.122344 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_7052 
+2020-07-21 14:05:49.122459 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 14:05:49.123145 - DEBUG --> GF_Field_FileUpload::validate(): Validating field input_38 
+2020-07-21 14:05:49.123267 - DEBUG --> GF_Field_FileUpload::validate(): Validating file upload for  
+2020-07-21 14:05:49.123384 - DEBUG --> GF_Field_FileUpload::validate(): Validation complete. 
+2020-07-21 14:05:49.124793 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2020-07-21 14:05:49.124897 - DEBUG --> GFFormDisplay::process_form(): Uploading files... 
+2020-07-21 14:05:49.125019 - DEBUG --> GFFormDisplay::upload_files(): Upload path /Users/williamstaley/Sandbox/redelocal/wp-content/uploads/gravity_forms/6-91e314faea84b72de939372c52271e70 
+2020-07-21 14:05:49.126091 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: Invoice(2362 - fileupload). 
+2020-07-21 14:05:49.126277 - DEBUG --> GFFormDisplay::upload_files(): Skipping field because a file could not be found: File(38 - fileupload). 
+2020-07-21 14:05:49.388407 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (6) AND `t1`.`created_by` = '2') ORDER BY `t1`.`id` DESC LIMIT 20 

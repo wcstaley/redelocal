@@ -47,3 +47,37 @@ function add_offer_repeater_field( $form ) {
 //     }
 //     return $form_meta;
 // }
+
+
+function filter_allfields_merge_tag($value, $merge_tag, $modifier, $field, $raw_value, $format){
+	if ( $merge_tag == 'all_fields' && $field->type == 'repeater' && isset($_POST) ) {
+		$offer_type = $_POST['input_3422'];
+		$price_value = $_POST['input_3423'];
+		$brands = $_POST['input_3424'];
+		$buyers = $_POST['input_3425'];
+		ob_start();
+		?>
+			<div class="offer-repeater-review">
+				<?php for($x = 0; $x < count($offer_type); $x++) : ?>
+					<p>Type of offer: <?php echo $offer_type[$x]; ?></p>
+					<p>Price/Coupon Value: <?php echo $price_value[$x]; ?></p>
+					<p>Brands: <?php echo $brands[$x]; ?></p>
+					<?php foreach($buyers[$x] as $buyer_id) : ?>
+						<?php
+						$buyer_name = "";
+						$user_info = get_userdata($buyer_id);
+						if($user_info){
+							$first_name = $user_info->first_name;
+							$last_name = $user_info->last_name;
+							$buyer_name .= $first_name . ' ' . $last_name;
+						}
+						?>
+						<p>Buyers: <?php echo $buyer_name; ?></p>
+					<?php endforeach; ?>
+				<?php endfor; ?>
+			</div>
+		<?php
+		return ob_get_clean();
+	}
+}
+add_filter( 'gform_merge_tag_filter', 'filter_allfields_merge_tag', 10, 6 );

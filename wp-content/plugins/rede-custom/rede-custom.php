@@ -193,6 +193,8 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				echo '<div class="button" id="soft-deny">Buyer Deny</div>';
 			echo '</div>';
 			//MAKE DYNAMIC
+			echo '<div class="popup-overlay final-approval"><div class="popup-content final-approval">'.do_shortcode('[gravityform id="18" title="false" description="false" ajax="true"]').'</div></div>';
+			//MAKE DYNAMIC
 			echo '<div class="popup-overlay conditionally-approve"><div class="popup-content conditionally-approve">'.do_shortcode('[gravityform id="8" title="false" description="false" ajax="true"]').'</div></div>';
 			//MAKE DYNAMIC
 			echo '<div class="popup-overlay soft-approve"><div class="popup-content soft-approve">'.do_shortcode('[gravityform id="14" title="false" description="false" ajax="true"]').'</div></div>';
