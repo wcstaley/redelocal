@@ -43,6 +43,10 @@ add_action( 'wp_enqueue_scripts', 'publix_plugin_enqueue', 22 );
 //function to display entry data
 function publix_display_gf_entry_data( $gf_entry_id ) {
 	
+	
+	
+	$output = ob_get_clean();
+	
 	$entry = GFAPI::get_entry( $gf_entry_id );
 	$form = GFAPI::get_form( $entry['form_id'] );
 	
@@ -52,26 +56,29 @@ function publix_display_gf_entry_data( $gf_entry_id ) {
 	
 	$output ='';
 	
-	$output .= '<div class="order-overview-table" style="display:block;">';
+	$output .= '<div class="order-overview-table" style="display:block; border:1px solid #EAEAEA; width:80%; margin:0 auto;">';
 	
 		foreach($form['fields'] as $field){
-			
+			if(empty($entry[$field['id']])){
+				continue;
+
+			}
 			//echo $field->type;
 			
 			if ($field->type == 'section') {
-				$output .= '<div style="font-weight: bold;font-size: 1.2em;margin-bottom:5px;padding-top: 30px;clear:both;" class="section-header">'.$field->label.'</div>';
+				$output .= '<div style="font-size:16px;font-weight:bold;background-color:#eee;border-bottom:1px solid #dfdfdf;padding:7px 7px;" class="section-header">'.$field->label.'</div>';
 			} else if($field->type == 'repeater'){
 				$output .= '<div class="order-entry full-width bottom-margin repeater-entry" style="display: block;">';
-					$output .= '<div class="order-label full-width" style="font-weight: bold;float:left;margin-right:10px;clear:both;">' . $field->label . '</div>';
+					$output .= '<div class="order-label full-width" style="display:block;background-color:#def1dc;padding:10px 5px; font-family:sans-serif;font-size:12px;clear:both;font-weight:700;">' . $field->label . '</div>';
 					$subfield = $entry[$field['id']];
-					
+		
 					foreach($subfield as $subvalue){
-						$output .= '<div class="sub-field-entry">';
+						$output .= '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">';
 						foreach($field->fields as $fieldfield){
 						
 							$output .= '<div class="order-entry">';
-								$output .= '<div class="order-label" style="font-weight: bold;float:left;margin-right:10px;clear:both;">'. $fieldfield->label . '</div>';
-								$output .= '<div class="order-value" style="float:left;>' . $subvalue[$fieldfield->id] . '</div>';
+								$output .= '<div class="order-label" style="display:block;background-color:#def1dc;padding:10px 5px; font-family:sans-serif;font-size:12px;clear:both;font-weight:700;">'. $fieldfield->label . '</div>';
+								$output .= '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">' . $subvalue[$fieldfield->id] . '</div>';
 							$output .= '</div>';
 						}
 						$output .= '</div>';
@@ -79,43 +86,43 @@ function publix_display_gf_entry_data( $gf_entry_id ) {
 				$output .= '</div>';
 			} else if ($field->type == 'fileupload') {
 				$output .= '<div class="order-entry">';
-					$output .= '<div class="order-label" style="font-weight: bold;float:left;margin-right:10px;clear:both;">'. $field->label.'</div>';
-					$output .='<a style="float:left;" href="'.$entry[$field['id']].'" class="order-value" target="_blank">Download File</a>';
+					$output .= '<div class="order-label" style="display:block;background-color:#def1dc;padding:10px 5px; font-family:sans-serif;font-size:12px;clear:both;font-weight:700;">'. $field->label.'</div>';
+					$output .='<a style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px" href="'.$entry[$field['id']].'" class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;" target="_blank">Download File</a>';
 				$output .= '</div>';
 				
 			} else if ($field->type == 'address') {
 				$output .= '<div class="order-entry full-width">';
-					$output .= '<div class="order-label" style="font-weight: bold;float:left;margin-right:10px;clear:both;">' . $field->label . '</div>';
-					$output .='<div class="sub-field-entry">';
+					$output .= '<div class="order-label" style="display:block;background-color:#def1dc;padding:10px 5px; font-family:sans-serif;font-size:12px;clear:both;font-weight:700;"">' . $field->label . '</div>';
+					$output .='<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">';
 						foreach( $field['inputs'] as $sub_field) {
 							$output .= '<div class="order-entry">';
-								$output .= '<div class="order-label" style="font-weight: bold;float:left;margin-right:10px;clear:both;">' . $sub_field['label'] . '</div>';
-								$output .= '<div class="order-value">'.$entry[$sub_field['id']].'</div>';
+								$output .= '<div class="order-label" style="display:block;background-color:#def1dc;padding:10px 5px; font-family:sans-serif;font-size:12px;clear:both;font-weight:700;">' . $sub_field['label'] . '</div>';
+								$output .= '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">'.$entry[$sub_field['id']].'</div>';
 							$output .= '</div>';
 						}
-						$output .= '<div class="order-value"></div>';
+						$output .= '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;"></div>';
 					$output .= '</div>';
 				$output .= '</div>';
 			} else if ($field->type == 'checkbox') {
 				
 				$output .= '<div class="order-entry">';
-					$output .= '<div class="order-label" style="font-weight: bold;float:left;margin-right:10px;clear:both;">' . $field->label . '</div>';
-					$output .= '<div class="sub-field-entry"><ul>';
+					$output .= '<div class="order-label" style="display:block;background-color:#def1dc;padding:10px 5px; font-family:sans-serif;font-size:12px;clear:both;font-weight:700;">' . $field->label . '</div>';
+					$output .= '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px";><ul>';
 						foreach( $field['inputs'] as $sub_field) {
 								$selected = $entry[$sub_field['id']];
 								
 								if ($selected) {
-									$output .= '<li class="order-entry"><div class="order-value">'.$entry[$sub_field['id']].'</div></li>';
+									$output .= '<li class="order-entry"><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 0;">'.$entry[$sub_field['id']].'</div></li>';
 								}
 						}
 					$output .= '</ul></div>';
 				$output .= '</div>';		
 			}  else if ($field->type == 'buyers_multiselect') {
 				$output .= '<div class="order-entry">';
-					$output .= '<div class="order-label" style="font-weight: bold;float:left;margin-right:10px;clear:both;">' . $field->label . '</div>';
+					$output .= '<div class="order-label" style="display:block;background-color:#def1dc;padding:10px 5px; font-family:sans-serif;font-size:12px;clear:both;font-weight:700;"">' . $field->label . '</div>';
 					//echo $entry[$field['id']];
 					$str_arr = explode (",", $entry[$field['id']]);  
-					$output .= '<div class="sub-field-entry" style="clear:both;"><ul>';
+					$output .= '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;"><ul>';
 						foreach( $str_arr as $sub_field) {
 								$selected = $sub_field;
 								
@@ -124,13 +131,15 @@ function publix_display_gf_entry_data( $gf_entry_id ) {
 								//print_r($user_info);
 								
 								if ($selected) {
-									$output .= '<li class="order-entry"><div class="order-value">'.$user_name.'</div></li>';
+									$output .= '<li class="order-entry"><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 0;">'.$user_name.'</div></li>';
 								}
 						}
 					$output .= '</ul></div>';
 				$output .= '</div>';		
 			} else {
-				$output .= '<div class="order-entry"><div class="order-label" style="font-weight: bold;float:left;margin-right:10px;clear:both;">' . $field->label . '</div><div class="order-value" style="float:left;">' . $entry[$field['id']] . '</div></div>';
+				$output .= '<div class="order-entry"><div class="order-label" style="display:block;background-color:#def1dc;padding:10px 5px; font-family:sans-serif;font-size:12px;clear:both;font-weight:700;">' . $field->label . '</div><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">' . $entry[$field['id']] . '</div></div>';
+			
+				
 			}
 			
 		}
@@ -138,7 +147,7 @@ function publix_display_gf_entry_data( $gf_entry_id ) {
 	$output .= '</div>'; //end overview table
 	
 	return $output;
-
+	
 }
 
 //display shortcode
@@ -375,11 +384,12 @@ function gf_entry_data_shortcode( $atts, $content ) {
 		
 					foreach($subfield as $subvalue){
 						echo '<div class="sub-field-entry">';
+						echo '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">';
 						foreach($field->fields as $fieldfield){
 						
 							echo '<div class="order-entry">';
 								echo '<div class="order-label">'. $fieldfield->label . '</div>';
-								echo '<div class="order-value">' . $subvalue[$fieldfield->id] . '</div>';
+								echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">' . $subvalue[$fieldfield->id] . '</div>';
 							echo '</div>';
 						}
 						echo '</div>';
@@ -392,6 +402,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 					echo '<div class="order-entry">';
 						echo '<div class="order-label">'. $field->label.'</div>';
 						echo '<a class="order-value" target="_blank" download href="'. $entry[$field['id']] . '">Download File</a>';
+						echo '<a class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;" target="_blank" download href="'. $entry[$field['id']] . '">Download File</a>';
 					echo '</div>';
 				}
 			} else if ($field->type == 'product' || $field->type == 'total') {
@@ -413,26 +424,26 @@ function gf_entry_data_shortcode( $atts, $content ) {
 			} else if ($field->type == 'address') {
 				echo '<div class="order-entry full-width">';
 					echo '<div class="order-label">' . $field->label . '</div>';
-					echo '<div class="sub-field-entry">';
+					echo '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">';
 						foreach( $field['inputs'] as $sub_field) {
 							echo '<div class="order-entry">';
 								echo '<div class="order-label">' . $sub_field['label'] . '</div>';
-								echo '<div class="order-value">'.$entry[$sub_field['id']].'</div>';
+								echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">'.$entry[$sub_field['id']].'</div>';
 							echo '</div>';
 						}
-						echo '<div class="order-value"></div>';
+						echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;"></div>';
 					echo '</div>';
 				echo '</div>';
 			} else if ($field->type == 'checkbox') {
 
 				echo '<div class="order-entry">';
 					echo '<div class="order-label">' . $field->label . '</div>';
-					echo '<div class="sub-field-entry"><ul>';
+					echo '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;"><ul>';
 						foreach( $field['inputs'] as $sub_field) {
 								$selected = $entry[$sub_field['id']];
 								
 								if ($selected) {
-									echo '<li class="order-entry"><div class="order-value">'.$entry[$sub_field['id']].'</div></li>';
+									echo '<li class="order-entry"><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 0;">'.$entry[$sub_field['id']].'</div></li>';
 								}
 						}
 					echo '</ul></div>';
@@ -443,7 +454,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 					echo '<div class="order-label" style="font-weight: bold;float:left;margin-right:10px;clear:both;">' . $field->label . '</div>';
 					//echo $entry[$field['id']];
 					$str_arr = explode (",", $entry[$field['id']]);  
-					echo '<div class="sub-field-entry" style="clear:both;"><ul>';
+					echo '<div class="sub-field-entry" style="style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;"><ul>';
 						foreach( $str_arr as $sub_field) {
 								$selected = $sub_field;
 								
@@ -454,14 +465,46 @@ function gf_entry_data_shortcode( $atts, $content ) {
 								}
 								
 								if ($selected) {
-									echo'<li class="order-entry"><div class="order-value">'.$user_name.'</div></li>';
+									echo'<li class="order-entry"><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 0;">'.$user_name.'</div></li>';
 								}
 						}
 					echo '</ul></div>';
-				echo '</div>';		
+				echo '</div>';	
+			}else if($field->label == 'Buyer Comments'){
+				global $wpdb;
+				$q1 = $wpdb->prepare("SELECT entry_id FROM wp_gf_entry_meta WHERE meta_value = '%s'", $entry['id']);
+			    $comments_entry_ids = $wpdb->get_col($q1);
+				?>
+				<div class="comment-wrap" style="padding:20px; border:2px solid #438938; width:100%;">
+					<h3 style="font-size:18px !important;text-transform: uppercase;color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;">Comments</h3>
+					<?php
+				foreach($comments_entry_ids as $comments_entry_id){
+					$q2 = $wpdb->prepare("SELECT * FROM wp_gf_entry WHERE id = '%s'", $comments_entry_id);
+					$comments_post = $wpdb->get_row($q2);
+					$q3 = $wpdb->prepare("SELECT meta_value FROM wp_gf_entry_meta WHERE meta_key = '%d' AND entry_id = '%s'", 3, $comments_entry_id);
+					$comment_text = $wpdb->get_var($q3);
+					$userInfo = get_userdata($comments_post->created_by);
+					$author = $userInfo->user_firstname . " " . $user_info->user_lastname;
+					$create_date = strtotime($comments_post->date_created);
+					$newDate = date("F j, Y g:ia", $create_date);
+				
+					if($comments_post){
+				
+					?>
+					
+						<div class="comment-content" style="border-top:1px solid #ddd; margin-top:10px; padding-top:10px;">
+							<p class="comment-author" style="color:#000;font-weight:400;font-size:18px;"><?php echo $author; ?><span class="comment-date" style="font-family: Roboto, sans-serif;color:#000; font-size:14px;"><?php echo $newDate; ?></span></p>
+							<p><?php echo $comment_text; ?></p>
+						</div>
+				<?php
+					}
+				}
+				echo "</div>";
+				
+			
 			} else {
 				
-				echo '<div class="order-entry '.strtolower($field->label).'"><div class="order-label">' . $field->label . '</div><div class="order-value">' . $entry[$field['id']] . '</div></div>';
+				echo '<div class="order-entry '.strtolower($field->label).'"><div class="order-label">' . $field->label . '</div><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">' . $entry[$field['id']] . '</div></div>';
 			}
 			
 		}
@@ -512,7 +555,7 @@ function soft_approve( $entry ) {
 	//add reason to entry
 	//MAKE DYNAMIC
 	$meta_key = 2389;
-	$meta_value = rgar($entry,3) . ' -' . $buyer_name;
+	$meta_value = rgar($entry,3) . '-' . $buyer_name;
 	
 	$current_meta_value = gform_get_meta( $main_form_id, $meta_key );
 	
@@ -626,6 +669,11 @@ function add_merge_tags( $form ) {
     return $form;
 }
 
+// add_action("wp", 'tst');
+// function tst(){
+// 	echo publix_display_gf_entry_data(424);
+// 	die('dead');
+// }
 
 //function for program details merge tag
 add_filter( 'gform_replace_merge_tags', 'replace_download_link', 10, 7 );
