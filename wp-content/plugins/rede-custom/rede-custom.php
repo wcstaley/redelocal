@@ -383,7 +383,6 @@ function gf_entry_data_shortcode( $atts, $content ) {
 					$subfield = $entry[$field['id']];
 		
 					foreach($subfield as $subvalue){
-						echo '<div class="sub-field-entry">';
 						echo '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">';
 						foreach($field->fields as $fieldfield){
 						
@@ -401,7 +400,6 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				if ($entry[$field['id']]) {
 					echo '<div class="order-entry">';
 						echo '<div class="order-label">'. $field->label.'</div>';
-						echo '<a class="order-value" target="_blank" download href="'. $entry[$field['id']] . '">Download File</a>';
 						echo '<a class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;" target="_blank" download href="'. $entry[$field['id']] . '">Download File</a>';
 					echo '</div>';
 				}
