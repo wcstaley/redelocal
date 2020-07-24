@@ -18,12 +18,19 @@ jQuery(document).ready(function($) {
 	});
 	
 	//trigger submission of approval form
-	$("#approve-order").click(function(){
-		$("#gform_submit_button_10").click();
+	$("#approve-order").click(function(e){
+		e.preventDefault();
+		$('.popup-content.final-approval').addClass('active').show()
 	})
 	
 	
-	
+});
+
+jQuery(document).on('gform_confirmation_loaded', function(event, formId){
+	if(formId == '18'){
+		$("#gform_submit_button_10").click();
+	}
+    // code to be trigger when confirmation page is loaded
 });
 
 //add close buttons to rejection gravity forms

@@ -33264,3 +33264,5 @@ Thank you for your submission.<br />
 )
  
 2020-07-15 18:42:15.544997 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5ec577435808b - User Notification) for entry 428 successfully sent by SendGrid;  
+2020-07-24 16:12:32.530915 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-24 16:12:33.803877 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
