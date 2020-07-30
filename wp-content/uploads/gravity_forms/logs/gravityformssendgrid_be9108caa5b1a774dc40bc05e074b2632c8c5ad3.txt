@@ -33266,3 +33266,2746 @@ Thank you for your submission.<br />
 2020-07-15 18:42:15.544997 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5ec577435808b - User Notification) for entry 428 successfully sent by SendGrid;  
 2020-07-24 16:12:32.530915 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
 2020-07-24 16:12:33.803877 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 14:30:49.241060 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 14:30:51.957772 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 14:30:51.958726 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5e7112f6a8813 - Admin Notification) for entry 452 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Publix New Order #452 | Oct 24 Nov 6 | sadfds
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Publix New Order #452 | Oct 24 Nov 6 | sadfds</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+A new order has been submitted.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=452">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Oct 24 Nov 6</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">sadfds</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Single Offer (select options)</li><li style="padding:4px 0 4px 0">Choose Single Offer: Price Point  <b>$7,200.00</b></li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$7,200.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 14:30:52.410181 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5e7112f6a8813 - Admin Notification) for entry 452 successfully sent by SendGrid;  
+2020-07-30 14:30:52.430680 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5ec577435808b - User Notification) for entry 452 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Thank you for your Publix {Campaign Name:2400} Order # 452
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Thank you for your Publix {Campaign Name:2400} Order # 452</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+Thank you for your submission.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px !important; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=452">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Oct 24 Nov 6</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">sadfds</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Single Offer (select options)</li><li style="padding:4px 0 4px 0">Choose Single Offer: Price Point  <b>$7,200.00</b></li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$7,200.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 14:30:52.746812 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5ec577435808b - User Notification) for entry 452 successfully sent by SendGrid;  
+2020-07-30 14:39:43.219870 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 14:39:43.731028 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 14:39:48.786220 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 14:39:49.067492 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 14:40:10.484163 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 14:40:10.766094 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 14:43:45.321475 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 14:43:46.149488 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 14:44:44.218426 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 14:44:44.611696 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 14:52:46.459755 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 14:52:47.125135 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 14:52:47.126111 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5e7112f6a8813 - Admin Notification) for entry 455 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Publix New Order #455 | Sept 26 - Oct 9 | sdf
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Publix New Order #455 | Sept 26 - Oct 9 | sdf</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+A new order has been submitted.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=455">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Sept 26 - Oct 9</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">sdf</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Single Offer (select options)</li><li style="padding:4px 0 4px 0">Choose Single Offer: Paper Coupon <b>$9,000.00</b></li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$9,000.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$9,000.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$9,000.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 14:52:47.569453 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5e7112f6a8813 - Admin Notification) for entry 455 successfully sent by SendGrid;  
+2020-07-30 14:52:47.590426 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5ec577435808b - User Notification) for entry 455 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Thank you for your Publix {Campaign Name:2400} Order # 455
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Thank you for your Publix {Campaign Name:2400} Order # 455</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+Thank you for your submission.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px !important; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=455">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Sept 26 - Oct 9</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">sdf</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Single Offer (select options)</li><li style="padding:4px 0 4px 0">Choose Single Offer: Paper Coupon <b>$9,000.00</b></li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$9,000.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$9,000.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$9,000.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 14:52:47.986535 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5ec577435808b - User Notification) for entry 455 successfully sent by SendGrid;  
+2020-07-30 14:59:22.213123 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 14:59:22.608963 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 14:59:22.610109 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5e7112f6a8813 - Admin Notification) for entry 458 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Publix New Order #458 | Sept 26 - Oct 9 | sdfsd
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Publix New Order #458 | Sept 26 - Oct 9 | sdfsd</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+A new order has been submitted.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=458">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Sept 26 - Oct 9</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">sdfsd</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Single Offer (select options)</li><li style="padding:4px 0 4px 0">Choose Single Offer: Paper Coupon <b>$9,000.00</b></li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$9,000.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$9,000.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$9,000.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 14:59:23.020612 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5e7112f6a8813 - Admin Notification) for entry 458 successfully sent by SendGrid;  
+2020-07-30 14:59:23.041034 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5ec577435808b - User Notification) for entry 458 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Thank you for your Publix {Campaign Name:2400} Order # 458
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Thank you for your Publix {Campaign Name:2400} Order # 458</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+Thank you for your submission.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px !important; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=458">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Sept 26 - Oct 9</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">sdfsd</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Single Offer (select options)</li><li style="padding:4px 0 4px 0">Choose Single Offer: Paper Coupon <b>$9,000.00</b></li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$9,000.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$9,000.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$9,000.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 14:59:23.342853 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5ec577435808b - User Notification) for entry 458 successfully sent by SendGrid;  
+2020-07-30 15:08:11.487773 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:08:12.847484 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:08:12.848614 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5e7112f6a8813 - Admin Notification) for entry 461 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Publix New Order #461 | Sept 26 - Oct 9 | sdfsdf
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Publix New Order #461 | Sept 26 - Oct 9 | sdfsdf</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+A new order has been submitted.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=461">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Sept 26 - Oct 9</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">sdfsdf</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Single Offer (select options)</li><li style="padding:4px 0 4px 0">Choose Single Offer: Price Point  <b>$7,200.00</b></li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$7,200.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 15:08:13.275715 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5e7112f6a8813 - Admin Notification) for entry 461 successfully sent by SendGrid;  
+2020-07-30 15:08:13.290637 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5ec577435808b - User Notification) for entry 461 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Thank you for your Publix {Campaign Name:2400} Order # 461
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Thank you for your Publix {Campaign Name:2400} Order # 461</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+Thank you for your submission.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px !important; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=461">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Sept 26 - Oct 9</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">sdfsdf</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Single Offer (select options)</li><li style="padding:4px 0 4px 0">Choose Single Offer: Price Point  <b>$7,200.00</b></li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$7,200.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 15:08:13.603262 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5ec577435808b - User Notification) for entry 461 successfully sent by SendGrid;  
+2020-07-30 15:09:09.882916 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:09:11.255204 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:11:03.417606 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:11:04.039114 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:11:04.040292 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5e7112f6a8813 - Admin Notification) for entry 464 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Publix New Order #464 | Sept 26 - Oct 9 | sdfsdf
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Publix New Order #464 | Sept 26 - Oct 9 | sdfsdf</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+A new order has been submitted.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=464">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Sept 26 - Oct 9</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">sdfsdf</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Single Offer (select options)</li><li style="padding:4px 0 4px 0">Choose Single Offer: Price Point  <b>$7,200.00</b></li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$7,200.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 15:11:04.473896 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5e7112f6a8813 - Admin Notification) for entry 464 successfully sent by SendGrid;  
+2020-07-30 15:11:04.493581 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5ec577435808b - User Notification) for entry 464 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Thank you for your Publix {Campaign Name:2400} Order # 464
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Thank you for your Publix {Campaign Name:2400} Order # 464</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+Thank you for your submission.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px !important; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=464">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Sept 26 - Oct 9</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">sdfsdf</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Single Offer (select options)</li><li style="padding:4px 0 4px 0">Choose Single Offer: Price Point  <b>$7,200.00</b></li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$7,200.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$7,200.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 15:11:04.903265 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5ec577435808b - User Notification) for entry 464 successfully sent by SendGrid;  
+2020-07-30 15:12:36.472944 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:12:36.851089 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:12:39.756098 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:12:40.030745 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:12:58.928164 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:13:00.530775 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:13:24.797550 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:13:26.447827 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:13:26.448940 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5e7112f6a8813 - Admin Notification) for entry 467 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Publix New Order #467 | Oct 24 Nov 6 | asdfs ds d
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Publix New Order #467 | Oct 24 Nov 6 | asdfs ds d</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+A new order has been submitted.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=467">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Oct 24 Nov 6</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">asdfs ds d</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Quarter Page  <b>$22,000.00</b></li><li style="padding:4px 0 4px 0">Add-On Packages: Digital + Influencer Add-On</li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$44,500.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$44,500.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$44,500.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 15:13:26.818276 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5e7112f6a8813 - Admin Notification) for entry 467 successfully sent by SendGrid;  
+2020-07-30 15:13:26.836395 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5ec577435808b - User Notification) for entry 467 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => Publix Grocery Marketing
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => Thank you for your Publix {Campaign Name:2400} Order # 467
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => williamcstaley@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>Thank you for your Publix {Campaign Name:2400} Order # 467</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+Thank you for your submission.<br />
+<a style="display: inline-block; background-color: #419639; margin-top: 10px !important; padding: 15px 40px; text-align: center; float: none; margin: auto 0; color: #ffffff; text-transform: uppercase; font-weight: bold; font-size: 13px; text-decoration: none;" href="http://rede.com/entry-test/?entry=467">View the order</a></p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"><table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Status</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Pending</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">2020 Publix Extra Savings Dates</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Co-Op Calendar</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Oct 24 Nov 6</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Contact Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">dev</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:williamcstaley@gmail.com'>williamcstaley@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Campaign / Brands</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Brands in Offer</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">asdfs ds d</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Selection</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Offers</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">			<div class="offer-repeater-review">
+							</div>
+		</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Offer Art</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Use Art from Date</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">none</font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Billing Info</td>
+	                                   </tr>
+	                                   <tr bgcolor="#def1dc">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">United States<br/><a href='http://maps.google.com/maps?q=United+States' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+                            <td colspan="2">
+                                <font style="font-family: sans-serif; font-size:12px;"><strong>Order</strong></font>
+                            </td>
+                       </tr>
+                       <tr bgcolor="#FFFFFF">
+                            <td width="20">&nbsp;</td>
+                            <td>
+                                <table cellspacing="0" width="97%" style="border-left:1px solid #DFDFDF; border-top:1px solid #DFDFDF">
+                                <thead>
+                                    <tr>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:12px; text-align:left">Product</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:50px; font-family: sans-serif; font-size:12px; text-align:center">Qty</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Unit Price</th>
+	                                    <th style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:12px; text-align:left">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-family: sans-serif; font-size:11px;" >
+                                                            <strong style="color:#BF461E; font-size:12px; margin-bottom:5px">Extra Savings Placements / Offers</strong>
+                                                            <ul style="margin:0"><li style="padding:4px 0 4px 0">Extra Savings Placement Options: Quarter Page  <b>$22,000.00</b></li><li style="padding:4px 0 4px 0">Add-On Packages: Digital + Influencer Add-On</li></ul>
+                                                        </td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:center; width:50px; font-family: sans-serif; font-size:11px;" >1</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$44,500.00</td>
+                                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif; font-size:11px;" >$44,500.00</td>
+                                                    </tr></tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2" style="background-color:#F4F4F4; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; font-size:11px;">&nbsp;</td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; text-align:right; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">Total:</strong></td>
+                                        <td style="border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding:7px; width:155px; font-family: sans-serif;"><strong style="font-size:12px;">$44,500.00</strong></td>
+                                    </tr>
+                                </tfoot>
+                               </table>
+                            </td>
+                        </tr></table>
+                        </td>
+                   </tr>
+               </table></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+    [reply_to] => Array
+        (
+            [email] => williamcstaley@gmail.com
+        )
+
+)
+ 
+2020-07-30 15:13:27.466965 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5ec577435808b - User Notification) for entry 467 successfully sent by SendGrid;  
+2020-07-30 15:33:48.340643 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:33:48.789516 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:33:52.408920 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:33:52.737173 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:35:05.949166 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:35:06.290143 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:35:32.325650 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:35:32.639554 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:35:44.906131 - DEBUG --> GF_SendGrid::initialize_api(): Validating API credentials. 
+2020-07-30 15:35:46.253170 - DEBUG --> GF_SendGrid::initialize_api(): API credentials are valid. 
+2020-07-30 15:35:46.254138 - DEBUG --> GF_SendGrid::maybe_send_email(): Sending notification (#5f1f3f8e97771 - Additional Emails) for entry 479 via SendGrid; Array
+(
+    [from] => Array
+        (
+            [email] => corti@dotthinkdesign.com
+            [name] => corti@dotthinkdesign.com
+        )
+
+    [personalizations] => Array
+        (
+            [0] => Array
+                (
+                    [subject] => New submission from Final Approval(2)
+                    [to] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [email] => william@elephantjournal.com
+                                )
+
+                            [1] => Array
+                                (
+                                    [email] => blu3town@gmail.com
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [content] => Array
+        (
+            [0] => Array
+                (
+                    [type] => text/html
+                    [value] => <html>
+	<head>
+		<title>New submission from Final Approval(2)</title>
+	</head>
+	<body>
+		<table style="width: 100%; background: #eaeaea;"><br />
+<tbody><br />
+<tr><br />
+<td style="padding: 10px 20px; background: #eaeaea;" align="center" valign="middle"><br />
+<table style="width: 640px; padding: 20px; background: #ffffff;" align="center"><br />
+<tbody><br />
+<tr><br />
+<td>&nbsp;<br />
+<p style="font-size: 18px; text-align: center; padding-bottom: 10px; color: #444444;"><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/publix-mark-email-logo.jpg" alt="" /><br />
+Your order has been approved!</p><br />
+<p style="font-size: 18px; text-align: center; padding-bottom: 10px; color: #444444;"><strong>Notes</strong><br />
+asdf</p><br />
+<p style="font-size: 18px; text-align: center; padding-bottom: 10px; color: #444444;"><strong>Final Offers<br />
+</strong>asdfsdfsdf</p><br />
+<p style="font-size: 12px; text-align: center; padding: 3%; color: #000;">This is a<b> <i><u>COURTESY</u></i> </b>email to notify you that your offer(s) are approved &amp; finalized and will print as shown below*: If you require a PO#, you must provide within 7 business days of receipt of this email. Please make sure that you have submitted your cost offer to your Buyer at this time.</p><br />
+<p style="padding: 0px 20px 0px 20px; margin: 0px 20px 0px 20px;"></p><br />
+<p style="font-size: 24px; text-align: center; font-weight: bold; padding: 0px !important; margin: 0px !important;"><a><img class="aligncenter" src="https://dotthinkdesign.com/wp-content/uploads/2020/05/email-ad.jpg" alt="" /></a></p><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table><br />
+</td><br />
+</tr><br />
+</tbody><br />
+</table>
+	</body>
+</html>
+                )
+
+        )
+
+)
+ 
+2020-07-30 15:35:46.540519 - DEBUG --> GF_SendGrid::maybe_send_email(): Notification (#5f1f3f8e97771 - Additional Emails) for entry 479 successfully sent by SendGrid;  

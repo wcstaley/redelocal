@@ -163,6 +163,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 	}
 	$entry_id = $_GET['entry'];
 	$entry = GFAPI::get_entry( $entry_id );
+	
 	if(is_wp_error($entry)){
 		return $content;
 	}
@@ -1661,3 +1662,12 @@ function remove_qty_price_from_product(){
 	<?php
 }
 add_action('wp_head', 'remove_qty_price_from_product', 11);
+
+add_filter( 'gform_notification', 'add_additional_emails_to_final_approval', 10, 3 );
+function add_additional_emails_to_final_approval($notification, $form, $entry){
+    if($notification['name'] == 'Additional Emails' && $form['id'] == '19'){
+        // change the "to" email address
+        $notification['to'] = $entry['11'];
+    }
+    return $notification;
+}

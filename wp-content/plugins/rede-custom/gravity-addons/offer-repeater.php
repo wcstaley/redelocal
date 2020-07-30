@@ -79,5 +79,6 @@ function filter_allfields_merge_tag($value, $merge_tag, $modifier, $field, $raw_
 		<?php
 		return ob_get_clean();
 	}
+	return $value;
 }
 add_filter( 'gform_merge_tag_filter', 'filter_allfields_merge_tag', 10, 6 );
