@@ -48,11 +48,11 @@ function publix_display_gf_entry_data( $gf_entry_id ) {
 	$output = ob_get_clean();
 	
 	$entry = GFAPI::get_entry( $gf_entry_id );
+	if(is_wp_error($entry)){
+		return;
+	}
 	$form = GFAPI::get_form( $entry['form_id'] );
 	
-	if(is_wp_error($entry)){
-		//return;
-	}
 	
 	$output ='';
 	
@@ -202,7 +202,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				echo '<div class="button" id="soft-deny">Buyer Deny</div>';
 			echo '</div>';
 			//MAKE DYNAMIC
-			echo '<div class="popup-overlay final-approval"><div class="popup-content final-approval">'.do_shortcode('[gravityform id="18" title="false" description="false" ajax="true"]').'</div></div>';
+			echo '<div class="popup-overlay final-approval"><div class="popup-content final-approval">'.do_shortcode('[gravityform id="19" title="false" description="false" ajax="true"]').'</div></div>';
 			//MAKE DYNAMIC
 			echo '<div class="popup-overlay conditionally-approve"><div class="popup-content conditionally-approve">'.do_shortcode('[gravityform id="8" title="false" description="false" ajax="true"]').'</div></div>';
 			//MAKE DYNAMIC

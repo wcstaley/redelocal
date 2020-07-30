@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
 });
 
 jQuery(document).on('gform_confirmation_loaded', function(event, formId){
-	if(formId == '18'){
+	if(formId == '19'){
 		$("#gform_submit_button_10").click();
 	}
     // code to be trigger when confirmation page is loaded
