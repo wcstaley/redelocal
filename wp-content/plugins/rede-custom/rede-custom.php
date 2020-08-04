@@ -249,7 +249,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 			//echo $field->type . ",";
 			
 			if ($field->type == 'section') {
-				echo '<div class="section-header">'.$field->label.'</div>';
+				echo '<div class="section-header" style="background-color:#8b8b8b; color:#fff;">'.$field->label.'</div>';
 				if ($field->label == 'Offer Selection') {
 					/*** product fields ***/
 						$products = GFCommon::get_product_fields( $form, $entry);
@@ -257,7 +257,35 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				if ( ! empty( $products['products'] ) ) {
 				    //ob_start();
 					?>
-				
+					<style>
+						.order-entry.phone .order-label, .order-entry.email .order-label{
+							display:none !important;
+						}
+						.order-entry.phone .order-value, .order-entry.email .order-value{
+							padding:0 !important;
+							margin:0 !important;
+						}
+						.order-entry.phone{
+							margin-bottom:0 !important;
+						}
+						.sub-field-entry ul{
+							margin-left:0;
+							
+						}
+						.sub-field-entry ul li{
+							list-style:none !important;
+						}
+					</style>
+					<script>
+						(function($){
+							$(document).ready(function(){
+								$('.additional-comment').appendTo('.comment-wrap');
+								$('.section-header:contains("Additional Comments")').hide();
+								
+								
+							})
+						})(jQuery);p
+					</script>
 					<tr>
 						<td colspan="2" class="entry-view-field-value lastrow">
 							<table class="entry-products" cellspacing="0" width="97%">
@@ -266,10 +294,10 @@ function gf_entry_data_shortcode( $atts, $content ) {
 									<col class="entry-products-col2" />
 								</colgroup>
 								<thead>
-								<th scope="col"><?php echo gf_apply_filters( array( 'gform_product', $form_id ), __( 'Product', 'gravityforms' ), $form_id ); ?></th>
+								<th scope="col" style="color:#438938;text-transform:capitalize;"><?php echo gf_apply_filters( array( 'gform_product', $form_id ), __( 'Product', 'gravityforms' ), $form_id ); ?></th>
 								<!-- <th scope="col" class="textcenter"><?php echo esc_html( gf_apply_filters( array( 'gform_product_qty', $form_id ), __( 'Qty', 'gravityforms' ), $form_id ) ); ?></th>
 								<th scope="col"><?php echo esc_html( gf_apply_filters( array( 'gform_product_unitprice', $form_id ), __( 'Unit Price', 'gravityforms' ), $form_id ) ); ?></th> -->
-								<th scope="col"><?php echo esc_html( gf_apply_filters( array( 'gform_product_price', $form_id ), __( 'Price', 'gravityforms' ), $form_id ) ); ?></th>
+								<th scope="col" style="color:#438938;text-transform:capitalize;"><?php echo esc_html( gf_apply_filters( array( 'gform_product_price', $form_id ), __( 'Price', 'gravityforms' ), $form_id ) ); ?></th>
 								</thead>
 								<tbody>
 								<?php
@@ -279,7 +307,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 									?>
 									<tr>
 										<td>
-											<div class="product_name"><?php echo esc_html( $product['name'] ); ?> AND HOW!</div>
+											<div class="product_name" style="color:#438938;"><?php echo esc_html( $product['name'] ); ?> </div>
 											<ul class="product_options">
 												<?php
 												$price = GFCommon::to_number( $product['price'] );
@@ -323,8 +351,8 @@ function gf_entry_data_shortcode( $atts, $content ) {
 								}
 								?>
 								<tr>
-									<td class="textright grandtotal"><?php esc_html_e( 'Total', 'gravityforms' ) ?></td>
-									<td class="grandtotal_amount"><?php echo GFCommon::to_money( $total ) ?></td>
+									<td class="textright grandtotal"style="background-color:#def1dc;"><?php esc_html_e( 'Total', 'gravityforms' ) ?></td>
+									<td class="grandtotal_amount" style="background-color:#def1dc;"><?php echo GFCommon::to_money( $total ) ?></td>
 								</tr>
 								</tfoot>
 							</table>
@@ -388,8 +416,8 @@ function gf_entry_data_shortcode( $atts, $content ) {
 						foreach($field->fields as $fieldfield){
 						
 							echo '<div class="order-entry">';
-								echo '<div class="order-label">'. $fieldfield->label . '</div>';
-								echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">' . $subvalue[$fieldfield->id] . '</div>';
+								echo '<div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">'. $fieldfield->label . '</div>';
+								echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px;padding:10px 25px;display:inline-block;">' . $subvalue[$fieldfield->id] . '</div>';
 							echo '</div>';
 						}
 						echo '</div>';
@@ -399,9 +427,9 @@ function gf_entry_data_shortcode( $atts, $content ) {
 			
 				//if($status == "Approved" && $final_invoice){
 				if ($entry[$field['id']]) {
-					echo '<div class="order-entry">';
-						echo '<div class="order-label">'. $field->label.'</div>';
-						echo '<a class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;" target="_blank" download href="'. $entry[$field['id']] . '">Download File</a>';
+					echo '<div class="order-entry" style="width:100%;flex-basis:unset;">';
+						echo '<div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">'. $field->label.'</div>';
+						echo '<a class="order-value" style="display:inline-block;background-color:transparent;font-family:sans-serif;font-size:12px !important;text-decoration:underline;color:#000!important;text-transform:capitalize;font-weight:300;" target="_blank" download href="'. $entry[$field['id']] . '">Download File</a>';
 					echo '</div>';
 				}
 			} else if ($field->type == 'product' || $field->type == 'total') {
@@ -421,13 +449,13 @@ function gf_entry_data_shortcode( $atts, $content ) {
 					echo '</div>';*/
 				
 			} else if ($field->type == 'address') {
-				echo '<div class="order-entry full-width">';
-					echo '<div class="order-label">' . $field->label . '</div>';
-					echo '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">';
+				echo '<div class="order-entry full-width" style="margin-bottom:0">';
+					echo '<div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">' . $field->label . '</div>';
+					echo '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:0;">';
 						foreach( $field['inputs'] as $sub_field) {
-							echo '<div class="order-entry">';
-								echo '<div class="order-label">' . $sub_field['label'] . '</div>';
-								echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">'.$entry[$sub_field['id']].'</div>';
+							echo '<div class="order-entry" style="margin-bottom:0">';
+								// echo '<div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">' . $sub_field['label'] . '</div>';
+								echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px;padding:0;display:inline-block;">'.$entry[$sub_field['id']].'</div>';
 							echo '</div>';
 						}
 						echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;"></div>';
@@ -435,8 +463,8 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				echo '</div>';
 			} else if ($field->type == 'checkbox') {
 
-				echo '<div class="order-entry">';
-					echo '<div class="order-label">' . $field->label . '</div>';
+				echo '<div class="order-entry" style="width:100%;flex-basis:unset;">';
+					echo '<div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">' . $field->label . '</div>';
 					echo '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;"><ul>';
 						foreach( $field['inputs'] as $sub_field) {
 								$selected = $entry[$sub_field['id']];
@@ -449,11 +477,11 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				echo '</div>';		
 			} else if ($field->type == 'buyers_multiselect') {
 	
-				echo '<div class="order-entry">';
-					echo '<div class="order-label" style="font-weight: bold;float:left;margin-right:10px;clear:both;">' . $field->label . '</div>';
+				echo '<div class="order-entry" style="width:100%;flex-basis:unset;">';
+					echo '<div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">' . $field->label . '</div>';
 					//echo $entry[$field['id']];
 					$str_arr = explode (",", $entry[$field['id']]);  
-					echo '<div class="sub-field-entry" style="style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;"><ul>';
+					echo '<div class="sub-field-entry" style="display:inline-block;font-family:sans-serif;font-size:12px;padding:10px 25px;"><ul>';
 						foreach( $str_arr as $sub_field) {
 								$selected = $sub_field;
 								
@@ -464,7 +492,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 								}
 								
 								if ($selected) {
-									echo'<li class="order-entry"><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 0;">'.$user_name.'</div></li>';
+									echo'<li class="order-entry"><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px;padding:10px 0;">'.$user_name.'</div></li>';
 								}
 						}
 					echo '</ul></div>';
@@ -473,10 +501,13 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				global $wpdb;
 				$q1 = $wpdb->prepare("SELECT entry_id FROM wp_gf_entry_meta WHERE meta_value = '%s'", $entry['id']);
 			    $comments_entry_ids = $wpdb->get_col($q1);
+				
+			
 				?>
 				<div class="comment-wrap" style="padding:20px; border:2px solid #438938; width:100%;">
 					<h3 style="font-size:18px !important;text-transform: uppercase;color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;">Comments</h3>
 					<?php
+					
 				foreach($comments_entry_ids as $comments_entry_id){
 					$q2 = $wpdb->prepare("SELECT * FROM wp_gf_entry WHERE id = '%s'", $comments_entry_id);
 					$comments_post = $wpdb->get_row($q2);
@@ -486,7 +517,6 @@ function gf_entry_data_shortcode( $atts, $content ) {
 					$author = $userInfo->user_firstname . " " . $user_info->user_lastname;
 					$create_date = strtotime($comments_post->date_created);
 					$newDate = date("F j, Y g:ia", $create_date);
-				
 					if($comments_post){
 				
 					?>
@@ -501,10 +531,31 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				echo "</div>";
 				
 			
-			} else {
-				
-				echo '<div class="order-entry '.strtolower($field->label).'"><div class="order-label">' . $field->label . '</div><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">' . $entry[$field['id']] . '</div></div>';
+			} else if($field->label == 'Additional Comments'){
+				global $wpdb;
+				$addq = $wpdb->prepare("SELECT * FROM wp_gf_entry WHERE id = '%d'", $entry['id']);
+				$addcomments = $wpdb->get_row($addq);
+				$addUserInfo = get_userdata($addcomments->created_by);
+				$addAuthor = $addUserInfo->user_firstname . " " . $addUserInfo->user_lastname;
+				$addCreate_date = strtotime($addcomments->date_created);
+				$addNewDate = date("F j, Y g:ia", $addCreate_date);
+				?>
+				<div class="comment-content additional-comment" style="border-top:1px solid #ddd; margin-top:10px; padding-top:10px;">
+					<p class="comment-author" style="color:#000;font-weight:400;font-size:18px;"><?php echo $addAuthor; ?><span class="comment-date" style="font-family: Roboto, sans-serif;color:#000; font-size:14px;"><?php echo $addNewDate; ?></span></p>
+					<p><?php echo $entry[$field['id']]; ?></p>
+				</div>
+				<?php
 			}
+			 else {
+				if($entry[$field['id']] != 'none'){
+					echo '<div class="order-entry '.strtolower($field->label).'" style="width:100%;flex-basis:unset;"><div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block; width:auto !important;">' . $field->label . '</div><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px;padding:10px 25px;display:inline-block;">' . $entry[$field['id']] . '</div></div>';
+				} // else if($entry[$field['id']] != ''){
+// 					echo '<div class="order-entry '.strtolower($field->label).'" style="width:100%;flex-basis:unset;"><div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">' . $field->label . '</div><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px;padding:10px 25px;display:inline-block;">' . $entry[$field['id']] . '</div></div>';
+// 					}
+				
+			}
+// 				echo '<div class="order-entry '.strtolower($field->label).'" style="width:100%;flex-basis:unset;"><div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">' . $field->label . '</div><div class="order-value" style="display:block;font-family:sans-serif;font-size:12px;padding:10px 25px;display:inline-block;">' . $entry[$field['id']] . '</div></div>';
+// 			}
 			
 		}
 		
@@ -1667,7 +1718,7 @@ add_filter( 'gform_notification', 'add_additional_emails_to_final_approval', 10,
 function add_additional_emails_to_final_approval($notification, $form, $entry){
     if($notification['name'] == 'Additional Emails' && $form['id'] == '19'){
         // change the "to" email address
-        $notification['to'] = $entry['11'];
+        $notification['to'] = $entry['9'];
     }
     return $notification;
 }
