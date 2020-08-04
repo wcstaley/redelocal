@@ -29,7 +29,7 @@
     "foundation-sites": "6.4.3",
     "gulp-util": "^3.0.8",
     "imagemin": "^5.3.1",
-    "jquery": "~3.0.0",
+    "jquery": "~3.5.0",
     "motion-ui": "~1.2.2",
     "slick-carousel": "^1.8.1",
     "what-input": "^4.1.3"
