@@ -242,7 +242,26 @@ function gf_entry_data_shortcode( $atts, $content ) {
 	
 	echo '<div class="order-overview-table '.strtolower($status).'">';
 	
-	
+
+	// get the final approval data
+	if($entry_id){
+		global $wpdb;
+		$q = $wpdb->prepare("SELECT entry_id FROM wp_gf_entry_meta WHERE form_id = '19' AND meta_value = '%s'", $entry_id);
+		$final_approval_entry_id = $wpdb->get_var($q);
+		if($final_approval_entry_id){
+			$fa_entry = GFAPI::get_entry( $final_approval_entry_id );
+			$extra = $fa_entry[1];
+			$offers = $fa_entry[3];
+			$emails = $fa_entry[11];
+			echo "<div style='width: 100%; float: none; clear: both;'>";
+			echo '<div class="section-header" style="background-color:#8b8b8b; color:#fff;width: 100%;">Final Approval Details</div>';
+			echo '<p>Text/Image: '.$extra.'</p>';
+			echo '<p>Offers: '.$offers.'</p>';
+			echo '<p>Sent to: '.$emails.'</p>';
+			echo "</div><div style='clear: both;'> </div>";
+		}
+	}
+		
 		$form_id = $form['id'];
 		foreach($form['fields'] as $field){
 			
@@ -407,17 +426,105 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				endif;
 				
 			} else if($field->type == 'repeater'){
-				echo '<div class="order-entry full-width bottom-margin repeater-entry">';
-					echo '<div class="order-label full-width">' . $field->label . '</div>';
+				?>
+				<style>
+					.order-label.offer-label{
+						background-color:#dde9d6;
+						color: #438938;
+						padding:10px 10px !important;
+					}
+					.sub-field-entry.offer-entry{
+						padding:0 !important;
+						width:100%;
+						flex-basis:100% !important;
+					}
+					.offer-label{
+						padding-left:0 !important;
+					}
+					.offer-entry{
+						background-color:#f3faf0 !important;
+						padding-left:10px;
+					}
+					.order-entry.offer-table{
+						flex-basis:25% !important;
+						width:25%;
+						float:left;
+					}
+					.order-entry.offer-table .offer-label, .order-entry.offer-table .offer-value{
+						display:block !important;
+						text-transform:capitalize !important;
+						padding-left:10px !important;
+					}
+					.order-entry.offer-table .offer-label{
+						border-bottom:5px solid #fff;
+						height:66px;
+					}
+					.order-entry.first .order-label, .order-entry.last .order-label, .order-entry.company .order-label{
+						display:none !important;
+					}
+					.order-entry.first .order-value, .order-entry.po .order-value, .order-entry.last .order-value, .order-entry.company .order-value{
+						padding:0 !important;
+					}
+					.order-entry.first, .order-entry.last, .order-entry.company{
+						margin-bottom:0;
+					}
+					.order-value.no-show{
+						display:none !important;
+					}
+					.order-value.needs-link{
+						color:transparent;
+					
+					}
+					.order-value.needs-link a{
+			    		display: inline-block;
+					    float: left;
+					    margin-left: 0;
+					    background: transparent;
+					    color: #438938 !important;
+					    padding: 0;
+					    text-decoration: underline;
+					    box-shadow: 0 0 black;
+						text-transform:lowercase !important;
+						font-weight:200;
+						font-size:12px;
+					}
+				</style>
+				<script>
+					(function($){
+						$(document).ready( function () {
+							$('.order-value').each(function(){
+								if($(this).text() == ''){
+									$(this).addClass('no-show');
+								}
+							})
+							$('.order-entry').each(function(){
+								if($(this).hasClass('email')){
+									$(this).addClass('gimme-more');
+								}
+							})
+							$('.gimme-more').each(function(){
+								$(this).find('.order-value').addClass('needs-link');
+							})
+							
+							$('.needs-link').each(function(){
+								var theLink = $(this).text();
+								$(this).append("<a href='mailto:"+theLink+"'>"+theLink+"</a>");
+							})
+						} );
+					})(jQuery);
+				</script>
+				<?php
+				echo '<div class="order-entry full-width bottom-margin repeater-entry offer-wrap">';
+					echo '<div class="order-label full-width offer-label">' . $field->label . '</div>';
 					$subfield = $entry[$field['id']];
 		
 					foreach($subfield as $subvalue){
-						echo '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">';
+						echo '<div class="sub-field-entry offer-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;">';
 						foreach($field->fields as $fieldfield){
 						
-							echo '<div class="order-entry">';
-								echo '<div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">'. $fieldfield->label . '</div>';
-								echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px;padding:10px 25px;display:inline-block;">' . $subvalue[$fieldfield->id] . '</div>';
+							echo '<div class="order-entry offer-table">';
+								echo '<div class="order-label offer-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">'. $fieldfield->label . '</div>';
+								echo '<div class="order-value offer-value" style="display:block;font-family:sans-serif;font-size:12px;padding:10px 25px;display:inline-block;">' . $subvalue[$fieldfield->id] . '</div>';
 							echo '</div>';
 						}
 						echo '</div>';
@@ -450,12 +557,12 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				
 			} else if ($field->type == 'address') {
 				echo '<div class="order-entry full-width" style="margin-bottom:0">';
-					echo '<div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">' . $field->label . '</div>';
+					
 					echo '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:0;">';
 						foreach( $field['inputs'] as $sub_field) {
 							echo '<div class="order-entry" style="margin-bottom:0">';
 								// echo '<div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">' . $sub_field['label'] . '</div>';
-								echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px;padding:0;display:inline-block;">'.$entry[$sub_field['id']].'</div>';
+								echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px;padding:0;display:inline-block; padding-top:5px;">'.$entry[$sub_field['id']].'</div>';
 							echo '</div>';
 						}
 						echo '<div class="order-value" style="display:block;font-family:sans-serif;font-size:12px; padding:10px 25px;"></div>';
@@ -499,7 +606,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				echo '</div>';	
 			}else if($field->label == 'Buyer Comments'){
 				global $wpdb;
-				$q1 = $wpdb->prepare("SELECT entry_id FROM wp_gf_entry_meta WHERE meta_value = '%s'", $entry['id']);
+				$q1 = $wpdb->prepare("SELECT entry_id FROM wp_gf_entry_meta WHERE form_id = '14' AND meta_value = '%s'", $entry['id']);
 			    $comments_entry_ids = $wpdb->get_col($q1);
 				
 			
@@ -514,7 +621,10 @@ function gf_entry_data_shortcode( $atts, $content ) {
 					$q3 = $wpdb->prepare("SELECT meta_value FROM wp_gf_entry_meta WHERE meta_key = '%d' AND entry_id = '%s'", 3, $comments_entry_id);
 					$comment_text = $wpdb->get_var($q3);
 					$userInfo = get_userdata($comments_post->created_by);
-					$author = $userInfo->user_firstname . " " . $user_info->user_lastname;
+					$author = "";
+					if($userInfo->user_firstname && $userInfo->user_lastname){
+						$author = $userInfo->user_firstname . " " . $userInfo->user_lastname;
+					}
 					$create_date = strtotime($comments_post->date_created);
 					$newDate = date("F j, Y g:ia", $create_date);
 					if($comments_post){

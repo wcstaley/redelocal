@@ -59,21 +59,23 @@ function filter_allfields_merge_tag($value, $merge_tag, $modifier, $field, $raw_
 		?>
 			<div class="offer-repeater-review">
 				<?php for($x = 0; $x < count($offer_type); $x++) : ?>
-					<p>Type of offer: <?php echo $offer_type[$x]; ?></p>
-					<p>Price/Coupon Value: <?php echo $price_value[$x]; ?></p>
-					<p>Brands: <?php echo $brands[$x]; ?></p>
-					<?php foreach($buyers[$x] as $buyer_id) : ?>
-						<?php
-						$buyer_name = "";
-						$user_info = get_userdata($buyer_id);
-						if($user_info){
-							$first_name = $user_info->first_name;
-							$last_name = $user_info->last_name;
-							$buyer_name .= $first_name . ' ' . $last_name;
-						}
-						?>
-						<p>Buyers: <?php echo $buyer_name; ?></p>
-					<?php endforeach; ?>
+					<div class="repeater-review-box" style="margin-bottom: 20px;">
+						<p style="margin: 0;">Type of offer: <?php echo $offer_type[$x]; ?></p>
+						<p style="margin: 0;">Price/Coupon Value: <?php echo $price_value[$x]; ?></p>
+						<p style="margin: 0;">Brands: <?php echo $brands[$x]; ?></p>
+						<?php foreach($buyers[$x] as $buyer_id) : ?>
+							<?php
+							$buyer_name = "";
+							$user_info = get_userdata($buyer_id);
+							if($user_info){
+								$first_name = $user_info->first_name;
+								$last_name = $user_info->last_name;
+								$buyer_name .= $first_name . ' ' . $last_name;
+							}
+							?>
+							<p style="margin: 0;">Buyers: <?php echo $buyer_name; ?></p>
+						<?php endforeach; ?>
+					</div>
 				<?php endfor; ?>
 			</div>
 		<?php

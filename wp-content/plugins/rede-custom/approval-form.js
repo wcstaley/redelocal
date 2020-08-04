@@ -16,6 +16,10 @@ jQuery(document).ready(function($) {
 	$("#soft-deny").on("click", function() {
 	  $(".soft-deny.popup-overlay, .soft-deny.popup-content").addClass("active");
 	});
+
+	$("#approve-order").on("click", function() {
+	  $(".final-approval.popup-overlay, .final-approval.popup-content").addClass("active");
+	});
 	
 	//trigger submission of approval form
 	$("#approve-order").click(function(e){
@@ -36,6 +40,7 @@ jQuery(document).on('gform_confirmation_loaded', function(event, formId){
 //add close buttons to rejection gravity forms
 jQuery(document).on('gform_post_render', function(event, form_id, current_page){
  
+        jQuery("#gform_wrapper_19 #gform_submit_button_19").before("<div class='button close-popup'>Close</div>");
         jQuery("#gform_wrapper_8 #gform_submit_button_8").before("<div class='button close-popup'>Close</div>");
         jQuery("#gform_wrapper_9 #gform_submit_button_9").before("<div class='button close-popup'>Close</div>");
         jQuery("#gform_wrapper_14 #gform_submit_button_14, #gform_wrapper_15 #gform_submit_button_15").before("<div class='button close-popup'>Close</div>");
@@ -43,6 +48,10 @@ jQuery(document).on('gform_post_render', function(event, form_id, current_page){
         //trigger modal close. 
         jQuery(".popup-overlay.conditionally-approve .button.close-popup").on("click", function() {
 		  jQuery(".popup-overlay.conditionally-approve, .popup-content.conditionally-approve").removeClass("active");
+		});
+		
+        jQuery(".popup-overlay.final-approval .button.close-popup").on("click", function() {
+		  jQuery(".popup-overlay.final-approval, .popup-content.final-approval").removeClass("active");
 		});
 		
 		 jQuery(".popup-overlay.reject .button.close-popup").on("click", function() {

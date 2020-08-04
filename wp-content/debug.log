@@ -892,3 +892,14 @@
 [04-Aug-2020 01:46:23 UTC] PHP Notice:  Trying to get property of non-object in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 486
 [04-Aug-2020 01:46:47 UTC] PHP Notice:  Undefined variable: user_info in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 486
 [04-Aug-2020 01:46:47 UTC] PHP Notice:  Trying to get property of non-object in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 486
+[04-Aug-2020 01:48:19 UTC] PHP Notice:  Undefined variable: user_info in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 517
+[04-Aug-2020 01:48:19 UTC] PHP Notice:  Trying to get property of non-object in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 517
+[04-Aug-2020 01:48:32 UTC] PHP Notice:  Undefined variable: user_info in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 517
+[04-Aug-2020 01:48:32 UTC] PHP Notice:  Trying to get property of non-object in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 517
+[04-Aug-2020 01:49:42 UTC] PHP Notice:  Undefined variable: user_info in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 519
+[04-Aug-2020 01:49:42 UTC] PHP Notice:  Trying to get property of non-object in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 519
+[04-Aug-2020 01:55:55 UTC] PHP Notice:  Undefined offset: 9 in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 1724
+[04-Aug-2020 02:01:08 UTC] PHP Notice:  Undefined offset: 9 in /Users/williamstaley/Sandbox/redelocal/wp-content/plugins/rede-custom/rede-custom.php on line 254
+[04-Aug-2020 02:17:29 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /Users/williamstaley/Sandbox/redelocal/wp-includes/wp-db.php on line 1626
+[04-Aug-2020 02:17:29 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/williamstaley/Sandbox/redelocal/wp-includes/wp-db.php on line 1658
+[04-Aug-2020 02:17:29 UTC] PHP Warning:  mysql_connect(): Connection refused in /Users/williamstaley/Sandbox/redelocal/wp-includes/wp-db.php on line 1658

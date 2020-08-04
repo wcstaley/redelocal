@@ -163,6 +163,13 @@ function get_theme_fields() {
 			font-size:12px;
 			font-family: 'Roboto', 'sans-serif' !important;
 		}
+		.gfield_repeater_cell.hasselect {
+			width: 33%;
+			float: right;
+			clear: right;
+			position: relative;
+			top: -58px;
+		}
 		.hastext input, .gfield_repeater_cell.hasselect select{
 			padding:0 10px !important;
 			
@@ -183,10 +190,11 @@ function get_theme_fields() {
 		.gfield_repeater_cell.hastext{
 			display:inline-block;
 			margin-top: 5px;
-			width: 45%;
+			width: 30%;
 			margin-right: 10px;
 			position:relative;
 			top:-20px;
+			float: left;
 		}
 		.gfield_repeater_cell.hastext input{
 			width:100% !important;
@@ -256,11 +264,12 @@ function get_theme_fields() {
 	<script>
 		(function($){
 			$(document).ready(function(){
+				$('.gfield_repeater_wrapper').attr('data-max_items', '6');
 				$('#lighbox-overlay').prependTo("body");
 				$('.light-box-content-wrap').each(function(){
 					$(this).appendTo('#lightbox-appender');
 				});
-				
+
 				$('.lightbox-trigger').click(function(){
 					$('#lightbox-overlay').fadeIn('slow');
 					$('#lightbox-content').show();
@@ -278,10 +287,10 @@ function get_theme_fields() {
 					$('.light-box-content-wrap').hide();
 					$('body').removeClass('no-scroll');
 				})
-				
+
 				//the following is code for the offering repeater
 				var offerInfoSplitter = "<div class='offfer-splitter-wrap cf'><div class='offer-left'></div><div class='offer-right'></div><div class='clearit' style='clear:both'></div></div>";
-				
+
 				$('.gfield_repeater_cell').each(function(){
 					if($(this).children('.ginput_container_text').length > 0){
 						$(this).addClass('hastext');
@@ -290,40 +299,39 @@ function get_theme_fields() {
 					} else if($(this).children('.ginput_container_multiselect').length > 0){
 						$(this).addClass('hasselect');
 					}
-					
+
 				})
-				$('.gfield_repeater_item').each(function(){
-					$(this).prepend(offerInfoSplitter);
-					$(this).children('.hasradio').appendTo('.offer-left');
-					$(this).children('.hastext').appendTo('.offer-left');
-					$(this).children('.hasselect').appendTo('.offer-right');
-				})
+				// $('.gfield_repeater_item').each(function(){
+				// 	$(this).prepend(offerInfoSplitter);
+				// 	$(this).children('.hasradio').appendTo('.offer-left');
+				// 	$(this).children('.hastext').appendTo('.offer-left');
+				// 	$(this).children('.hasselect').appendTo('.offer-right');
+				// })
 				var clearDiv = "<div style='clear:both'></div>";
 				$('.hasradio').each(function(){
 					$(this).append(clearDiv);
 				})
-					
+
 				//CODE FOR SAVINGS PLACEMENT SELECTION PROCESS
-				$('input:radio[name="input_2380"]').change(
-				    function(){
-						$('.gfield_repeater_wrapper').show();
-						
-				        if (this.checked && this.value == 'Single Offer (select options)|0') {
-							$('.gfield_repeater_wrapper').attr('data-max_items', '1');
-							$('.gfield_repeater_buttons').hide();
-							
-				        } else if (this.checked && this.value == 'Quarter Page  <b>$22,000.00</b>|22000') {
-							$('.gfield_repeater_wrapper').attr('data-max_items', '3');
-							$('.gfield_repeater_buttons').show();
-				        } else if (this.checked && this.value == 'Half Page.  <b>$40,000.00</b>|40000') {
-							$('.gfield_repeater_wrapper').attr('data-max_items', '6');
-							$('.gfield_repeater_buttons').show();
-				        } else if (this.checked && this.value == 'Full Page  <b>$75,000.00</b>|75000') {
-							$('.gfield_repeater_wrapper').attr('data-max_items', '12');
-							$('.gfield_repeater_buttons').show();
-							
-				        }
-				    });
+				$('input:radio[name="input_2380"]').change(function(){
+					$('.gfield_repeater_wrapper').show();
+
+			        if (this.checked && this.value == 'Single Offer (select options)|0') {
+						$('.gfield_repeater_wrapper').attr('data-max_items', '1');
+						$('.gfield_repeater_buttons').hide();
+
+			        } else if (this.checked && this.value == 'Quarter Page  <b>$22,000.00</b>|22000') {
+						$('.gfield_repeater_wrapper').attr('data-max_items', '3');
+						$('.gfield_repeater_buttons').show();
+			        } else if (this.checked && this.value == 'Half Page.  <b>$40,000.00</b>|40000') {
+						$('.gfield_repeater_wrapper').attr('data-max_items', '6');
+						$('.gfield_repeater_buttons').show();
+			        } else if (this.checked && this.value == 'Full Page  <b>$75,000.00</b>|75000') {
+						$('.gfield_repeater_wrapper').attr('data-max_items', '12');
+						$('.gfield_repeater_buttons').show();
+
+			        }
+			    });
 			})
 		})(jQuery);
 	</script>
