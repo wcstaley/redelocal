@@ -30,6 +30,7 @@ function publix_custom_plugin_deactivation(){
 
 /* enqueue styles and scripts */
 function publix_plugin_enqueue() {
+
     wp_enqueue_style( 'entry-styles', plugin_dir_url( __FILE__ ) . 'entry-styling.css' );
     wp_enqueue_style( 'form-styles', plugin_dir_url( __FILE__ ) . 'form-styling.css' );
     wp_enqueue_script( 'approval-form', plugin_dir_url( __FILE__ ) . 'approval-form.js', array('jquery'), '1.0.0', false );
@@ -186,7 +187,11 @@ function gf_entry_data_shortcode( $atts, $content ) {
 	
 	//echo get_field('main_order_form','option');
 	
-	echo "<div class='order-entry-title'> Order #: " . $entry_id . " [Status: " .$status . "]</div>";
+	echo "<div class='order-entry-title'> Order #: " . $entry_id . " [Status: " .$status . "]";
+		if ($status == 'Pending') {
+			echo do_shortcode('[gv_entry_link entry_id="'.$entry_id.'" view_id="1513" action="edit"]Edit Order[/gv_entry_link]');
+		}
+	echo "</div>";
 	
 	if ($status == 'Pending')  {
 	
@@ -842,25 +847,27 @@ function replace_download_link( $text, $form, $entry, $url_encode, $esc_html, $n
     $custom_merge_tag = '{program_details}';
     
     //id for the approval form
-    if($form['id'] == 10) {
-    	$original_entry_id = rgar($entry,2);
-    } else if($form['id'] == 6) {
-    	$original_entry_id = rgar( $entry, 'id');
-    }else {
-	    //this id is for the reject/request form. Need to check that this is correct on other forms
-	    $original_entry_id = rgar($entry,4);
-	   }
- 
+    if($form) {
+	    if($form['id'] == 10) {
+	    	$original_entry_id = rgar($entry,2);
+	    } else if($form['id'] == 6) {
+	    	$original_entry_id = rgar( $entry, 'id');
+	    }else {
+		    //this id is for the reject/request form. Need to check that this is correct on other forms
+		    $original_entry_id = rgar($entry,4);
+		   }
+	}
     if ( strpos( $text, $custom_merge_tag ) === false ) {
         return $text;
-    }
-
+    } 
+	if ($original_entry_id) {
     $entry_details = publix_display_gf_entry_data( $original_entry_id);
     $text = str_replace( $custom_merge_tag, $entry_details, $text );
+    }
     
-    GFCommon::log_debug('custom merge output is:' . $text);
+    //GFCommon::log_debug('custom merge output is:' . $text); 
  
-    return $text;
+    return $text; 
 }
 
 //replace order link merge tag
@@ -1077,15 +1084,24 @@ add_shortcode( 'um_user', 'um_user_shortcode' );
 
 //shortcode to display dashboard
 add_shortcode('publix_show_dashboard','publix_show_dashboard');
-function publix_show_dashboard() {
+function publix_show_dashboard($atts) {
 	
+	$a = shortcode_atts( array(
+		 'status' => '',
+		 
+		 ), $atts );
+	if ( $a['status'] ) {
+        // Parse type into an array. Whitespace will be stripped.
+        $a['status'] = explode(',',$a['status']);
+    }
+    
 	ob_start();
 	
 	?>
 	<script>
 		(function($){
 			$(document).ready( function () {
-				$('#dashboard-datatable').DataTable({
+				$('.publix-dashboard').DataTable({
 					paging: false,
 					searching: false
 				});
@@ -1145,67 +1161,68 @@ function publix_show_dashboard() {
 					$selected =  rgar($entry,2397);
 					$brand =  rgar($entry,2401);
 					//echo 'selected: ' . $selected . '</br>';
-					
-					if( have_rows('coop_cal_entry', 'option') ):
-					
-						while( have_rows('coop_cal_entry', 'option') ): the_row(); 
-							$cycle_id = get_sub_field('unique_id');
-							//echo 'cycle id: ' . $cycle_id . '<br/>';
-							//echo $cycle_id == $selected;
-							if ($cycle_id == $selected) {
-								$start_date = get_sub_field('start_date');
-								$end_date =  get_sub_field('end_date');
-								$run_dates = $start_date . ' - ' . $end_date;
-								
-								$submission_start = get_sub_field('submission_start');
-								$submission_end = get_sub_field('submission_end');
-								$timeframe = $submission_start . " - " . $submission_end;
-								
-								$popular_holidays = get_sub_field('popular_holidays');
-								
-								continue;
-							} else {
-								//echo 'no match';
-								//$timeframe = '';
-								//$run_dates = '';
-							}
-							
-							//echo $timeframe;
-							
-						endwhile;
-
-					endif;
-					
-					$buyer_name = '';
-					$buyer_ids = rgar($entry,2395);
-				    $str_arr = explode (",", $buyer_ids);
-				    //echo $str_arr;
-
-				    foreach ($str_arr as $buyer_id) {
-				    	$user_info = get_userdata($buyer_id);
-			
-						if($user_info){
-						    
-						    $first_name = $user_info->first_name;
-						    $last_name = $user_info->last_name;
-						    
-						    $buyer_name .= $first_name . ' ' . $last_name . ', ';
-						   }
-					}
-					
-					$buyer_name = rtrim($buyer_name, ', ');
-					
-					//echo $timeframe;		
-					
-					$output .= '<tr class="row entry-row">';
-						$output .= '<td class=" entry-id" style="width: 15%;"><a href="'.$entry_link.'/?entry='.$entry_id.'">'.$entry_id.'</a></td>';
-						$output .= '<td class=" status" style="width: 15%;">'.$status.'</td>';
-						// $output .= '<td class=" timeframe" style="width: 30%;">'.$timeframe.'</td>';
-						$output .= '<td class=" run-dates" style="width: 20%;">'.$run_dates.'</td>';
-						$output .= '<td class=" brand" style="width: 20%;">'.$brand.'</td>';
-						// $output .= '<td class=" buyer-name">'.$buyer_name.'</td>';
+					if (in_array($status,$a['status'])):
+						if( have_rows('coop_cal_entry', 'option') ):
 						
-					$output .= '</tr>';
+							while( have_rows('coop_cal_entry', 'option') ): the_row(); 
+								$cycle_id = get_sub_field('unique_id');
+								//echo 'cycle id: ' . $cycle_id . '<br/>';
+								//echo $cycle_id == $selected;
+								if ($cycle_id == $selected) {
+									$start_date = get_sub_field('start_date');
+									$end_date =  get_sub_field('end_date');
+									$run_dates = $start_date . ' - ' . $end_date;
+									
+									$submission_start = get_sub_field('submission_start');
+									$submission_end = get_sub_field('submission_end');
+									$timeframe = $submission_start . " - " . $submission_end;
+									
+									$popular_holidays = get_sub_field('popular_holidays');
+									
+									continue;
+								} else {
+									//echo 'no match';
+									//$timeframe = '';
+									//$run_dates = '';
+								}
+								
+								//echo $timeframe;
+								
+							endwhile;
+	
+						endif;
+						
+						$buyer_name = '';
+						$buyer_ids = rgar($entry,2395);
+					    $str_arr = explode (",", $buyer_ids);
+					    //echo $str_arr;
+	
+					    foreach ($str_arr as $buyer_id) {
+					    	$user_info = get_userdata($buyer_id);
+				
+							if($user_info){
+							    
+							    $first_name = $user_info->first_name;
+							    $last_name = $user_info->last_name;
+							    
+							    $buyer_name .= $first_name . ' ' . $last_name . ', ';
+							   }
+						}
+						
+						$buyer_name = rtrim($buyer_name, ', ');
+						
+						//echo $timeframe;		
+						
+						$output .= '<tr class="row entry-row">';
+							$output .= '<td class=" entry-id" style="width: 15%;"><a href="'.$entry_link.'/?entry='.$entry_id.'">'.$entry_id.'</a></td>';
+							$output .= '<td class=" status" style="width: 15%;">'.$status.'</td>';
+							// $output .= '<td class=" timeframe" style="width: 30%;">'.$timeframe.'</td>';
+							$output .= '<td class=" run-dates" style="width: 20%;">'.$run_dates.'</td>';
+							$output .= '<td class=" brand" style="width: 20%;">'.$brand.'</td>';
+							// $output .= '<td class=" buyer-name">'.$buyer_name.'</td>';
+							
+						$output .= '</tr>';
+					endif;
 			
 					}
 	
