@@ -562,7 +562,7 @@ function gf_entry_data_shortcode( $atts, $content ) {
 				
 			} else if ($field->type == 'address') {
 				echo '<div class="order-entry full-width" style="margin-bottom:0">';
-					
+					echo '<div class="order-label" style="color: #438938;font-weight: 700;font-family: Roboto, sans-serif; margin-bottom:0;background-color:transparent;text-transform:capitalize; display:inline-block;">' . $field->label . '</div>';
 					echo '<div class="sub-field-entry" style="display:block;font-family:sans-serif;font-size:12px; padding:0;">';
 						foreach( $field['inputs'] as $sub_field) {
 							echo '<div class="order-entry" style="margin-bottom:0">';
